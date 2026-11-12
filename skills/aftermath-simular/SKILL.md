@@ -1,6 +1,6 @@
 ---
 name: aftermath-simular
-description: Ejecuta una simulación de Aftermath Studio a partir de un archivo de escenario YAML, con rondas sincronizadas, agentes aislados como subagentes, árbitro por tramo, biblia en archivos e informe final.
+description: Ejecuta un escenario de Aftermath Studio desde su YAML: rondas sincronizadas, agentes como subagentes aislados, árbitro por tramo, biblia en archivos e informe final.
 ---
 
 # Aftermath Studio — ejecutar una simulación (modo ligero)
