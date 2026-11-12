@@ -1,0 +1,62 @@
+intervencion:
+  agente: adolescente
+  tramo: h3
+  afirmaciones:
+  - texto: Entre las 12:00 y las 13:00 vemos la rueda de prensa del Gobierno a escondidas en el móvil, en clase o en el baño, y lo que se comparte no es lo que dice la portavoz sino cortes de diez segundos. Los convertimos en memes, sobre todo cuando dice que no nos quitemos la crema ni las gafas, y la frase pasa a ser una coletilla de broma en el grupo de clase.
+    mecanismo: La rueda de prensa cae en horario de clase y nadie la ve entera; a nosotras nos llega recortada por TikTok y por los stories, y lo que más se recorta es lo que choca con lo que estamos haciendo. Que una persona adulta del Gobierno nos pida lo mismo que nuestras madres confirma que lo de protegerse es cosa de mayores, y reírse de ello es la forma de demostrar en el grupo que tú no tienes miedo.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - comunicacion_institucional
+    - redes_sociales
+    - salud_publica
+    - juventud
+    id: adolescente/h3/1
+  - texto: 'Cuando nos enteramos de que los abuelos y muchos padres casi no ven los colores, entre la gente de mi edad no se vive como algo que dé miedo sino como algo que nos hace especiales: empieza a circular que somos la generación que lo ve, y en las videollamadas y chats con los abuelos hacemos de traductoras, describiéndoles cómo se ven las cosas.'
+    mecanismo: 'La diferencia por edad es real y la notamos cada vez que comparamos en casa o por WhatsApp. Para los mayores eso suena a que el cambio está dirigido, pero para nosotras es lo primero en mucho tiempo en lo que sabemos más que los adultos, y eso sube el estatus de ser joven. Por eso el bulo del cambio selectivo nos llega al revés: no como amenaza, sino como presumir.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - relaciones_intergeneracionales
+    - identidad
+    - redes_sociales
+    - desinformacion
+    id: adolescente/h3/2
+  - texto: Los que llevan gafas de graduación empiezan a quitárselas en clase aunque no vean bien la pizarra, solo para seguir viendo los colores nuevos, y a media mañana varios se quejan de dolor de cabeza y piden ir a la enfermería o a conserjería; algunos profesores les obligan a ponérselas otra vez.
+    mecanismo: Ya sabemos que las gafas con filtro te quitan el color nuevo, y quedarte sin verlo cuando todo el mundo lo está comentando es quedarte fuera de la conversación. Pero sin gafas el que tiene miopía fuerza la vista para leer, y junto a las ventanas con sol encima se deslumbra, así que entre una cosa y otra acaba con la cabeza cargada al cabo de una o dos horas.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - educacion
+    - salud_visual
+    - juventud
+    id: adolescente/h3/3
+  - texto: En el baño y junto a las ventanas alguna chica se da cuenta de que se le notan en el cuello o en los brazos marcas que ya no se veían, sobre todo chupetones y moratones viejos de deporte, y eso se convierte en cotilleo en cuestión de minutos; las que tienen algo que esconder empiezan a ir con sudadera con capucha o bufanda dentro del instituto.
+    mecanismo: Si ahora vemos manchas en la piel que antes no se veían, también vemos las marcas que alguien creía que ya habían desaparecido. Entre adolescentes lo primero que se mira no es si es algo grave sino quién ha estado con quién, así que se convierte en chisme. Taparse con ropa es lo único que se nos ocurre, porque no sabemos si el maquillaje lo tapa o lo empeora en el color nuevo.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    areas_afectadas:
+    - educacion
+    - convivencia_escolar
+    - privacidad
+    - juventud
+    id: adolescente/h3/4
+  - texto: 'Con el recreo dentro y Educación Física en el gimnasio, los pasillos y las aulas que dan al sol se convierten en el sitio donde todo el mundo quiere estar: nos pegamos a las ventanas para mirar fuera, y los profesores de guardia acaban bajando persianas para que dejemos de amontonarnos y de lagrimear.'
+    mecanismo: Si no nos dejan salir pero lo interesante está fuera, buscamos el sitio más cercano a la luz sin salir, que es la ventana, porque por el cristal sigue entrando algo del color nuevo. Al profesorado le preocupa a la vez el lío y que nos dé algo en los ojos, así que bajar persianas es la forma más fácil de cumplir con la precaución que ha mandado el centro.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - educacion
+    - convivencia_escolar
+    - salud_visual
+    id: adolescente/h3/5
+  reacciona_a:
+  - politico/h2/1
+  - politico/h2/2
+  - disruptor/h2/2
+  - disruptor/h2/5

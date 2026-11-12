@@ -1,0 +1,48 @@
+intervencion:
+  agente: disruptor
+  tramo: h5
+  afirmaciones:
+  - texto: 'En Asia oriental y Oceanía, donde lleva horas siendo de noche, la desaparición de los colores nuevos al ponerse el sol se lee como ''ya se ha ido'', y ese rumor llega a Europa por la tarde. La respuesta no la dan las autoridades sino un aparato barato: las linternas ultravioleta de 365 y 395 nm que se venden para detectar orina de mascotas, escorpiones o billetes falsos. Entre las horas 3 y 5 se agotan en tiendas de conveniencia y plataformas de Japón, Corea, China y Australia, y encenderlas cada noche se convierte en la ''prueba de permanencia'' casera, con vídeos de gente que comprueba antes de dormir si todavía lo ve.'
+    mecanismo: 'El supuesto central del mundo es que nadie sabe si el cambio es permanente, y la noche quita el único estímulo natural: sin sol no hay UV-A y el ojo no tiene con qué comprobar si la capacidad sigue ahí. Eso convierte cada anochecer en una incertidumbre nueva, y el primer anochecer lo vive Asia-Pacífico mientras Europa y América aún tienen sol. La linterna UV es el único objeto doméstico que emite justo la banda que ahora se percibe, cuesta pocos euros, ya está en el inventario de bazares y marketplaces, y no depende de la homologación que ha estrechado la oferta de gafas (h3-07). Repite la lógica de la prueba de quitarse las gafas: una comprobación que cada uno hace con sus propios ojos sin fiarse de nadie. Efecto secundario: las de 395 nm emiten sobre todo violeta visible y casi no ''demuestran'' nada, así que aparece otra disputa sobre qué linterna sirve.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - consumo
+    - redes_sociales
+    - informacion
+    - comercio_electronico
+    id: disruptor/h5/1
+  - texto: En cocinas de hostelería, obradores, industrias alimentarias, supermercados y hospitales, los mata-insectos eléctricos de tubo ultravioleta pasan a ser las lámparas más llamativas y molestas del local. Los trabajadores los apagan, los tapan o los desenchufan, y los responsables de calidad descubren a media tarde que han perdido sin decidirlo una de las medidas de control de plagas que exigen sus planes de seguridad alimentaria.
+    mecanismo: Los mata-insectos de cocina e industria funcionan con tubos que emiten UV-A centrado en 365 nm, la banda que atrae a las moscas y que hasta el martes el ojo humano apenas percibía como un tenue brillo violeta. Ahora esa misma emisión se ve como una fuente intensa del color nuevo, a la altura de la vista y en espacios cerrados donde el personal pasa ocho horas, justo cuando ya hay fatiga visual por la mañana en exteriores. Apagarlo es la solución inmediata y nadie la registra como incidencia porque parece un gesto de comodidad, pero el aparato forma parte del programa de control de plagas que inspeccionan sanidad y las auditorías de cliente. El conflicto no lo resuelve una norma nueva sino el responsable de calidad de cada empresa, que tendrá que elegir entre la queja del personal y el control de plagas.
+    dato: Los tubos de recambio para mata-insectos profesionales se comercializan con emisión a 365 nm, en el UV-A.
+    fuente: https://uk.rs-online.com/web/p/fly-killer-lights/4730840
+    confianza: media
+    areas_afectadas:
+    - hosteleria
+    - industria_alimentaria
+    - sanidad
+    - trabajo
+    id: disruptor/h5/2
+  - texto: 'Las cabinas de rayos UVA y las lámparas de manicura de gel se convierten en las fuentes de luz más deslumbrantes que la gente ha visto de cerca. En los centros de bronceado de Europa por la tarde los clientes cancelan o salen de la cabina antes de tiempo, y en los salones de uñas, abiertos a esa hora, clientas y manicuristas apartan la vista de la lámpara de curado. El argumento sanitario contra las cabinas, que llevaba años perdiendo frente a la estética, gana una prueba directa: el cliente ve cuánta radiación recibe.'
+    mecanismo: 'Las camas de bronceado emiten sobre todo UV-A, con mucha más intensidad por centímetro cuadrado que el sol de noviembre en Europa, y las lámparas de curado de gel trabajan entre 365 y 405 nm a pocos centímetros de la cara de quien las mira. Lo que antes era una luz azulada inofensiva en apariencia ahora se percibe tal como es. Es el mismo giro que h3-06 dio a la crema solar: el riesgo deja de depender de la autoridad del dermatólogo y pasa a ser visible para el consumidor. Las gafas de cabina, que muchos usuarios se saltaban, pasan a ser imprescindibles por pura molestia y no por prevención del cáncer, y los dermatólogos, que ya están recibiendo consultas por manchas (h3-06), tienen una imagen fácil para pedir que no se use la cabina mientras dure el fenómeno.'
+    dato: Las camas de bronceado emiten radiación predominantemente UV-A, con una pequeña fracción de UV-B.
+    fuente: https://www.sciencelearn.org.nz/resources/1333-the-problem-with-sunbeds
+    confianza: media
+    areas_afectadas:
+    - estetica
+    - salud
+    - consumo
+    - comercio
+    id: disruptor/h5/3
+  - texto: En las conversaciones cara a cara junto a una ventana o en la calle, las coronas, carillas y empastes estéticos se ven distintos de los dientes naturales en el color nuevo, como dientes más oscuros o de otro tono en mitad de la sonrisa. Lo notan sobre todo los jóvenes al mirar a adultos, y por la tarde llegan las primeras llamadas a clínicas dentales de pacientes que preguntan si su carilla 'está mal' o si se puede cambiar, mientras los dentistas no pueden prometer nada porque los materiales nunca se diseñaron pensando en ese canal.
+    mecanismo: 'El esmalte y la dentina responden al UV de una forma característica, por eso a la luz negra los dientes naturales se ven brillantes y muchas restauraciones se ven apagadas u oscuras; los fabricantes de porcelana añaden agentes fluorescentes precisamente para imitarlo, y no todas las restauraciones los llevan ni responden igual. Hasta ahora esa diferencia solo aparecía en discotecas con luz negra; con la percepción del UV-A a la luz del día pasa a verse en cualquier conversación con sol. Como en h3-01, el que ve el defecto es el interlocutor joven y no el propio portador, que si es mayor apenas percibe el canal nuevo. Es una variante del efecto piel: el UV-A deja a la vista lo que la estética había resuelto solo para la luz visible.'
+    dato: Las porcelanas dentales llevan aditivos fluorescentes para imitar la respuesta de los dientes naturales a la luz ultravioleta, y sin ellos las restauraciones se ven oscuras bajo luz negra.
+    fuente: https://www.dentalcare.com/en-us/ce-courses/ce690/optical-properties-of-teeth
+    confianza: baja
+    areas_afectadas:
+    - salud
+    - estetica
+    - relaciones_sociales
+    id: disruptor/h5/4
+  reacciona_a: []

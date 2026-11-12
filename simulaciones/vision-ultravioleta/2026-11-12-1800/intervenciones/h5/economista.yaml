@@ -1,0 +1,59 @@
+intervencion:
+  agente: economista
+  tramo: h5
+  afirmaciones:
+  - texto: Entre las 13:00 y las 15:00, los instaladores de lámina solar para ventanas en España y el resto de Europa reciben una avalancha de peticiones de presupuesto de oficinas, colegios concertados y privados, clínicas y comercios con escaparate. Las agendas de instalación se llenan para semanas, el precio del servicio sube y los rollos de lámina para colocar uno mismo se agotan en las grandes superficies de bricolaje y en la venta en línea. En el preapertura de Wall Street, los fabricantes cotizados de lámina (3M, Eastman con su marca LLumar) suben.
+    mecanismo: 'El cristal corriente deja pasar el UV-A (h3-05) y la solución que se ha improvisado, bajar persianas y encender la luz, sacrifica el espacio más caro del edificio, el que da a fachada. Para quien gestiona un edificio, la lámina anti-UV es la forma más barata y rápida de recuperar esas mesas y aulas sin obra: no hay que cambiar ventanas, se pega sobre el vidrio existente y bloquea casi todo el UV-A. El cuello de botella no es el material sino la mano de obra: hay pocos instaladores especializados y no se forman en una tarde, así que el ajuste llega por precio y por plazo, igual que con las gafas. El que no consigue instalador compra el rollo para hacerlo él mismo, y ese canal minorista, pequeño y sin reposición rápida, se vacía primero. El mercado estadounidense, que abre con cinco horas de ventaja informativa sobre Europa, tiene ya en la mesa un producto concreto con fabricantes cotizados a los que asignarle la demanda.'
+    dato: Las láminas para ventana con el sello de la Skin Cancer Foundation deben demostrar que bloquean el 99 % o más del UV-A y el UV-B solar; el vidrio corriente filtra casi todo el UV-B pero deja pasar el UV-A.
+    fuente: https://skincancer.org/windowfilm
+    confianza: media
+    areas_afectadas:
+    - mercados
+    - consumo
+    - vivienda_y_edificios
+    - educacion
+    - empleo
+    id: economista/h5/1
+  - texto: 'Por la tarde, Beiersdorf y L''Oréal recuperan buena parte de lo que perdieron en la segunda hora, y dentro del sector se abre una dispersión: suben los fabricantes de filtros UV-A (dsm-firmenich, BASF) y las marcas de protección solar de farmacia con filtros de amplio espectro, mientras que las marcas baratas y los maquillajes con SPF señalados en redes por ''no oscurecerse'' pierden ventas en el lineal.'
+    mecanismo: 'Corrijo mi propia lectura de economista/h2/3 y coincido con disruptor/h3/4. En la segunda hora el mercado descontó un coste estético: nadie querría llevar una mancha oscura en la cara. Pero al hacerse visible, la crema solar deja de ser un bien de confianza, cuya eficacia el consumidor no puede comprobar, y pasa a ser un bien que se verifica a simple vista. Eso no hunde la categoría: la ordena por calidad. La demanda se desplaza hacia los productos que demuestran protección UV-A en el espejo y en los ojos de los hijos (h3-06), y a la vez los adultos que descubren su daño solar vuelven a la crema. Los filtros UV-A eficaces salen de un puñado de proveedores químicos con moléculas patentadas y procesos de aprobación larguísimos, así que el analista ve en ellos el cuello de botella de la reformulación y les asigna el poder de precio, no a las marcas.'
+    dato: La FDA autorizó en Estados Unidos el primer filtro UV nuevo en 27 años, una molécula de BASF y dsm-firmenich, lo que ilustra lo concentrado y lento que es el mercado de filtros.
+    fuente: https://www.perfumerflavorist.com/home/news/22968559/basf-and-dsmfirmenich-score-major-win-as-fda-clears-first-new-uv-filter-in-27-years
+    confianza: media
+    areas_afectadas:
+    - mercados
+    - consumo
+    - salud
+    - cosmetica
+    id: economista/h5/2
+  - texto: 'A las 15:00 de Madrid, en el preapertura de Wall Street, los valores estadounidenses no se mueven como un bloque sino copiando el mapa sectorial que Europa trazó por la mañana: suben los minoristas de óptica y los fabricantes de equipos de protección individual y de lámina, las aerolíneas bajan poco y los valores de cosmética solar llegan ya con la lectura corregida. Los índices abren con una corrección moderada y sin la sobrerreacción inicial que tuvo Europa.'
+    mecanismo: 'Discrepo de la idea de que Estados Unidos vaya a repetir el susto europeo al ver el sol (medios/h3/1, h3-02). Cuando abre Nueva York, los analistas de las mesas americanas llevan cinco horas viendo cómo cotizaba Europa sector por sector, con notas de sus colegas de Londres ya escritas. El primer impulso del inversor es trasladar ese guion a los equivalentes estadounidenses, que es más rápido que analizar desde cero, y la experiencia europea ya ha mostrado lo que sobró: el hundimiento general no llegó, la volatilidad se pagó en opciones (economista/h2/1) y la cosmética solar se ha dado la vuelta. Ver el fenómeno con los propios ojos convence de que es real, pero no añade información sobre su coste económico, que ya está estimado en Europa.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - mercados
+    - finanzas
+    id: economista/h5/3
+  - texto: 'Las aseguradoras de salud privadas en España y las cadenas de dermatología ven saturadas sus aplicaciones de cita para dermatología, y la teledermatología por fotos no sirve para filtrar: los médicos no pueden ver en la foto lo que el paciente ve en su piel, así que derivan a consulta presencial. Las listas de espera se alargan de golpe y la farmacia se convierte en el primer filtro, con consultas largas que no siempre acaban en venta.'
+    mecanismo: 'Es un choque de demanda sobre una oferta fija: el número de dermatólogos no cambia en una tarde y las preguntas por manchas que podrían ser cáncer (h3-06) llegan a la vez en todo el país. La teledermatología, que las aseguradoras promocionan precisamente para descongestionar consultas, depende de la foto del móvil, y el móvil lleva filtros que cortan el UV-A (h1-06): la mancha que alarma al nieto no aparece en la imagen. El médico, por prudencia y responsabilidad, no puede descartar a distancia algo que no ve, así que el canal barato se cierra y toda la demanda va al canal caro y escaso. El ajuste se hace por espera y no por precio, porque las primas y los copagos están fijados de antemano.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud
+    - seguros
+    - consumo
+    id: economista/h5/4
+  - texto: La luz eléctrica encendida a mediodía en oficinas, aulas y comercios aparece en la curva de demanda de Red Eléctrica como un repunte visible respecto a un martes normal de noviembre, pero no mueve el precio de la electricidad en España ni pone en riesgo el suministro.
+    mecanismo: Discrepo de que el consumo anómalo de luz (disruptor/h3/2) tenga coste económico relevante. La iluminación es una fracción pequeña de la demanda eléctrica y el repunte cae justo en las horas centrales del día, cuando la solar fotovoltaica cubre buena parte del sistema y el precio mayorista español suele estar en mínimos, a veces cero. La generación solar no se ve afectada porque el fenómeno está en los ojos y no en la radiación. El sistema absorbe el pico con la energía más barata de la jornada, de modo que el efecto se ve en el gráfico y no en la factura.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - energia
+    - mercados
+    id: economista/h5/5
+  reacciona_a:
+  - disruptor/h3/4
+  - disruptor/h3/2
+  - medios/h3/1

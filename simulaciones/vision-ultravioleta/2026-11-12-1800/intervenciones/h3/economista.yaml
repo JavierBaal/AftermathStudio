@@ -1,0 +1,58 @@
+intervencion:
+  agente: economista
+  tramo: h3
+  afirmaciones:
+  - texto: Entre las 12:00 y las 13:00, en España y el resto de Europa, las empresas con plantillas al aire libre (construcción, logística, reparto, mantenimiento de redes, limpieza viaria) empiezan a pedir en bloque gafas de protección con filtro solar homologado a sus distribuidores de equipos de protección individual. Esos distribuidores reservan su inventario para los clientes con contrato y dejan de servir al canal minorista y a los marketplaces, que pierden una fuente de reposición.
+    mecanismo: 'La Ley de Prevención de Riesgos Laborales obliga al empresario a evaluar cualquier riesgo nuevo y a dar el equipo de protección adecuado, y la nota de Sanidad que recomienda gafas UV400 al aire libre (politico/h2/2) convierte el deslumbramiento en un riesgo conocido: si un trabajador se cae de un andamio o tiene un accidente conduciendo deslumbrado, la empresa que no le dio gafas responde. Para el responsable de prevención, comprar ahora es barato y no comprar es una responsabilidad personal. Las gafas laborales con filtro solar se certifican por una norma propia y salen del mismo puñado de fabricantes de EPI, que en noviembre trabajan con existencias de temporada baja. El distribuidor prioriza al cliente recurrente con contrato frente al pedido puntual de un marketplace, así que la escasez de h2-07 se agrava desde el lado de la oferta y no solo por la demanda de los padres.'
+    dato: Las gafas de protección laboral contra el deslumbramiento solar se certifican con la norma EN 172 (filtros de protección solar para uso laboral), dentro del marco de EPI recogido por el INSST.
+    fuente: https://insst.es/documents/d/portal-insst/normas-proteccion-ocular-y_o-facial-diciembre-2024-
+    confianza: media
+    areas_afectadas:
+    - empleo
+    - cadena_de_suministro
+    - prevencion_de_riesgos
+    - comercio
+    id: economista/h3/1
+  - texto: En las regiones con sol fuerte que están en plena tarde, como el Golfo y Oriente Medio, las aplicaciones de reparto a domicilio reciben un pico de pedidos de la gente refugiada en interiores justo cuando se reduce el número de repartidores dispuestos a circular. Los tiempos de entrega se alargan, se activan tarifas dinámicas y algunas plataformas limitan pedidos o cierran temporalmente zonas.
+    mecanismo: 'Es un desajuste de mercado de dos lados. La demanda sube porque los clientes se han ido a oficinas, centros comerciales y casas (h2-04) y evitan salir; la oferta baja porque el repartidor es el trabajador más expuesto al deslumbramiento y a la fatiga visual, conduce una moto mirando a un cielo que ahora le ciega y muchos dejan de conectarse o hacen menos pedidos. La plataforma responde con precio (tarifa dinámica) y con racionamiento, como ya hace ante lluvias o calor extremo, y no con más oferta, porque no puede fabricar repartidores en una hora. El consumo no desaparece: se encarece y se retrasa.'
+    dato: En Emiratos, en las horas de calor del verano, las plataformas de reparto limitan a los repartidores a un máximo de 3 pedidos durante las horas pico de calor; en episodios de lluvia las aplicaciones han cerrado zonas o retrasado entregas.
+    fuente: https://www.khaleejtimes.com/uae/uae-delivery-platforms-summer-heat-midday-break-rules-cooling-stations-health
+    confianza: media
+    areas_afectadas:
+    - consumo
+    - empleo
+    - economia_de_plataformas
+    id: economista/h3/2
+  - texto: Los fabricantes de lentes intraoculares cotizados (Alcon en Zúrich, Carl Zeiss Meditec en Fráncfort) tienen una sesión de mucha volatilidad pero sin dirección clara. El mercado no compra la idea de una ola de recambios de lentes, y en las clínicas privadas de oftalmología empiezan las primeras llamadas de pacientes con cirugía de cataratas programada que piden aplazarla o preguntan por una lente sin filtro UV.
+    mecanismo: 'Discrepo de que la pregunta por cambiar la lente (disruptor/h2/1) sea un negocio a la vista. Explantar una lente intraocular es una cirugía con más riesgo que la primera y ningún cirujano la propondrá para recuperar un color que nadie sabe si durará; además, quitar el filtro UV choca con décadas de práctica clínica pensada para proteger la retina. Así que el analista ve dos efectos contrarios sin poder pesarlos: posible demanda futura de lentes sin filtro si el fenómeno es permanente, frente a aplazamientos inmediatos de pacientes que no quieren perder lo que ahora ven. Lo único que sí es inmediato es el incentivo del paciente mayor con cataratas leves: operarse hoy significa renunciar al color nuevo, y aplazar no le cuesta casi nada. Eso resta actividad a las clínicas a corto plazo, no la suma.'
+    dato: Alcon informó en 2026 de que ha superado los 175 millones de lentes intraoculares implantadas en todo el mundo.
+    fuente: https://www.alcon.com/media-release/alcon-surpasses-175-million-iols-implanted-globally/
+    confianza: media
+    areas_afectadas:
+    - mercados_financieros
+    - sanidad_privada
+    - consumo
+    id: economista/h3/3
+  - texto: En el preapertura de Estados Unidos, todavía de noche, los futuros del S&P 500 y del Nasdaq caen menos que los índices europeos y los futuros del VIX suben menos que el VSTOXX. Se abre un diferencial transatlántico en el precio del riesgo, y los operadores que lo ven compran protección barata sobre índices estadounidenses con vencimiento corto, apostando a que el diferencial se cierre al amanecer.
+    mecanismo: 'El precio lo marca quien opera, y a esta hora en Estados Unidos operan sobre todo mesas que reciben el suceso como noticia europea sin prueba visual y en parte como ''histeria colectiva'' (h2-10). Pero la incertidumbre es la misma a ambos lados del Atlántico: lo que cambia es la percepción, no el riesgo. Para un gestor global eso es un arbitraje de relato: la volatilidad implícita estadounidense está barata frente a la europea por una razón que tiene fecha de caducidad, la salida del sol en Nueva York. Comprar opciones a pocos días es la forma más barata de apostar a la convergencia sin tener que acertar el signo del fenómeno.'
+    dato: ''
+    fuente: ''
+    confianza: baja
+    areas_afectadas:
+    - mercados_financieros
+    id: economista/h3/4
+  - texto: Los grandes marketplaces que operan en la UE empiezan a retirar en bloque anuncios de gafas de sol y gafas infantiles sin marcado CE ni declaración UV400 verificable, y también las 'gafas para potenciar la visión UV'. La retirada reduce todavía más la oferta disponible y sube el precio de los anuncios que quedan, en lugar de bajarlo.
+    mecanismo: 'Desde diciembre de 2024 el Reglamento europeo de seguridad general de los productos obliga a los marketplaces a cooperar con las autoridades y a retirar con rapidez los productos peligrosos, y las gafas de sol son un equipo de protección individual que necesita marcado CE. Con los ministerios ya hablando de UV400 (politico/h2/2), las quejas de que las gafas no sirven (oftalmologa/h2/4) y la prensa contando estafas (medios/h2/4), cada anuncio dudoso es un riesgo regulatorio y de reputación para la plataforma, mucho mayor que la comisión que le deja. La plataforma prefiere el falso positivo: retira por lotes con filtros automáticos sin revisar uno a uno. Como el inventario homologado ya está agotado o reservado, quitar oferta dudosa no se compensa con oferta buena y el precio medio sube.'
+    dato: El Reglamento (UE) 2023/988 de seguridad general de los productos es aplicable desde el 13 de diciembre de 2024 e impone obligaciones específicas a los mercados en línea.
+    fuente: https://insightplus.bakermckenzie.com/bm/consumer-goods-retail_1/european-union-substantial-reform-of-european-product-safety-law-to-come-into-force-on-13-december-2024
+    confianza: media
+    areas_afectadas:
+    - comercio_electronico
+    - regulacion
+    - consumo
+    id: economista/h3/5
+  reacciona_a:
+  - disruptor/h2/1
+  - politico/h2/2
+  - oftalmologa/h2/4
+  - medios/h2/4

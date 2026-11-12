@@ -1,0 +1,57 @@
+intervencion:
+  agente: adolescente
+  tramo: h5
+  afirmaciones:
+  - texto: 'A las 14:30, al salir del instituto, la puerta se convierte en un atasco: casi nadie quiere cruzar el patio y la calle a pleno sol, nos quedamos en el vestíbulo esperando a que vengan a por nosotros o salimos en grupo directos a la boca de metro más cercana, aunque normalmente fuéramos andando. El metro, que va bajo tierra, se llena de gente de mi edad haciendo trayectos de dos paradas.'
+    mecanismo: Llevamos toda la mañana dentro con persianas bajadas y la última vez que salimos al sol nos lloraban los ojos, así que salir es lo que más miedo nos da del día, aunque no lo digamos. Muchas no tenemos gafas de sol buenas y nuestras madres nos han dicho que no vayamos sin ellas. El metro es el único sitio que conocemos que está tapado del todo y nos acerca a casa sin pasar tiempo en la calle, y si vas en grupo te da menos vergüenza parecer que tienes miedo.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - educacion
+    - transporte
+    - vida_cotidiana
+    id: adolescente/h5/1
+  - texto: 'En la comida en casa, entre las 14:30 y las 15:00, le decimos a nuestras madres y padres cómo se les ven las manchas de la cara junto a la ventana, y en TikTok aparece un formato nuevo: grabar la reacción del padre o la madre cuando le describes su cara ''en el color nuevo''. Unos vídeos son de risa y otros acaban con la madre llorando o pidiendo cita en el dermatólogo, y entre nosotras se discute si eso está bien o es cruel.'
+    mecanismo: Somos las únicas en casa que vemos bien las manchas y ellos no pueden comprobarlo en el espejo, así que lo que decimos va a misa. Eso nos da un poder que no tenemos casi nunca en casa, y lo que nos da poder lo convertimos en contenido. La comida es el primer momento del día en que estamos frente a frente con ellos y con luz de ventana. Pero como la reacción de los adultos es de preocupación de verdad, a algunas nos sienta mal haber hecho la gracia y empieza el debate.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - familia
+    - redes_sociales
+    - salud
+    id: adolescente/h5/2
+  - texto: Después de comer, varias del grupo decimos en el chat que tenemos dolor de cabeza y los ojos cansados o rojos, pero lo contamos de broma ('me ha reventado el color'), y alguna madre nos da un ibuprofeno o nos manda a echarnos la siesta con la persiana bajada. Nadie lo relaciona en serio con haber estado mirando por la ventana o haberse quitado las gafas.
+    mecanismo: 'Llevamos cinco horas forzando la vista: pegadas a las ventanas, mirando al sol a escondidas y los de gafas quitándoselas. El cansancio llega cuando paramos y nos sentamos a comer. Como lo de protegerse ya es un meme y quejarse es quedar como miedica, lo contamos en tono de broma, y así los padres lo ven como un dolor de cabeza normal y no como algo que haya que mirar.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud
+    - familia
+    id: adolescente/h5/3
+  - texto: 'Las fotos en falso color que circulan desde Estados Unidos nos llegan por la tarde y entre la gente de mi edad se convierten en un juego de puntuar: ''esta se parece'', ''esta no tiene nada que ver''. Salen tutoriales de cómo editar una foto con filtros para que se parezca más al color de verdad, y gana la versión que hace la gente que más sigo, no la de los fotógrafos.'
+    mecanismo: Nosotras somos las que mejor lo vemos, así que sentimos que tenemos derecho a decir cuál foto acierta y cuál no, y eso encaja con lo de ser 'la generación que lo ve'. Como ninguna foto coincide, el reto de acercarse con filtros de edición es divertido y fácil de hacer con el móvil. Y en mi grupo siempre se acaba quedando la versión que sube alguien conocido, igual que pasó con las palabras para el color.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - redes_sociales
+    - cultura
+    - medios
+    id: adolescente/h5/4
+  - texto: Por la tarde mi madre intenta comprarme unas gafas de sol homologadas para mañana y no encuentra en las ópticas del barrio o las que hay son caras; yo le digo que no las quiero porque con ellas no se ve el color y en clase nadie las va a llevar. En el grupo se acuerda, medio en serio, que mañana nadie lleve gafas oscuras al instituto.
+    mecanismo: Las gafas buenas se han acabado o han subido de precio, así que a mi madre le cuesta más conseguirlas y se agobia. Para mí ponérmelas significa quedarme sin lo que todo el mundo comenta y parecer la que hace caso a los adultos, que es justo de lo que nos reímos con el meme de la rueda de prensa. Si lo acordamos en grupo, nadie se queda como la rara, y la decisión pasa a ser del grupo y no de cada casa.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - consumo
+    - familia
+    - educacion
+    - salud
+    id: adolescente/h5/5
+  reacciona_a:
+  - disruptor/h3/1
+  - disruptor/h3/3

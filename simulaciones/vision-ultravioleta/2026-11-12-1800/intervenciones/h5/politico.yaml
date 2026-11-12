@@ -1,0 +1,62 @@
+intervencion:
+  agente: politico
+  tramo: h5
+  afirmaciones:
+  - texto: 'Entre las 13:00 y las 15:00 el Gobierno español no espera a que la Mesa del Congreso tramite las peticiones de la oposición: el Ministerio de Defensa registra una solicitud de comparecencia a petición propia, sin fecha cerrada, y ofrece informar de las evaluaciones de seguridad a puerta cerrada en la comisión que controla los gastos reservados (la llamada Comisión de Secretos Oficiales). Los portavoces de los partidos grandes aceptan el formato; las formaciones populistas que no tienen asiento en esa comisión lo denuncian en redes como ''más secreto''.'
+    mecanismo: 'Pedir la comparecencia a petición propia es la forma clásica de quitarle la iniciativa a la oposición: el Gobierno controla el calendario y el formato en lugar de que se lo impongan. La comisión a puerta cerrada resuelve el dilema de h3-01, porque permite compartir las evaluaciones con los partidos con aspiración de gobierno sin desclasificarlas ni contradecir a la OTAN, y los convierte en corresponsables del silencio. El coste es que la sesión secreta confirma, otra vez, que hay algo que no se cuenta, y quien queda fuera de la sala gana el argumento ante su audiencia.'
+    dato: La ministra de Defensa ya ha comparecido ante la Comisión de Secretos Oficiales del Congreso, que sesiona a puerta cerrada, citada por la presidencia de la Cámara.
+    fuente: https://www.democrata.es/politica/congreso-y-senado/armengol-cita-a-robles-ante-la-comision-de-secretos-el-dia-6-y-deja-fuera-a-la-directora-del-cni/
+    confianza: media
+    areas_afectadas:
+    - politica
+    - defensa
+    - parlamento
+    - desinformacion
+    id: politico/h5/1
+  - texto: 'La Comisión Europea convoca por videoconferencia el Comité de Seguridad Sanitaria con los Estados miembros, y de esa reunión sale el primer mensaje común europeo: una pauta de comunicación de riesgo compartida (gafas UV400 con marcado CE, no recambiar lentes intraoculares, el cristal corriente no protege, crema solar) que cada ministerio adapta y difunde. No hay medidas comunes vinculantes ni cierre de nada.'
+    mecanismo: 'El IPCR en modo de intercambio de información (h2) no produce mensajes para el público, y cada ministerio de Sanidad ha improvisado el suyo. El Reglamento europeo de amenazas transfronterizas graves para la salud incluye las amenazas de origen desconocido, así que la Comisión tiene base para convocar el Comité sin decir qué es el fenómeno ni declarar emergencia, igual que la OMS en h3-09. Coordinar la comunicación es la herramienta más barata y menos arriesgada de Bruselas, y responde a un problema visible: mensajes nacionales que se contradicen en las mismas redes.'
+    dato: El Reglamento (UE) 2022/2371 se aplica a las amenazas transfronterizas graves para la salud de origen biológico, químico, medioambiental o desconocido, y el Comité de Seguridad Sanitaria coordina la comunicación de riesgos entre Estados.
+    fuente: https://eur-lex.europa.eu/eli/reg/2022/2371/oj
+    confianza: media
+    areas_afectadas:
+    - union-europea
+    - sanidad
+    - comunicacion-publica
+    id: politico/h5/2
+  - texto: 'Ante las clínicas extranjeras que insinúan que harán el recambio de lente, el Ministerio de Sanidad y los colegios de médicos emiten una advertencia contra el ''turismo quirúrgico'' para recuperar los colores nuevos, pero no anuncian ninguna prohibición. El agravio de los operados con lente con filtro se convierte en una petición organizada: aparecen las primeras recogidas de firmas y asociaciones de pacientes que exigen una ''solución'' a la sanidad pública.'
+    mecanismo: El Gobierno no puede impedir que un ciudadano europeo se opere en otro país pagándolo de su bolsillo, porque la libre prestación de servicios y la normativa de asistencia sanitaria transfronteriza lo amparan, y la publicidad que se hace desde fuera en redes queda fuera del alcance práctico de las autoridades españolas. Lo único que le queda es advertir. Al negarse el sistema público y las sociedades científicas (h3-04, oftalmologa/h3/2), el colectivo agraviado busca la vía política, que es la de la petición y la asociación, y los partidos empiezan a medir si les conviene recogerla.
+    dato: La Directiva 2011/24/UE reconoce el derecho de los pacientes a recibir asistencia sanitaria en otro Estado miembro.
+    fuente: https://eur-lex.europa.eu/eli/dir/2011/24/oj
+    confianza: media
+    areas_afectadas:
+    - sanidad
+    - politica
+    - pacientes
+    - oftalmologia
+    id: politico/h5/3
+  - texto: 'Los sindicatos piden al Ministerio de Trabajo que aplique a los trabajadores al aire libre la obligación de adaptar o reducir la jornada que ya existe para el calor extremo. Trabajo responde con una nota de criterio para la Inspección: el deslumbramiento debe entrar en la evaluación de riesgos y el empresario debe dar gafas homologadas, pero no hay paralización obligatoria de la actividad. Sindicatos y patronal del reparto y la construcción chocan por primera vez por el fenómeno.'
+    mecanismo: 'La obligación de adaptar la jornada por calor está ligada a los avisos meteorológicos oficiales, y aquí no hay aviso que lo active, así que el Gobierno no tiene una norma que estirar sin legislar de urgencia sobre un fenómeno que nadie sabe si durará. La nota de criterio es la herramienta intermedia: da cobertura a la Inspección y confirma la lógica de la prevención (economista/h3/1) sin parar la economía. Para los sindicatos los repartidores y los trabajadores de obra son el grupo más expuesto (economista/h3/2, oftalmologa/h3/3), y pedir la paralización es una reivindicación con apoyo social y sin coste para ellos.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - trabajo
+    - sindicatos
+    - prevencion-riesgos
+    - reparto
+    id: politico/h5/4
+  - texto: 'En Estados Unidos, con la costa este ya en hora de oficina, los líderes de los comités de inteligencia del Congreso de ambos partidos piden públicamente un informe clasificado sobre la evaluación del fenómeno, y la Casa Blanca acepta darlo. El debate estadounidense sigue el mismo camino que el europeo: no se discute si existe, sino qué sabían las agencias.'
+    mecanismo: 'Tras h3-03 el escepticismo federal ya no es defendible, así que el incentivo político pasa a la pregunta de la ocultación que la frase ''no hay indicios de acción hostil'' ha abierto en todas partes (h2-04). Pedir un informe clasificado es la jugada de menor riesgo para un legislador: muestra control sin comprometerse con una causa, y el Ejecutivo tiene la costumbre y la obligación de informar a los comités de inteligencia. Aceptarlo rápido es la forma de que la sesión sea a puerta cerrada y no un espectáculo televisado.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - politica
+    - defensa
+    - inteligencia
+    - estados-unidos
+    id: politico/h5/5
+  reacciona_a:
+  - oftalmologa/h3/2
+  - economista/h3/1
+  - economista/h3/2

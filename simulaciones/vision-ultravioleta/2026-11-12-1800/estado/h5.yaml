@@ -1,0 +1,86 @@
+estado_del_mundo:
+  tramo: h5
+  resumen: "En la quinta hora los gobiernos llevan la pregunta de la ocultación a sesiones a puerta cerrada, en Madrid y en Washington, y Bruselas da el primer mensaje sanitario común. Por fin el mensaje oficial llega al público mayor por el telediario y a los buscadores por los paneles de las plataformas, pero las redes conspirativas se apropian del caso de los ancianos operados y se cruzan con el agravio de los operados con filtro, que se organiza y obliga a Sanidad a advertir contra el turismo quirúrgico. En el plano sanitario, el color nuevo se ve desenfocado por la propia óptica del ojo y da fatiga y cefaleas a niños y adolescentes, que además pactan no llevar gafas mañana. A la vez, los oftalmólogos se adelantan a una oleada nocturna de queratitis para que no desmienta a la OMS. Como efectos cruzados, las fuentes artificiales de UV-A (matainsectos, lámparas de uñas, cabinas) se vuelven visibles y molestas en interiores, lo que choca con los planes de control de plagas y da un argumento nuevo contra el bronceado artificial. La lámina anti-UV para ventanas pasa a ser la respuesta de los edificios y la noche asiática convierte la linterna UV en la prueba casera de que el fenómeno sigue ahí."
+  hechos_establecidos:
+    - id: h5-01
+      texto: "Entre las 13:00 y las 15:00 el Ministerio de Defensa español registra una solicitud de comparecencia a petición propia, sin fecha cerrada, y ofrece informar de las evaluaciones de seguridad a puerta cerrada en la Comisión de Secretos Oficiales del Congreso. Los partidos grandes aceptan el formato y las formaciones populistas que no tienen asiento en esa comisión lo denuncian en redes como 'más secreto'. En Estados Unidos, ya en hora de oficina, los líderes de los comités de inteligencia del Congreso de ambos partidos piden un informe clasificado y la Casa Blanca acepta darlo. A ambos lados del Atlántico el debate político ya no discute si el fenómeno existe, sino qué sabían las agencias, y se canaliza hacia sesiones cerradas que quitan la iniciativa a la oposición pero confirman ante quien queda fuera que hay algo que no se cuenta."
+      origen: [politico/h5/1, politico/h5/5]
+    - id: h5-02
+      texto: "La Comisión Europea convoca por videoconferencia el Comité de Seguridad Sanitaria con los Estados miembros, con base en el Reglamento (UE) 2022/2371, que cubre amenazas de origen desconocido, y sin declarar emergencia. De la reunión sale el primer mensaje común europeo: una pauta de comunicación de riesgo compartida (gafas UV400 con marcado CE, no recambiar lentes intraoculares, el cristal corriente no protege, crema solar) que cada ministerio adapta y difunde. No hay medidas vinculantes ni cierres."
+      origen: [politico/h5/2]
+    - id: h5-03
+      texto: "El mensaje sanitario empieza a llegar por dos canales nuevos. Los telediarios de sobremesa de las 15:00 en España abren con el fenómeno y explican la edad con infografía del cristalino, el testimonio de un nonagenario operado de cataratas que ve el color mejor que su nieto y el caso de Monet; es el primer momento del día en que la explicación oficial gana espacio entre los mayores, y muchos abuelos pasan de leer la diferencia por edad como algo dirigido a preguntar a sus nietos qué ven. YouTube, TikTok y los buscadores ponen paneles informativos sobre los nombres virales del color, con enlace a la OMS y a las autoridades sanitarias, y los verificadores ya tienen una fuente oficial que citar. En las redes abiertas los divulgadores ganan posición, pero en los canales conspirativos el panel se presenta como censura y el tráfico se desplaza aún más hacia Telegram y plataformas alternativas."
+      origen: [medios/h5/1, medios/h5/4]
+    - id: h5-04
+      texto: "Las redes conspirativas absorben el caso de los ancianos operados: circula la versión de que los filtros UV de las lentes intraoculares se introdujeron en los ochenta 'porque ya lo sabían' y que a millones de operados 'les pusieron un tapón'. El agravio de los operados con lente con filtro gana un culpable con nombre (farmacéuticas y fabricantes de lentes) y se convierte en petición organizada, con recogidas de firmas y asociaciones de pacientes que exigen una 'solución' a la sanidad pública. Ante las clínicas extranjeras que insinúan el recambio, el Ministerio de Sanidad y los colegios de médicos advierten contra el 'turismo quirúrgico', pero no anuncian prohibición, porque la Directiva 2011/24/UE ampara la asistencia en otro Estado miembro. Los partidos empiezan a medir si les conviene recoger la causa."
+      origen: [medios/h5/2, politico/h5/3]
+    - id: h5-05
+      texto: "Los niños y adolescentes describen el color nuevo como algo que 'no se enfoca', con halo violáceo en ramas, cables, letras y siluetas a contraluz. Optometristas y oftalmólogos explican en los medios que se debe a la aberración cromática del ojo, que desenfoca más las longitudes de onda cortas, y que no es señal de lesión. Las quejas de dolor de cabeza y ojos cansados se concentran en quienes miran por la ventana o se quitan las gafas, pero los adolescentes lo cuentan de broma y en casa se trata como un dolor de cabeza normal. Con las gafas homologadas escasas y caras, muchos adolescentes rechazan las que les compran sus familias y acuerdan en grupo no llevar gafas oscuras al instituto al día siguiente."
+      origen: [oftalmologa/h5/1, adolescente/h5/3, adolescente/h5/5]
+    - id: h5-06
+      texto: "Las sociedades de oftalmología y los servicios de urgencias avisan a media tarde de que esta noche y mañana pueden llegar casos de queratitis por ultravioleta en quienes han mirado al cielo o al sol sin gafas en zonas de UV alto o con nieve. Insisten en que es una quemadura superficial de la córnea que cura en uno o dos días y que no la causa el fenómeno, sino haber mirado al sol sin protección. El aviso se adelanta a que los síntomas, que aparecen entre seis y doce horas después de la exposición, se lean como prueba de que el fenómeno daña los ojos y contradigan a la OMS."
+      origen: [oftalmologa/h5/4]
+    - id: h5-07
+      texto: "En interiores, con las persianas bajadas, las fuentes artificiales de UV-A pasan a ser los focos más intensos del color nuevo: matainsectos eléctricos de tubo de 365 nm, lámparas de curado de uñas, detectores de billetes, luces negras y camas de bronceado. Las manicuristas son el primer colectivo que se queja de deslumbramiento en el puesto, las clientas apartan la vista y en los centros de bronceado los clientes cancelan o salen antes de la cabina; el argumento sanitario contra las cabinas gana una prueba visible y las gafas de cabina se vuelven imprescindibles por molestia. En cocinas, obradores, industria alimentaria, supermercados y hospitales el personal apaga o tapa los matainsectos, y los responsables de calidad descubren que han perdido sin decidirlo una medida de control de plagas que exigen sus planes de seguridad alimentaria."
+      origen: [oftalmologa/h5/3, disruptor/h5/2, disruptor/h5/3]
+    - id: h5-08
+      texto: "Entre las 13:00 y las 15:00 los instaladores de lámina solar para ventanas en Europa reciben una avalancha de presupuestos de oficinas, colegios concertados y privados, clínicas y comercios con escaparate, porque la lámina anti-UV bloquea el 99 % o más del UV-A y permite recuperar los espacios junto a fachada sin obra. El cuello de botella es la mano de obra: las agendas se llenan para semanas, el servicio sube de precio y los rollos para colocar uno mismo se agotan en bricolaje y venta en línea. En el preapertura de Wall Street suben los fabricantes cotizados de lámina (3M, Eastman)."
+      origen: [economista/h5/1]
+    - id: h5-09
+      texto: "En Asia oriental y Oceanía, donde es de noche, la desaparición del color nuevo sin sol se lee como 'ya se ha ido', y el rumor llega a Europa por la tarde. La respuesta casera son las linternas y luces negras de 365 y 395 nm (de detectar billetes, orina de mascotas o escorpiones), que se agotan en tiendas de conveniencia y plataformas de Japón, Corea, China y Australia. Encenderlas se convierte en la 'prueba de permanencia' con directos de madrugada, se abre una disputa porque las de 395 nm emiten sobre todo violeta visible y los sanitarios lanzan los primeros avisos contra mirar de frente los LED ultravioleta."
+      origen: [disruptor/h5/1, medios/h5/5]
+    - id: h5-10
+      texto: "Los sindicatos piden al Ministerio de Trabajo que aplique a los trabajadores al aire libre la adaptación o reducción de jornada prevista para el calor extremo. Como esa obligación depende de avisos meteorológicos que aquí no existen, Trabajo responde con una nota de criterio para la Inspección: el deslumbramiento debe entrar en la evaluación de riesgos y el empresario debe dar gafas homologadas, pero no hay paralización obligatoria. Sindicatos y patronal del reparto y la construcción chocan por primera vez por el fenómeno."
+      origen: [politico/h5/4]
+  tensiones_abiertas:
+    - "Queda por ver qué ocurre en la apertura de Wall Street, a las 15:30 de Madrid, después del cierre de este tramo: si los valores estadounidenses copian el mapa sectorial europeo sin sobrerreacción o si ver el fenómeno provoca un susto propio."
+    - "Queda por ver si llegan de noche los casos de queratitis y si, pese al aviso previo, se leen como prueba de que el fenómeno daña los ojos."
+    - "Queda por ver qué pasa con el amanecer en Asia-Pacífico: si confirma a simple vista que la capacidad sigue ahí y desactiva el rumor de que 'ya se ha ido'."
+    - "Queda por ver si colegios y familias imponen las gafas el miércoles frente al pacto adolescente de no llevarlas, y si crecen las consultas por fatiga visual y cefaleas."
+    - "Queda por ver qué dicen Defensa en la Comisión de Secretos Oficiales y las agencias en el informe clasificado de Washington, y si quienes quedan fuera de la sala ganan el relato de la ocultación."
+    - "Queda por ver si las asociaciones de operados con lente con filtro encuentran un partido que recoja su causa y si alguna clínica extranjera llega a ofrecer el recambio."
+    - "Queda por ver cómo resuelven las empresas alimentarias y la inspección sanitaria el conflicto entre apagar los matainsectos y mantener el control de plagas."
+    - "Queda por ver si la visión UV-A deja a la vista marcas antiguas en la piel con suficiente nitidez para afectar a colegios, servicios sociales y atención a la violencia, y si prende el bulo de que el color nuevo 've a través de la ropa'. Sigue sin base suficiente para establecerlo."
+    - "Queda por ver si las consultas por manchas en la piel saturan la dermatología pública y privada y si la teledermatología sirve cuando el móvil no capta el UV-A."
+    - "Queda por ver si los mayores con cristalino propio, que casi no ven el color nuevo, sufren un velo de deslumbramiento que refuerce su agravio frente a los nietos."
+  contradicciones_resueltas:
+    - entre: [medios/h5/1, medios/h5/2]
+      decision: "Las dos cosas ocurren a la vez y se separan por canal: el telediario lleva la explicación de la edad a la mayoría de los mayores, mientras las redes conspirativas absorben el caso de los ancianos operados como prueba de un plan anterior."
+      motivo: "Ambas tienen mecanismo sólido y actúan sobre audiencias distintas (televisión frente a Telegram y grupos de mensajería). Así se cierra en parte la primera tensión de h3: el contraargumento funciona en el público general, pero no frena a las comunidades conspirativas, que lo reinterpretan."
+    - entre: [economista/h5/3, medios/h3/1]
+      decision: "No se establece cómo abre Wall Street. Solo entra el movimiento del preapertura en los fabricantes de lámina y la apertura queda como tensión abierta."
+      motivo: "La apertura de las 15:30 queda fuera del corte del tramo (15:00) y la afirmación del economista no aporta dato. Como no se puede decidir, la cuestión sigue abierta."
+    - entre: [medios/h5/5, disruptor/h5/1]
+      decision: "Se combinan: la luz negra doméstica es en Asia la prueba casera del fenómeno y de su permanencia, y viene con una disputa sobre la longitud de onda y avisos sanitarios por mirar los LED."
+      motivo: "Describen el mismo comportamiento con mecanismos que se complementan (curiosidad por comprobarlo y miedo a que haya desaparecido de noche). El disruptor aporta el matiz de 395 nm y medios el aviso sanitario."
+    - entre: [oftalmologa/h5/3, disruptor/h5/2, disruptor/h5/3]
+      decision: "Se combinan en un único hecho sobre las fuentes artificiales de UV-A en interiores, con sus efectos en el trabajo, en la seguridad alimentaria y en el bronceado artificial."
+      motivo: "Las tres coinciden en la emisión en 365-405 nm, que aporta dato verificable, y cada una añade una consecuencia en un área distinta."
+  descartadas:
+    - id: economista/h5/2
+      motivo: "Tiene mecanismo y dato, pero concreta en el mercado la matización ya establecida en h3 sobre la cosmética solar (crema comprobable, caen los productos que no la superan) sin cambiar el rumbo de otras áreas. Cede ante hechos de más alcance con el límite de diez."
+    - id: economista/h5/3
+      motivo: "Describe la apertura de Wall Street, que ocurre después del cierre del tramo, y no aporta dato. Queda en la tensión sobre la apertura."
+    - id: economista/h5/4
+      motivo: "Es plausible pero no aporta dato y es un efecto sectorial sobre el sistema sanitario que concreta h3-06. Queda como tensión abierta sobre la saturación de dermatología."
+    - id: economista/h5/5
+      motivo: "Es un efecto de detalle, sin dato, que el propio agente dice sin consecuencia económica relevante, y no añade nada nuevo para otras áreas."
+    - id: medios/h5/3
+      motivo: "Parte de la visibilidad de marcas en la piel, que sigue sin establecerse (adolescente/h3/4 se descartó por confianza baja). El precedente de OnePlus es analógico y no prueba el bulo aquí. Se recoge en la tensión sobre marcas en la piel."
+    - id: oftalmologa/h5/2
+      motivo: "Tiene mecanismo y dato, pero es un matiz clínico sobre los mayores con cristalino propio que no cambia el rumbo de otras áreas. Con el límite de diez cede ante efectos de más alcance y queda como tensión abierta."
+    - id: oftalmologa/h5/5
+      motivo: "Tiene confianza baja y descansa sobre una visibilidad de marcas en la piel que aún no está establecida en el canon. Se mantiene la tensión sobre infancia y violencia."
+    - id: adolescente/h5/1
+      motivo: "Es un efecto local y de detalle sobre la salida del instituto y el metro, sin dato, que repite la búsqueda de espacios cubiertos ya establecida en h3-05."
+    - id: adolescente/h5/2
+      motivo: "Repite y concreta en un formato de redes el efecto ya establecido en h3-06 (los hijos ven las manchas de los padres y las consultas pasan a dermatología) sin añadir una consecuencia nueva para otras áreas."
+    - id: adolescente/h5/4
+      motivo: "Repite y concreta la disputa sobre el falso color ya establecida en h3-08 sin añadir una consecuencia nueva."
+    - id: disruptor/h5/4
+      motivo: "Tiene confianza baja y es un efecto estético de detalle (restauraciones dentales) que no cambia el rumbo de otras áreas."
+  metricas:
+    alarma_social: 3
+    respuesta_gobiernos: comunicacion
+    impacto_economico: 2
+    adaptacion: 3

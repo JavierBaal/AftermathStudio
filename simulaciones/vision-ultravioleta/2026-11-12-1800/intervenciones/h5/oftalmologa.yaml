@@ -1,0 +1,61 @@
+intervencion:
+  agente: oftalmologa
+  tramo: h5
+  afirmaciones:
+  - texto: 'Entre las 13:00 y las 15:00 los niños y adolescentes describen el color nuevo como algo que ''no se enfoca'': bordes con halo violáceo alrededor de ramas, cables, letras blancas sobre fondo de cielo y siluetas a contraluz. Las quejas de dolor de cabeza y ojos cansados en colegios se concentran en quienes miran por la ventana o leen junto a ella, y optometristas y oftalmólogos empiezan a explicar en los medios que el color nuevo se ve desenfocado por la propia óptica del ojo y que no es señal de lesión.'
+    mecanismo: 'El ojo tiene aberración cromática longitudinal: cuanto más corta es la longitud de onda, más por delante de la retina enfoca. El UV-A queda todavía más desenfocado que el azul, así que en un ojo con cristalino transparente la imagen del canal nuevo llega siempre borrosa respecto a la visible, como una franja de color alrededor de los contornos con mucho contraste. El sistema de acomodación intenta enfocar dos imágenes que no coinciden y no lo consigue, que es el mecanismo clásico de la fatiga visual y la cefalea. Los niños, que más UV-A reciben en la retina, son los que más lo sufren, y se suma a los que se quitan las gafas para ver el color (adolescente/h3/3).'
+    dato: La aberración cromática longitudinal del ojo humano es de unas dos dioptrías en el espectro visible y aumenta hacia las longitudes de onda cortas.
+    fuente: https://ophthalmologytimes.com/view/what-role-does-chromatic-aberration-play-iols
+    confianza: media
+    areas_afectadas:
+    - salud
+    - educacion
+    - comunicacion_sanitaria
+    id: oftalmologa/h5/1
+  - texto: 'Las personas mayores con cristalino propio, que casi no ven el color nuevo, sí empiezan a quejarse de que al aire libre lo ven todo ''como con niebla'' o ''con un velo'', sobre todo con sol bajo de tarde. Los oftalmólogos lo explican como un efecto de su propio cristalino, y esto matiza el relato de que los mayores ''no notan nada'': notan el fenómeno como pérdida de contraste, no como color.'
+    mecanismo: 'El cristalino envejecido absorbe casi todo el UV-A antes de que llegue a la retina, por eso los mayores ven poco el color nuevo (h2-02). Pero esa energía absorbida no desaparece: los cromóforos del cristalino emiten fluorescencia azul verdosa dentro del ojo, que se reparte por la retina como una luz difusa que tapa el contraste de la imagen. La fluorescencia del cristalino crece con la edad y ya estaba descrita como fuente de deslumbramiento por velo. Ahora el UV-A no se percibe solo como color, sino también a través de ese velo, de modo que el mayor sufre la molestia sin la recompensa del color nuevo, y eso refuerza su sensación de agravio frente a los nietos.'
+    dato: La fluorescencia del cristalino humano inducida por luz UV cercana y azul aumenta con la edad y produce luz difusa intraocular que interfiere con la función visual.
+    fuente: https://proceedings.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-10/issue-4/044021/Near-UV-blue-light-induced-fluorescence-in-the-human-lens/10.1117/1.1990163.full
+    confianza: media
+    areas_afectadas:
+    - salud
+    - mayores
+    - comunicacion_sanitaria
+    id: oftalmologa/h5/2
+  - texto: 'En interiores aparecen fuentes artificiales de UV-A que antes nadie veía: las lámparas de uñas de los salones de manicura, los matainsectos eléctricos de bares, cocinas y carnicerías, los detectores de billetes, las luces negras de locales y las camas de bronceado se ven ahora como focos intensos de color nuevo. Las manicuristas son el primer colectivo que se queja de deslumbramiento en el puesto de trabajo, y muchos negocios apagan los matainsectos y las lámparas de detectar billetes a media tarde.'
+    mecanismo: 'Esos aparatos emiten justo en la banda que ahora se percibe: las lámparas de uñas LED y UV curan el gel con picos entre 365 y 405 nanómetros, los matainsectos y detectores usan tubos de luz negra en torno a 365, y las camas solares emiten sobre todo UV-A. Antes eran casi invisibles porque su luz caía fuera del espectro visible; ahora son, en un interior en penumbra con las persianas bajadas (h3-05), la fuente de UV-A más intensa de la sala, a poca distancia de los ojos. La manicurista mira la lámpara de cerca durante horas, sin la protección del sol del exterior, y el empresario apaga lo que molesta al cliente porque es lo más barato.'
+    dato: Las lámparas para curar gel de uñas trabajan con longitudes de onda de 365, 395 y 405 nanómetros.
+    fuente: https://purespadirect.com/blogs/pure-spa-direct-blog/selecting-the-correct-light-spectrum-for-curing-led-builder-gels-why-365nm-395nm-and-405nm-matter-for-perfect-wrinkle-free-nails
+    confianza: media
+    areas_afectadas:
+    - trabajo
+    - prevencion_riesgos
+    - comercio
+    - hosteleria
+    id: oftalmologa/h5/3
+  - texto: Las sociedades de oftalmología y los servicios de urgencias avisan a media tarde de que esta noche y mañana pueden llegar casos de queratitis por ultravioleta (ojos rojos, dolor intenso, sensación de arena, lagrimeo) en quienes han mirado al cielo o al sol sin gafas durante el día en zonas de UV alto o con nieve. Insisten en que es una quemadura superficial de la córnea, dolorosa pero que cura en uno o dos días, y en que no la causa el fenómeno sino haber mirado al sol sin protección.
+    mecanismo: 'La percepción del UV-A no daña el ojo (supuesto del mundo), pero la curiosidad sí cambia la conducta: la gente mira al cielo y al sol para ver el color nuevo y se quita las gafas (h3-01, adolescente/h3/3). En las regiones con mucho sol, y en montaña con nieve, eso supone también exposición a UV-B, que es la que quema la córnea. La queratitis por ultravioleta no da síntomas en el momento sino entre seis y doce horas después, así que las exposiciones del mediodía en el Golfo, el sur de Asia o el hemisferio sur se convertirán en consultas de urgencia por la noche. Avisar antes evita que esos casos se lean como prueba de que el fenómeno sí daña los ojos y desmientan el mensaje de la OMS (h3-09).'
+    dato: Los síntomas de la fotoqueratitis aparecen típicamente entre 6 y 12 horas después de la exposición y suelen resolverse en 24 a 72 horas.
+    fuente: https://www.college-optometrists.org/Clinical-guidance/Clinical-Management-Guidelines/Photokeratitis_Ultraviolet_UV_Burn_ArcEye_SnowBlin
+    confianza: media
+    areas_afectadas:
+    - salud
+    - urgencias
+    - comunicacion_sanitaria
+    - desinformacion
+    id: oftalmologa/h5/4
+  - texto: Pediatras, médicos forenses y servicios de protección a la infancia piden a profesores y familias que no saquen conclusiones de las marcas que ahora se ven en la piel. En el canal nuevo pueden aparecer moratones curados hace semanas o meses, pero también manchas de pigmento, cicatrices y eccemas que se ven igual de oscuros, y una marca en el color nuevo no prueba ni descarta un maltrato.
+    mecanismo: 'La fotografía forense con UV reflejado se usa desde hace décadas porque muestra moratones y mordeduras que ya no se ven en luz visible, ya que la piel alterada y la melanina absorben más UV que la sana. Lo que vieron los adolescentes en h3 (adolescente/h3/4) tiene esa base. Pero esa misma técnica tiene muchos falsos positivos y se interpreta en contexto, con protocolo y por profesionales: el pigmento, la cicatriz o la irritación dan la misma imagen oscura. Cuando millones de personas pasan a ver eso a simple vista en colegios y casas, las instituciones de infancia tienen que adelantarse a dos riesgos a la vez, la acusación infundada y la marca real ignorada, y la respuesta más barata y rápida es una nota que encauce las sospechas hacia los circuitos ya existentes en lugar de al chisme o a la denuncia directa.'
+    dato: La fotografía con ultravioleta reflejado permite documentar moratones desvanecidos o no visibles a simple vista, y se usa en forense para lesiones en niños.
+    fuente: https://www.crime-scene-investigator.net/uvchildphoto.html
+    confianza: baja
+    areas_afectadas:
+    - infancia
+    - educacion
+    - servicios_sociales
+    - violencia
+    - salud
+    id: oftalmologa/h5/5
+  reacciona_a:
+  - adolescente/h3/3
+  - adolescente/h3/4

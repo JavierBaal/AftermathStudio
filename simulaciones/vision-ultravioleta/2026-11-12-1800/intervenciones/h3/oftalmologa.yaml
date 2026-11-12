@@ -1,0 +1,61 @@
+intervencion:
+  agente: oftalmologa
+  tramo: h3
+  afirmaciones:
+  - texto: 'Entre las 12:00 y las 13:00 aparece el grupo que rompe la teoría del cambio dirigido a los jóvenes: personas muy mayores operadas de cataratas hace cuarenta años o más, con implantes antiguos sin filtro o sin lente intraocular (afáquicas), que dicen ver los colores nuevos con más intensidad que sus nietos. Los oftalmólogos y divulgadores los usan en los medios como prueba de que la diferencia está en el ojo y no en el fenómeno, y la historia de Monet, que tras operarse de cataratas en 1923 empezó a pintar con tonos azules y violetas, se viraliza como explicación sencilla.'
+    mecanismo: El gradiente por edad de h2-02 no viene de la persona sino del cristalino, que filtra cada vez más ultravioleta al envejecer. Si se quita el cristalino y no se pone un filtro, el UV-A llega a la retina con menos obstáculo que en un niño. Los cromóforos que absorben UV se incorporaron a las lentes intraoculares a principios de los ochenta y se generalizaron hacia 1986, así que quienes se operaron antes son hoy octogenarios o nonagenarios. Que el grupo que mejor ve sea el más anciano invierte la lectura generacional, y una anécdota con un pintor famoso viaja mejor por mensajería que una curva de transmisión del cristalino.
+    dato: Los cromóforos absorbentes de UV se introdujeron en las lentes intraoculares a principios de los años ochenta y la mayoría de lentes los llevaba en 1986.
+    fuente: https://pmc.ncbi.nlm.nih.gov/articles/PMC1920564
+    confianza: media
+    areas_afectadas:
+    - salud
+    - medios
+    - desinformacion
+    - personas_mayores
+    id: oftalmologa/h3/1
+  - texto: 'Las sociedades de oftalmología publican a mediodía una posición explícita: no se recambiará ninguna lente intraocular para recuperar la visión de los colores nuevos. Las consultas de pacientes operados con lente con filtro pasan de la pregunta a la queja, y aparece un discurso de agravio del tipo ''a nosotros nos lo han quitado'', mientras alguna clínica privada en el extranjero insinúa en redes que podría hacerlo.'
+    mecanismo: Explantar una lente intraocular es una cirugía con riesgos reales (desprendimiento de retina, daño del endotelio corneal, rotura de la cápsula, edema macular) y solo se indica por un problema clínico. Ningún cirujano puede justificar ese riesgo ante un beneficio perceptivo que nadie sabe si es permanente, y la responsabilidad legal y el consentimiento informado lo hacen inviable en la sanidad pública y en las clínicas serias. La negativa, correcta, deja sin salida a un colectivo que sí tiene una pérdida real, y ese hueco es el que aprovecha la oferta oportunista que ya existe para las gafas falsas (h2-07).
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud
+    - sanidad_privada
+    - personas_mayores
+    - fraude
+    id: oftalmologa/h3/2
+  - texto: 'Con el tráfico de mediodía los conductores descubren que el coche no protege por igual: el parabrisas corta casi todo el deslumbramiento, pero las ventanillas laterales no, y las quejas se concentran en la luz que entra de lado y al conducir con la ventanilla bajada. Motoristas, ciclistas y repartidores, sin parabrisas, son los más afectados, y los consejos de tráfico pasan a ser ''ventanillas subidas y gafas UV400 aunque estés dentro del coche''.'
+    mecanismo: 'El parabrisas es vidrio laminado con una lámina intermedia de plástico que absorbe casi todo el UV-A, mientras que las ventanillas laterales suelen ser vidrio templado sin esa capa. El hecho h1 de que en vehículos el cambio pasa casi desapercibido vale para quien mira hacia delante, pero con el sol de noviembre bajo y lateral en muchas calles, buena parte de la luz entra por las ventanillas. Matiza también h2-04: los coches aparcados como refugio solo funcionan si el sol no entra de lado.'
+    dato: En un estudio de 29 coches, los parabrisas bloqueaban de media el 96 % del UV-A y las ventanillas laterales el 71 %; solo 4 coches tenían ventanillas laterales que bloquearan más del 90 %.
+    fuente: https://www.sciencedaily.com/releases/2016/05/160512124928.htm
+    confianza: alta
+    areas_afectadas:
+    - trafico
+    - transporte
+    - reparto
+    - seguridad_vial
+    id: oftalmologa/h3/3
+  - texto: La prueba casera de quitarse las gafas da resultados distintos según el material de la lente, y a mediodía circulan testimonios contradictorios del tipo 'con mis gafas también lo veo un poco' o 'lo veo alrededor de la montura'. Los ópticos tienen que explicar que unas gafas graduadas no filtran igual que otras y que muchas lentillas llevan filtro UV y otras no, y la consulta típica en las ópticas pasa a ser '¿qué filtran mis gafas?'.
+    mecanismo: 'El policarbonato y los materiales de alto índice absorben casi todo el UV-A por sí mismos, mientras que el plástico orgánico clásico sin tratamiento deja pasar una parte. Entre las lentillas blandas, unas llevan bloqueador UV y otras no. Además las gafas no tapan todo el campo visual: el UV-A disperso del cielo (h2-04) entra por los lados y por encima de la montura, y se ve como un halo periférico de color nuevo. La prueba de h2-01 funciona como regla general, pero en cada persona el resultado depende de un dato que casi nadie conoce de sus propias gafas.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud
+    - opticas
+    - comercio
+    - desinformacion
+    id: oftalmologa/h3/4
+  - texto: Las consultas de oftalmología y los servicios de urgencias dejan de dilatar la pupila en las revisiones no urgentes de mediodía o dan gafas desechables a la salida, porque los primeros pacientes que salen a la calle con la pupila dilatada sufren un deslumbramiento mucho más intenso que el resto.
+    mecanismo: Las gotas para explorar el fondo de ojo mantienen la pupila dilatada entre cuatro y seis horas, y una pupila de siete u ocho milímetros deja entrar varias veces más luz que una contraída por el sol. Ese paciente pierde además el reflejo pupilar que protege del exceso de luz, así que el UV-A que antes no percibía le llega como un deslumbramiento fuerte al salir. Es el mismo efecto que las gafas oscuras sin filtro de h2-04, pero producido por la propia consulta, y los servicios lo corrigen con un cambio de protocolo barato y rápido en cuanto tienen las primeras quejas.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud
+    - sanidad_publica
+    - protocolos_clinicos
+    id: oftalmologa/h3/5
+  reacciona_a:
+  - disruptor/h2/2
+  - disruptor/h2/3

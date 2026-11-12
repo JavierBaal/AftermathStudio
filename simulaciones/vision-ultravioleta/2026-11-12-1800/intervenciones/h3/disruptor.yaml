@@ -1,0 +1,64 @@
+intervencion:
+  agente: disruptor
+  tramo: h3
+  afirmaciones:
+  - texto: 'En la tercera hora, junto a ventanas y en la calle, nietos e hijos adolescentes empiezan a ver en la cara de sus padres y abuelos un moteado oscuro de manchas, pecas y daño solar que antes no se veía, y se lo dicen. Los mayores, que apenas perciben el color nuevo, no pueden comprobarlo en el espejo y dependen de lo que les cuentan los jóvenes. Las consultas a dermatología y farmacia pasan del miedo por los ojos a la pregunta de si esas manchas son cáncer, y la tendencia adolescente de la ''cara lavada'' se convierte en una marca de edad: la piel joven sale limpia en el color nuevo y la adulta, manchada.'
+    mecanismo: 'La fotografía ultravioleta revela el daño solar acumulado porque la melanina irregular que deja la exposición absorbe mucho más UV que la piel sana, aunque en luz visible no destaque. Con la percepción UV-A ese contraste lo ve cualquiera a la luz del día. Se produce una paradoja óptica: quienes más daño acumulado tienen, los mayores, son los que menos lo ven, porque su cristalino amarillento filtra el UV (h2-02), mientras que los niños y adolescentes, con cristalino transparente, lo ven con más nitidez. El diagnóstico lo hace el nieto, no el espejo, y llega por la misma vía de los chats familiares que ya comparaba generaciones. Como nadie sabe distinguir en el canal UV una mancha benigna de una lesión, la duda se deriva a dermatología y farmacia.'
+    dato: La Academia Americana de Dermatología muestra con fotos UV que la luz ultravioleta revela daño solar invisible en fotos normales, ya visible en un niño de 4 años y mucho mayor en una persona de 64.
+    fuente: https://www.aad.org/public/everyday-care/sun-protection/sun-damage-skin/hidden-sun-damage
+    confianza: media
+    areas_afectadas:
+    - salud
+    - dermatologia
+    - familias
+    - cosmetica
+    - cultura
+    id: disruptor/h3/1
+  - texto: Los interiores con ventanas corrientes no funcionan como refugio. En aulas, oficinas y autobuses junto a la ventana sigue habiendo deslumbramiento y colores nuevos, así que en la tercera hora la gente baja persianas y estores, enciende la luz artificial a mediodía y se aparta hacia pasillos y zonas interiores. Los colegios que metieron el recreo dentro descubren que las aulas con grandes ventanales molestan casi tanto como el patio, y el coche aparcado funciona como refugio por el parabrisas pero no por las ventanillas laterales.
+    mecanismo: 'El vidrio común de ventana bloquea casi todo el UV-B pero deja pasar una gran parte del UV-A, que es justo la banda que ahora se percibe. Solo el vidrio laminado, como el de los parabrisas, o los acristalamientos con capas específicas lo cortan casi por completo. La conducta descrita en h2-04 lleva a la gente a ''espacios con techo y cristal'', pero lo que protege es el techo opaco y la distancia a la ventana, no el cristal. El resultado es un consumo de luz eléctrica a mediodía anómalo para un martes soleado y una jerarquía improvisada de espacios: el centro del edificio y el sótano valen más que la planta acristalada.'
+    dato: El vidrio residencial común deja pasar entre el 45 y el 75 % del UVA; las ventanillas laterales de los coches, de vidrio templado, entre el 4 % y casi el 56 %; el parabrisas laminado bloquea el 98 %.
+    fuente: https://www.uow.edu.au/media/2025/can-you-get-sunburnt-or-uv-skin-damage-through-car-or-homewindows.php
+    confianza: alta
+    areas_afectadas:
+    - educacion
+    - trabajo
+    - transporte
+    - energia
+    - salud
+    id: disruptor/h3/2
+  - texto: 'Las primeras imágenes que ''muestran'' el fenómeno no salen de los móviles sino de una comunidad pequeña: fotógrafos con cámaras convertidas a espectro completo y filtros de paso UV, astrónomos aficionados y laboratorios forenses. En la tercera hora publican fotos UV-A en falso color que se viralizan justo cuando amanece en la costa este de Norteamérica. Funcionan como primera prueba visual, pero cada imagen usa un falso color distinto y ninguno coincide con lo que la gente ve, así que se abre un debate nuevo sobre cuál es el color ''verdadero'' y las cuentas escépticas las presentan como manipulaciones.'
+    mecanismo: 'Los sensores de las cámaras sí registran algo de UV-A, pero los móviles llevan filtros que lo cortan (h1-06). Quien tiene una cámara a la que se ha retirado ese filtro y le pone un filtro que solo deja pasar UV, como el Baader U centrado en 350 nm, obtiene imágenes del canal UV, que hay que traducir a colores visibles mediante un balance de blancos arbitrario. Esa comunidad ya existe, sabe hacerlo en minutos y tiene incentivo para ser la primera. La foto en falso color resuelve el problema de la prueba imposible para el público que aún no ha visto el sol, pero introduce otro: como no hay forma de mostrar el color tal cual, cada traducción parece un montaje, y eso alimenta tanto la confirmación como la sospecha en el choque entre ''lo veo'' y ''es sugestión''.'
+    dato: El filtro Baader U, usado en fotografía terrestre UV con cámaras convertidas, transmite una banda centrada en unos 350 nm; la fotografía UV requiere asignar falso color mediante balance de blancos.
+    fuente: https://savazzi.net/photography/uv-white-balance.html
+    confianza: media
+    areas_afectadas:
+    - medios
+    - verificacion
+    - ciencia
+    - Norteamerica
+    id: disruptor/h3/3
+  - texto: 'Dermatólogos y divulgadores dan la vuelta a la mancha de la crema: lo que en la primera hora era vergüenza pasa a usarse como prueba de que la crema funciona y de dónde falta. En la tercera hora circulan vídeos de ''si no se te ve oscuro, no te protege'', la gente revisa en la ventana las zonas que se deja sin crema (orejas, cuello, párpados) y empiezan las quejas contra cremas, maquillajes con SPF y protectores baratos que apenas se oscurecen. La protección solar pasa a ser comprobable por el consumidor por primera vez.'
+    mecanismo: 'Discrepo en parte de economista/h2/3. Que un filtro solar se vea oscuro en el canal UV-A es un problema estético, pero también es una verificación instantánea de cobertura y de eficacia que antes solo daban las cámaras UV que se usan en campañas dermatológicas. Los divulgadores que en h2-05 perdían la batalla contra la ''cara lavada'' necesitan un argumento que no dependa de la autoridad, y el ojo de cada uno se lo da, igual que la prueba casera de las gafas funcionó porque cada uno la repetía. El golpe para la cosmética solar se reparte: caen los productos que no pasan la prueba a simple vista y ganan los que se ven bien aplicados y uniformes.'
+    dato: Los vídeos con cámara UV como 'How the sun sees you' mostraban que la crema solar aparece oscura en UV y deja ver las zonas sin cubrir.
+    fuente: https://www.smithsonianmag.com/smart-news/ultraviolet-camera-reveals-secret-price-sunbathing-180952363/
+    confianza: media
+    areas_afectadas:
+    - salud
+    - cosmetica
+    - consumo
+    - redes
+    id: disruptor/h3/4
+  - texto: En el poniente de Almería y otras zonas de invernaderos, los trabajadores descubren que dentro de muchas naves no se ven los colores nuevos ni hay deslumbramiento, mientras que fuera sí. En la tercera hora los invernaderos funcionan como refugio improvisado para jornaleros y vecinos, y la pregunta de por qué ese plástico 'protege' se suma a la confusión sobre qué materiales filtran el fenómeno.
+    mecanismo: Una parte de las cubiertas de invernadero que se usan en la horticultura intensiva son plásticos fotoselectivos que absorben el ultravioleta, por razones agronómicas y de control de plagas. Con el sol de mediodía, el campo de plástico concentra en poco espacio a mucha gente trabajando al aire libre que no puede irse a un centro comercial, y la nave con cubierta anti-UV le da justo lo que le falta. Como no todas las cubiertas filtran igual, unas naves 'protegen' y otras no, y esa diferencia, que el trabajador comprueba con sus ojos, refuerza la idea de que hay materiales que bloquean el fenómeno.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    areas_afectadas:
+    - agricultura
+    - trabajo
+    - Espana
+    id: disruptor/h3/5
+  reacciona_a:
+  - economista/h2/3
+  - oftalmologa/h2/5
+  - medios/h2/3

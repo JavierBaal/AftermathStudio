@@ -1,0 +1,62 @@
+intervencion:
+  agente: medios
+  tramo: h5
+  afirmaciones:
+  - texto: 'A las 15:00 de Madrid los telediarios de sobremesa en España abren con el fenómeno y, por primera vez, la explicación de la edad llega a quien más la necesita: con infografía del cristalino, el testimonio de un nonagenario operado de cataratas que ve el color mejor que su nieto y el caso de Monet. Es el primer momento del día en que el mensaje sanitario le gana el espacio al corte de la rueda de prensa entre el público mayor, y muchos abuelos dejan de leer la diferencia por edad como algo dirigido contra ellos y pasan a preguntar a sus nietos qué ven.'
+    mecanismo: 'La rueda de prensa no llegó (h3-01) porque se consumió en cortes de vídeo corto, un canal joven. El telediario de las 15:00 es el formato con más audiencia de la franja de mediodía, la ven sobre todo personas mayores en casa, y tiene lo que el corte no tiene: dos o tres minutos de pieza montada con gráfico, que es justo lo que necesita una explicación óptica. Las redacciones han tenido tres horas para conseguir el personaje que resuelve el relato, el anciano operado (oftalmologa/h3/1), que es televisivo porque invierte la expectativa. Así el contraargumento a la teoría del cambio dirigido llega por la tele a los mismos mayores a los que la teoría llegaba por WhatsApp.'
+    dato: En noviembre de 2025 Antena 3 Noticias 1 tuvo un 24% de cuota media en la sobremesa entre semana y el Telediario 1 de TVE un 15,3%.
+    fuente: https://www.formulatv.com/noticias/antena-3-noticias-lidera-noviembre-telediario-135747/
+    confianza: media
+    areas_afectadas:
+    - medios
+    - salud
+    - opinion_publica
+    - familias
+    id: medios/h5/1
+  - texto: 'Las redes conspirativas no se quedan sin argumento con el caso de los ancianos operados: lo absorben. Entre las 13:00 y las 15:00 circula en Telegram y en canales de vídeo la versión de que los filtros UV de las lentes intraoculares se introdujeron en los ochenta ''porque ya lo sabían'', y que a millones de operados ''les pusieron un tapón'' para que no vieran lo que llegaría. El agravio de los operados con filtro encuentra así un culpable con nombre (las farmacéuticas y los fabricantes de lentes) y se cruza con el bulo de que las ópticas ''lo sabían''.'
+    mecanismo: 'Discrepo en parte de oftalmologa/h3/1: el dato histórico que desmonta la selección por edad trae dentro una fecha, y una fecha es materia prima para una conspiración. Un marco conspirativo maduro no se refuta con un contraejemplo; lo reinterpreta como prueba de que el plan es anterior. El relato ya tenía beneficiarios (las ópticas, h3-03) y ahora gana una cronología de cuarenta años y unas víctimas reales, los operados con filtro, que tienen una pérdida verdadera y una negativa de las sociedades científicas a corregirla (h3-04). El agravio legítimo da credibilidad emocional a la parte inventada.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - desinformacion
+    - salud
+    - sanidad_privada
+    - industria_optica
+    id: medios/h5/2
+  - texto: 'A partir de las marcas en la piel que se comentan en institutos (adolescente/h3/4) se viraliza el bulo de que la visión ultravioleta ''ve a través de la ropa''. Hay chicas que dejan de ir al gimnasio o se niegan a quitarse la sudadera, padres que preguntan en los grupos del colegio si es verdad, y los verificadores tienen que desmentir algo que es al revés: el tejido corta el UV-A más que la luz visible y lo único que se ve distinto es la piel descubierta.'
+    mecanismo: 'Cada vez que aparece un sentido o un sensor nuevo, el primer bulo de privacidad es el de los rayos X. Pasó en 2020 con la cámara de filtro de color del OnePlus 8 Pro, que usaba infrarrojo y veía a través de algunos plásticos, y aunque no atravesaba la ropa la idea corrió tanto que la marca desactivó la función. Aquí hay una semilla real: en el canal nuevo se ven manchas y marcas que antes no se veían, así que el salto de ''se ven cosas ocultas en la piel'' a ''se ve lo que hay debajo de la ropa'' es corto para quien no conoce la física. Además encaja en la conversación que ya existía entre adolescentes sobre quién ve qué del cuerpo del otro, y el miedo a la exposición viaja más rápido que la explicación de que la ropa protege.'
+    dato: En mayo de 2020 OnePlus desactivó por software el filtro Photochrom de la cámara del OnePlus 8 Pro, que usaba infrarrojo y podía ver a través de plásticos finos, tras la polémica de privacidad; las pruebas mostraron que no atravesaba la ropa.
+    fuente: https://www.engadget.com/one-plus-disable-see-through-filter-8-pro-114502178.html
+    confianza: media
+    areas_afectadas:
+    - desinformacion
+    - educacion
+    - privacidad
+    - adolescentes
+    id: medios/h5/3
+  - texto: 'YouTube, TikTok y los buscadores ponen paneles informativos sobre las búsquedas de los nombres virales del color, con enlace a la declaración de la OMS y a las autoridades sanitarias de cada país, y los verificadores por fin tienen una fuente oficial que citar. El efecto es desigual: en las redes abiertas el contenido de los divulgadores gana posición, pero en los canales conspirativos el panel se presenta como prueba de censura y el tráfico se desplaza aún más hacia Telegram y plataformas alternativas.'
+    mecanismo: Las plataformas ya tienen la herramienta, los paneles de información que usaron con la COVID y con noticias de última hora, pero necesitan una fuente reconocida a la que enlazar. Hasta la hora 3 no la había; la declaración de la OMS (h3-09) y las notas de los ministerios se la dan, y activar un panel es un cambio de configuración que se hace en horas. Pero el panel actúa sobre la búsqueda y la recomendación, no sobre la mensajería, y para una comunidad que ya cree en la ocultación (h3-03) una etiqueta oficial encima de su vídeo es la confirmación de que alguien intenta tapar algo.
+    dato: YouTube muestra paneles de información de fuentes autorizadas junto a resultados de búsqueda y vídeos sobre temas propensos a la desinformación y sobre noticias en desarrollo.
+    fuente: https://www.youtube.com/intl/ALL_ie/howyoutubeworks/product-features/news-information/
+    confianza: alta
+    areas_afectadas:
+    - plataformas
+    - desinformacion
+    - verificacion
+    - salud
+    id: medios/h5/4
+  - texto: 'En Asia oriental, donde a las 15:00 de Madrid son las 22:00 o las 23:00 y el sol se puso antes del suceso, la mayoría aún no ha visto el color nuevo con sus ojos, y la conversación nocturna la ocupa la luz negra: linternas UV de detectar billetes y manchas, lámparas de uñas y luces de discoteca se convierten en la forma casera de verlo, con directos de madrugada, agotamiento de linternas UV en las tiendas en línea y los primeros avisos sanitarios contra mirar directamente los LED ultravioleta.'
+    mecanismo: 'Es la misma brecha de credibilidad que vivió Norteamérica antes del amanecer (h3-02), pero con una diferencia: tras cinco horas de vídeos y testimonios nadie allí lo descarta como histeria, todos quieren comprobarlo ya y faltan horas para que salga el sol. Las fuentes domésticas de UV-A existen en millones de casas y comercios, y quien ha visto los testimonios deduce que si el color nuevo es ultravioleta, la luz negra debería mostrarlo. La prueba funciona, así que se viraliza como la de quitarse las gafas. Pero una linterna UV apuntada a los ojos concentra mucha más radiación que el cielo, y la curiosidad de mirarla de frente es la que obliga a los sanitarios a salir con un aviso nuevo.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - asia
+    - comercio_electronico
+    - salud
+    - redes_sociales
+    id: medios/h5/5
+  reacciona_a:
+  - oftalmologa/h3/1
+  - adolescente/h3/4

@@ -1,0 +1,60 @@
+intervencion:
+  agente: medios
+  tramo: h3
+  afirmaciones:
+  - texto: 'Hacia las 12:40 de Madrid amanece en la costa este de Estados Unidos y los magacines matinales sacan las cámaras a la calle en directo. El clip más compartido de la hora en todo el mundo es la reacción en antena de un presentador o comentarista que una hora antes hablaba de ''histeria colectiva'' y que, al mirar al cielo, se queda sin palabras. El escepticismo norteamericano no desaparece, pero cambia de argumento: ya no niega el fenómeno sino que culpa a los medios de ''contagiar'' la alarma.'
+    mecanismo: 'Los magacines matinales tienen el formato de conexión exterior en directo ya montado y, tras dos horas de debate entre ''lo veo'' y ''es sugestión'', salir a comprobarlo con el sol es el momento de máxima audiencia. Como el color no sale en cámara (h1-06), lo único que se puede emitir es la cara de quien lo ve, y la de un escéptico convertido es la más valiosa porque resuelve el conflicto narrativo en segundos. Quien había apostado por el escepticismo no puede retractarse del todo sin perder credibilidad ante su audiencia, así que se desplaza a la posición más cercana que puede defender: el fenómeno existe, pero la alarma la fabrican los medios.'
+    dato: El 12 de noviembre el sol sale en Nueva York (Manhattan) a las 6:39, que son las 12:39 en Madrid.
+    fuente: https://sunrise-sunset.org/us/10012
+    confianza: media
+    areas_afectadas:
+    - medios
+    - opinion_publica
+    - politica_internacional
+    id: medios/h3/1
+  - texto: En la rueda de prensa posterior al Consejo de Ministros, lo que circula en redes no es el mensaje leído por la portavoz sino un corte de quince segundos con su respuesta a la pregunta de si el Gobierno sabía algo antes, a raíz de la frase de defensa sobre la acción hostil. Cualquier fórmula del tipo 'no tenemos constancia' o 'no podemos descartar nada' se recorta sin contexto y alimenta la teoría de la ocultación, y como la intervención no menciona las diferencias por edad ni las lentes de cataratas, la idea de un cambio selectivo sigue sin respuesta oficial.
+    mecanismo: Los periodistas llevan a la rueda de prensa las preguntas que ya son tendencia, y la más compartida es la de la ocultación (h2-09), no la sanitaria. Un mensaje institucional leído es largo y plano, mientras que una respuesta improvisada a una pregunta incómoda tiene el formato que premian los algoritmos de vídeo corto. La prudencia jurídica obliga a la portavoz a no negar de forma tajante lo que no sabe, y esa prudencia, recortada, suena a evasiva. Un mensaje político preparado para calmar no incluye detalles de óptica como el cristalino o las lentes intraoculares, que son justo lo que desmontaría la idea de selección.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - politica
+    - medios
+    - desinformacion
+    - confianza_institucional
+    id: medios/h3/2
+  - texto: 'La teoría de la ocultación se fusiona y la difunden sobre todo redes conspirativas que ya existían (antivacunas, ''chemtrails'', 5G), que reciclan sus plantillas: el cielo de otro color se presenta como prueba de que ''han echado algo'', la diferencia entre abuelos y nietos como prueba de que el cambio va dirigido a las generaciones nuevas, la frase de defensa como confesión y la subida de las ópticas como el beneficiario. El relato unificado gana tracción en Telegram y en canales de vídeo antes que en las redes abiertas.'
+    mecanismo: Construir una narrativa conspirativa desde cero lleva tiempo, pero estas comunidades ya tienen audiencia, influencers, canales con cientos de miles de suscriptores y un marco listo (algo en el cielo, un plan oculto, alguien que se lucra) en el que encajan sin esfuerzo las tres piezas que dejó la segunda hora. El cielo es literalmente distinto para todo el mundo, así que el argumento visual del 'mira arriba' de los chemtrails funciona mejor que nunca. Telegram no limita los reenvíos como WhatsApp ni modera como las grandes plataformas, así que el relato completo se cuece allí y baja después a los grupos familiares en trozos.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - desinformacion
+    - opinion_publica
+    - confianza_institucional
+    id: medios/h3/3
+  - texto: 'En las zonas con sol, la tendencia de ir con la cara lavada choca con un descubrimiento que no esperaba nadie: en el color nuevo se ven en los adultos las manchas solares acumuladas que no se veían a simple vista, como pecas oscuras repartidas por la cara. Los dermatólogos recuperan la lógica del vídeo viral ''How the sun sees you'' y lo usan como argumento a favor de la crema, y la tendencia se parte por edad: los adolescentes, con poco daño acumulado, siguen con la cara lavada, y muchos adultos vuelven al maquillaje o la crema porque tienen que elegir entre ''la mancha negra'' y ''las manchas de sol''.'
+    mecanismo: 'Discrepo en parte de adolescente/h2/4: la cara lavada no es neutra para todos. La melanina absorbe el ultravioleta, y el daño solar crónico deja depósitos irregulares de pigmento (léntigos solares) que en luz visible apenas se notan pero en UV-A contrastan mucho, que es lo que las cámaras ultravioleta llevan años mostrando. La piel de un adolescente tiene poco daño acumulado, así que su cara en el canal nuevo sale limpia, mientras que la de un adulto de cuarenta o cincuenta años sale moteada. Lo que para los jóvenes es un reto divertido, para los adultos es una exposición incómoda, y eso da a los divulgadores sanitarios un argumento visual que no tenían en la segunda hora.'
+    dato: En 2014 el vídeo 'How the sun sees you', grabado con cámara ultravioleta, se hizo viral mostrando manchas y léntigos solares invisibles en la piel a simple vista.
+    fuente: https://www.smithsonianmag.com/smart-news/ultraviolet-camera-reveals-secret-price-sunbathing-180952363/
+    confianza: media
+    areas_afectadas:
+    - salud
+    - cultura
+    - redes_sociales
+    - cosmetica
+    id: medios/h3/4
+  - texto: 'Google y las grandes plataformas publicitarias aplican al fenómeno sus políticas de eventos sensibles y empiezan a bloquear anuncios que usan los nombres virales del color o venden gafas y protección con precios abusivos o plazos imposibles. El fraude no desaparece: se desplaza de los anuncios de pago al contenido orgánico, a las tiendas dentro de TikTok e Instagram, a los marketplaces y a los canales de Telegram, donde la detección es más lenta.'
+    mecanismo: La política de eventos sensibles de Google ya prohíbe la subida abusiva de precios, vender lo que no se puede suministrar y el oportunismo con palabras clave ligadas a una crisis, que son justo los patrones de h2-07, así que no hace falta inventar una norma nueva, solo marcar el suceso. Los equipos de seguridad publicitaria lo hacen en horas porque los dominios recién registrados con términos virales son una señal clásica de fraude. Pero el bloqueo actúa sobre el canal de pago, y el estafador, que ya tiene la tienda montada, pasa a moverla con vídeos, influencers pequeños y mensajería, donde el comprador sigue sin poder comprobar la promesa.
+    dato: La política de eventos sensibles de Google Ads prohíbe la subida artificial de precios de suministros esenciales, vender bienes que no pueden cubrir la demanda creada por el suceso y usar palabras clave del suceso para captar tráfico.
+    fuente: https://support.google.com/adspolicy/answer/16489952
+    confianza: media
+    areas_afectadas:
+    - plataformas
+    - fraude
+    - comercio_electronico
+    - desinformacion
+    id: medios/h3/5
+  reacciona_a:
+  - adolescente/h2/4
+  - politico/h2/1

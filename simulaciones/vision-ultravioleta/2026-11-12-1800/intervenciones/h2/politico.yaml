@@ -2,34 +2,61 @@ intervencion:
   agente: politico
   tramo: h2
   afirmaciones:
-    - texto: "En España, la primera aparición pública del Gobierno no es del presidente, sino de la ministra portavoz en la rueda de prensa posterior al Consejo de Ministros del martes, entre las 12:00 y las 13:00. Allí el Consejo se reconvierte en reunión de seguimiento y la portavoz lee un mensaje breve: no hay indicios de daño ocular, se pide no difundir avisos sin fuente oficial y se remite a Sanidad y a Interior para los detalles."
-      mecanismo: "El suceso coincide con el día y la hora en que el Consejo de Ministros se reúne en Moncloa, así que los ministros ya están juntos y no hace falta convocar nada extraordinario. La rueda de prensa posterior es un acto de agenda fija: suspenderla sería más alarmante que celebrarla. Usar a la portavoz y no al presidente protege la legitimidad del jefe de Gobierno, que no compromete su figura ante algo sin causa, y permite responder a los bulos sanitarios con tono oficial sin declarar una emergencia que luego habría que justificar."
-      dato: "El Consejo de Ministros se celebra habitualmente los martes en Moncloa y va seguido de una rueda de prensa con la ministra portavoz."
-      fuente: "https://www.lamoncloa.gob.es/consejodeministros/resumenes/Paginas/2026/210726-rueda-prensa-ministros.aspx"
-      confianza: media
-      areas_afectadas: [gobierno, comunicacion_institucional, medios, salud]
-    - texto: "Los ministerios de Sanidad europeos y las agencias de protección civil publican en la segunda hora los primeros desmentidos formales de los falsos avisos sanitarios, con una recomendación práctica de tres puntos: gafas de sol con filtro UV400 al aire libre, no retirar la crema solar por estética y no tapar los ojos a los bebés en interiores. Es una comunicación técnica, firmada por el organismo y no por un político."
-      mecanismo: "Los bulos usan logos copiados de la OMS y de los ministerios, y eso convierte el silencio en un coste directo para la institución suplantada: cada hora sin desmentido es una hora en que su marca respalda algo falso. Sanidad es además el único departamento con competencia clara sobre un síntoma (la fotofobia) aunque no la tenga sobre la causa. El canal técnico permite actuar sin que un ministro tenga que explicar lo que nadie sabe, y la recomendación de no quitarse la crema responde a la vergüenza social que ya ha llevado a mucha gente a lavarse la cara."
-      dato: ""
-      fuente: ""
-      confianza: alta
-      areas_afectadas: [salud, comunicacion_institucional, desinformacion]
-    - texto: "La presidencia rotatoria del Consejo de la UE activa el mecanismo de respuesta política integrada a las crisis (IPCR) en su modo de intercambio de información, no en activación plena. Se abre un informe conjunto de situación con aportaciones de los Estados y de la Comisión, pero no se convoca Consejo extraordinario ni se adoptan medidas comunes."
-      mecanismo: "El modo de intercambio de información es el escalón intermedio del IPCR y puede activarlo la presidencia sin el acuerdo político que exige la activación plena. Da a los gobiernos una forma de parecer coordinados ante la prensa sin comprometerse a nada, y resuelve el problema de la primera hora, cuando nadie sabía a qué ministerio asignar el asunto: el informe obliga a cada Estado a nombrar un punto de contacto. Escalar más necesitaría una amenaza concreta que justifique decisiones comunes, y no la hay."
-      dato: "El IPCR funciona en tres modos: seguimiento, intercambio de información y activación plena."
-      fuente: "https://www.consilium.europa.eu/en/policies/ipcr-response-to-crises"
-      confianza: media
-      areas_afectadas: [union_europea, coordinacion_internacional, gobierno]
-    - texto: "Ante preguntas de periodistas, portavoces de defensa de varias potencias y de la OTAN declaran que no hay indicios de acción hostil, sin decir quién lo ha evaluado ni cómo. La frase confirma de forma implícita que se ha estudiado la hipótesis de un ataque, y en redes se lee como prueba de que los gobiernos sabían más de lo que decían."
-      mecanismo: "En cuanto los medios entran en directo, la pregunta de si es un ataque llega a todas las oficinas de prensa de defensa, que no pueden negarse a responder sin alimentar sospechas. La fórmula estándar de no hay indicios es la menos costosa, pero solo tiene sentido si alguien ha mirado, así que revela parcialmente las evaluaciones secretas. El problema de legitimidad se invierte: el secreto que protegía de alarmar ahora alimenta el relato de ocultación, sobre todo en los grupos de mensajería donde ya circula la idea de un cambio selectivo."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [defensa, comunicacion_institucional, desinformacion, confianza_institucional]
-    - texto: "La descoordinación internacional se desplaza: en Brasil, Argentina y el resto del Cono Sur amanece con sol de primavera en plena entrada a colegios y trabajos, y sus gobiernos pasan de las declaraciones de calma a decisiones operativas (avisos de tráfico, recreos a cubierto, retrasos en obras al aire libre). Estados Unidos y Canadá siguen de noche y su Gobierno federal mantiene el mensaje de calma, de modo que en el mismo continente conviven dos posturas."
-      mecanismo: "A las 12:00 de Madrid son las 8:00 en Buenos Aires y Brasilia, con el sol ya alto en noviembre en el hemisferio sur, mientras que en Nueva York son las 6:00 y aún no ha salido el sol. La presión operativa llega con la luz y no con la noticia: cuando la población sale a la calle y aparecen deslumbramientos en la hora punta, los gobiernos locales y regionales actúan por responsabilidad legal, igual que los reguladores europeos en la primera hora. Cada gobierno responde a su propio reloj solar, y eso impide un mensaje común en la OEA o en el G20."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [gobierno, transporte, educacion, coordinacion_internacional]
-  reacciona_a: [medios/h1/3, disruptor/h1/3, oftalmologa/h1/5, disruptor/h1/1]
+  - texto: 'En España, la primera aparición pública del Gobierno no es del presidente, sino de la ministra portavoz en la rueda de prensa posterior al Consejo de Ministros del martes, entre las 12:00 y las 13:00. Allí el Consejo se reconvierte en reunión de seguimiento y la portavoz lee un mensaje breve: no hay indicios de daño ocular, se pide no difundir avisos sin fuente oficial y se remite a Sanidad y a Interior para los detalles.'
+    mecanismo: 'El suceso coincide con el día y la hora en que el Consejo de Ministros se reúne en Moncloa, así que los ministros ya están juntos y no hace falta convocar nada extraordinario. La rueda de prensa posterior es un acto de agenda fija: suspenderla sería más alarmante que celebrarla. Usar a la portavoz y no al presidente protege la legitimidad del jefe de Gobierno, que no compromete su figura ante algo sin causa, y permite responder a los bulos sanitarios con tono oficial sin declarar una emergencia que luego habría que justificar.'
+    dato: El Consejo de Ministros se celebra habitualmente los martes en Moncloa y va seguido de una rueda de prensa con la ministra portavoz.
+    fuente: https://www.lamoncloa.gob.es/consejodeministros/resumenes/Paginas/2026/210726-rueda-prensa-ministros.aspx
+    confianza: media
+    areas_afectadas:
+    - gobierno
+    - comunicacion_institucional
+    - medios
+    - salud
+    id: politico/h2/1
+  - texto: 'Los ministerios de Sanidad europeos y las agencias de protección civil publican en la segunda hora los primeros desmentidos formales de los falsos avisos sanitarios, con una recomendación práctica de tres puntos: gafas de sol con filtro UV400 al aire libre, no retirar la crema solar por estética y no tapar los ojos a los bebés en interiores. Es una comunicación técnica, firmada por el organismo y no por un político.'
+    mecanismo: 'Los bulos usan logos copiados de la OMS y de los ministerios, y eso convierte el silencio en un coste directo para la institución suplantada: cada hora sin desmentido es una hora en que su marca respalda algo falso. Sanidad es además el único departamento con competencia clara sobre un síntoma (la fotofobia) aunque no la tenga sobre la causa. El canal técnico permite actuar sin que un ministro tenga que explicar lo que nadie sabe, y la recomendación de no quitarse la crema responde a la vergüenza social que ya ha llevado a mucha gente a lavarse la cara.'
+    dato: ''
+    fuente: ''
+    confianza: alta
+    areas_afectadas:
+    - salud
+    - comunicacion_institucional
+    - desinformacion
+    id: politico/h2/2
+  - texto: La presidencia rotatoria del Consejo de la UE activa el mecanismo de respuesta política integrada a las crisis (IPCR) en su modo de intercambio de información, no en activación plena. Se abre un informe conjunto de situación con aportaciones de los Estados y de la Comisión, pero no se convoca Consejo extraordinario ni se adoptan medidas comunes.
+    mecanismo: 'El modo de intercambio de información es el escalón intermedio del IPCR y puede activarlo la presidencia sin el acuerdo político que exige la activación plena. Da a los gobiernos una forma de parecer coordinados ante la prensa sin comprometerse a nada, y resuelve el problema de la primera hora, cuando nadie sabía a qué ministerio asignar el asunto: el informe obliga a cada Estado a nombrar un punto de contacto. Escalar más necesitaría una amenaza concreta que justifique decisiones comunes, y no la hay.'
+    dato: 'El IPCR funciona en tres modos: seguimiento, intercambio de información y activación plena.'
+    fuente: https://www.consilium.europa.eu/en/policies/ipcr-response-to-crises
+    confianza: media
+    areas_afectadas:
+    - union_europea
+    - coordinacion_internacional
+    - gobierno
+    id: politico/h2/3
+  - texto: Ante preguntas de periodistas, portavoces de defensa de varias potencias y de la OTAN declaran que no hay indicios de acción hostil, sin decir quién lo ha evaluado ni cómo. La frase confirma de forma implícita que se ha estudiado la hipótesis de un ataque, y en redes se lee como prueba de que los gobiernos sabían más de lo que decían.
+    mecanismo: 'En cuanto los medios entran en directo, la pregunta de si es un ataque llega a todas las oficinas de prensa de defensa, que no pueden negarse a responder sin alimentar sospechas. La fórmula estándar de no hay indicios es la menos costosa, pero solo tiene sentido si alguien ha mirado, así que revela parcialmente las evaluaciones secretas. El problema de legitimidad se invierte: el secreto que protegía de alarmar ahora alimenta el relato de ocultación, sobre todo en los grupos de mensajería donde ya circula la idea de un cambio selectivo.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - defensa
+    - comunicacion_institucional
+    - desinformacion
+    - confianza_institucional
+    id: politico/h2/4
+  - texto: 'La descoordinación internacional se desplaza: en Brasil, Argentina y el resto del Cono Sur amanece con sol de primavera en plena entrada a colegios y trabajos, y sus gobiernos pasan de las declaraciones de calma a decisiones operativas (avisos de tráfico, recreos a cubierto, retrasos en obras al aire libre). Estados Unidos y Canadá siguen de noche y su Gobierno federal mantiene el mensaje de calma, de modo que en el mismo continente conviven dos posturas.'
+    mecanismo: 'A las 12:00 de Madrid son las 8:00 en Buenos Aires y Brasilia, con el sol ya alto en noviembre en el hemisferio sur, mientras que en Nueva York son las 6:00 y aún no ha salido el sol. La presión operativa llega con la luz y no con la noticia: cuando la población sale a la calle y aparecen deslumbramientos en la hora punta, los gobiernos locales y regionales actúan por responsabilidad legal, igual que los reguladores europeos en la primera hora. Cada gobierno responde a su propio reloj solar, y eso impide un mensaje común en la OEA o en el G20.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - gobierno
+    - transporte
+    - educacion
+    - coordinacion_internacional
+    id: politico/h2/5
+  reacciona_a:
+  - medios/h1/3
+  - disruptor/h1/3
+  - oftalmologa/h1/5
+  - disruptor/h1/1

@@ -1,0 +1,59 @@
+intervencion:
+  agente: disruptor
+  tramo: h2
+  afirmaciones:
+  - texto: 'Durante la segunda hora, cuando ya circula que quitarse las gafas basta para ver los colores nuevos, aparece el primer grupo de verdad excluido: los operados de cataratas con lente intraocular moderna con filtro UV. Se quitan las gafas y siguen sin ver nada en ninguna parte del campo visual. Sus testimonios dan al rumor de ''yo no lo veo'' una base real, y las consultas de oftalmología empiezan a recibir la pregunta de si se puede cambiar la lente.'
+    mecanismo: 'Casi todas las lentes intraoculares que se implantan desde hace décadas llevan un cromóforo que absorbe el ultravioleta, para sustituir la función protectora del cristalino natural que se extrae. Al contrario que unas gafas, esa lente no se puede quitar: el UV-A nunca llega a la retina, de modo que la capacidad nueva existe pero no tiene luz que procesar. Es lo inverso de lo que la oftalmóloga señaló en la hora 1 (afáquicos e implantes antiguos sin filtro, que ya veían el tinte): con las lentes nuevas, la cirugía de cataratas pasa de ser una ventaja a ser una barrera. Como se trata sobre todo de personas mayores, el desmentido de ''basta con quitarse las gafas'' no les sirve, y su experiencia, verdadera, se mezcla con los bulos de cambio selectivo.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud
+    - informacion
+    - sociedad
+    id: disruptor/h2/1
+  - texto: 'En los chats familiares se impone una brecha generacional en la intensidad: niños y jóvenes describen colores vivos y deslumbramiento fuerte, mientras abuelos y padres mayores dicen ver ''un poco de brillo'' o casi nada. La primera explicación popular no es óptica sino de edad, del tipo ''el cambio afecta más a los jóvenes'', y alimenta teorías sobre un fenómeno dirigido a las generaciones nuevas.'
+    mecanismo: El cristalino humano amarillea con la edad y absorbe cada vez más ultravioleta y luz de onda corta antes de que llegue a la retina, así que la cantidad de UV-A que recibe un adulto mayor es mucho menor que la de un adolescente o un niño. La capacidad de percibir es la misma para todos, pero la señal que llega no. Como cada familia compara en tiempo real a tres generaciones por mensajería, la diferencia se hace visible al instante, y sin explicación médica pública se lee como una propiedad del fenómeno y no del ojo.
+    dato: El cristalino empieza a amarillear hacia los 10 años a medida que absorbe UV, y a los 60 años la luz que llega a los fotorreceptores es solo un tercio de la que llega a los 20.
+    fuente: https://2020mag.com/article/color-changes-as-the-eyes-age
+    confianza: media
+    areas_afectadas:
+    - sociedad
+    - informacion
+    - salud
+    id: disruptor/h2/2
+  - texto: 'La sombra no funciona como refugio. Quien se refugia bajo árboles, toldos o soportales sigue viendo un cielo deslumbrante y nota que el alivio es parcial. En la segunda hora, en las regiones con UV alto, la gente abandona la sombra al aire libre y se concentra en espacios cerrados con techo y cristal: centros comerciales, estaciones de metro, mezquitas, oficinas y vehículos aparcados con el motor en marcha. Se vacían terrazas, mercados al aire libre y paradas de autobús descubiertas.'
+    mecanismo: Discrepo de que buscar la sombra resuelva el problema (oftalmologa/h1/3 y hecho h1-01). Por la dispersión de Rayleigh, que crece mucho al acortarse la longitud de onda, una parte muy grande del UV-A llega de todo el cielo y no solo del disco solar. Por eso una sombra que tapa el sol pero deja ver el cielo apenas reduce la radiación que entra en el ojo, y además el cielo entero pasa a ser la superficie más brillante del campo visual. Solo un techo completo o el vidrio bloquean ese UV difuso. La conducta se reorganiza hacia los interiores, no hacia la sombra, y eso desplaza la gente a pocos espacios cerrados.
+    dato: En un estudio en parques con el sol alto y cielo despejado, las zonas a la sombra de estructuras construidas recibieron de media unas 3 dosis eritemáticas estándar frente a unas 5 al sol, una reducción de alrededor del 40 %.
+    fuente: https://www.arpansa.gov.au/built-shades-parks-protect-us-ultraviolet-radiation
+    confianza: media
+    areas_afectadas:
+    - salud
+    - movilidad
+    - comercio
+    - espacio_publico
+    id: disruptor/h2/3
+  - texto: En América, todavía de noche o al amanecer, las compañías eléctricas y los teléfonos de emergencia reciben avisos de 'chispas', 'fuego' o 'luz morada' en líneas de alta tensión, aisladores y subestaciones, sobre todo donde hay humedad o niebla. Algunas compañías mandan cuadrillas a revisar líneas que funcionan con normalidad.
+    mecanismo: Las líneas y equipos de alta tensión producen descargas de efecto corona que emiten sobre todo en el ultravioleta, de forma tenue y continua. Hasta ahora solo se veían con cámaras especiales y, de hecho, esas cámaras funcionaban mejor de noche porque de día el UV solar tapa la señal. Con la vista UV-A, en la oscuridad el resplandor se vuelve visible para cualquiera que pase cerca. Quien no sabe que la corona es normal lo interpreta como una avería o un incendio, y la norma de responder a cada aviso eléctrico obliga a revisar.
+    dato: Según un responsable de EPRI, la detección de corona por UV solo funcionaba de noche porque la luz solar en las bandas UV-A y UV-B enmascaraba la débil señal de la descarga.
+    fuente: https://www.laserfocusworld.com/optics/article/16555562/uv-detectors-camera-detects-power-line-corona-in-daytime
+    confianza: baja
+    areas_afectadas:
+    - energia
+    - emergencias
+    - infraestructuras
+    id: disruptor/h2/4
+  - texto: En lugares con luz solar intensa, profesores, compañeros de trabajo y familiares empiezan a ver en otras personas moratones antiguos y marcas de mordiscos o dedos que ya no se veían a simple vista. En la segunda hora aparecen las primeras preguntas incómodas en colegios, centros de trabajo y consultas, y algunas llamadas a servicios sociales y líneas de atención a la violencia, mezcladas con falsas alarmas por manchas de pigmentación normales.
+    mecanismo: La medicina forense usa la fotografía ultravioleta reflejada porque las alteraciones de la piel que deja una lesión siguen absorbiendo UV cuando el moratón ya ha desaparecido para la vista normal. Con la percepción UV-A, ese contraste deja de necesitar una cámara y lo ve cualquiera a la luz del día. Lo que la víctima o el agresor daban por borrado vuelve a estar a la vista de terceros. Como nadie sabe todavía distinguir una marca de lesión de una mancha solar o de pigmento en el canal UV, la detección real llega junto con sospechas injustas.
+    dato: La fotografía UV reflejada puede revelar moratones y marcas de mordisco después de que dejen de ser visibles, en algunos casos al menos 5 meses después de la lesión, según la literatura citada.
+    fuente: https://www.crime-scene-investigator.net/uvchildphoto.html
+    confianza: baja
+    areas_afectadas:
+    - proteccion_infancia
+    - violencia
+    - sanidad
+    - educacion
+    id: disruptor/h2/5
+  reacciona_a:
+  - oftalmologa/h1/2
+  - oftalmologa/h1/3

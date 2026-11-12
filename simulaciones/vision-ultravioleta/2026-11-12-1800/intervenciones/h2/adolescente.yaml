@@ -2,34 +2,62 @@ intervencion:
   agente: adolescente
   tramo: h2
   afirmaciones:
-    - texto: "En clase descubrimos que los de gafas sí lo ven: alguien se las quita, flipa, y en diez minutos todos los que llevan gafas o lentillas se las están quitando y poniendo para comparar. Lo de 'yo no lo veo' pasa de ser un bulo a ser una broma del grupo, y a los de gafas les pedimos que nos digan 'qué se pierden' con las gafas puestas."
-      mecanismo: "En un aula hay treinta personas juntas mirando lo mismo y alguien con gafas siempre acaba quitándoselas para frotarse los ojos o probar. En cuanto uno lo cuenta en voz alta, el resto lo repite porque nadie quiere ser el único que no lo ve. Por eso entre nosotros el rumor se deshace rápido, aunque en el grupo de la familia y en redes de mayores siga circulando, porque allí nadie está al lado para probar."
-      dato: ""
-      fuente: ""
-      confianza: alta
-      areas_afectadas: [educacion, redes_sociales, salud_visual, bulos]
-    - texto: "En el grupo de WhatsApp de la familia mi madre y mi tía reenvían el falso aviso de 'te quemas la retina' y me escriben que no salga al patio sin gafas. Nosotras nos reímos de ellas en el grupo de clase, pero varias acabamos haciéndoles caso a medias: no salimos al siguiente recreo 'por si acaso', aunque digamos que es una tontería."
-      mecanismo: "Los adultos de mi familia confían en lo que parece oficial y lo reenvían sin comprobar, y yo no tengo forma de demostrar que es falso porque nadie de verdad ha dicho nada. Burlarme de los bulos me hace quedar bien con mi grupo, pero el lagrimeo del primer recreo fue real y nadie quiere arriesgarse sola, así que obedecemos sin reconocerlo."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [familia, bulos, salud_publica, redes_sociales]
-    - texto: "El instituto manda un mensaje a las familias por la aplicación del centro diciendo que el recreo y Educación Física se hacen dentro 'como precaución'. Algunos padres vienen a recoger a sus hijos antes de tiempo y en clase se nota quién se ha ido, y los que nos quedamos lo comentamos con un poco de envidia y un poco de miedo."
-      mecanismo: "La dirección no tiene instrucciones de nadie y no quiere que le pase nada a un alumno mientras está a su cargo, así que hace lo mismo que todo el mundo cuando no sabe: proteger dentro. El mensaje oficial, aunque sea solo de precaución, a muchos padres les confirma que hay peligro, y como ya han leído los avisos falsos, algunos deciden llevarse a sus hijos a casa."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [educacion, familia, salud_publica]
-    - texto: "En TikTok y en los stories la conversación sobre la cara cambia de vergüenza a reto: salen vídeos en los que alguien describe con palabras cómo se le ve la cara 'en el color nuevo' y pide que los demás digan si 'sale bien' o 'sale mal'. Ir con la cara lavada, sin crema ni maquillaje, empieza a verse como lo normal y lo que mola, y la que sigue con crema queda como la rara."
-      mecanismo: "Como las fotos no lo pillan, la única manera de participar es contarlo y que te lo confirmen los que te ven en persona, así que se vuelve un juego de opinión. Cuando unas cuantas chicas populares se lavan la cara y lo enseñan como algo natural, el resto lo copia para no quedarse fuera, y la protección solar pasa a ser un tema de imagen, no de salud."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [redes_sociales, imagen_personal, salud_publica, cosmetica]
-    - texto: "En cuanto la tele y las cuentas de mayores empiezan a usar una de las palabras nuevas para el color, a nosotras nos empieza a dar vergüenza usarla y nos pasamos a otra, más de broma, que solo usa la gente de nuestra edad."
-      mecanismo: "Si la palabra la dicen los presentadores o mis padres, deja de ser nuestra y suena a viejo. Tener una palabra propia sirve para saber quién está dentro del grupo, y lo hemos hecho siempre con las expresiones de moda, así que lo mismo pasa con el nombre del color en cuestión de horas."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [lenguaje, redes_sociales, cultura_juvenil, medios]
-  reacciona_a: ["disruptor/h1/1", "medios/h1/3", "medios/h1/5", "disruptor/h1/3"]
+  - texto: 'En clase descubrimos que los de gafas sí lo ven: alguien se las quita, flipa, y en diez minutos todos los que llevan gafas o lentillas se las están quitando y poniendo para comparar. Lo de ''yo no lo veo'' pasa de ser un bulo a ser una broma del grupo, y a los de gafas les pedimos que nos digan ''qué se pierden'' con las gafas puestas.'
+    mecanismo: En un aula hay treinta personas juntas mirando lo mismo y alguien con gafas siempre acaba quitándoselas para frotarse los ojos o probar. En cuanto uno lo cuenta en voz alta, el resto lo repite porque nadie quiere ser el único que no lo ve. Por eso entre nosotros el rumor se deshace rápido, aunque en el grupo de la familia y en redes de mayores siga circulando, porque allí nadie está al lado para probar.
+    dato: ''
+    fuente: ''
+    confianza: alta
+    areas_afectadas:
+    - educacion
+    - redes_sociales
+    - salud_visual
+    - bulos
+    id: adolescente/h2/1
+  - texto: 'En el grupo de WhatsApp de la familia mi madre y mi tía reenvían el falso aviso de ''te quemas la retina'' y me escriben que no salga al patio sin gafas. Nosotras nos reímos de ellas en el grupo de clase, pero varias acabamos haciéndoles caso a medias: no salimos al siguiente recreo ''por si acaso'', aunque digamos que es una tontería.'
+    mecanismo: Los adultos de mi familia confían en lo que parece oficial y lo reenvían sin comprobar, y yo no tengo forma de demostrar que es falso porque nadie de verdad ha dicho nada. Burlarme de los bulos me hace quedar bien con mi grupo, pero el lagrimeo del primer recreo fue real y nadie quiere arriesgarse sola, así que obedecemos sin reconocerlo.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - familia
+    - bulos
+    - salud_publica
+    - redes_sociales
+    id: adolescente/h2/2
+  - texto: El instituto manda un mensaje a las familias por la aplicación del centro diciendo que el recreo y Educación Física se hacen dentro 'como precaución'. Algunos padres vienen a recoger a sus hijos antes de tiempo y en clase se nota quién se ha ido, y los que nos quedamos lo comentamos con un poco de envidia y un poco de miedo.
+    mecanismo: 'La dirección no tiene instrucciones de nadie y no quiere que le pase nada a un alumno mientras está a su cargo, así que hace lo mismo que todo el mundo cuando no sabe: proteger dentro. El mensaje oficial, aunque sea solo de precaución, a muchos padres les confirma que hay peligro, y como ya han leído los avisos falsos, algunos deciden llevarse a sus hijos a casa.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - educacion
+    - familia
+    - salud_publica
+    id: adolescente/h2/3
+  - texto: 'En TikTok y en los stories la conversación sobre la cara cambia de vergüenza a reto: salen vídeos en los que alguien describe con palabras cómo se le ve la cara ''en el color nuevo'' y pide que los demás digan si ''sale bien'' o ''sale mal''. Ir con la cara lavada, sin crema ni maquillaje, empieza a verse como lo normal y lo que mola, y la que sigue con crema queda como la rara.'
+    mecanismo: Como las fotos no lo pillan, la única manera de participar es contarlo y que te lo confirmen los que te ven en persona, así que se vuelve un juego de opinión. Cuando unas cuantas chicas populares se lavan la cara y lo enseñan como algo natural, el resto lo copia para no quedarse fuera, y la protección solar pasa a ser un tema de imagen, no de salud.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - redes_sociales
+    - imagen_personal
+    - salud_publica
+    - cosmetica
+    id: adolescente/h2/4
+  - texto: En cuanto la tele y las cuentas de mayores empiezan a usar una de las palabras nuevas para el color, a nosotras nos empieza a dar vergüenza usarla y nos pasamos a otra, más de broma, que solo usa la gente de nuestra edad.
+    mecanismo: Si la palabra la dicen los presentadores o mis padres, deja de ser nuestra y suena a viejo. Tener una palabra propia sirve para saber quién está dentro del grupo, y lo hemos hecho siempre con las expresiones de moda, así que lo mismo pasa con el nombre del color en cuestión de horas.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - lenguaje
+    - redes_sociales
+    - cultura_juvenil
+    - medios
+    id: adolescente/h2/5
+  reacciona_a:
+  - disruptor/h1/1
+  - medios/h1/3
+  - medios/h1/5
+  - disruptor/h1/3

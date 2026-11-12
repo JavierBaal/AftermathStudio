@@ -1,0 +1,64 @@
+intervencion:
+  agente: politico
+  tramo: h3
+  afirmaciones:
+  - texto: 'En la rueda de prensa posterior al Consejo de Ministros, entre las 12:00 y las 13:00, la ministra portavoz comparece junto a la ministra de Sanidad y no junto a Defensa. El Gobierno hace suya la explicación de las sociedades de oftalmología: repite la prueba de quitarse las gafas, explica que los mayores y los operados de cataratas ven menos por razones del ojo y no del fenómeno, y pide expresamente que nadie solicite cambiar su lente intraocular. A la pregunta sobre la evaluación de defensa responde con la fórmula ''no hay indicios de acción hostil'' y remite al Ministerio de Defensa, sin más detalle.'
+    mecanismo: 'Las sociedades científicas han dado al Gobierno un guion con autoridad y ya probado por la población (oftalmologa/h2/3), así que adoptarlo le permite recuperar la voz oficial sin explicar la causa, que nadie conoce. Sentar a Sanidad y no a Defensa enmarca el asunto como sanitario y no de seguridad, que es lo que menos alarma. Lo de las lentes intraoculares es una petición barata y con beneficio inmediato: evita que las consultas se llenen de peticiones de cirugía en un fenómeno que nadie sabe si es permanente (disruptor/h2/1). Pero en defensa el Gobierno no puede decir más sin revelar evaluaciones secretas ni decir menos sin contradecir a la OTAN, así que repite la fórmula y el relato de ocultación sale reforzado justo en el acto que debía cerrarlo.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - gobierno
+    - sanidad
+    - comunicacion_publica
+    - defensa
+    id: politico/h3/1
+  - texto: La primera acción coercitiva visible de los gobiernos europeos no va contra el fenómeno sino contra el fraude. Consumo y las autoridades de vigilancia del mercado anuncian controles a las gafas de sol sin marcado CE ni filtro UV real y requerimientos a los marketplaces para retirar anuncios de gafas 'para potenciar la visión UV' y productos infantiles con precios abusivos, y las policías avisan de dominios y apps fraudulentos con los nombres del color.
+    mecanismo: 'El fraude es el único frente del suceso donde el Gobierno tiene competencia clara, culpables identificables y una norma ya escrita que aplicar. Las gafas de sol son equipos de protección individual con requisitos de marcado CE, de modo que perseguir las falsas no exige explicar nada nuevo. Para un político es la acción perfecta: visible, popular y sin riesgo de equivocarse sobre la causa. Además responde a una queja que la gente ya comprueba con su propio ojo, porque las gafas falsas deslumbran más (oftalmologa/h2/4), y desactiva el bulo de que el Gobierno no hace nada.'
+    dato: En la UE las gafas de sol son equipos de protección individual regulados por el Reglamento (UE) 2016/425, que exige marcado CE.
+    fuente: https://eur-lex.europa.eu/eli/reg/2016/425/oj
+    confianza: media
+    areas_afectadas:
+    - consumo
+    - comercio_electronico
+    - seguridad
+    - gobierno
+    id: politico/h3/2
+  - texto: En la costa este de Estados Unidos amanece hacia las 12:40 de Madrid, y las primeras decisiones operativas no las toma el Gobierno federal sino los gobernadores, los departamentos de transporte de los estados y los distritos escolares, que aplican sus protocolos de retraso de apertura y avisos de conducción como si fuera una incidencia meteorológica. La Casa Blanca mantiene el mensaje de calma pero abandona cualquier insinuación de histeria colectiva.
+    mecanismo: En el sistema federal estadounidense la gestión ordinaria de emergencias, el tráfico y los colegios dependen de estados y condados, que tienen protocolos de decisión rápida pensados para la nieve o la niebla y los activan antes de las siete de la mañana. El deslumbramiento con sol bajo al amanecer, que es el ángulo que más molesta, coincide con la hora punta de ida al trabajo y al colegio. Ningún responsable federal quiere quedar grabado llamando sugestión a algo que su electorado está sintiendo en ese momento, así que la brecha de credibilidad (medios/h2/3) se cierra por la vía de los gobiernos locales y el escepticismo pasa a ser un coste para quien lo defendió.
+    dato: El 10 de noviembre de 2026 el sol sale en Nueva York a las 06:37 hora local (12:37 en Madrid).
+    fuente: https://calendriersolaire.com/us/new-york-ny/2026/11
+    confianza: media
+    areas_afectadas:
+    - gobierno
+    - transporte
+    - educacion
+    - relaciones_transatlanticas
+    id: politico/h3/3
+  - texto: Los partidos de la oposición en España y en otros países europeos registran peticiones de comparecencia urgente del jefe de Gobierno y del ministro de Defensa, centradas en qué se sabía y quién evaluó la hipótesis de un ataque. Los partidos grandes piden transparencia sin respaldar teorías, mientras que formaciones y figuras populistas amplifican en redes la idea de que las ópticas y los gobiernos 'lo sabían'.
+    mecanismo: 'Pedir transparencia es la jugada de menor riesgo para la oposición: no obliga a proponer una causa ni a asumir el desgaste de equivocarse, y aprovecha la confirmación implícita de las evaluaciones secretas (h2-09). Los partidos con aspiración de gobierno evitan apoyar el bulo porque podrían heredar la crisis, pero los actores marginales no tienen ese coste y ganan audiencia con la sospecha de lucro de las ópticas (h2-01). La petición de comparecencia mantiene el asunto en la agenda parlamentaria y obliga al Gobierno a fijar fecha, que es lo que buscan.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - parlamento
+    - partidos
+    - desinformacion
+    - legitimidad
+    id: politico/h3/4
+  - texto: La OMS publica una declaración formal en la que desautoriza los comunicados falsos que usan su logotipo, dice que no tiene constancia de daño ocular permanente y que vigila el fenómeno con los Estados, pero no convoca el comité de emergencias del Reglamento Sanitario Internacional ni declara una emergencia de salud pública de importancia internacional.
+    mecanismo: 'La suplantación de su marca convierte el silencio en un coste directo para la OMS, igual que para los ministerios, y desmentirla no exige conocer la causa. Pero el Reglamento Sanitario Internacional define la emergencia de importancia internacional en torno a un riesgo para la salud pública por propagación internacional de una enfermedad, y aquí no hay enfermedad, ni propagación, ni daño demostrado: el cambio ha ocurrido a la vez en todo el mundo. Convocar el comité implicaría tratarlo como una patología y alimentaría el miedo que los propios desmentidos intentan cortar, así que la organización se queda en comunicación y vigilancia.'
+    dato: El Reglamento Sanitario Internacional (2005) define la emergencia de salud pública de importancia internacional como un evento extraordinario que constituye un riesgo para la salud pública de otros Estados por la propagación internacional de una enfermedad y que puede exigir una respuesta internacional coordinada.
+    fuente: https://www.who.int/publications/i/item/9789241580496
+    confianza: media
+    areas_afectadas:
+    - organismos_internacionales
+    - sanidad
+    - desinformacion
+    id: politico/h3/5
+  reacciona_a:
+  - oftalmologa/h2/3
+  - disruptor/h2/1
+  - oftalmologa/h2/4
+  - medios/h2/3
+  - medios/h2/4

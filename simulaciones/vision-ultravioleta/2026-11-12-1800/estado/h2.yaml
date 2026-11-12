@@ -1,0 +1,70 @@
+estado_del_mundo:
+  tramo: h2
+  resumen: "En la segunda hora el vacío oficial lo ocupan las sociedades de oftalmología, los divulgadores sanitarios y los verificadores. Una prueba casera (quitarse las gafas y mirar el cielo) deshace buena parte del 'yo no lo veo', pero aparecen dos diferencias reales que mantienen viva la idea de un cambio selectivo: los mayores ven mucho menos porque su cristalino filtra el UV, y los operados de cataratas con lente con filtro UV no ven nada. Esa idea se cruza con el 'no hay indicios de acción hostil' de defensa, que se lee como prueba de ocultación, y con el bulo de que las ópticas 'lo sabían', que se apoya en la subida bursátil de la hora anterior. En Europa se confirma que sí hay deslumbramiento por el sol bajo de noviembre, y en las zonas de UV alto la gente deja la sombra y se mete en interiores. La protección pasa a ser un dilema social entre 'proteger' y 'ver', los colegios meten a los alumnos dentro y algunos padres los recogen, y crece un mercado de gafas falsas y estafas. Los mercados siguen sin hundirse, aunque el miedo pasa a las opciones y caen aerolíneas y cosmética solar. En América cada gobierno responde según su reloj solar: el Cono Sur amanece y toma medidas, mientras Norteamérica, todavía a oscuras, debate si es histeria colectiva."
+  hechos_establecidos:
+    - id: h2-01
+      texto: "La primera explicación con autoridad del 'yo no lo veo' no viene de los gobiernos sino de las sociedades científicas de oftalmología y optometría. Proponen una prueba casera que cualquiera repite en diez segundos: mirar el cielo o una pared blanca al sol con las gafas o lentillas puestas y luego sin ellas. La prueba se viraliza como instrucción y no como imagen, y en grupos donde la gente está junta, como las aulas, el rumor se deshace en minutos. Los verificadores (Maldita, Newtral, EFE Verifica y la red IFCN) desmienten los falsos comunicados de la OMS y de Sanidad apoyándose en esos colectivos médicos y en las exploraciones normales de urgencias, pero su mensaje ('no hay pruebas de daño, pero nadie sabe la causa') llega tarde a la mensajería privada y se lee como una confirmación a medias. La aclaración deja además un bulo derivado: que las gafas con filtro UV 'protegen' del fenómeno y que ópticas y fabricantes 'lo sabían', alimentado por la subida de EssilorLuxottica."
+      origen: [oftalmologa/h2/3, medios/h2/1, medios/h2/2, adolescente/h2/1]
+    - id: h2-02
+      texto: "La intensidad de los colores nuevos depende de la edad, porque el cristalino amarillea con los años y absorbe cada vez más UV antes de que llegue a la retina. Niños y adolescentes los ven vivos y molestos, los adultos de mediana edad más tenues y muchos mayores casi nada en el centro de la vista. Los operados de cataratas con lente intraocular moderna con filtro UV no ven los colores nuevos en ninguna parte del campo visual y no pueden corregirlo quitándose nada, así que el 'basta con quitarse las gafas' no les sirve y las consultas reciben la pregunta de si se puede cambiar la lente. Sin explicación médica pública, la comparación entre abuelos y nietos en los chats familiares se lee como una propiedad del fenómeno y no del ojo, y da una base real a la idea de un cambio selectivo, con teorías de que va dirigido a las generaciones nuevas."
+      origen: [oftalmologa/h2/2, disruptor/h2/2, disruptor/h2/1]
+    - id: h2-03
+      texto: "En Europa sí hay deslumbramiento en noviembre aunque el índice UV sea bajo. El UV-A es la mayor parte del ultravioleta que llega al suelo y varía poco con la estación, y con el sol a unos 30 grados sobre el horizonte la luz entra de frente en el ojo. Molesta más en la calle, al conducir hacia el sol y en superficies claras o mojadas que mirando al cielo a mediodía, y los oftalmólogos lo explican en los medios como un problema de ángulo y no de cantidad de sol."
+      origen: [oftalmologa/h2/1, economista/h2/4]
+    - id: h2-04
+      texto: "La sombra alivia solo en parte, porque una gran parte del UV-A llega dispersa desde todo el cielo y no solo del disco solar. En las regiones con UV alto la gente deja la sombra al aire libre y se concentra en espacios cerrados con techo y cristal (centros comerciales, estaciones de metro, mezquitas, oficinas, vehículos aparcados con el motor en marcha), y se vacían terrazas, mercados al aire libre y paradas de autobús descubiertas."
+      origen: [disruptor/h2/3]
+    - id: h2-05
+      texto: "La protección pasa a ser un dilema social entre 'proteger' y 'ver'. Los primeros mensajes de salud con difusión masiva vienen de dermatólogos, oftalmólogos y divulgadores con muchos seguidores, que piden no quitarse la crema solar ni las gafas de sol por estética. A la vez, entre adolescentes la conversación sobre la cara pasa de la vergüenza al reto: describir cómo se ve la cara 'en el color nuevo' y pedir opinión, de modo que ir con la cara lavada, sin crema ni maquillaje, se convierte en lo normal y lo que mola. El consejo sanitario choca con lo que hace atractivo el fenómeno y empieza una guerra cultural incipiente."
+      origen: [medios/h2/5, adolescente/h2/4]
+    - id: h2-06
+      texto: "Los colegios, sin instrucciones oficiales, hacen el recreo y Educación Física dentro 'como precaución' y lo comunican a las familias. Muchos padres, que ya han leído los falsos avisos sanitarios en los grupos familiares, lo interpretan como confirmación de peligro, y algunos recogen a sus hijos antes de tiempo. Los adolescentes se burlan de los bulos en sus grupos pero acaban obedeciéndolos a medias 'por si acaso'."
+      origen: [adolescente/h2/3, adolescente/h2/2]
+    - id: h2-07
+      texto: "El mercado de la protección y de la prueba imposible se llena de fraude. En las zonas con UV alto, agotadas las gafas homologadas, se venden gafas oscuras sin filtro UV real, que dilatan la pupila y dejan entrar más UV-A, y los usuarios notan que no sirven, lo que aumenta la confusión sobre qué protege. En Europa la compra se mueve por miedo y no por molestia: suben las búsquedas y pedidos en línea de gafas UV400 infantiles, se agota antes el pequeño inventario infantil y en los marketplaces aparecen vendedores con precios abusivos y plazos imposibles. Surgen además aplicaciones y filtros que dicen 'mostrar el color nuevo en tu pantalla', webs de gafas 'para potenciar la visión UV' y dominios recién registrados con los nombres virales del color."
+      origen: [medios/h2/4, oftalmologa/h2/4, economista/h2/4]
+    - id: h2-08
+      texto: "Los mercados europeos siguen sin desplomarse, pero el ajuste pasa del contado a las opciones: el VSTOXX y la volatilidad implícita suben mucho más de lo que caen los índices, porque los gestores compran protección en lugar de vender cartera. Los primeros sectores que caen con claridad son las aerolíneas cotizadas (IAG, Air France-KLM, Lufthansa, Ryanair), con una caída moderada porque el Reglamento 261/2004 las exime de indemnizar por circunstancias extraordinarias y el coste se queda en retrasos operativos, y los valores de protección solar como Beiersdorf y en menor medida L'Oréal, como reverso del impulso de las ópticas."
+      origen: [economista/h2/1, economista/h2/2, economista/h2/3]
+    - id: h2-09
+      texto: "Los gobiernos siguen en modo comunicación, pero el secreto empieza a costar. La presidencia rotatoria del Consejo de la UE activa el IPCR en modo de intercambio de información, con un informe conjunto de situación y un punto de contacto por Estado, sin Consejo extraordinario ni medidas comunes. Ante preguntas de periodistas, portavoces de defensa de varias potencias y de la OTAN dicen que 'no hay indicios de acción hostil' sin explicar quién lo ha evaluado, lo que confirma de forma implícita las evaluaciones secretas y en redes se lee como prueba de que los gobiernos sabían más de lo que decían."
+      origen: [politico/h2/3, politico/h2/4]
+    - id: h2-10
+      texto: "En América cada gobierno responde según su reloj solar. En Brasil, Argentina y el resto del Cono Sur amanece con sol de primavera en plena hora punta y sus gobiernos pasan de la calma a decisiones operativas (avisos de tráfico, recreos a cubierto, retrasos en obras al aire libre). En Estados Unidos y Canadá, todavía de noche, el Gobierno federal mantiene el mensaje de calma y los informativos matinales y comentaristas reciben el suceso como una noticia europea sin pruebas visuales, que una parte enmarca como 'histeria colectiva' o sugestión. Se abre una brecha transatlántica de credibilidad que durará hasta que allí salga el sol."
+      origen: [politico/h2/5, medios/h2/3]
+  tensiones_abiertas:
+    - "Queda por ver qué dirán los gobiernos cuando hablen. En España la rueda de prensa del Consejo de Ministros del martes, entre las 12:00 y las 13:00, es la primera ocasión prevista, y los ministerios de Sanidad aún no han publicado un desmentido formal."
+    - "Queda por ver si las diferencias reales por edad y por lentes intraoculares, el bulo de que las ópticas 'lo sabían' y la confirmación implícita de las evaluaciones de defensa se funden en una teoría de ocultación o de cambio dirigido."
+    - "Queda por ver si el dilema entre 'proteger' y 'ver' lleva a la gente a exponerse sin gafas ni crema, y si eso produce un aumento visible de consultas por fatiga, cefaleas o quemaduras en las regiones con UV alto."
+    - "Queda por ver cómo reacciona Norteamérica al amanecer, cuando el escepticismo de la 'histeria colectiva' choque con la experiencia directa."
+    - "Queda por ver si la visión UV-A deja a la vista marcas antiguas en la piel, como moratones o lesiones, y qué efecto tendría en colegios, servicios sociales y atención a la violencia. Por ahora no hay base suficiente para establecerlo."
+  contradicciones_resueltas:
+    - entre: [economista/h1/3, oftalmologa/h2/1, economista/h2/4]
+      decision: "Se establece que en Europa hay deslumbramiento real en noviembre, menor que en las regiones con UV alto. Se cierra la tensión abierta de la hora 1."
+      motivo: "La oftalmóloga aporta un dato verificable sobre la exposición ocular con el sol bajo, que supera al índice UV, y el propio economista reconoce con dato que el UV-A domina y no desaparece en invierno. El índice UV de 2 no basta para deducir que la molestia sea escasa."
+    - entre: [disruptor/h2/3, oftalmologa/h1/3]
+      decision: "Se matiza h1-01: la sombra alivia en parte, pero en las regiones con UV alto la gente prefiere los interiores con techo y cristal."
+      motivo: "El mecanismo de la radiación difusa es sólido y el dato del disruptor muestra una reducción de en torno al 40 % bajo sombra construida, lo que confirma un alivio solo parcial. No anula h1-01, lo completa con una consecuencia nueva sobre el uso del espacio."
+    - entre: [politico/h2/2, medios/h2/2, oftalmologa/h2/3, medios/h2/5]
+      decision: "En la segunda hora no hay todavía desmentidos formales de los ministerios de Sanidad. El vacío lo ocupan sociedades científicas, divulgadores y verificadores."
+      motivo: "Tres afirmaciones coherentes con el canon (h1-03, gobiernos callados) describen la ausencia de fuente oficial. La del político no aporta dato y su propia afirmación politico/h2/1 sitúa la primera comparecencia española en la hora siguiente."
+  descartadas:
+    - id: politico/h2/1
+      motivo: "Tiene mecanismo y dato, pero la rueda de prensa ocurre entre las 12:00 y las 13:00, fuera de este tramo. Queda como tensión abierta y puede entrar en la hora 3."
+    - id: politico/h2/2
+      motivo: "Choca con medios/h2/2, oftalmologa/h2/3 y medios/h2/5, que describen la ausencia de fuente oficial, y no aporta dato. Ver contradicción resuelta."
+    - id: oftalmologa/h2/5
+      motivo: "Es un efecto clínico de detalle sin dato. El cambio en el tipo de consultas no altera todavía el rumbo de otras áreas y queda recogido en las tensiones como posible consecuencia de la exposición."
+    - id: disruptor/h2/4
+      motivo: "Tiene confianza baja y es un efecto local. La descarga de corona es tenue y emite sobre todo en bandas de ultravioleta más cortas que el UV-A, así que no está claro que sea visible a simple vista de forma generalizada. Cede ante efectos de más alcance."
+    - id: disruptor/h2/5
+      motivo: "Tiene confianza baja y se apoya en una fuente divulgativa sobre fotografía UV con iluminación controlada, no con luz natural. Su alcance sería grande, así que queda como tensión abierta en lugar de hecho."
+    - id: economista/h2/5
+      motivo: "Tiene confianza baja y es un efecto sectorial de detalle sobre medios de pago que de momento no cambia el rumbo. Con el límite de diez hechos cede ante efectos de más alcance."
+    - id: adolescente/h2/5
+      motivo: "Solo concreta la disputa por el vocabulario ya recogida en h1-08 sin añadir una consecuencia nueva para otras áreas."
+  metricas:
+    alarma_social: 3
+    respuesta_gobiernos: comunicacion
+    impacto_economico: 2
+    adaptacion: 2

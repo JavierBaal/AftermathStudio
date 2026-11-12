@@ -1,0 +1,78 @@
+estado_del_mundo:
+  tramo: h3
+  resumen: "En la tercera hora los gobiernos recuperan la voz: el español hace suya la explicación oftalmológica, la OMS desmiente los comunicados falsos sin declarar emergencia y la primera acción coercitiva europea va contra el fraude de gafas, pero en redes circula sobre todo el corte de la respuesta sobre defensa y la oposición exige comparecencias. La teoría de la ocultación se funde en las redes conspirativas de siempre, aunque aparece un contraargumento con fuerza: los ancianos operados sin filtro ven mejor que sus nietos, y los adolescentes viven la diferencia por edad como orgullo y no como amenaza. Al amanecer en Norteamérica la experiencia directa desarma la 'histeria colectiva' y las primeras fotos UV en falso color dan una prueba visual que abre otra disputa. Como efecto cruzado, el canal nuevo vuelve visible la piel: el daño solar de los adultos y la crema mal aplicada, lo que parte por edad la moda de la cara lavada y convierte la protección solar en algo que el consumidor comprueba; a la vez se descubre que el cristal corriente no protege y que la oferta de gafas se estrecha por la retirada de anuncios y por la demanda de las empresas."
+  hechos_establecidos:
+    - id: h3-01
+      texto: "En la rueda de prensa del Consejo de Ministros, entre las 12:00 y las 13:00, la portavoz comparece con la ministra de Sanidad y no con Defensa. El Gobierno adopta el guion de las sociedades de oftalmología (la prueba de quitarse las gafas, que mayores y operados de cataratas ven menos por razones del ojo) y pide que nadie solicite cambiar su lente intraocular ni deje la crema y las gafas. Sobre defensa repite 'no hay indicios de acción hostil' y remite al ministerio. Lo que circula no es el mensaje sanitario sino cortes de diez a quince segundos: la respuesta evasiva sobre si el Gobierno sabía algo, que refuerza el relato de ocultación, y la petición de usar crema y gafas, que los adolescentes convierten en meme y coletilla. La explicación oficial sobre la edad existe, pero apenas llega."
+      origen: [politico/h3/1, medios/h3/2, adolescente/h3/1]
+    - id: h3-02
+      texto: "Hacia las 12:40 de Madrid amanece en la costa este de Estados Unidos, con el sol bajo justo en la hora punta. Los gobernadores, los departamentos de transporte estatales y los distritos escolares aplican sus protocolos de incidencia meteorológica (retrasos de apertura, avisos de conducción), y la Casa Blanca mantiene la calma pero abandona la idea de histeria colectiva. Los magacines matinales salen en directo y el clip más compartido del mundo es el de un comentarista escéptico que se queda sin palabras al mirar al cielo. El escepticismo norteamericano no desaparece, cambia de argumento: ya no niega el fenómeno, culpa a los medios de contagiar la alarma. La brecha transatlántica de credibilidad se cierra por la vía de los gobiernos locales."
+      origen: [politico/h3/3, medios/h3/1]
+    - id: h3-03
+      texto: "La teoría de la ocultación se funde en un relato único que difunden sobre todo redes conspirativas ya existentes (antivacunas, chemtrails, 5G) desde Telegram y canales de vídeo hacia los grupos familiares: el cielo distinto como prueba de que 'han echado algo', la diferencia entre abuelos y nietos como cambio dirigido, la frase de defensa como confesión y las ópticas como beneficiarias. A la vez surgen dos fuerzas en contra. Los oftalmólogos difunden el caso de los ancianos operados de cataratas antes de mediados de los ochenta, con lentes sin filtro UV o sin lente, que ven los colores nuevos con más intensidad que sus nietos, junto a la historia de Monet, lo que invierte la lectura generacional. Y entre los adolescentes la diferencia por edad no se vive como amenaza sino como estatus: se presentan como 'la generación que lo ve' y hacen de traductores para sus abuelos."
+      origen: [medios/h3/3, oftalmologa/h3/1, adolescente/h3/2]
+    - id: h3-04
+      texto: "Las sociedades de oftalmología fijan a mediodía que no se recambiará ninguna lente intraocular para recuperar los colores nuevos, por el riesgo quirúrgico frente a un beneficio que nadie sabe si es permanente. Los operados con lente con filtro pasan de la pregunta a la queja, con un discurso de agravio ('a nosotros nos lo han quitado'), y alguna clínica privada extranjera insinúa en redes que podría hacerlo. Los pacientes con cataratas leves empiezan a pedir que se aplace su cirugía para no perder el color nuevo, lo que resta actividad a las clínicas a corto plazo. Alcon y Carl Zeiss Meditec viven una sesión volátil sin dirección clara: el mercado no compra una ola de recambios."
+      origen: [oftalmologa/h3/2, economista/h3/3]
+    - id: h3-05
+      texto: "El cristal corriente no protege: el vidrio de ventana deja pasar buena parte del UV-A y solo el laminado de los parabrisas lo corta casi del todo. En aulas, oficinas y autobuses junto a la ventana sigue el deslumbramiento, así que se bajan persianas, se enciende la luz artificial a mediodía y la gente se aparta hacia pasillos, sótanos y el centro de los edificios. Los colegios que metieron el recreo dentro ven a los alumnos amontonarse en las ventanas y los profesores bajan las persianas. En el coche el parabrisas protege pero las ventanillas laterales no, y el consejo de tráfico pasa a ser ventanillas subidas y gafas UV400 también dentro del vehículo; motoristas, ciclistas y repartidores son los más expuestos."
+      origen: [disruptor/h3/2, oftalmologa/h3/3, adolescente/h3/5]
+    - id: h3-06
+      texto: "El canal UV-A vuelve visible la piel. En los adultos aparece un moteado de manchas y daño solar acumulado que antes no se veía; como los mayores apenas perciben el color nuevo, se enteran porque se lo dicen hijos y nietos, y las consultas a dermatología y farmacia pasan de los ojos a la pregunta de si esas manchas son cáncer. La moda de la cara lavada se parte por edad: los adolescentes la mantienen y muchos adultos vuelven a la crema o al maquillaje. Además la crema solar se ve oscura y deja ver dónde falta, de modo que los divulgadores ganan un argumento que no depende de su autoridad, la gente revisa orejas, cuello y párpados y empiezan las quejas contra cremas y maquillajes con SPF que apenas se oscurecen. La protección solar pasa a ser comprobable por el consumidor."
+      origen: [disruptor/h3/1, medios/h3/4, disruptor/h3/4]
+    - id: h3-07
+      texto: "La primera acción coercitiva de los gobiernos europeos va contra el fraude y no contra el fenómeno: Consumo y las autoridades de vigilancia del mercado anuncian controles a gafas sin marcado CE ni filtro real y requerimientos a los marketplaces, y las policías avisan de dominios y apps fraudulentos. Los marketplaces retiran en bloque anuncios dudosos y Google y las plataformas publicitarias aplican sus políticas de eventos sensibles. El fraude se desplaza al contenido orgánico, las tiendas dentro de las redes y Telegram. La oferta se estrecha por dos lados: la retirada elimina anuncios sin que haya inventario homologado que los sustituya, y las empresas con plantillas al aire libre piden gafas de protección laboral en bloque, por la obligación de prevención de riesgos, a distribuidores de EPI que reservan existencias para sus clientes con contrato. El precio de las gafas que quedan sube en lugar de bajar."
+      origen: [politico/h3/2, economista/h3/5, medios/h3/5, economista/h3/1]
+    - id: h3-08
+      texto: "Las primeras imágenes que 'muestran' el fenómeno salen de fotógrafos con cámaras convertidas y filtros UV, astrónomos aficionados y laboratorios, que publican fotos UV-A en falso color y se viralizan justo al amanecer en Norteamérica. Sirven como primera prueba visual para quien aún no ha visto el sol, pero cada imagen usa un falso color distinto y ninguno coincide con lo que la gente ve, así que se abre un debate sobre cuál es el color 'verdadero' y las cuentas escépticas las presentan como montajes."
+      origen: [disruptor/h3/3]
+    - id: h3-09
+      texto: "La OMS publica una declaración formal que desautoriza los comunicados falsos con su logotipo, dice que no tiene constancia de daño ocular permanente y que vigila el fenómeno con los Estados, pero no convoca el comité de emergencias del Reglamento Sanitario Internacional ni declara una emergencia de salud pública de importancia internacional, porque no hay enfermedad ni propagación."
+      origen: [politico/h3/5]
+    - id: h3-10
+      texto: "Los partidos de la oposición en España y otros países europeos piden la comparecencia urgente del jefe de Gobierno y del ministro de Defensa sobre qué se sabía y quién evaluó la hipótesis de un ataque. Los partidos grandes piden transparencia sin respaldar teorías, mientras formaciones y figuras populistas amplifican en redes la idea de que ópticas y gobiernos 'lo sabían'. El asunto entra en la agenda parlamentaria."
+      origen: [politico/h3/4]
+  tensiones_abiertas:
+    - "Queda por ver si el contraargumento de los ancianos operados sin filtro frena la teoría del cambio dirigido o si las redes conspirativas lo absorben como una pieza más."
+    - "Queda por ver si el agravio de los operados con lente con filtro encuentra salida en clínicas extranjeras que ofrezcan el recambio y qué responden las autoridades sanitarias."
+    - "Queda por ver qué ocurre en la apertura de Wall Street, a las 15:30 de Madrid, ahora que Norteamérica ha visto el fenómeno, y si el ajuste sigue en las opciones o pasa al contado."
+    - "Queda por ver si quitarse las gafas y la crema para ver el color nuevo produce un aumento visible de consultas por fatiga visual, cefaleas o quemaduras, sobre todo entre adolescentes y en las regiones con UV alto."
+    - "Queda por ver si la visión UV-A deja a la vista marcas antiguas en la piel, como moratones o lesiones, y qué efecto tendría en colegios, servicios sociales y atención a la violencia. Sigue sin base suficiente para establecerlo."
+    - "Queda por ver qué materiales filtran el fenómeno (cristales, gafas graduadas, lentillas, plásticos) y si esa confusión alimenta nuevos bulos o un mercado de láminas y recubrimientos."
+    - "Queda por ver cuándo y cómo comparecen los jefes de Gobierno y los ministros de Defensa, y si dicen algo más sobre las evaluaciones secretas."
+  contradicciones_resueltas:
+    - entre: [politico/h3/1, medios/h3/2]
+      decision: "La rueda de prensa sí incluye la explicación de la edad y las lentes intraoculares, pero lo que circula son los cortes sobre defensa y sobre la crema, así que la explicación oficial apenas llega."
+      motivo: "El mecanismo del político es más sólido: el guion de las sociedades científicas ya estaba probado (h2-01) y la petición sobre las lentes es coherente con la posición de oftalmologa/h3/2. El argumento de medios sobre la circulación de cortes es plausible y se conserva, pero su afirmación de que la intervención omite la edad no tiene dato."
+    - entre: [disruptor/h3/4, economista/h2/3]
+      decision: "Se matiza h2-08: el golpe a la cosmética solar no es uniforme. La crema visible pasa a ser también una prueba de eficacia y caen sobre todo los productos que no la superan a simple vista."
+      motivo: "El disruptor aporta un mecanismo con dato sobre la crema oscura en UV como verificación de cobertura, que añade una consecuencia nueva sin anular la caída sectorial ya establecida."
+    - entre: [medios/h3/4, disruptor/h3/1, adolescente/h2/4]
+      decision: "Se matiza h2-05: la cara lavada se mantiene entre adolescentes pero muchos adultos vuelven a la crema o al maquillaje."
+      motivo: "Medios y disruptor aportan mecanismo y dato sobre el daño solar acumulado visible en UV, que depende de la edad. No contradice la tendencia adolescente, la limita."
+    - entre: [disruptor/h3/2, oftalmologa/h3/3]
+      decision: "Se matiza h2-04: los espacios cerrados protegen por el techo opaco y la distancia a la ventana, no por el cristal, y el coche solo protege por el parabrisas."
+      motivo: "Ambas afirmaciones tienen confianza alta y datos de transmisión UV-A coherentes entre sí (vidrio común y ventanillas laterales frente al parabrisas laminado)."
+    - entre: [economista/h3/3, oftalmologa/h3/2]
+      decision: "No hay negocio inmediato de recambio de lentes; el efecto a corto plazo es de aplazamientos y agravio."
+      motivo: "Ambos coinciden en que explantar una lente no se va a ofrecer por riesgo clínico, lo que cierra la puerta abierta en h2-02 sobre si se podía cambiar la lente."
+  descartadas:
+    - id: economista/h3/2
+      motivo: "Tiene mecanismo y dato, pero es un efecto sectorial y regional sobre el reparto a domicilio que no cambia el rumbo de otras áreas. Con el límite de diez hechos cede ante efectos de más alcance."
+    - id: economista/h3/4
+      motivo: "Tiene confianza baja y no aporta dato. Queda recogido en la tensión sobre la apertura de Wall Street."
+    - id: oftalmologa/h3/4
+      motivo: "Concreta la prueba casera de h2-01 sin añadir una consecuencia nueva para otras áreas y no aporta dato. La confusión sobre materiales queda como tensión abierta."
+    - id: oftalmologa/h3/5
+      motivo: "Es un cambio de protocolo clínico local y de detalle, sin dato, que no altera el rumbo de otras áreas."
+    - id: adolescente/h3/3
+      motivo: "Es un efecto escolar de detalle sin dato. Queda recogido en la tensión sobre la exposición y las consultas por fatiga y cefaleas."
+    - id: adolescente/h3/4
+      motivo: "Tiene confianza baja y no aporta dato. La posible visibilidad de marcas antiguas en la piel sigue como tensión abierta."
+    - id: disruptor/h3/5
+      motivo: "Tiene confianza baja, no aporta dato sobre la transmisión UV-A de las cubiertas y es un efecto local. La confusión sobre materiales queda como tensión abierta."
+  metricas:
+    alarma_social: 3
+    respuesta_gobiernos: comunicacion
+    impacto_economico: 2
+    adaptacion: 2
