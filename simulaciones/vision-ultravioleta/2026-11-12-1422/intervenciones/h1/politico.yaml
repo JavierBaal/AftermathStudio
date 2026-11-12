@@ -1,0 +1,54 @@
+intervencion:
+  agente: politico
+  tramo: h1
+  afirmaciones:
+  - texto: 'En la primera hora la respuesta oficial es asimétrica por husos horarios: hablan Europa, África y Oriente Medio; Asia oriental reacciona a medias, y en América no hay más que avisos internos, porque sus gobiernos se están despertando.'
+    mecanismo: 'Las 10:00 de Madrid son las 09:00 UTC: las 04:00 en Washington, de madrugada en todo el continente americano, y anochecer en Pekín y Tokio. Con poca gente en el mar o en exteriores, los gobiernos americanos no tienen urgencia que justifique despertar a un portavoz para hablar de algo que no entienden. Además, el deslumbramiento solo crea problemas donde es de día, así que la presión inmediata se concentra en Europa y África. El primer marco político mundial lo fijan, por tanto, gobiernos europeos y africanos, no Washington ni Pekín.'
+    dato: Momento cero a las 09:00 UTC; Washington en UTC-5 en noviembre.
+    fuente: ''
+    confianza: alta
+    areas_afectadas:
+    - gobiernos
+    - comunicacion_publica
+    - geopolitica
+    id: politico/h1/1
+  - texto: Los gobiernos con luz diurna usan el deslumbramiento como su única palanca operativa. Antes de una hora, las autoridades de tráfico y protección civil piden reducir la conducción y se refuerza la vigilancia en carreteras, sin que nadie se pronuncie sobre el fenómeno en sí.
+    mecanismo: Un gobierno sin causa ni pronóstico necesita una acción que pueda anunciar y que no le comprometa. El deslumbramiento en exteriores es un riesgo conocido, con protocolos de tráfico y protección civil ya escritos y responsables claros. Así el ministro aparece gestionando sin tener que explicar lo inexplicable. Si sube la siniestralidad vial del mediodía, la medida queda justificada de inmediato.
+    dato: Los análisis de la NHTSA identifican el deslumbramiento solar como factor de visibilidad en accidentes de tráfico.
+    fuente: https://www.fcsm.gov/assets/files/docs/2005FCSM_Choi_Singh_IVA.pdf
+    confianza: media
+    areas_afectadas:
+    - trafico
+    - proteccion_civil
+    - comunicacion_publica
+    id: politico/h1/2
+  - texto: En España se convoca de urgencia el Consejo de Seguridad Nacional o su comité de situación, pero no se declara ninguna situación de interés para la Seguridad Nacional en esta primera hora.
+    mecanismo: La Ley 36/2015 da un cauce de coordinación interministerial ya probado con la COVID y los apagones. Activarlo es barato y protege políticamente al Gobierno. Declarar formalmente una situación de interés, en cambio, exige un real decreto y concretar medidas y recursos. No hay daño medible que lo justifique y el Gobierno no quiere fijar una calificación que tendría que corregir si el fenómeno resulta inocuo.
+    dato: La Ley 36/2015 regula el Consejo de Seguridad Nacional y la declaración de situación de interés para la Seguridad Nacional mediante real decreto.
+    fuente: https://www.boe.es/buscar/pdf/2015/BOE-A-2015-10389-consolidado.pdf
+    confianza: media
+    areas_afectadas:
+    - gobierno_espana
+    - seguridad_nacional
+    - coordinacion_interministerial
+    id: politico/h1/3
+  - texto: La OMS emite una nota breve de que está vigilando la situación, pero ni convoca formalmente el Comité de Emergencias del RSI ni declara una emergencia de salud pública de importancia internacional.
+    mecanismo: 'El procedimiento del Reglamento Sanitario Internacional exige que los Estados notifiquen el evento, una evaluación y reunir a un comité de expertos, lo que lleva días. Además, el fenómeno no encaja en sus criterios: no se propaga, no hay agente ni contagio, no hay muertos y no cabe restringir viajes o comercio. La OMS no quiere estrenar sus atribuciones de 2024 con algo que quizá no sea un problema sanitario.'
+    dato: El artículo 12 del RSI (2005) prevé que el Director General consulte al Comité de Emergencias antes de determinar una emergencia de salud pública de importancia internacional.
+    fuente: https://apps.who.int/gb/wgihr/pdf_files/wgihr2/A_WGIHR2_Reference_document-sp.pdf
+    confianza: media
+    areas_afectadas:
+    - organismos_internacionales
+    - salud_publica
+    id: politico/h1/4
+  - texto: Los servicios de inteligencia y defensa de las grandes potencias abren en privado la hipótesis de un ataque, pero ningún gobierno acusa públicamente a otro en esta primera hora.
+    mecanismo: Cualquier alteración masiva e inexplicada obliga por protocolo a descartar la autoría hostil, y los mandos se ponen en alerta. Pero el efecto es simultáneo y alcanza a todos, incluidas las poblaciones y los ejércitos de los posibles culpables. Así se queda sin sentido la lógica atacante-víctima, y acusar sin pruebas expondría al gobierno que lo haga a un ridículo diplomático. La sospecha va por canales internos, no por declaraciones.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - defensa
+    - inteligencia
+    - geopolitica
+    id: politico/h1/5
+  reacciona_a: []

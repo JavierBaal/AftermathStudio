@@ -1,0 +1,58 @@
+intervencion:
+  agente: politico
+  tramo: h2
+  afirmaciones:
+  - texto: En la segunda hora la presidencia del Consejo de la UE activa el dispositivo IPCR en modo de intercambio de información, y no en activación plena. Se abre una plataforma web con informes nacionales sobre tráfico, sanidad y aviación, y el Centro de Coordinación de la Respuesta a Emergencias de la Comisión empieza a publicar un informe de situación. No hay reunión de líderes ni una declaración política común.
+    mecanismo: 'El IPCR tiene varios niveles, y el de intercambio de información puede activarlo la presidencia sin consenso de los Estados ni sin calificar el suceso. Es la opción barata, del mismo tipo que el Consejo de Seguridad Nacional español de la hora 1: coordina sin comprometerse. La activación plena llevaría a mesas redondas que acaban en conclusiones, y ningún gobierno quiere firmar un texto sobre algo cuya causa y duración desconoce. Además, la presión operativa que justifica coordinar es transfronteriza: deslumbramiento en carreteras, ensayos fluorescentes parados en talleres aeronáuticos y bulos que cruzan fronteras.'
+    dato: El IPCR tiene un modo de seguimiento, un modo de intercambio de información y un modo de activación plena; la presidencia decide el nivel.
+    fuente: https://www.consilium.europa.eu/en/policies/ipcr-response-to-crises
+    confianza: media
+    areas_afectadas:
+    - union_europea
+    - coordinacion_intergubernamental
+    - proteccion_civil
+    id: politico/h2/1
+  - texto: En EE. UU. sigue siendo de noche a las 05:00 de Washington. La Casa Blanca reúne en la Sala de Situación al equipo de seguridad nacional y a asesores científicos, pero decide no emitir ninguna declaración pública hasta que amanezca en la costa este. Solo se filtra a la prensa que el presidente ha sido informado.
+    mecanismo: Hablar antes de que la propia población pueda comprobarlo es arriesgado en los dos sentidos. Si confirma el fenómeno, el presidente avala lo que las redes estadounidenses están tratando como bulo europeo. Si lo minimiza, queda en ridículo al cabo de una o dos horas, cuando salga el sol. Esperar al amanecer convierte la primera declaración en un relato compartido con los votantes ('lo estamos viendo todos'), y la filtración de que ha sido informado cubre el riesgo de que parezca que el Gobierno estaba dormido. En paralelo, la hipótesis de ataque sigue abierta por canales reservados, y eso también aconseja no hablar.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - estados_unidos
+    - comunicacion_institucional
+    - seguridad_nacional
+    id: politico/h2/2
+  - texto: 'En España las consejerías de Educación de varias comunidades autónomas mandan antes del mediodía instrucciones a los centros: recreos en interior o a la sombra, ninguna salida al exterior y aviso a las familias de que no hace falta recoger a los alumnos. El Ministerio de Educación no da ninguna orden propia y se limita a pedir coordinación en la Conferencia Sectorial.'
+    mecanismo: La gestión ordinaria de los centros es competencia autonómica, y las consejerías ya tienen protocolos de este tipo para olas de calor y episodios de contaminación, que solo hay que adaptar. La presión inmediata viene de las familias, que escriben a los colegios y a los grupos de clase preguntando si los hijos están bien, y de un profesorado que en la primera hora ha actuado sin instrucciones. Para un consejero, mandar una circular es la acción visible y sin coste que demuestra que gestiona. Mandar a los niños a casa, en cambio, desataría una salida masiva de padres a la calle y a la carretera justo en las horas de más deslumbramiento.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - educacion
+    - comunidades_autonomas
+    - familias
+    id: politico/h2/3
+  - texto: El Banco Central Europeo y el Banco de España, y con ellos otros bancos centrales con luz diurna, publican antes de que acabe la hora 2 una nota técnica que explica las marcas fluorescentes de los billetes como medida de seguridad conocida desde hace décadas. Es la primera explicación oficial que desmonta un bulo concreto, aunque sigan sin decir nada sobre el fenómeno en sí.
+    mecanismo: 'El bulo de las marcas ocultas en billetes ataca directamente la confianza en el dinero, que es lo que un banco central protege antes que nada. Desmentirlo cuesta poco: las características UV de los billetes ya están descritas públicamente en los folletos para cajeros, así que la nota se apoya en material existente y no obliga a opinar sobre la causa del suceso. Es una respuesta oficial que sí compite con los bulos, porque ofrece una historia completa y verificable en lugar de un ''no sabemos''.'
+    dato: El BCE describe en sus materiales para profesionales del efectivo los elementos de los billetes en euros que se iluminan bajo luz ultravioleta.
+    fuente: https://www.ecb.europa.eu/euro/pdf/material/cashier_brochure_new_20.de.pdf
+    confianza: alta
+    areas_afectadas:
+    - bancos_centrales
+    - desinformacion
+    - confianza_monetaria
+    id: politico/h2/4
+  - texto: La Comisión Europea contacta de forma informal con las grandes plataformas para pedirles que destaquen información de autoridades sanitarias y que frenen la difusión de los bulos más virales, pero no activa el mecanismo de respuesta a crisis del artículo 36 de la Ley de Servicios Digitales.
+    mecanismo: El artículo 36 exige una recomendación previa de la Junta Europea de Servicios Digitales y una decisión formal de la Comisión, y eso no cabe en dos horas. Además, aplicarlo por primera vez a un suceso sin víctimas ni amenaza identificada expondría a la Comisión a la acusación de censurar a ciudadanos que solo describen lo que ven, justo cuando la mitad de los bulos se mezclan con descubrimientos reales, como las tintas de seguridad o los blanqueantes ópticos. La vía informal da a la Comisión algo que anunciar y deja a las plataformas decidir qué retiran.
+    dato: El artículo 36 de la Ley de Servicios Digitales prevé que la Comisión, a recomendación de la Junta, pueda exigir medidas a plataformas muy grandes en situación de crisis.
+    fuente: https://dsa-observatory.eu/2023/02/21/the-dsas-crisis-approach-crisis-response-mechanism-and-crisis-protocols/
+    confianza: media
+    areas_afectadas:
+    - union_europea
+    - plataformas_digitales
+    - desinformacion
+    id: politico/h2/5
+  reacciona_a:
+  - medios/h1/3
+  - medios/h1/4
+  - adolescente/h1/2

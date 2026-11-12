@@ -1,0 +1,62 @@
+intervencion:
+  agente: medios
+  tramo: h2
+  afirmaciones:
+  - texto: 'En la segunda hora el vacío de imagen se rellena con fotografía ultravioleta en falso color: fotos de flores, caras con protector solar y billetes hechas con cámaras convertidas a espectro completo por aficionados y laboratorios se vuelven virales con el rótulo ''esto es lo que vemos ahora'', mezcladas con filtros y montajes generados con IA. Quienes están al sol responden en masa que ''no se parece'', y la discusión pasa de ''¿es real?'' a ''¿cuál es la imagen buena?''.'
+    mecanismo: Existe un nicho previo de fotografía UV con cámaras a las que se retira el filtro de corte y se pone un filtro de paso UV; su material está archivado y listo para recircular. Pero esas cámaras traducen el UV a colores visibles arbitrarios (falso color), mientras que el ojo lo percibe ahora como un color sin nombre. La plataforma premia la primera imagen que llena el hueco, no la fiel, y la contradicción entre imagen y experiencia directa genera más conversación, no menos.
+    dato: Empresas como LifePixel ofrecen conversiones comerciales de cámaras mirrorless para fotografía ultravioleta.
+    fuente: https://www.lifepixel.com/shop/our-services/ultraviolet-camera-conversion/sony-mirrorless-uv-camera-conversion
+    confianza: media
+    areas_afectadas:
+    - redes sociales
+    - desinformación
+    - fotografía
+    - verificación
+    id: medios/h2/1
+  - texto: 'En EE. UU., aún de noche (las 5:00 en Nueva York), nace la contraprueba casera que empieza a romper el escepticismo antes del amanecer: encender una luz negra, una lámpara de uñas de gel, un matamosquitos o la luz de un acuario. Los noctámbulos que lo prueban publican ''acabo de encender mi lámpara de uñas y lo veo'', y el hilo de bulo o campaña coordinada se parte en dos bandos dentro de la propia audiencia estadounidense.'
+    mecanismo: El escepticismo de la hora 1 se basaba en no tener estímulo UV-A de noche y en interiores con LED. Pero muchos hogares tienen fuentes de UV-A cercano por otros motivos (curado de esmalte, fiestas, insectos, acuarios). Cuando un testimonio europeo menciona que se ve al encender una luz negra, la prueba se vuelve replicable en casa sin esperar al sol, y una prueba que cada uno puede hacer pesa más que cualquier vídeo.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - redes sociales
+    - escepticismo EE. UU.
+    - comercio minorista
+    - cosmética
+    id: medios/h2/2
+  - texto: 'Los verificadores europeos publican sus primeros desmentidos con base documental sobre las marcas en billetes: las fibras y elementos fluorescentes del euro son una medida de seguridad pública y documentada por el BCE. El bulo de ''lo que nos ocultaban'' no muere, sino que se desplaza a lo que no tiene ficha técnica a mano: etiquetas de ropa, documentos de identidad, marcas en paredes y fachadas, y la piel.'
+    mecanismo: 'Por primera vez desde el suceso hay algo verificable: los bancos centrales llevan años publicando guías con lo que se ve bajo luz UV. Los verificadores priorizan lo que pueden contrastar en minutos y el desmentido funciona en ese punto concreto. Pero lo falso y novedoso se difunde más rápido que lo verificado, así que la narrativa conspirativa abandona el terreno perdido y se muda a objetos sin documentación pública, donde el desmentido tardará horas o días.'
+    dato: La guía del BCE indica que bajo luz ultravioleta aparecen fibras y elementos fluorescentes en los billetes en euros. Según el estudio de Vosoughi, Roy y Aral (Science, 2018), las noticias falsas tienen un 70 % más de probabilidades de ser retuiteadas que las verdaderas.
+    fuente: https://www.ecb.europa.eu/euro/pdf/material/quick_guide_specimen_en.pdf ; https://mitsloan.mit.edu/press/false-news-spreads-widely-and-easily
+    confianza: alta
+    areas_afectadas:
+    - verificación
+    - desinformación
+    - bancos centrales
+    - medios tradicionales
+    id: medios/h2/3
+  - texto: 'Las televisiones convierten a los afáquicos en el formato estrella de la segunda hora, y con ellos aparece la figura del falso vidente: personas que dicen ''yo siempre lo he visto'' (influencers espirituales, supuestos ''niños índigo'' o ''semillas estelares'', vendedores de terapias) sin haber pasado por una cirugía de cristalino, y que ganan audiencia contando el fenómeno como un despertar.'
+    mecanismo: Los afáquicos dan a la televisión lo que no tiene, que es una autoridad con historia personal. Pero la condición no se verifica en directo y la producción no tiene tiempo de comprobarla. El marco de 'algunos ya lo veían' es justo el que necesitan las comunidades esotéricas, que tienen audiencias propias y un relato preparado (evolución, ascensión), y que se cuelan por la misma puerta que abrieron los informantes legítimos.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - medios tradicionales
+    - desinformación
+    - salud
+    - comunidades esotéricas
+    id: medios/h2/4
+  - texto: Se hace viral la captura de pantalla de chatbots de IA respondiendo que 'los humanos no pueden ver el ultravioleta', y se usa en EE. UU. como prueba de que el fenómeno es falso, mientras en Europa circula como prueba de que 'la IA nos oculta la verdad'.
+    mecanismo: 'Mucha gente consulta primero a un asistente de IA en vez de a un buscador. Los modelos responden con su conocimiento de entrenamiento (la visión humana termina en torno a 400 nm) y, sin fuentes de última hora que les contradigan, desmienten con seguridad lo que el usuario vive. Una captura de una máquina que contradice tus ojos sirve a los dos bandos: al escéptico como argumento de autoridad y al conspirativo como prueba de censura.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - redes sociales
+    - inteligencia artificial
+    - escepticismo EE. UU.
+    - desinformación
+    id: medios/h2/5
+  reacciona_a:
+  - oftalmologa/h1/1
+  - disruptor/h1/2

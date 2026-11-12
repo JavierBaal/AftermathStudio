@@ -1,0 +1,67 @@
+intervencion:
+  agente: disruptor
+  tramo: h2
+  afirmaciones:
+  - texto: 'En la hora 2 los primeros americanos que viven el suceso en directo no son estadounidenses, sino brasileños, uruguayos y argentinos de la costa atlántica, que van a trabajar a las 7:00 con el sol ya alto. Su testimonio en portugués y español entra en las redes latinas de EE. UU. y el marco de bulo europeo se resquebraja antes de que amanezca en Nueva York: el escepticismo deja de ser americano y pasa a ser solo del norte.'
+    mecanismo: A las 10:00 UTC son las 7:00 en São Paulo y Buenos Aires (UTC-3), y en noviembre, casi en el solsticio austral, allí amanece hacia las 5:15, mientras que en Nueva York son las 5:00 y aún es de noche. Hay radiación creciente justo en la hora punta del transporte, con millones de personas en la calle, en autobuses y en motos sin parabrisas. Las diásporas brasileña y latina en EE. UU. reciben esos mensajes de familiares directos, un canal de confianza que los vídeos europeos de desconocidos no tenían. Un testigo cercano y en tu idioma desactiva la sospecha de histeria regional europea que se fijó en la primera hora.
+    dato: 'Amanecer en São Paulo el 12 de noviembre de 2026: 5:14 hora de Brasilia (UTC-3).'
+    fuente: https://sunrise-sunset.org/br/moema
+    confianza: alta
+    areas_afectadas:
+    - medios
+    - redes sociales
+    - geopolitica
+    - America Latina
+    - Estados Unidos
+    id: disruptor/h2/1
+  - texto: 'Se rompe la idea de que el interior es un refugio: en cocinas de bares, obradores, carnicerías, panaderías, salones de uñas, discotecas y cajas de comercios, el problema no es la ventana sino aparatos que emiten UV-A a propósito. Los mataínsectos eléctricos de 365 nm y las lámparas de curado de gel se ven como focos intensos de un color nuevo, y el personal los apaga o los tapa. Así, en plena mañana, la hostelería y la alimentación se quedan sin su control de insectos obligatorio.'
+    mecanismo: Los mataínsectos de lámpara actínica se instalan en zonas donde se manipulan alimentos precisamente porque el UV-A atrae a los insectos y el ojo humano apenas lo veía, así que podían estar encendidos todo el día sin molestar. Ahora son la fuente de UV-A más intensa del local, a la altura de la vista y en espacios iluminados con LED donde no hay nada que compita con ellos. Lo mismo ocurre con las lámparas de uñas, las de comprobar billetes y la luz negra de ocio. El apagado es una decisión individual e inmediata del trabajador, y nadie piensa en ese momento que el plan de control de plagas del APPCC daba por hecho que esa luz no molestaba a nadie.
+    dato: Las lámparas comerciales para mataínsectos tienen un pico de emisión en 365 nm (UV-A) y se recomiendan para zonas donde se sirven, preparan o consumen alimentos.
+    fuente: https://uk.rs-online.com/web/p/fly-killer-lights/4730840
+    confianza: media
+    areas_afectadas:
+    - hosteleria
+    - seguridad alimentaria
+    - comercio
+    - trabajo en interiores
+    id: disruptor/h2/2
+  - texto: 'En los mercados y comercios a pleno sol de la India, Oriente Medio, África y el sur de Europa, cualquiera puede distinguir a simple vista el papel de los billetes, y los vendedores empiezan a rechazar los que se ven raros. Lo que se dispara no es la detección de falsos, sino los falsos positivos: billetes auténticos que pasaron por la lavadora o estuvieron en contacto con papel o ropa tratada con blanqueantes ópticos se ven como el papel de oficina y se tratan como sospechosos.'
+    mecanismo: El papel de los billetes de seguridad, como el del euro, se fabrica sin blanqueantes ópticos para que bajo UV no brille, mientras que el papel comercial y los tejidos lavados con detergente sí los llevan. Hasta ahora esa diferencia solo la veían las lámparas de las cajas; ahora la ve cualquiera a la luz del sol. Pero la gente no sabe qué aspecto debe tener un billete legítimo en el nuevo canal, y los billetes sucios o lavados han absorbido blanqueantes. Esto entra en el marco de lo que nos ocultaban (h1-16) y provoca discusiones en el pago en efectivo, sobre todo en la economía informal, que vive del billete pequeño y gastado.
+    dato: La guía del BCE indica que bajo luz ultravioleta el papel del billete en euros no brilla y que las fibras incrustadas aparecen en rojo, azul y verde.
+    fuente: https://www.ecb.europa.eu/euro/pdf/material/Quick_Guide_EN_Specimen.pdf
+    confianza: media
+    areas_afectadas:
+    - efectivo
+    - comercio minorista
+    - economia informal
+    - bancos centrales
+    - bulos
+    id: disruptor/h2/3
+  - texto: 'En la hora 2 aparecen las primeras imágenes del fenómeno, hechas por una comunidad marginal de fotógrafos ultravioleta, astrofotógrafos y peritos forenses con cámaras de espectro completo y filtros de paso UV. Pero no resuelven la falta de pruebas: como son imágenes en falso color, cada una asigna al UV un tono distinto, nadie que las ve las reconoce como lo que percibe y se convierten en munición para los dos bandos.'
+    mecanismo: Un sensor de silicio sin el filtro interno que corta el UV y el infrarrojo sí registra UV-A, pero lo traduce a los canales RGB según la sensibilidad residual de su matriz de Bayer y un balance de blancos arbitrario, de modo que el color final es una convención del fotógrafo. Estos usuarios ya existían y tienen el equipo en casa, así que son los únicos capaces de responder a la frustración de que la cámara no lo coge (h1-03). Cuando una imagen pinta el cielo de magenta y otra de amarillo, los escépticos lo leen como manipulación y los creyentes como prueba. La falta de pruebas pasa a ser una guerra sobre qué color es el verdadero.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - medios
+    - redes sociales
+    - verificacion
+    - fotografia
+    - ciencia
+    id: disruptor/h2/4
+  - texto: Quienes en zonas de mucho sol (Golfo, sur de Asia, África oriental) buscan alivio a la sombra de árboles, toldos o soportales descubren que el deslumbramiento apenas baja, porque el cielo entero brilla en el nuevo color. El alivio no lo da la sombra, sino un techo o un cristal. Se produce un desplazamiento masivo e improvisado de trabajadores al aire libre hacia interiores, porches cerrados, vehículos y centros comerciales, que aún no figura en las cifras de productividad.
+    mecanismo: La dispersión de Rayleigh crece mucho al acortarse la longitud de onda, así que el cielo dispersa el UV-A con mucha más fuerza que el visible y una gran parte del UV que llega al suelo es difusa, no directa. Una sombra tapa el disco solar pero no la bóveda celeste, al contrario de lo que la gente espera por su experiencia con el visible. Eso amplía el refugio del coche parado (h1-10) a cualquier espacio con techo y vidrio laminado o LED, y convierte los centros comerciales con aire acondicionado y luz artificial del Golfo y la India en refugios espontáneos del mediodía.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - trabajo al aire libre
+    - sector informal
+    - comercio
+    - espacio publico
+    - salud laboral
+    id: disruptor/h2/5
+  reacciona_a:
+  - medios/h1/2
+  - medios/h1/1
+  - oftalmologa/h1/4

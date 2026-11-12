@@ -1,0 +1,35 @@
+intervencion:
+  agente: adolescente
+  tramo: h3
+  afirmaciones:
+    - texto: "Entre las 12:00 y las 13:00 en mi clase y en los grupos de mi insti el color nuevo ya tiene nombres inventados, y cada grupo usa el suyo ('el brillo', 'el morado fantasma', palabras sacadas de un tiktok). Discutimos más por cómo se llama que por cómo es, y usar la palabra de tu grupo es como llevar la misma ropa."
+      mecanismo: "Las fotos no sirven porque la cámara no lo coge y las de falso color no se parecen a lo que vemos, así que la única forma de compartirlo es con palabras, y no existe ninguna. La primera palabra que suena en un vídeo con muchas visitas o que dice alguien popular se queda, y como cada grupo copia de gente distinta salen varias. Decir la palabra correcta demuestra que lo estás viendo y que estás con los tuyos, igual que el 'yo lo he visto' de aguantar sin gafas."
+      dato: ""
+      fuente: ""
+      confianza: media
+      areas_afectadas: [adolescentes, redes sociales, lenguaje, cohesion de grupo]
+    - texto: "Después del recreo muchas chicas se van al baño a quitarse la crema con color y el corrector con agua y papel del dispensador, y en los grupos se dice que mañana nadie va a echarse crema solar ni maquillaje 'porque se ve como una máscara'. Mi madre me escribe que me ponga crema igual y yo le contesto que ni de broma."
+      mecanismo: "En el recreo comprobamos unas con otras que esas cremas se ven como manchas, y la opinión de las amigas sobre tu cara pesa más que nunca. Quitárselo es lo único que puedes hacer ya mismo para que no se rían. La crema solar entra en el mismo saco porque lleva lo mismo que hace la mancha, y como en casa no nos creen con lo que vemos, el consejo de la madre suena a no entender nada."
+      dato: ""
+      fuente: ""
+      confianza: alta
+      areas_afectadas: [adolescentes, cosmetica, proteccion solar, salud, familia]
+    - texto: "A media mañana empiezan los dolores de cabeza y los ojos rojos entre los que aguantaron sin gafas en el patio o pegados a las ventanas; varios bajan a conserjería o a jefatura pidiendo llamar a casa, y algunos padres vienen a recogerlos aunque la Consejería dijo que no hacía falta."
+      mecanismo: "Aguantar el deslumbramiento sin gafas era lo que daba estatus, pero cansa la vista y a las dos horas pasa factura. Dolerte la cabeza sí es una excusa aceptada para irte sin quedar de pringado, cosa que ponerte gafas no. Y con los audios de 'te quedas ciega' dando vueltas, cuando un hijo escribe que le duelen los ojos los padres no esperan a ninguna circular y vienen, y en cuanto se va uno lo piden más."
+      dato: ""
+      fuente: ""
+      confianza: media
+      areas_afectadas: [educacion, adolescentes, salud ocular, familias]
+    - texto: "En mi clase los que llevan gafas graduadas se convierten en el chiste: se las quitan para ver los colores nuevos sin el cristal y, si son miopes, lo ven todo borroso, así que se les dice que 'no lo ven bien' o que 'lo ven de segunda'. Algunos se quitan las gafas en el patio aunque no vean, para no quedarse fuera."
+      mecanismo: "Ya se sabe que el cristal apaga parte de lo que se comenta y que sin gafas cada uno lo ve distinto según la graduación. En clase la mayoría de los que llevan gafas son miopes y a ellos les sale peor, y cualquier diferencia visible acaba en burla. Como lo que cuenta es poder decir lo que ves, prefieren ver borroso antes que reconocer que con gafas ven menos."
+      dato: ""
+      fuente: ""
+      confianza: media
+      areas_afectadas: [adolescentes, acoso escolar, salud ocular]
+    - texto: "En la clase de las doce la profe de física y química deja el temario y nos pide que busquemos qué es el ultravioleta, pero lo que encontramos en el móvil y lo que dicen los chatbots dice que los humanos no lo vemos, y la clase acaba en risas y en capturas de la IA diciendo que no existe lo que tenemos delante."
+      mecanismo: "Nadie le ha dicho a los profes qué hacer, y como nadie atiende a otra cosa, convertirlo en tema de clase es la forma de recuperar el control sin prohibir nada. Pero toda la información que hay se escribió antes de esto, así que la búsqueda nos da la razón a la abuela y no a nosotros. Eso nos convence aún más de que solo nos podemos fiar de lo que vemos y de lo que cuentan los nuestros en redes, no de los libros ni de las máquinas."
+      dato: ""
+      fuente: ""
+      confianza: media
+      areas_afectadas: [educacion, adolescentes, confianza en fuentes, inteligencia artificial]
+  reacciona_a: ["medios/h2/5", "oftalmologa/h2/4", "politico/h2/3"]

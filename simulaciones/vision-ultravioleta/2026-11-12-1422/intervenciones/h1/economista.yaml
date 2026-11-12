@@ -1,0 +1,58 @@
+intervencion:
+  agente: economista
+  tramo: h1
+  afirmaciones:
+  - texto: En la primera hora, las bolsas europeas (las únicas grandes plazas abiertas a las 10:00 de Madrid) no se desploman. Lo que hay es una ráfaga de interrupciones por volatilidad en valores concretos y diferenciales de compraventa más anchos, sin cierre general del mercado.
+    mecanismo: El suceso no destruye ningún flujo de caja de forma inmediata y los operadores trabajan en interiores, donde casi no llega UV-A, así que siguen funcionando con normalidad. Los algoritmos que leen titulares reaccionan en segundos y empujan precios fuera de los corredores de cada valor. Eso activa subastas de al menos dos minutos valor a valor, no una suspensión del mercado. Los creadores de mercado ensanchan los diferenciales porque no saben valorar el riesgo de un fenómeno sin causa ni duración conocidas. Tokio ya ha cerrado y Wall Street abre a las 15:30 de Madrid, así que en Europa se forma el precio en solitario y con poca liquidez transfronteriza.
+    dato: En Xetra, si un precio sale del corredor estático o dinámico, la negociación continua pasa a una subasta de al menos dos minutos que termina en un momento aleatorio. El valor no queda suspendido.
+    fuente: https://www.deutsche-boerse.com/dbg-en/media/news-stories/explainers/financial-market-know-how/explainer-protection
+    confianza: media
+    areas_afectadas:
+    - mercados_financieros
+    - bolsas_europeas
+    - liquidez
+    id: economista/h1/1
+  - texto: EssilorLuxottica y otros cotizados de óptica y gafas de sol suben con fuerza en París y Milán durante la primera hora, mientras que el resto del Eurostoxx se mueve de lado o baja ligeramente.
+    mecanismo: 'Es la única lectura evidente del suceso: si hay deslumbramiento, harán falta filtros UV. El dinero rápido (fondos sistemáticos, minoristas, opciones de compra) se concentra en el líder del sector. Un líder con una cuota de mercado alta y su propia red de tiendas absorbe la mayor parte de esa narrativa. Es una subida especulativa: nadie sabe aún si el fenómeno es permanente ni si las gafas actuales filtran lo que ahora molesta.'
+    dato: EssilorLuxottica controla en torno al 25 % del mercado mundial de gafas, según Euromonitor, con 26.500 millones de euros de ingresos en 2024.
+    fuente: https://fortune.com/europe/2025/06/04/essilorluxottica-ray-ban-oakley-med-tech-vision/
+    confianza: media
+    areas_afectadas:
+    - mercados_financieros
+    - optica
+    - consumo
+    id: economista/h1/2
+  - texto: 'El golpe a la productividad en la primera hora es geográficamente desigual. En la Europa de noviembre apenas se nota, porque es media mañana y el sol está bajo. Se concentra en el trabajo al aire libre de las franjas de mediodía y primera tarde con más radiación: Golfo Pérsico, África subsahariana y sur de Asia.'
+    mecanismo: La fatiga visual depende de cuánto UV-A llega al ojo, y eso depende de la latitud, la estación y la hora solar. A las 09:00 UTC es mediodía o primera tarde en Oriente Medio, el este de África y la India, que tienen una radiación alta y mucha mano de obra al aire libre en construcción, agricultura y logística. En España, en noviembre, el índice UV ronda 3-4 como máximo. América está de noche y Asia oriental, en su tarde. El sector afectado en esa hora es sobre todo el informal, que no figura en las estadísticas inmediatas.
+    dato: 'Índice UV de Madrid en noviembre: alrededor de 4 (máximo mensual); en los meses de invierno, en torno a 3-4.'
+    fuente: https://nomadseason.com/uv-index/spain/madrid/madrid.html
+    confianza: media
+    areas_afectadas:
+    - empleo
+    - productividad
+    - construccion
+    - agricultura
+    - economias_emergentes
+    id: economista/h1/3
+  - texto: En las tiendas físicas abiertas (ópticas, gasolineras, grandes superficies) y en el comercio electrónico se dispara la compra de gafas de sol. En las zonas soleadas que están a mediodía, las existencias de gama baja se agotan localmente en una o dos horas, pero esa hora no hay escasez sistémica.
+    mecanismo: El incentivo individual es inmediato y el producto es barato, así que se compra por precaución aunque haya dudas sobre si sirve. El inventario de tienda está dimensionado para la demanda de temporada, que en el hemisferio norte en noviembre es baja. Por eso los primeros que compran vacían los expositores, mientras que los almacenes regionales y los centros de distribución aún tienen stock. La escasez real dependerá de la reposición desde las fábricas de Asia, que no se nota en una hora.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - consumo
+    - comercio_minorista
+    - cadena_de_suministro
+    id: economista/h1/4
+  - texto: Los futuros de los índices estadounidenses y los activos refugio (bonos alemanes, franco suizo, oro) se mueven con moderación. No hay una huida masiva hacia la seguridad, porque el mercado trata el suceso como un choque raro, de dirección incierta, y no como recesivo.
+    mecanismo: 'Para que haya una huida masiva hacia los refugios hace falta un mecanismo que reduzca la demanda agregada o el crédito, y en la primera hora nadie lo ve: la gente sigue viendo y en interiores trabaja con normalidad. Las mesas institucionales recortan exposición bruta por incertidumbre, sin cambiar de sentido sus posiciones, y esperan a que la apertura de Nueva York confirme o desmienta. El riesgo mayor que valoran los analistas es si cambia la demanda de iluminación, pantallas, pinturas y textiles, y eso aún no tiene precio.'
+    dato: ''
+    fuente: ''
+    confianza: baja
+    areas_afectadas:
+    - mercados_financieros
+    - renta_fija
+    - divisas
+    - materias_primas
+    id: economista/h1/5
+  reacciona_a: []

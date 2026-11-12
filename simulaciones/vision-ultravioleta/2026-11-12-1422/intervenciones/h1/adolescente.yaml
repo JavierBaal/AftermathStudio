@@ -1,0 +1,53 @@
+intervencion:
+  agente: adolescente
+  tramo: h1
+  afirmaciones:
+  - texto: 'A las 10 estoy en clase de mates y la clase se para sola: nadie atiende y la profe acaba dejando que miremos por la ventana o que salgamos al patio un rato, aunque nadie le ha dicho que lo haga.'
+    mecanismo: Le pasa a ella igual que a nosotros, así que no tiene a nadie por encima que le diga que es normal. Treinta adolescentes gritando que ven colores raros es imposible de controlar, y dejarnos mirar es la forma más rápida de que nos calmemos. En el patio además da el sol y ahí es donde más se nota.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - educacion
+    - vida_cotidiana
+    id: adolescente/h1/1
+  - texto: En mi insti el móvil está prohibido en clase, pero en menos de diez minutos todo el mundo lo ha sacado y nadie nos lo quita; lo primero que hacemos es escribir a casa y al grupo de clase.
+    mecanismo: Ante algo que no entiendes, lo primero es saber si a tu familia y a tus amigos les pasa lo mismo. Los profes también están mirando sus móviles, así que no tienen autoridad para quitárnoslos, y los padres empiezan a escribir preguntando si estamos bien.
+    dato: ''
+    fuente: ''
+    confianza: alta
+    areas_afectadas:
+    - educacion
+    - redes_sociales
+    - familia
+    id: adolescente/h1/2
+  - texto: En la primera hora lo que más se sube a TikTok e Instagram son vídeos de gente apuntando con el móvil a cosas, y la gente se frustra porque en la pantalla no sale lo que ven sus ojos; los comentarios se llenan de que si es falso o si es que la cámara no lo coge.
+    mecanismo: 'Lo natural es grabarlo para compartirlo, pero la cámara del móvil está hecha para enseñar los colores de siempre, así que el vídeo sale normal. Eso genera la primera tendencia: vídeos de reacción con la cara de la gente y no de lo que ve, porque la cara es lo único que sí se puede enseñar.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - redes_sociales
+    - tecnologia
+    id: adolescente/h1/3
+  - texto: 'En mi grupo de amigas lo que más se comenta no es el cielo, sino cómo nos vemos las unas a las otras: que si se te ven manchas en la cara, que si el pelo o el maquillaje se ven distintos. Varias se van al baño a mirarse al espejo y alguna no quiere volver a clase.'
+    mecanismo: A mi edad lo primero que te importa es cómo te ven los demás. Si de repente hay un color nuevo en la piel o en la ropa que antes nadie veía, todas nos fijamos en lo que puede dejarnos en ridículo antes que en cualquier otra cosa, y con la luz del baño puedes comprobarlo sin que te miren.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud_mental
+    - imagen_personal
+    - relaciones_sociales
+    id: adolescente/h1/4
+  - texto: A los que les molesta mucho la luz al salir al patio se les ve entrecerrando los ojos o pidiendo gafas de sol prestadas, y en una hora ya hay quien dice que el que tiene gafas de sol es el que mejor se lo está pasando, y el que no tiene se queda dentro.
+    mecanismo: Fuera, con sol, deslumbra y cansa la vista, así que quien tiene gafas puede quedarse mirando más rato. Eso convierte unas gafas en algo que se presta, se pide y marca quién está en el centro del grupo y quién se queda fuera, que es lo que más me preocupa a mí.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    areas_afectadas:
+    - vida_cotidiana
+    - relaciones_sociales
+    - salud
+    id: adolescente/h1/5
+  reacciona_a: []

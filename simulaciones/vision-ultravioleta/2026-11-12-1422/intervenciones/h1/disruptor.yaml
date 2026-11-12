@@ -1,0 +1,61 @@
+intervencion:
+  agente: disruptor
+  tramo: h1
+  afirmaciones:
+  - texto: En la primera hora, millones de personas con gafas graduadas de policarbonato, alto índice o tratamiento UV400 apenas notan el cambio en su visión central y solo lo perciben por los bordes de la montura. Eso genera testimonios contradictorios (unos dicen que no ven nada y otros describen colores nuevos), y el primer truco que se hace viral no es ponerse gafas de sol, sino quitarse las gafas de ver.
+    mecanismo: El fenómeno solo existe si llega luz UV-A a la retina. Gran parte de las lentes oftálmicas modernas filtran casi todo el UV por el material o por un recubrimiento, así que funcionan como un interruptor que apaga la nueva percepción en el centro del campo visual. La experiencia depende de la óptica que lleve cada uno, la gente compara relatos incompatibles y la confusión inicial no viene de la ignorancia, sino de una diferencia física real entre observadores.
+    dato: Las lentes de policarbonato bloquean el 100 % de la radiación UV de forma intrínseca, sin necesidad de recubrimiento.
+    fuente: https://www.allaboutvision.com/en-gb/eyeglasses/polycarbonate-lenses/
+    confianza: alta
+    areas_afectadas:
+    - salud
+    - informacion
+    - redes_sociales
+    - optica
+    id: disruptor/h1/1
+  - texto: En la hora 1, casi todo el continente americano y buena parte de quienes trabajan en interiores en Europa no ven nada nuevo. En América es de noche (las 4:00 en Nueva York y la 1:00 en Los Ángeles) y la iluminación LED no emite UV-A. Su primer contacto con el suceso son los vídeos y mensajes que llegan de Europa, África, Oriente Medio y la India, y eso alimenta en las redes de EE. UU. la tesis de que es un bulo o una campaña coordinada hasta que amanece.
+    mecanismo: 'Por la noche no hay fuente de UV-A natural, porque la luz de la luna es luz solar reflejada muy débil, y los LED blancos de uso general emiten UV despreciable. Sin estímulo no hay percepción. La asimetría horaria convierte un suceso simultáneo en uno escalonado: primero se vive en las zonas iluminadas por el sol y el resto lo recibe como relato de segunda mano, sin poder comprobarlo, en el momento de máxima credulidad o desconfianza. Las oficinas europeas con LED y lejos de las ventanas reproducen el mismo efecto a pequeña escala.'
+    dato: Los LED blancos de iluminación general no emiten cantidades relevantes de radiación ultravioleta.
+    fuente: https://www.icnirp.org/en/applications/led/led.html
+    confianza: alta
+    areas_afectadas:
+    - informacion
+    - desinformacion
+    - geopolitica_mediatica
+    - trabajo
+    id: disruptor/h1/2
+  - texto: 'En las zonas de día (Europa, África, Oriente Medio, la India), los conductores ven un mundo partido: a través del parabrisas el paisaje parece casi normal, pero por las ventanillas laterales aparecen los colores UV y el deslumbramiento. Los incidentes de tráfico de la primera hora se concentran en cambios de carril, incorporaciones y giros (cuando el conductor mira de lado), no en la conducción en línea recta. Al mismo tiempo, muchos descubren que el coche parado es un refugio contra la fatiga visual.'
+    mecanismo: Los parabrisas son de vidrio laminado, cuya lámina intermedia absorbe casi todo el UV-A. Las ventanillas laterales suelen ser de vidrio templado y dejan pasar bastante más. La fatiga y el deslumbramiento solo aparecen cuando el conductor gira la cabeza, justo en las maniobras que más atención exigen. Además, el contraste brusco entre la vista frontal y la lateral obliga a readaptarse en cada mirada.
+    dato: En un estudio de 29 vehículos, los parabrisas bloquearon de media el 96 % del UV-A y las ventanillas del conductor solo el 71 %.
+    fuente: https://safetyandhealthmagazine.com/articles/14075-vehicle-side-windows-offer-little-protection-from-suns-rays-study
+    confianza: media
+    areas_afectadas:
+    - trafico
+    - seguridad_vial
+    - seguros
+    - automocion
+    id: disruptor/h1/3
+  - texto: Los talleres de mantenimiento aeronáutico e industrial de Europa, que a las 10:00 están en plena jornada, suspenden las inspecciones por líquidos penetrantes fluorescentes y partículas magnéticas. Se retrasa la puesta en servicio de piezas de motor y de estructuras que estaban pendientes de liberación.
+    mecanismo: 'Estos ensayos se hacen en cabinas oscuras iluminadas con lámparas UV-A de 365 nm, con un supuesto implícito: el inspector no ve la luz UV-A y solo ve la fluorescencia visible de las grietas sobre un fondo negro. Ahora el inspector percibe la luz reflejada por toda la pieza y por la cabina, el contraste se hunde y el método deja de cumplir las condiciones con las que se validó. Ningún responsable de calidad firmará una liberación con un procedimiento cuya premisa física ha cambiado, así que el efecto no es pánico, sino una parada normativa silenciosa.'
+    dato: La inspección fluorescente usa lámparas UV-A con el pico de intensidad en 365 nm y exige limitar la luz visible ambiental en la cabina.
+    fuente: https://magnaflux.com/Magnaflux/Resources/Blog/NDT-UV-LED-FAQ
+    confianza: media
+    areas_afectadas:
+    - aviacion
+    - industria
+    - calidad
+    - normativa
+    - cadena_de_suministro
+    id: disruptor/h1/4
+  - texto: En la India y Oriente Medio, donde a esa hora es primera hora de la tarde con mucho sol, la gente empieza a ver la crema solar en la piel de los demás como manchas o máscaras oscuras. También ve que la ropa blanca lavada con detergentes con blanqueantes ópticos no se parece a la blanca sin tratar. En la primera hora circulan imágenes de caras con parches irregulares de protector solar y aparecen dudas sobre si la crema funciona o si mancha.
+    mecanismo: Los filtros solares químicos y minerales funcionan precisamente absorbiendo o reflejando el UV. En una visión que incluye el UV-A, una zona con protector se ve claramente distinta de la piel desprotegida, y se nota cada zona mal extendida. Los blanqueantes ópticos absorben UV-A y lo reemiten en azul, de modo que su aspecto cambia con el nuevo canal de color. Algo que hasta ahora era invisible por diseño pasa a ser visible y a juzgarse por estética.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - cosmetica
+    - consumo
+    - salud_dermatologica
+    - redes_sociales
+    id: disruptor/h1/5
+  reacciona_a: []

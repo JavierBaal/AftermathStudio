@@ -1,0 +1,54 @@
+intervencion:
+  agente: oftalmologa
+  tramo: h2
+  afirmaciones:
+  - texto: 'En la segunda hora los afáquicos consultados por medios y consultas dan un relato que solo coincide a medias con el del resto: confirman la banda y el blanco violáceo de fondo, pero muchos dicen que ahora ven además matices que antes no tenían, y otros que para ellos el cambio apenas existe. Su papel pasa de testigos que ya lo sabían a grupo de control, y su valor como informantes baja en los medios aunque sube en la investigación clínica.'
+    mecanismo: 'Antes del suceso, el afáquico percibía el UV solo a través de la cola de sensibilidad de sus conos de siempre, sobre todo los S, así que lo veía como un blanco azulado o violeta dentro de su espacio de color habitual y sin un tono nuevo. El suceso añade la percepción del UV-A como colores nuevos, que es otra cosa: un canal cromático, no solo más luz llegando a los mismos conos. Por eso el afáquico reconoce dónde está el UV pero no puede describir el color nuevo mejor que nadie. Los que tenían el ojo afáquico en un solo lado comparan los dos ojos y dan el relato más útil.'
+    dato: Sin cristalino, la sensibilidad visual se extiende hasta unos 300 nm y el UV se describe como blanco azulado o violáceo; se cita el caso de Monet tras su operación de cataratas.
+    fuente: https://en.wikipedia.org/wiki/Aphakia ; https://www.healio.com/news/optometry/20230518/blog-the-link-between-uv-light-iols-and-claude-monets-water-lilies
+    confianza: media
+    areas_afectadas:
+    - salud
+    - medios
+    - ciencia
+    id: oftalmologa/h2/1
+  - texto: 'Se invierte en parte el gradiente por edad de la primera hora: los mayores operados de cataratas con lente intraocular moderna apenas ven los colores nuevos, menos que sus coetáneos sin operar con cristalino aún claro, y las consultas de oftalmología reciben llamadas de operados que creen que la operación les ha quitado algo o que la lente está mal.'
+    mecanismo: Desde los años ochenta prácticamente todas las lentes intraoculares llevan un cromóforo que absorbe el UV, y muchas además filtran el azul. Funcionan como unas gafas UV400 dentro del ojo y no se pueden quitar. En España se hacen cientos de miles de operaciones de cataratas al año, así que hay millones de personas mayores con el interruptor apagado de forma permanente. Solo los portadores de lentes antiguas o de modelos sin filtro (una minoría) quedan en el grupo de los que sí ven, lo que explica por qué algunos operados ven y otros no.
+    dato: ''
+    fuente: ''
+    confianza: alta
+    areas_afectadas:
+    - salud
+    - sanidad_publica
+    - mayores
+    id: oftalmologa/h2/2
+  - texto: 'Las sociedades de oftalmología y los colegios de ópticos emiten en esta hora el primer aviso práctico concreto: las gafas de sol baratas compradas a toda prisa sin marcado CE o sin filtro UV400 no apagan el UV ni alivian el deslumbramiento, y pueden empeorarlo. El aviso se centra en comprobar la etiqueta, no en la causa del fenómeno.'
+    mecanismo: 'El tinte oscuro y el filtro UV son cosas independientes: una lente puede oscurecer el visible y dejar pasar el UV-A. Si oscurece, la pupila se dilata algo y entra más UV-A por el centro del campo visual, justo lo contrario de lo que se busca. Con los expositores de gama baja vaciándose y gente comprando en bazares y gasolineras, la queja de que me he comprado gafas y sigo viendo lo raro y me molesta llega a las ópticas en la primera hora. Es el único consejo que un profesional puede dar con seguridad sin saber nada de la causa, así que es el primero que sale.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud
+    - consumo
+    - comercio
+    id: oftalmologa/h2/3
+  - texto: 'El gesto viral de quitarse las gafas de ver para comprobar el UV produce resultados distintos según la graduación: los hipermétropes sin corregir describen los bordes UV más nítidos que el resto, y los miopes los ven aún más emborronados. Esto alimenta testimonios contradictorios y la sospecha de que el fenómeno es un trastorno de enfoque.'
+    mecanismo: Por aberración cromática longitudinal, el UV-A enfoca por delante de la retina cuando el ojo enfoca el visible. En un miope sin corrección la imagen visible ya cae por delante, así que la capa UV queda aún más desenfocada. En un hipermétrope la imagen visible cae por detrás y el desplazamiento del UV hacia delante la acerca a la retina, de modo que esa capa sale relativamente más nítida. Al quitarse las gafas cada uno ve una combinación distinta de desenfoque visible y UV, y lo atribuye al fenómeno.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud
+    - redes_sociales
+    id: oftalmologa/h2/4
+  - texto: 'Las urgencias oftalmológicas de las zonas con sol registran en la segunda hora un pico de consultas por halos, visión borrosa y fatiga, casi todas sin patología, y los hospitales empiezan a hacer triaje telefónico y a publicar criterios de cuándo acudir: dolor intenso, pérdida de visión en un ojo, cortina o destellos.'
+    mecanismo: 'El halo por aberración cromática y la fatiga en exteriores se parecen a síntomas reales de urgencia (desprendimiento de retina, glaucoma agudo, uveítis), y la gente no puede distinguirlos. Como el canon dice que el deslumbramiento remite sin daño, la tarea clínica es separar lo poco que coincide por azar con una patología real del ruido del fenómeno. La forma más barata de hacerlo es fijar los signos de alarma clásicos que el fenómeno no produce: dolor intenso, pérdida brusca de visión, síntomas en un solo ojo.'
+    dato: ''
+    fuente: ''
+    confianza: alta
+    areas_afectadas:
+    - salud
+    - sanidad_publica
+    id: oftalmologa/h2/5
+  reacciona_a:
+  - economista/h1/4

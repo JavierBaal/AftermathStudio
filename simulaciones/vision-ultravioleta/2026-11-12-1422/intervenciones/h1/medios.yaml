@@ -1,0 +1,56 @@
+intervencion:
+  agente: medios
+  tramo: h1
+  afirmaciones:
+  - texto: 'En la primera hora el fenómeno se vuelve viral precisamente porque no se puede grabar: millones de vídeos y fotos de móvil no muestran nada distinto, y el formato dominante pasa a ser el testimonio hablado y el texto (gente intentando describir colores que no tienen nombre), no la imagen.'
+    mecanismo: 'Los sensores de los móviles llevan filtros que cortan el ultravioleta y su procesado está calibrado para la visión humana anterior, así que la prueba visual que las redes necesitan para validar un suceso no existe. La frustración de ''lo estoy viendo y la cámara no lo coge'' se convierte en contenido en sí mismo y alimenta a la vez dos relatos opuestos: ''es real y no lo podemos enseñar'' y ''es una alucinación colectiva''.'
+    dato: Los sensores de cámara de consumo incorporan filtros que bloquean el UV y no registran el UV-A tal como ahora lo percibe el ojo.
+    fuente: https://www.uniquephoto.com/community/qa/can-a-smartphone-camera-capture-uv-fluorescence-around-340-350-nm
+    confianza: alta
+    areas_afectadas:
+    - redes sociales
+    - medios audiovisuales
+    - verificación
+    id: medios/h1/1
+  - texto: 'La narrativa de la primera hora es europea y africana: la viven a plena luz de la mañana, mientras que en América es de madrugada y en Asia oriental ya ha anochecido, y allí muchos no notan nada todavía y responden con escepticismo a lo que llega desde Europa.'
+    mecanismo: A las 10:00 de Madrid son en torno a las 4:00 en Nueva York y las 18:00 en Tokio; sin luz solar apenas hay UV-A ambiente, así que la experiencia diferencial depende de la hora local. El primer ciclo de contenido se genera en husos con sol, y en los husos a oscuras el suceso llega primero como rumor ajeno, lo que siembra la sospecha de montaje o de histeria mediática regional.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - redes sociales
+    - geopolítica informativa
+    - confianza institucional
+    id: medios/h1/2
+  - texto: Antes de que acabe la hora circulan varias explicaciones falsas con gran alcance (antenas 5G, fumigaciones, una tormenta solar ocultada, un experimento militar o farmacéutico), y superan en difusión a los mensajes de prudencia de oftalmólogos y autoridades.
+    mecanismo: Hay un vacío explicativo total, ya que nadie conoce la causa, y las cuentas conspirativas tienen marcos narrativos previos que solo necesitan recolocar. Lo falso y novedoso se comparte más y más rápido que lo verificado, y un '¿todavía no sabemos nada?' oficial no compite con una historia completa.
+    dato: En Twitter, las noticias falsas tenían un 70% más de probabilidad de ser retuiteadas y las verdaderas tardaban unas seis veces más en llegar a 1.500 personas.
+    fuente: https://news.mit.edu/2018/study-twitter-false-news-travels-faster-true-stories-0308
+    confianza: alta
+    areas_afectadas:
+    - desinformación
+    - salud pública
+    - plataformas
+    id: medios/h1/3
+  - texto: 'Surge una ola de contenido de descubrimiento que deriva en el bulo de ''lo que nos ocultaban'': gente mostrando marcas en billetes, envases, documentos, ropa o paredes que antes no veía, interpretadas como mensajes secretos o vigilancia.'
+    mecanismo: Muchos objetos cotidianos llevan tintas, blanqueadores ópticos o tratamientos que solo se distinguen en ultravioleta y que tienen razones técnicas banales (seguridad antifalsificación, detergentes, protectores solares). Sin ese contexto, el hallazgo repentino de patrones invisibles encaja perfecto con el esquema conspirativo y es fácil de contar sin necesidad de imagen.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - desinformación
+    - consumo
+    - banca
+    - seguridad documental
+    id: medios/h1/4
+  - texto: 'Los medios tradicionales europeos abren especiales en directo en menos de una hora pero sin material propio: rellenan con tertulias, oftalmólogos y lectura de redes, y amplifican sin querer los bulos al citarlos para desmentirlos.'
+    mecanismo: Un suceso global sin imagen ni fuente oficial deja a la televisión sin su recurso principal; la presión por emitir hace que las redes pasen a ser la fuente, y el desmentido en directo repite el contenido falso ante una audiencia mayor que la original. Los verificadores no tienen todavía nada con que contrastar, porque ningún organismo ha publicado nada.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - medios de comunicación
+    - verificación
+    - comunicación institucional
+    id: medios/h1/5
+  reacciona_a: []

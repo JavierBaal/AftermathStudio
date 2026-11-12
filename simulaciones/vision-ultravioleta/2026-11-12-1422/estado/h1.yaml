@@ -1,0 +1,101 @@
+estado_del_mundo:
+  tramo: h1
+  resumen: "En la primera hora el suceso se vive de forma escalonada aunque sea simultáneo: solo lo perciben con claridad quienes están al aire libre o junto a ventanas en zonas con luz solar (Europa, África, Oriente Medio, India), mientras que en América es de noche, en Asia oriental ya ha anochecido y en interiores con LED apenas se nota. Como las cámaras de los móviles no registran el UV-A, el fenómeno se cuenta con testimonios y caras de reacción, lo que alimenta a la vez el escepticismo (sobre todo en EE. UU.) y una oleada de bulos sobre la causa y sobre marcas ocultas que ahora se ven en billetes, ropa o piel. Las gafas con filtro UV (UV400, policarbonato) funcionan como interruptor que apaga la nueva percepción y alivia el deslumbramiento, lo que dispara la compra de gafas de sol y la subida especulativa de EssilorLuxottica, en unos mercados europeos tensos pero sin desplome. Los gobiernos con luz diurna actúan solo sobre el deslumbramiento (tráfico, protección civil) y la coordinación interna, sin pronunciarse sobre el fenómeno; la OMS vigila sin declarar emergencia y la hipótesis de ataque se queda en canales reservados."
+  hechos_establecidos:
+    - id: h1-01
+      texto: "La experiencia del suceso depende de la luz solar local: a las 09:00 UTC lo viven a plena luz Europa, África, Oriente Medio y la India; en América es de madrugada y en Asia oriental ya ha anochecido, de modo que allí la mayoría no ve nada nuevo y recibe el suceso como relato de segunda mano, con escepticismo y sospecha de montaje o histeria regional, especialmente en las redes de EE. UU."
+      origen: [politico/h1/1, medios/h1/2, disruptor/h1/2]
+    - id: h1-02
+      texto: "En interiores iluminados con LED el cambio es casi imperceptible, porque esas lámparas apenas emiten UV-A; se nota al mirar por una ventana o al salir a la calle. Oficinas, mesas de operaciones y aulas lejos de las ventanas funcionan casi con normalidad."
+      origen: [oftalmologa/h1/4, disruptor/h1/2, economista/h1/1]
+    - id: h1-03
+      texto: "Las cámaras de los móviles no registran el UV-A tal como ahora lo percibe el ojo: los vídeos salen normales, no hay prueba visual del fenómeno y el contenido viral dominante son testimonios hablados, textos que intentan describir colores sin nombre y vídeos de reacción centrados en las caras; los comentarios se llenan de acusaciones de falsedad."
+      origen: [medios/h1/1, adolescente/h1/3]
+    - id: h1-04
+      texto: "Las lentes con filtro UV (gafas de sol UV400 y muchas gafas graduadas de policarbonato, alto índice o con tratamiento UV) apagan la nueva percepción en el centro del campo visual y eliminan el deslumbramiento; quienes las llevan solo notan el cambio por los bordes de la montura. Esto genera testimonios contradictorios entre observadores, y el gesto de quitarse y ponerse las gafas (de ver o de sol) se vuelve viral como forma de comprobar qué es UV."
+      origen: [oftalmologa/h1/3, disruptor/h1/1]
+    - id: h1-05
+      texto: "En las zonas con sol se dispara la compra de gafas de sol en tiendas físicas y comercio electrónico; en las zonas que están a mediodía se agotan localmente las existencias de gama baja en una o dos horas, pero no hay escasez sistémica porque los almacenes regionales aún tienen stock. Entre adolescentes, tener gafas de sol empieza a marcar quién puede quedarse fuera mirando y quién se queda dentro."
+      origen: [economista/h1/4, adolescente/h1/5]
+    - id: h1-06
+      texto: "Las bolsas europeas, principales plazas abiertas a esa hora junto a algunas de India y el Golfo, no se desploman: hay interrupciones por volatilidad valor a valor (subastas de al menos dos minutos), diferenciales más anchos y formación de precio con poca liquidez transfronteriza a la espera de la apertura de Wall Street a las 15:30 de Madrid."
+      origen: [economista/h1/1]
+    - id: h1-07
+      texto: "EssilorLuxottica y otros cotizados de óptica y gafas de sol suben con fuerza en París y Milán en una subida especulativa, mientras el resto del Eurostoxx se mueve de lado o baja ligeramente."
+      origen: [economista/h1/2]
+    - id: h1-08
+      texto: "Futuros estadounidenses y activos refugio (bono alemán, franco suizo, oro) se mueven con moderación: no hay huida masiva hacia la seguridad, las mesas institucionales reducen exposición bruta y esperan a Nueva York."
+      origen: [economista/h1/5]
+    - id: h1-09
+      texto: "El golpe a la productividad es geográficamente desigual: en la Europa de noviembre, con sol bajo, el deslumbramiento es leve; se concentra en el trabajo al aire libre de las zonas a mediodía o primera tarde con alta radiación (Golfo Pérsico, África subsahariana, sur de Asia), sobre todo en el sector informal."
+      origen: [economista/h1/3]
+    - id: h1-10
+      texto: "Los parabrisas laminados bloquean casi todo el UV-A y las ventanillas laterales mucho menos, así que los conductores ven un paisaje casi normal al frente y colores UV con deslumbramiento por los lados; los incidentes de la primera hora se concentran en cambios de carril, incorporaciones y giros, y el coche parado se descubre como refugio contra la fatiga visual."
+      origen: [disruptor/h1/3, oftalmologa/h1/4]
+    - id: h1-11
+      texto: "Los gobiernos con luz diurna actúan solo sobre el deslumbramiento: autoridades de tráfico y protección civil piden reducir la conducción y refuerzan la vigilancia en carreteras, sin pronunciarse sobre el fenómeno en sí."
+      origen: [politico/h1/2]
+    - id: h1-12
+      texto: "En España se convoca de urgencia el Consejo de Seguridad Nacional o su comité de situación, sin declarar ninguna situación de interés para la Seguridad Nacional."
+      origen: [politico/h1/3]
+    - id: h1-13
+      texto: "La OMS emite una nota breve de que vigila la situación, sin convocar el Comité de Emergencias del RSI ni declarar una emergencia de salud pública de importancia internacional."
+      origen: [politico/h1/4]
+    - id: h1-14
+      texto: "Los servicios de inteligencia y defensa de las grandes potencias abren en privado la hipótesis de un ataque y elevan la alerta, pero ningún gobierno acusa públicamente a otro."
+      origen: [politico/h1/5]
+    - id: h1-15
+      texto: "Antes de que acabe la hora circulan con gran alcance explicaciones falsas (antenas 5G, fumigaciones, tormenta solar ocultada, experimento militar o farmacéutico) que superan en difusión a los mensajes de prudencia de oftalmólogos y autoridades."
+      origen: [medios/h1/3]
+    - id: h1-16
+      texto: "Surge una ola de descubrimientos que se cuenta de palabra: marcas antes invisibles en billetes, documentos, envases, ropa y paredes (tintas de seguridad, blanqueantes ópticos), la ropa blanca lavada con blanqueantes distinta de la no tratada y, donde hay sol fuerte (India, Oriente Medio), el protector solar visible como parches o máscaras en la piel. Parte se interpreta como mensajes ocultos o vigilancia y aparecen dudas sobre si la crema solar funciona o mancha."
+      origen: [medios/h1/4, disruptor/h1/5]
+    - id: h1-17
+      texto: "Las televisiones europeas abren especiales en directo sin material propio, con tertulias, oftalmólogos y lectura de redes, y amplifican los bulos al citarlos para desmentirlos."
+      origen: [medios/h1/5]
+    - id: h1-18
+      texto: "Los objetos que destacan en UV se ven con un halo o borde ligeramente desenfocado por aberración cromática, y mucha gente lo interpreta como un problema de vista y no como un color nuevo."
+      origen: [oftalmologa/h1/2]
+    - id: h1-19
+      texto: "La intensidad de los colores nuevos varía con la edad por la transparencia del cristalino: niños y jóvenes los ven más vivos y los mayores más apagados, lo que desconcierta en las comparaciones familiares."
+      origen: [oftalmologa/h1/5]
+    - id: h1-20
+      texto: "En los colegios e institutos españoles las clases se paran solas: el profesorado deja mirar por la ventana o salir al patio sin instrucciones, el móvil sale en todas partes pese a la prohibición y lo primero es escribir a la familia y al grupo de clase, mientras los padres preguntan si sus hijos están bien."
+      origen: [adolescente/h1/1, adolescente/h1/2]
+    - id: h1-21
+      texto: "Entre adolescentes la preocupación inmediata es la propia imagen: cómo se ven piel, pelo y maquillaje con los colores nuevos. La comprobación en el espejo del baño, con luz LED interior, no muestra el efecto, de modo que la duda no se resuelve en interiores."
+      origen: [adolescente/h1/4, oftalmologa/h1/4]
+    - id: h1-22
+      texto: "Los talleres europeos de mantenimiento aeronáutico e industrial suspenden las inspecciones por líquidos penetrantes fluorescentes y partículas magnéticas, porque el inspector ahora percibe la luz UV-A de 365 nm y el contraste del método se hunde; se retrasa la liberación de piezas de motor y estructuras pendientes."
+      origen: [disruptor/h1/4]
+    - id: h1-23
+      texto: "Las personas afáquicas o con lentes intraoculares que dejan pasar UV empiezan a ser buscadas por consultas y medios como informantes de referencia, porque tenían experiencia previa de percibir UV como un blanco azulado o violáceo."
+      origen: [oftalmologa/h1/1]
+  tensiones_abiertas:
+    - "Si la experiencia previa de los afáquicos coincide realmente con los colores nuevos que percibe el resto o solo es un parecido parcial; su valor como informantes depende de ello."
+    - "Si la subida de EssilorLuxottica y la compra de gafas de sol se sostienen: el filtro UV400 alivia de forma física, pero el mercado no sabe si el fenómeno es permanente ni si la gente preferirá ver el UV a bloquearlo."
+    - "Qué ocurre cuando amanezca en América: si la experiencia directa disuelve el escepticismo estadounidense o si el marco de bulo o campaña coordinada ya fijado en la primera hora persiste."
+    - "Si el aumento de incidentes de tráfico en maniobras laterales es medible y empuja a pasar de la recomendación a medidas obligatorias."
+    - "Cuánto dura la parada de ensayos fluorescentes en aviación e industria y si los reguladores validan un procedimiento alternativo antes de que afecte a la operación de flotas."
+  contradicciones_resueltas:
+    - entre: [disruptor/h1/5, medios/h1/1]
+      decision: "Se acepta que el protector solar y los blanqueantes ópticos se ven distintos, pero se corrige que circulen imágenes de caras con parches: lo que circula son descripciones y testimonios."
+      motivo: "Las cámaras de los móviles no registran el UV-A (dato verificable de medios/h1/1, confianza alta), así que no puede haber imágenes que muestren el efecto."
+    - entre: [adolescente/h1/4, oftalmologa/h1/4]
+      decision: "Se mantiene la preocupación por la propia imagen, pero el espejo del baño no permite comprobarla."
+      motivo: "La iluminación LED interior casi no emite UV-A; el mecanismo de oftalmologa/h1/4 y el dato de disruptor/h1/2 son más sólidos."
+    - entre: [oftalmologa/h1/3, disruptor/h1/1]
+      decision: "Se combinan: el gesto viral es quitarse y ponerse cualquier lente con filtro UV, tanto gafas de sol como graduadas."
+      motivo: "Ambas descansan en el mismo mecanismo físico de filtrado por debajo de 400 nm y no se excluyen."
+    - entre: [economista/h1/2, oftalmologa/h1/3]
+      decision: "Se mantiene la subida como especulativa, pero en el canon queda establecido que las gafas UV400 sí bloquean lo que ahora molesta."
+      motivo: "La duda del mercado es de información de los inversores en la primera hora, no del mecanismo físico, que está bien fundado."
+    - entre: [economista/h1/1, politico/h1/1]
+      decision: "Se matiza que las bolsas europeas son las principales plazas abiertas, no las únicas: Tokio, Shanghái y Hong Kong ya han cerrado, pero India y el Golfo siguen en sesión."
+      motivo: "Corrección horaria verificable a las 09:00 UTC; no altera el resto de la afirmación."
+  descartadas: []
+  metricas:
+    alarma_social: 3
+    respuesta_gobiernos: comunicacion
+    impacto_economico: 2
+    adaptacion: 2

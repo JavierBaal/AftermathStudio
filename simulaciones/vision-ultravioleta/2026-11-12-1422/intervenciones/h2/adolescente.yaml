@@ -1,0 +1,60 @@
+intervencion:
+  agente: adolescente
+  tramo: h2
+  afirmaciones:
+  - texto: 'En el recreo de las once y media mis amigas y yo salimos al patio con espejitos de bolso y con la pantalla del móvil apagada para mirarnos la cara al sol, y cuando eso no basta nos usamos las unas a las otras de espejo: ''dime de verdad cómo se me ve''. Así es como descubrimos que la crema con color y algunos correctores se ven como manchas raras y que el iluminador de alguna brilla muchísimo.'
+    mecanismo: En el baño con la luz de siempre no se ve nada, así que la duda de cómo nos vemos sigue sin resolverse. La única forma de comprobarlo es salir donde da el sol. Un espejo pequeño fuera sí devuelve parte de esos colores, pero como no te fías, acabas preguntando a una amiga, y eso hace que la opinión de las demás sobre tu cara pese todavía más que antes.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - adolescencia
+    - imagen_personal
+    - cosmetica
+    - salud_mental
+    id: adolescente/h2/1
+  - texto: 'En una hora las gafas de sol pasan de ser lo que todo el mundo quería a ser casi de pringados dentro de mi grupo: lo que se lleva es aguantar sin ellas y decir lo que ves, y quien se las pone mucho rato es ''el que no se entera''. Las gafas se quedan para los que lo pasan mal con la luz, que se ponen y se quitan como para comprobar algo.'
+    mecanismo: Ya se sabe que con las gafas de sol los colores nuevos desaparecen. Si lo que todos comentan es lo que ve cada uno, llevar gafas te deja fuera de la conversación. Entre nosotros lo que cuenta es poder decir 'yo lo he visto', así que aguantar el deslumbramiento se vuelve una forma de demostrar que estás dentro, aunque luego te duelan los ojos.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - adolescencia
+    - consumo
+    - gafas_de_sol
+    - salud_visual
+    id: adolescente/h2/2
+  - texto: 'En el patio se empieza a señalar la ropa: las zapatillas blancas nuevas, las camisetas recién lavadas y las etiquetas o logos que antes no se veían destacan muchísimo, y sale un ranking de quién ''brilla'' y quién no. Hay risas, pero también alguna se agobia porque se le nota una mancha o un remiendo que antes no se veía.'
+    mecanismo: Lo que se lava con detergente con blanqueante y algunas tintas de las marcas se ven distintas con los colores nuevos, y cada uno lleva ropa lavada de forma diferente en su casa. Eso convierte algo que no controlas, el detergente de tu madre o lo vieja que es tu ropa, en algo que todos pueden ver y comentar, y en clase cualquier diferencia visible acaba siendo motivo de broma.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - adolescencia
+    - textil
+    - convivencia_escolar
+    - desigualdad
+    id: adolescente/h2/3
+  - texto: Antes del recreo llega un aviso por la aplicación del instituto y por megafonía diciendo que el recreo será dentro o en el porche 'por precaución por el deslumbramiento'. Mucha gente sale igual, se pega a las ventanas del pasillo o se escapa al patio, y los profes de guardia no lo impiden mucho.
+    mecanismo: La dirección no tiene instrucciones de la Consejería y le llegan mensajes de padres preocupados. Lo único que puede decir sin comprometerse es lo de la luz, igual que hace tráfico. Pero los profes también quieren mirar y nadie les ha explicado por qué es peligroso, así que la norma se cumple a medias y los que más se juntan son los que quieren seguir mirando.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - educacion
+    - adolescencia
+    - familias
+    - gestion_publica
+    id: adolescente/h2/4
+  - texto: En el grupo de familia y en el de clase empiezan a circular audios de 'una prima que es enfermera' diciendo que si miras mucho rato te quedas ciega o que esto se queda para siempre. Mi madre me pide que no salga, mi abuela dice que ella casi no ve nada raro y no se cree lo que le cuento, y yo me siento entre asustada y sin que me crean.
+    mecanismo: Nadie oficial ha explicado nada y un audio con voz de alguien de confianza llega antes que cualquier aviso. En casa además cada uno ve el color con distinta fuerza según la edad, así que cuando le digo a mi abuela lo vivo que lo veo piensa que exagero. Eso me empuja a confiar más en lo que dicen mis amigos y las redes que en mi familia, justo cuando más miedo da.
+    dato: ''
+    fuente: ''
+    confianza: alta
+    areas_afectadas:
+    - desinformacion
+    - familias
+    - adolescencia
+    - salud_mental
+    id: adolescente/h2/5
+  reacciona_a: []

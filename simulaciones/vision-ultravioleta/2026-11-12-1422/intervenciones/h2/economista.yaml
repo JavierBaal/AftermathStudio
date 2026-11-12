@@ -1,0 +1,60 @@
+intervencion:
+  agente: economista
+  tramo: h2
+  afirmaciones:
+  - texto: 'En la segunda hora la subida de EssilorLuxottica se frena y devuelve parte de lo ganado: las primeras notas de análisis de los bancos señalan que el grueso de la demanda nueva va a gafas de sol baratas sin marca, no a las líneas de margen alto del grupo, y la ganancia se reparte hacia distribuidores y cadenas de óptica de gran volumen.'
+    mecanismo: 'La primera hora fue una compra por narrativa en el líder del sector. En la segunda, los analistas hacen la cuenta de la demanda incremental: buena parte de la población con gafas graduadas ya filtra UV con el material o el tratamiento de la lente, así que no necesita comprar nada, y quien compra por el deslumbramiento busca la gafa más barata disponible ya, no una marca de lujo. Ese volumen lo capturan fabricantes sin marca y el canal de gran consumo, que apenas cotizan. Además nadie sabe si el fenómeno es permanente ni si la gente preferirá ver el UV a bloquearlo, lo que impide subir las previsiones de beneficio. Sin revisión de beneficios, los fondos rápidos toman ganancias.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - mercados financieros
+    - sector óptico
+    - comercio minorista
+    id: economista/h2/1
+  - texto: Entre las 11:00 y las 12:00 de Madrid, con las fábricas chinas a primera hora de la noche, distribuidores europeos, de Oriente Medio y de la India lanzan pedidos urgentes de gafas de sol básicas y lentes UV400 a los polos productores chinos (Danyang, Xiamen, Wenzhou). Los proveedores en plataformas mayoristas suben precios de oferta y acortan la validez de sus presupuestos, y algunos anuncian turnos extra para el día siguiente.
+    mecanismo: 'Las existencias de tienda se agotaron en la primera hora y los almacenes regionales están dimensionados para la temporada baja del hemisferio norte. Los compras de cadenas y distribuidores no esperan a saber si el fenómeno dura: el coste de quedarse sin producto es mayor que el de sobrestock de un artículo barato y no perecedero. La capacidad está muy concentrada en China, así que la reposición pasa por allí, y el proveedor con pedidos simultáneos de varios continentes tiene poder de precio inmediato. El cuello de botella real no es fabricar monturas simples, sino lentes con filtro certificado y transporte aéreo, que tardará días.'
+    dato: Danyang produce más de 400 millones de lentes al año, en torno al 45 % de la producción mundial de lentes para gafas, y más de 100 millones de monturas.
+    fuente: https://investinchina.chinadaily.com.cn/s/202203/16/WS6231abc0498e6a12c1225a79/city-of-glasses-plays-crucial-role-in-global-eyewear-market.html
+    confianza: media
+    areas_afectadas:
+    - cadenas de suministro
+    - comercio internacional
+    - sector óptico
+    - precios
+    id: economista/h2/2
+  - texto: MTU Aero Engines, Safran y Lufthansa (por su división de mantenimiento) se quedan por debajo del índice en Fráncfort y París durante la segunda hora, cuando las mesas conectan la parada de los ensayos fluorescentes en talleres con una capacidad de mantenimiento de motores que ya estaba al límite.
+    mecanismo: 'La suspensión de inspecciones por líquidos penetrantes y partículas magnéticas no es pánico, es un cuello de botella regulatorio con efecto acumulativo: cada día sin liberar piezas alarga las visitas a taller y deja aviones en tierra. El mercado ya conocía lo caro que es eso por las revisiones de los motores GTF, que obligaron a parar aviones y costaron cientos de millones a los talleres y fabricantes. Los analistas aplican esa plantilla: ingresos de mantenimiento retrasados, penalizaciones contractuales y aerolíneas con menos aviones disponibles. La caída es moderada porque se supone que el regulador validará un procedimiento alternativo, pero nadie sabe cuándo.'
+    dato: MTU estimó un impacto de alrededor de 1.000 millones de euros por el problema del motor PW1100G, que ya tensionaba la capacidad de los talleres de motores.
+    fuente: https://www.flightglobal.com/aerospace/mtu-expects-1bn-impact-from-pw1100g-issue-but-maintains-faith-in-geared-fan-outlook/154933.article
+    confianza: media
+    areas_afectadas:
+    - aviación
+    - mercados financieros
+    - mantenimiento industrial
+    - transporte aéreo
+    id: economista/h2/3
+  - texto: 'En la segunda hora la volatilidad implícita europea (VSTOXX y opciones sobre índices) sube bastante más de lo que bajan los índices: el mercado compra protección en lugar de vender acciones, y el precio de las coberturas se encarece sin que haya desplome al contado.'
+    mecanismo: 'Las mesas institucionales ya recortaron exposición en la primera hora y no tienen motivo para seguir vendiendo, porque no ven ningún flujo de caja destruido. Lo que tienen es un riesgo sin dirección y sin duración conocida antes de un acontecimiento binario: la apertura de Nueva York y el amanecer en América, que dirá si el fenómeno se confirma allí. Ante incertidumbre de ese tipo, el instrumento racional es la opción, que limita pérdidas sin renunciar a la posición. Los creadores de mercado, que venden esas opciones, suben su precio para cubrirse, y la volatilidad implícita se separa del movimiento del índice.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - mercados financieros
+    - derivados
+    id: economista/h2/4
+  - texto: Las cosméticas con peso en protección solar y maquillaje (Beiersdorf, L'Oréal) bajan ligeramente en la segunda hora, más por relato que por cifras, mientras los minoristas de cosmética reciben consultas sobre si la crema solar sigue protegiendo y cómo se ve el maquillaje con los colores nuevos.
+    mecanismo: La crema solar y muchos maquillajes llevan filtros y pigmentos (dióxido de titanio, óxido de zinc) que absorben o reflejan UV-A, justo lo que ahora se ve como manchas o máscaras. El riesgo para el inversor no es que dejen de proteger, sino que el consumidor deje de usarlos por estética, y ese riesgo es nuevo y no tiene precio. El efecto en ventas reales es pequeño en la Europa de noviembre, que es temporada baja de protección solar, y por eso la caída es leve y no una venta masiva; la respuesta de las marcas, que tendrán que reformular o explicar, tardará semanas.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    areas_afectadas:
+    - mercados financieros
+    - cosmética
+    - consumo
+    id: economista/h2/5
+  reacciona_a:
+  - disruptor/h1/1
+  - disruptor/h1/4
+  - disruptor/h1/5
+  - adolescente/h1/4

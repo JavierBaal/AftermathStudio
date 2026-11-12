@@ -1,0 +1,54 @@
+intervencion:
+  agente: oftalmologa
+  tramo: h1
+  afirmaciones:
+  - texto: 'En la primera hora, las personas afáquicas o con lentes intraoculares que dejan pasar UV son las únicas que pueden describir con criterio lo que todos ven: para ellas no es un color del todo nuevo, sino una versión más intensa del blanco azulado o violáceo que ya percibían. Las consultas de oftalmología y los medios empiezan a buscarlas como informantes de referencia.'
+    mecanismo: El cristalino natural absorbe casi todo el UV antes de que llegue a la retina; sin él, el UV llega a los conos (sobre todo a los S, más sensibles a esas longitudes) y se percibe como blanquecino azulado o violeta. Esa experiencia previa es el único marco de comparación disponible para describir el fenómeno en tiempo real.
+    dato: En ojos afáquicos o con implantes que transmiten UV, longitudes de onda de hasta unos 315 nm llegan a la retina y se perciben como azul o violeta blanquecino; los conos S son los más sensibles al UV.
+    fuente: https://2020mag.com/article/uv-vision-seeing-invisible-ultraviolet
+    confianza: media
+    areas_afectadas:
+    - salud
+    - medios
+    - ciencia
+    id: oftalmologa/h1/1
+  - texto: Los objetos que destacan en UV se ven con un halo o borde ligeramente desenfocado respecto a su contorno visible, y mucha gente lo interpreta en la primera hora como un problema de vista y no como un color nuevo.
+    mecanismo: 'Aberración cromática longitudinal: el ojo refracta más las longitudes de onda cortas, así que el UV-A enfoca por delante de la retina cuando el ojo enfoca el visible. El sistema de acomodación está calibrado para el visible y no corrige ese desfase, de modo que la capa UV de la imagen llega algo borrosa.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud
+    - vida_cotidiana
+    id: oftalmologa/h1/2
+  - texto: Quien lleva gafas graduadas con filtro UV o gafas de sol UV400 apenas ve los colores nuevos mientras las lleva puestas; quitárselas y ponérselas se convierte en el gesto para comprobar qué es UV y qué no, y las gafas UV400 pasan a ser el alivio inmediato del deslumbramiento en exteriores.
+    mecanismo: Los filtros UV400 bloquean la radiación por debajo de 400 nm, que es justo la banda UV-A que ahora estimula la retina. Al cortarla, devuelven la visión al estado anterior y eliminan la fuente del deslumbramiento, sin afectar al visible.
+    dato: ''
+    fuente: ''
+    confianza: alta
+    areas_afectadas:
+    - salud
+    - consumo
+    - vida_cotidiana
+    id: oftalmologa/h1/3
+  - texto: Dentro de casas y oficinas con iluminación LED el cambio es casi imperceptible; donde se nota es al mirar por la ventana o salir a la calle. En coches el parabrisas atenúa buena parte del efecto, mientras que las ventanillas laterales lo dejan pasar más.
+    mecanismo: Las lámparas LED blancas emiten muy poca radiación por debajo de 400 nm, así que en interiores casi no hay UV-A que ver. El vidrio común de ventana deja pasar gran parte del UV-A, y el parabrisas laminado lleva una lámina intermedia que lo absorbe en mayor proporción que el vidrio templado de las ventanillas.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - vida_cotidiana
+    - transporte
+    - trabajo
+    id: oftalmologa/h1/4
+  - texto: 'La intensidad de los colores nuevos varía con la edad: niños y jóvenes los describen más vivos y las personas mayores, más apagados. Las primeras comparaciones entre generaciones dentro de una misma familia generan desconcierto.'
+    mecanismo: El cristalino amarillea y se opacifica con los años, lo que aumenta su absorción de longitudes de onda cortas. Aunque ahora todos perciben UV-A, la cantidad que llega a la retina depende de lo transparente que sea cada cristalino, que es máxima en la infancia.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud
+    - familia
+    - vida_cotidiana
+    id: oftalmologa/h1/5
+  reacciona_a: []
