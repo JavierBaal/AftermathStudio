@@ -1,7 +1,7 @@
 # Escenario de prueba: visión ultravioleta
 # Supuestos revisados y confirmados por Fran el 12/11/2026.
 
-version_esquema: "0.1"
+version_esquema: "0.2"
 
 meta:
   id: vision-ultravioleta
@@ -9,7 +9,7 @@ meta:
   tipo: especulativo
   idioma: es
   descripcion: "Toda la humanidad empieza a ver el espectro ultravioleta a la vez."
-  version: 4
+  version: 5
 
 evento:
   premisa: "Todos los seres humanos desarrollan a la vez la capacidad de ver el espectro ultravioleta."
@@ -52,6 +52,8 @@ agentes:
     rol: "Macroeconomía y mercados financieros"
     perfil: "Escéptico con el pánico; razona por incentivos y cadenas de suministro"
     objetivos: ["Anticipar efectos en mercados, consumo y empleo"]
+    incentivos: ["Su prestigio depende de acertar en público y no sumarse a pánicos que luego no ocurren"]
+    restricciones: ["No da recomendaciones de inversión", "Solo trabaja con datos de mercado publicados"]
     herramientas: [busqueda_web]
   - id: sociologo
     tipo: experto
@@ -76,12 +78,16 @@ agentes:
     rol: "Gobierno y gestión de crisis"
     perfil: "Pragmático; piensa en legitimidad, coordinación y votos"
     objetivos: ["Prever respuestas de gobiernos y organismos internacionales"]
+    incentivos: ["Los gobiernos ganan legitimidad si parecen tener el control y la pierden si rectifican", "La oposición gana con cada error o silencio del Gobierno"]
+    restricciones: ["Ningún gobierno puede afirmar lo que sus técnicos no respaldan", "Las medidas excepcionales exigen una base legal"]
     herramientas: [busqueda_web]
   - id: oftalmologa
     tipo: experto
     rol: "Fisiología de la visión"
     perfil: "Rigurosa; ancla el escenario en cómo funciona el ojo"
     objetivos: ["Explicar qué se ve exactamente y qué cambia en lo cotidiano"]
+    incentivos: ["Su sociedad científica gana autoridad si se convierte en la referencia del fenómeno"]
+    restricciones: ["No afirma nada sin base clínica o física"]
     conocimiento_privado:
       - "Las personas sin cristalino ya perciben algo de ultravioleta cercano"
     herramientas: [busqueda_web]
@@ -90,6 +96,8 @@ agentes:
     rol: "Medios de comunicación y redes sociales"
     perfil: "Conoce cómo se propagan los relatos y los bulos"
     objetivos: ["Prever la narrativa pública y la desinformación"]
+    incentivos: ["Los medios compiten por audiencia y por ser los primeros; el contenido que genera miedo o indignación se comparte más"]
+    restricciones: ["Los medios serios no publican sin al menos una fuente", "Las plataformas retiran o limitan contenido según sus normas"]
     herramientas: [busqueda_web]
   # Agentes de a pie
   - id: agricultor
@@ -102,11 +110,22 @@ agentes:
     rol: "Estudiante de 16 años en Madrid, muy activa en redes"
     perfil: "Curiosa, sensible a la mirada de los demás"
     objetivos: ["Entender qué está pasando y encajar con su grupo"]
+    incentivos: ["Ganar estatus y atención entre sus amigos y en redes"]
+    restricciones: ["Depende de sus padres y de las normas del instituto"]
   - id: mayor
     tipo: a_pie
     rol: "Mujer de 79 años que vive sola en un pueblo"
     perfil: "Serena, con mala vista previa y poca tecnología"
     objetivos: ["Mantener su rutina y su independencia"]
+  # Actores
+  - id: agitador
+    tipo: actor
+    rol: "Creador de contenido y agitador político con dos millones de seguidores en redes y canales propios de mensajería"
+    perfil: "Desconfía de las instituciones, se mueve rápido y convierte cada incertidumbre en una historia de culpables"
+    objetivos: ["Crecer en audiencia e influencia"]
+    incentivos: ["Gana seguidores, donaciones y relevancia cuanto más miedo y desconfianza hay", "Pierde audiencia si el fenómeno se explica y se normaliza"]
+    restricciones: ["Las plataformas grandes pueden retirarle contenido o desmonetizarlo", "Necesita que lo que cuenta parezca creíble a su audiencia"]
+    herramientas: [busqueda_web]
   # Disruptor
   - id: disruptor
     tipo: disruptor
@@ -128,7 +147,7 @@ arbitro:
 interaccion:
   modo: rondas_sincronizadas
   visibilidad: estado_e_intervenciones
-  exigencias: { mecanismo: obligatorio, dato: recomendado, confianza: obligatorio }
+  exigencias: { mecanismo: obligatorio, dato: recomendado, confianza: obligatorio, evidencia: obligatorio }
   max_afirmaciones_por_tramo: 5
 
 variables:
@@ -144,9 +163,9 @@ variables:
 ejecucion:
   repeticiones: 1          # primera prueba: una sola ejecución
   modo: ligero
-  # Primera prueba con elenco reducido: 6 agentes y los 4 primeros tramos.
-  # Quitar estas dos líneas para la simulación completa (11 agentes, 10 tramos).
-  agentes: [economista, politico, medios, oftalmologa, adolescente, disruptor]
+  # Prueba reducida: 7 agentes y los 4 primeros tramos.
+  # Quitar estas dos líneas para la simulación completa (12 agentes, 10 tramos).
+  agentes: [economista, politico, medios, oftalmologa, adolescente, agitador, disruptor]
   tramos: [h1, h2, h3, h5]
 
 resultados:
@@ -154,16 +173,49 @@ resultados:
     - id: alarma_social
       pregunta: "Nivel de alarma social"
       tipo: escala
+      niveles:
+        1: "Curiosidad; la vida sigue igual"
+        2: "Inquietud; conversación y búsquedas, sin cambios de conducta"
+        3: "Preocupación; cambios de conducta visibles en parte de la población (compras, quedarse en casa)"
+        4: "Miedo extendido; acaparamiento, servicios colapsados o protestas en varios países"
+        5: "Pánico; desórdenes, violencia o huidas masivas"
+    - id: confianza_institucional
+      pregunta: "Confianza en la explicación y las indicaciones oficiales"
+      tipo: escala
+      niveles:
+        1: "La mayoría desconfía abiertamente; las versiones alternativas dominan"
+        2: "La versión oficial es minoritaria fuera de los medios tradicionales"
+        3: "Dividida: la versión oficial convive con una sospecha amplia"
+        4: "La mayoría sigue las indicaciones oficiales, con reservas"
+        5: "Confianza alta; las instituciones marcan el relato"
     - id: respuesta_gobiernos
       pregunta: "Respuesta dominante de los gobiernos"
       tipo: categorica
-      opciones: [ninguna, comunicacion, emergencia, medidas_excepcionales]
+      opciones: [ninguna, comunicacion, medidas_sectoriales, emergencia, medidas_excepcionales]
+      niveles:
+        ninguna: "Silencio oficial"
+        comunicacion: "Mensajes y recomendaciones, sin medidas"
+        medidas_sectoriales: "Medidas concretas en sectores (transporte, colegios, trabajo) sin estado excepcional"
+        emergencia: "Declaración formal de emergencia o alerta nacional"
+        medidas_excepcionales: "Restricción de derechos: confinamientos, toques de queda o censura"
     - id: impacto_economico
       pregunta: "Impacto económico agregado"
       tipo: escala
+      niveles:
+        1: "Sin efecto apreciable"
+        2: "Movimientos sectoriales; índices estables"
+        3: "Caídas generales de índices o disrupción en varios sectores"
+        4: "Crisis de mercado; intervención de bancos centrales o gobiernos"
+        5: "Parálisis económica"
     - id: adaptacion
       pregunta: "Grado de normalización del cambio"
       tipo: escala
+      niveles:
+        1: "Nadie sabe qué hacer"
+        2: "Primeras pautas, poco seguidas"
+        3: "Pautas claras y adoptadas por parte de la población"
+        4: "La mayoría ha ajustado su rutina"
+        5: "Normalizado"
   informe:
     secciones:
       - "Cronología consolidada"
@@ -174,5 +226,5 @@ resultados:
     extension: larga
 
 seguimiento:
-  biblia: [estados, intervenciones, memoria_agentes, fuentes]
+  biblia: [estados, intervenciones, metricas, memoria_agentes, fuentes]
   modos: [entrevista, zoom, rama]

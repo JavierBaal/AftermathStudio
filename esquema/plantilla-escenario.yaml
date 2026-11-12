@@ -1,8 +1,9 @@
-# Aftermath Studio — Plantilla del esquema de escenario v0.1
+# Aftermath Studio — Plantilla del esquema de escenario v0.2
 # Documentación: docs/02-esquema-escenario.md
+# Cambios respecto a v0.1: docs/03-aprendizajes-y-decisiones.md
 # Los campos marcados como opcionales tienen un valor por defecto en el motor.
 
-version_esquema: "0.1"
+version_esquema: "0.2"
 
 meta:
   id: string                       # slug único del escenario
@@ -19,7 +20,8 @@ evento:
   supuestos:                       # lo que se da por fijo
     - id: string
       texto: string
-      fuente: usuario | configurador
+      fuente: usuario | configurador | externa
+      referencia: string           # opcional; obligatoria si fuente es externa (URL o documento)
   fuera_de_alcance: [string]       # lo que la simulación no debe tratar
 
 cronologia:
@@ -32,10 +34,16 @@ cronologia:
 agentes:
   - id: string
     nombre: string                 # cómo se presenta en el informe
-    tipo: experto | a_pie | disruptor
+    tipo: experto | a_pie | disruptor | actor
+                                   # experto: analiza desde su área
+                                   # a_pie: vive el suceso en primera persona
+                                   # disruptor: busca lo que nadie ha previsto
+                                   # actor: actúa en el mundo según sus incentivos
     rol: string                    # su área o su lugar en el mundo
     perfil: string                 # carácter, sesgos, estilo de razonamiento
     objetivos: [string]            # qué le importa
+    incentivos: [string]           # opcional: qué gana o pierde según cómo evolucione el mundo
+    restricciones: [string]        # opcional: lo que no puede hacer o decir
     conocimiento_privado: [string] # solo lo ve este agente
     herramientas: [busqueda_web]   # opcional
     modelo: string                 # opcional: proveedor/modelo
@@ -46,6 +54,7 @@ arbitro:
   criterios: [string]              # cómo decide entre versiones incompatibles
   plausibilidad: string            # qué hace con afirmaciones sin mecanismo
   max_hechos_por_tramo: number     # opcional: tope de hechos que entran en el canon por tramo
+  # Regla fija del motor: una cifra sin fuente no entra en el canon como hecho.
 
 interaccion:
   modo: rondas_sincronizadas
@@ -56,6 +65,7 @@ interaccion:
     mecanismo: obligatorio
     dato: recomendado | obligatorio
     confianza: obligatorio
+    evidencia: obligatorio         # dato | inferencia | especulacion
   max_afirmaciones_por_tramo: 5
 
 variables:                         # solo si hay repeticiones
@@ -71,17 +81,22 @@ ejecucion:
   proveedor_defecto: string        # opcional en modo ligero
   agentes: [string]                # opcional: ids de un subconjunto de agentes (pruebas); por defecto, todos
   tramos: [string]                 # opcional: ids de un subconjunto de tramos (pruebas); por defecto, todos
+  # El registro de cada ejecución anota proveedor, modelo, versión y parámetros de cada rol.
 
 resultados:
-  metricas:                        # el árbitro las puntúa en cada tramo
+  evaluador:
+    modelo: string                 # opcional; el evaluador puntúa las métricas, no el árbitro
+  metricas:                        # el evaluador las puntúa en cada tramo
     - id: string
       pregunta: string
       tipo: escala | categorica | numerica
       opciones: [string]           # para categorica; 1-5 por defecto en escala
+      niveles:                     # recomendado: qué significa cada valor u opción
+        <valor u opcion>: string
   informe:
     secciones: [string]            # estructura del informe final
     extension: corta | media | larga
 
 seguimiento:
-  biblia: [estados, intervenciones, memoria_agentes, fuentes]
+  biblia: [estados, intervenciones, metricas, memoria_agentes, fuentes]
   modos: [entrevista, zoom, rama]

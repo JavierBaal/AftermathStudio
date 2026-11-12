@@ -1,13 +1,14 @@
-# Aftermath Studio — Esquema del escenario v0.1
+# Aftermath Studio — Esquema del escenario v0.2
 
 12 de noviembre de 2026 · Fran Barbero
 
-Documento vivo: https://claude.ai/artifact/DetSZyD3cQea6c3j9XhYrc
+Documento vivo de la v0.1: https://claude.ai/artifact/DetSZyD3cQea6c3j9XhYrc
 
 El esquema es un archivo YAML que describe una simulación completa: el configurador lo genera entrevistando al usuario, el motor lo ejecuta sin saber nada del tema y la biblia del escenario guarda todo lo que produce.
 
 - Plantilla completa: [`esquema/plantilla-escenario.yaml`](../esquema/plantilla-escenario.yaml)
 - Ejemplo real: [`escenarios/vision-ultravioleta/escenario.yaml`](../escenarios/vision-ultravioleta/escenario.yaml)
+- Por qué cambió de la v0.1 a la v0.2: [`docs/03-aprendizajes-y-decisiones.md`](03-aprendizajes-y-decisiones.md)
 
 ## Los bloques del esquema
 
@@ -16,26 +17,29 @@ Diez bloques cubren cualquier simulación. Los cuatro primeros describen el mund
 | Bloque | Qué describe | Quién lo usa |
 | --- | --- | --- |
 | `meta` | Identidad: título, tipo (especulativo o negocio), idioma, versión | Todos |
-| `evento` | La premisa, el momento cero, el alcance y los supuestos que se dan por fijos | Configurador, agentes, árbitro |
+| `evento` | La premisa, el momento cero, el alcance y los supuestos que se dan por fijos, con su procedencia | Configurador, agentes, árbitro |
 | `cronologia` | Los tramos en los que avanza la simulación | Motor |
-| `agentes` | Cada rol: tipo, perfil, objetivos, conocimiento privado, herramientas y modelo | Motor, agentes |
+| `agentes` | Cada rol: tipo, perfil, objetivos, incentivos, restricciones, conocimiento privado, herramientas y modelo | Motor, agentes |
 | `arbitro` | Cómo consolida cada tramo, resuelve contradicciones y cuántos hechos admite como máximo por tramo | Árbitro |
 | `interaccion` | Qué ve cada agente de los demás y qué exige cada afirmación | Motor, agentes |
 | `variables` | Lo que cambia entre repeticiones para obtener futuros distintos | Motor |
 | `ejecucion` | Repeticiones, semilla, modo (ligero o intensivo), proveedor por defecto y, opcionalmente, un subconjunto de agentes y tramos para pruebas | Motor |
-| `resultados` | Métricas que el árbitro puntúa y estructura del informe | Árbitro, análisis |
+| `resultados` | Métricas con la descripción de cada nivel, quién las evalúa y estructura del informe | Evaluador, análisis |
 | `seguimiento` | Qué se guarda en la biblia y qué modos de exploración se permiten | Motor, Claude |
 
-Dos reglas del formato:
+Reglas del formato:
 
-- **Todo supuesto es explícito.** Lo que el usuario no dijo y el configurador decidió queda marcado con `fuente: configurador`, para que el usuario lo vea y lo corrija.
+- **Todo supuesto es explícito y tiene procedencia.** `usuario` si lo dijo el usuario, `configurador` si lo decidió la IA y está pendiente de confirmar, `externa` si sale de una fuente documentada, con su `referencia`.
 - **El motor no interpreta el tema.** Solo lee bloques, lanza agentes y guarda salidas. Todo el conocimiento del escenario está en el archivo.
+- **Cuatro tipos de agente.** `experto` analiza desde su área; `a_pie` vive el suceso en primera persona; `disruptor` busca lo que nadie ha previsto; `actor` actúa en el mundo guiado por sus incentivos. Los `incentivos` (qué gana o pierde cada uno) son la principal herramienta contra el sesgo hacia la calma.
+- **Narrar y medir son tareas distintas.** El árbitro decide qué ocurre; un evaluador aparte puntúa las métricas con la descripción de cada nivel.
+- **Una cifra sin fuente no entra en el canon como hecho.**
 
 ## Contratos de salida
 
-Agentes y árbitro responden siempre con la misma estructura. Así el motor puede guardar, comparar y contar sin entender el contenido.
+Agentes, árbitro y evaluador responden siempre con la misma estructura. Así el motor puede guardar, comparar y contar sin entender el contenido.
 
-**Intervención de un agente en un tramo.** Cada afirmación lleva su mecanismo, su dato si lo hay y su grado de confianza:
+**Intervención de un agente en un tramo.** Cada afirmación lleva su mecanismo, su dato si lo hay, su grado de confianza y su tipo de evidencia:
 
 ```yaml
 intervencion:
@@ -47,6 +51,7 @@ intervencion:
       dato: "Descripción del mecanismo de suspensión del mercado en cuestión"
       fuente: "URL consultada"        # vacío si no hay dato buscado
       confianza: media               # baja | media | alta
+      evidencia: dato                # dato | inferencia | especulacion
       areas_afectadas: [finanzas, politica]
   reacciona_a: [politico/h1/2]       # afirmaciones de otros agentes que tiene en cuenta
 ```
@@ -68,19 +73,24 @@ estado_del_mundo:
       motivo: "..."
   descartadas:                       # afirmaciones que no entran en el canon
     - id: medios/h1/4
-      motivo: "Sin mecanismo plausible"
-  metricas:                          # las definidas en el bloque resultados
-    alarma_social: 4
+      motivo: "Cifra sin fuente"
 ```
 
-Los identificadores del tipo `agente/tramo/número` permiten rastrear cualquier hecho del informe hasta la intervención que lo originó.
+**Evaluación de las métricas de un tramo.** La redacta el evaluador a partir del estado del mundo, con los niveles definidos en `resultados.metricas`:
 
-## Decisiones abiertas
+```yaml
+evaluacion:
+  tramo: h1
+  metricas:
+    - id: alarma_social
+      valor: 3
+      justificacion: "Por qué este nivel y no el anterior o el siguiente"
+      apoyos: [h1-02, h1-05]         # hechos del canon que lo sostienen
+```
 
-Las cinco decisiones previas a la skill quedaron cerradas el 12/11/2026:
+Los identificadores del tipo `agente/tramo/número` y `tramo-NN` permiten rastrear cualquier hecho o puntuación del informe hasta la intervención que lo originó.
 
-- [x] **Supuestos del ultravioleta.** Cerrado el 12/11/2026: se mantienen s2 (UV-A como colores nuevos) y s4 (causa y permanencia desconocidas); s3 pasa a incluir deslumbramiento y fatiga visual los primeros días, sin daño permanente.
-- [x] **Visibilidad entre agentes.** Cerrado: `estado_e_intervenciones`. Cada agente ve el estado del mundo y lo que dijeron los demás; más efectos cruzados a cambio de más contexto y algo más de riesgo de convergencia.
-- [x] **Número de agentes.** Cerrado: la primera prueba usa 6 agentes (economista, político, medios, oftalmóloga, adolescente y disruptor) y los 4 primeros tramos, mediante `ejecucion.agentes` y `ejecucion.tramos`. Son 24 intervenciones y 4 consolidaciones, frente a 110 y 10 de la simulación completa.
-- [x] **Formato del archivo.** Cerrado: YAML para que lo lean personas; el JSON Schema de validación llega con el motor MCP.
-- [x] **Métricas.** Cerrado: se empieza con las cuatro propuestas (alarma social, respuesta de los gobiernos, impacto económico y adaptación); se revisan tras la primera prueba.
+## Historial
+
+- **v0.2 (12/11/2026).** Procedencia `externa` en supuestos; tipo de agente `actor`; `incentivos` y `restricciones`; tipo de evidencia por afirmación; regla de cifras sin fuente; evaluador separado del árbitro; niveles descritos en las métricas; registro de modelos por ejecución. Motivos en [`docs/03-aprendizajes-y-decisiones.md`](03-aprendizajes-y-decisiones.md).
+- **v0.1 (12/11/2026).** Primera versión. Se añadieron después `ejecucion.agentes`, `ejecucion.tramos` y `arbitro.max_hechos_por_tramo`. Decisiones cerradas antes de la skill: supuestos del ultravioleta confirmados, visibilidad `estado_e_intervenciones`, primera prueba con 6 agentes y 4 tramos, YAML como formato y cuatro métricas iniciales.
