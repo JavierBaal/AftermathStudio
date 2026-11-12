@@ -22,7 +22,7 @@ Diez bloques cubren cualquier simulación. Los cuatro primeros describen el mund
 | `arbitro` | Cómo consolida cada tramo y resuelve contradicciones | Árbitro |
 | `interaccion` | Qué ve cada agente de los demás y qué exige cada afirmación | Motor, agentes |
 | `variables` | Lo que cambia entre repeticiones para obtener futuros distintos | Motor |
-| `ejecucion` | Repeticiones, semilla, modo (ligero o intensivo) y proveedor por defecto | Motor |
+| `ejecucion` | Repeticiones, semilla, modo (ligero o intensivo), proveedor por defecto y, opcionalmente, un subconjunto de agentes y tramos para pruebas | Motor |
 | `resultados` | Métricas que el árbitro puntúa y estructura del informe | Árbitro, análisis |
 | `seguimiento` | Qué se guarda en la biblia y qué modos de exploración se permiten | Motor, Claude |
 
@@ -74,10 +74,10 @@ Los identificadores del tipo `agente/tramo/número` permiten rastrear cualquier 
 
 ## Decisiones abiertas
 
-Cinco puntos que conviene cerrar antes de montar la skill:
+Las cinco decisiones previas a la skill quedaron cerradas el 12/11/2026:
 
 - [x] **Supuestos del ultravioleta.** Cerrado el 12/11/2026: se mantienen s2 (UV-A como colores nuevos) y s4 (causa y permanencia desconocidas); s3 pasa a incluir deslumbramiento y fatiga visual los primeros días, sin daño permanente.
-- [ ] **Visibilidad entre agentes.** Propuesta: `estado_e_intervenciones`, con más efectos cruzados a cambio de más contexto por agente y más riesgo de convergencia. La alternativa `estado` es más barata y aislada.
-- [ ] **Número de agentes.** 11 agentes × 10 tramos son 110 intervenciones más 10 consolidaciones. En modo ligero es mucho uso. Opción: empezar con 6 agentes y los 4 primeros tramos para validar.
-- [ ] **Formato del archivo.** YAML para que lo lean personas; más adelante, un JSON Schema para que el motor valide antes de ejecutar.
-- [ ] **Métricas.** Las cuatro propuestas son orientativas. Decidir qué se quiere poder comparar entre ejecuciones cuando haya repeticiones.
+- [x] **Visibilidad entre agentes.** Cerrado: `estado_e_intervenciones`. Cada agente ve el estado del mundo y lo que dijeron los demás; más efectos cruzados a cambio de más contexto y algo más de riesgo de convergencia.
+- [x] **Número de agentes.** Cerrado: la primera prueba usa 6 agentes (economista, político, medios, oftalmóloga, adolescente y disruptor) y los 4 primeros tramos, mediante `ejecucion.agentes` y `ejecucion.tramos`. Son 24 intervenciones y 4 consolidaciones, frente a 110 y 10 de la simulación completa.
+- [x] **Formato del archivo.** Cerrado: YAML para que lo lean personas; el JSON Schema de validación llega con el motor MCP.
+- [x] **Métricas.** Cerrado: se empieza con las cuatro propuestas (alarma social, respuesta de los gobiernos, impacto económico y adaptación); se revisan tras la primera prueba.

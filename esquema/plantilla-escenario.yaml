@@ -68,6 +68,8 @@ ejecucion:
   semilla: number                  # opcional, para reproducir una ejecución
   modo: ligero | intensivo
   proveedor_defecto: string        # opcional en modo ligero
+  agentes: [string]                # opcional: ids de un subconjunto de agentes (pruebas); por defecto, todos
+  tramos: [string]                 # opcional: ids de un subconjunto de tramos (pruebas); por defecto, todos
 
 resultados:
   metricas:                        # el árbitro las puntúa en cada tramo

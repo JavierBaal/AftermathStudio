@@ -9,7 +9,7 @@ meta:
   tipo: especulativo
   idioma: es
   descripcion: "Toda la humanidad empieza a ver el espectro ultravioleta a la vez."
-  version: 2
+  version: 3
 
 evento:
   premisa: "Todos los seres humanos desarrollan a la vez la capacidad de ver el espectro ultravioleta."
@@ -140,6 +140,10 @@ variables:
 ejecucion:
   repeticiones: 1          # primera prueba: una sola ejecución
   modo: ligero
+  # Primera prueba con elenco reducido: 6 agentes y los 4 primeros tramos.
+  # Quitar estas dos líneas para la simulación completa (11 agentes, 10 tramos).
+  agentes: [economista, politico, medios, oftalmologa, adolescente, disruptor]
+  tramos: [h1, h2, h3, h5]
 
 resultados:
   metricas:
