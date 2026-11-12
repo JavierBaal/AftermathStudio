@@ -66,6 +66,9 @@ estado_del_mundo:
     - entre: [economista/h1/2, politico/h1/1]
       decision: "..."
       motivo: "..."
+  descartadas:                       # afirmaciones que no entran en el canon
+    - id: medios/h1/4
+      motivo: "Sin mecanismo plausible"
   metricas:                          # las definidas en el bloque resultados
     alarma_social: 4
 ```
