@@ -1,0 +1,7 @@
+
+### Hora 1
+- [oftalmologa/h1/1] En la primera hora, lo que la gente describe como colores nuevos lo nombra casi siempre como un blanco azulado o violáceo que brilla, sobre todo en el cielo, en las nubes y en superficies blancas al sol. Las primeras descripciones serán vagas y contradictorias entre sí. (entró en el canon)
+- [oftalmologa/h1/2] Las primeras personas que pueden comparar con criterio son los operados de cataratas antiguos y las personas afáquicas. Algunos dirán en la primera hora que ese tinte ya lo conocían y que ahora lo ve todo el mundo, y los oftalmólogos lo recogeremos como la primera pista clínica para describir el fenómeno. (no entró en el canon)
+- [oftalmologa/h1/3] En la primera hora se nota una diferencia clara entre interiores y exteriores. Dentro de edificios y vehículos con cristal, el cambio pasa casi desapercibido. Al salir a la calle a mediodía con sol, aparecen los deslumbramientos y la gente vuelve a entrar o se pone gafas de sol. (entró en el canon)
+- [oftalmologa/h1/4] En la primera hora, las consultas de urgencias oftalmológicas y los teléfonos de información sanitaria reciben un primer pico de llamadas por fotofobia y por miedo a una lesión. La mayoría de las exploraciones son normales, y eso la primera mañana genera desconcierto más que tranquilidad. (entró en el canon)
+- [oftalmologa/h1/5] Los recién nacidos y los lactantes muestran en la primera hora más incomodidad ante la luz exterior que los adultos, y los padres que salen a la calle lo notan antes en el bebé que en sí mismos. (no entró en el canon)

@@ -1,0 +1,35 @@
+intervencion:
+  agente: economista
+  tramo: h2
+  afirmaciones:
+    - texto: "Entre las 11:00 y las 12:00, el ajuste en los mercados europeos pasa del contado a las opciones. El VSTOXX y la volatilidad implícita de las opciones sobre índices suben con mucha más fuerza de lo que caen el Euro Stoxx 50 o el Ibex, que siguen sin desplomarse. Los gestores compran protección en lugar de vender cartera."
+      mecanismo: "Vender en un mercado con poca profundidad y diferenciales amplios (h1-10) sale caro y fija pérdidas por un riesgo que nadie sabe cuantificar. Comprar puts o coberturas cuesta una prima conocida y mantiene la cartera, así que es la respuesta racional cuando la incertidumbre no tiene signo: el fenómeno puede ser neutro, malo para algunos sectores o permanente, y nadie lo sabe. Los creadores de mercado que venden esa protección la encarecen, y la volatilidad implícita recoge la incertidumbre mientras el precio de las acciones apenas se mueve."
+      dato: ""
+      fuente: ""
+      confianza: media
+      areas_afectadas: [mercados financieros, derivados, gestión de activos]
+    - texto: "Las aerolíneas europeas cotizadas (IAG, Air France-KLM, Lufthansa, Ryanair) son el primer sector que cae de forma clara en la segunda hora. La caída es moderada y no se convierte en desplome, porque los analistas leen pronto que el coste es de retrasos operativos y no de indemnizaciones."
+      mecanismo: "Las retenciones y ralentizaciones de salidas ordenadas por los reguladores de transporte (h1-04) se propagan en cascada: aviones y tripulaciones fuera de posición, slots perdidos y conexiones rotas durante todo el día, y eso es un coste directo fácil de modelizar. Pero el Reglamento europeo 261/2004 exime a las aerolíneas de pagar compensaciones cuando la causa son circunstancias extraordinarias, y una decisión de un regulador ante un fenómeno global encaja en ese supuesto. Sin el pasivo de las indemnizaciones, el daño se queda en un mal día de operaciones y no en un agujero en las cuentas."
+      dato: "El Reglamento (CE) 261/2004 exime a las compañías de pagar compensación cuando la incidencia se debe a circunstancias extraordinarias que no podrían haberse evitado aunque se hubieran tomado todas las medidas razonables."
+      fuente: "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32004R0261"
+      confianza: media
+      areas_afectadas: [mercados financieros, transporte aéreo, turismo]
+    - texto: "Los valores de cosmética con mucho peso de la protección solar, como Beiersdorf (Nivea Sun) y en menor medida L'Oréal, bajan en Xetra y Euronext en la segunda hora. Es el reverso del impulso de las ópticas: el mercado descuenta que nadie querrá llevar en la cara un producto que se ve como una mancha negra."
+      mecanismo: "El relato de la crema que mancha (h1-09) es tan fácil de leer como el de las gafas de sol y los mismos algoritmos de titulares lo operan en sentido contrario. El problema de fondo es estructural y no de formulación: un filtro solar protege precisamente porque absorbe o dispersa el ultravioleta, así que cualquier crema que funcione se verá oscura en el canal UV-A. Desde el escepticismo, el golpe en ventas a corto plazo es menor de lo que sugiere el precio, porque en noviembre la temporada de solares en el hemisferio norte está parada y el grueso de la demanda está ahora en el verano austral (Latinoamérica, Sudáfrica, Australia). Lo que de verdad cotiza es una opción sobre la permanencia del fenómeno, que nadie puede valorar todavía."
+      dato: ""
+      fuente: ""
+      confianza: media
+      areas_afectadas: [mercados financieros, cosmética, consumo]
+    - texto: "En Europa, donde el deslumbramiento de noviembre es moderado, la compra de gafas de sol se mueve por miedo y no por molestia física. En la segunda hora suben con fuerza las búsquedas y pedidos en línea de gafas UV400 infantiles y de protecciones para bebés, y en los marketplaces aparecen vendedores externos que suben precios y prometen plazos que no podrán cumplir."
+      mecanismo: "Esto encaja con la tensión abierta sobre el deslumbramiento en Europa. Con el sol bajo de noviembre llega menos ultravioleta total y una parte menor es UV-B, pero el UV-A es la mayor parte de la radiación y no desaparece, así que hay molestia en exteriores, aunque menor que en el Golfo o la India. Lo que dispara la compra es la combinación de los bulos sanitarios ('tápale los ojos al bebé', h1-07) con la observación real de que los lactantes sufren más el deslumbramiento (oftalmologa/h1/5). Los padres compran como seguro y no como respuesta a lo que sienten ellos, y lo hacen desde el móvil porque están en interiores. El inventario de gafas infantiles homologadas es pequeño y está en almacenes de temporada baja, así que se agota antes que el de adultos y aparecen precios abusivos."
+      dato: "La radiación solar ultravioleta que llega a la superficie es mayoritariamente UV-A (normalmente más del 95%); cuanto más alto está el sol, mayor es la proporción de UV-B."
+      fuente: "https://irishskin.ie/seasonal-uv-changes-and-protecting-our-skin/"
+      confianza: media
+      areas_afectadas: [consumo, comercio electrónico, distribución, sanidad]
+    - texto: "En comercios y bancos no hay un rechazo al efectivo por la pérdida del secreto de las marcas UV. Al contrario, en la segunda hora empiezan a circular por mensajería avisos de cajeros y comerciantes que dicen distinguir billetes falsos a simple vista junto a la ventana, y algunos detectan falsificaciones que llevaban en caja."
+      mecanismo: "Discrepo en parte de disruptor/h1/5. La marca UV pierde su valor como secreto, pero en el billete en euros nunca fue un secreto: es una comprobación pública que antes exigía una lámpara. El papel auténtico es mate bajo ultravioleta y solo brillan las fibras, la bandera y algunos elementos impresos. El papel corriente y muchas tintas comerciales llevan blanqueantes ópticos que reaccionan al UV. Si todo el mundo ve ahora el UV-A con luz natural, la comprobación que hacía la máquina la puede hacer cualquiera junto a una ventana o en la calle. A corto plazo eso endurece la detección de falsificaciones en el punto de venta, en lugar de debilitarla. El riesgo real para el sistema antifraude llega más tarde, cuando los falsificadores puedan ajustar sus tintas mirando ellos mismos el resultado."
+      dato: "Según el Bundesbank, bajo luz ultravioleta el papel de un billete auténtico de 20 euros (primera serie) es mate, las fibras incrustadas brillan en verde, rojo y azul, y la bandera europea brilla en amarillo o verde."
+      fuente: "https://www.bundesbank.de/content/755326"
+      confianza: baja
+      areas_afectadas: [medios de pago, comercio minorista, banca, seguridad antifraude]
+  reacciona_a: [disruptor/h1/5, oftalmologa/h1/5]

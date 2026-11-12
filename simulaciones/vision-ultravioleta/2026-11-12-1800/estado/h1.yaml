@@ -1,0 +1,62 @@
+estado_del_mundo:
+  tramo: h1
+  resumen: "En la primera hora el cambio se vive de forma desigual según la luz: dentro de edificios y tras el cristal apenas se nota, al sol molesta, las gafas UV400 devuelven la visión de antes y en América, donde es de noche, llega como noticia. La experiencia no se puede fotografiar ni mostrar en pantalla, así que circula por mensajería privada como testimonio, sin imágenes, y el vacío lo llenan falsos avisos sanitarios, imágenes recicladas y el rumor de que hay gente a la que no le ha afectado, porque quienes llevan lentes con filtro UV no ven los colores nuevos en el centro de la vista. Los gobiernos callan y recogen datos, las únicas decisiones públicas son avisos de reguladores de transporte, y defensa abre evaluaciones secretas por si fuera un ataque. Los mercados no se hunden: pierden liquidez y el dinero se concentra en apuestas de relato fácil como las ópticas, mientras la crema solar, que ahora se ve como manchas oscuras en la cara, empuja a la gente a quitársela justo cuando hay deslumbramiento."
+  hechos_establecidos:
+    - id: h1-01
+      texto: "El impacto físico depende de la luz solar local. En interiores y tras el vidrio común o con iluminación LED el cambio casi no se nota. Al salir al sol aparecen el deslumbramiento y el lagrimeo, la gente vuelve a entrar o busca la sombra, y las gafas de sol UV400 devuelven la visión de antes. El golpe físico es mayor donde es pleno día con UV alto (África austral y oriental, Oriente Medio, sur de Asia), donde se agotan las primeras existencias de gafas de sol en farmacias, ópticas y puestos callejeros. En América, que está de noche, el suceso llega primero como noticia y no como molestia."
+      origen: [oftalmologa/h1/3, economista/h1/3, adolescente/h1/3, politico/h1/3, medios/h1/4]
+    - id: h1-02
+      texto: "Muchas personas con gafas graduadas o de sol con filtro UV, o con lentillas que bloquean el UV, no ven los colores nuevos en el centro de la vista, solo en la periferia o al quitárselas. Durante la primera hora muchas creen que el fenómeno no les ha afectado y en redes se extienden mensajes de 'yo no lo veo' que alimentan el rumor de que el cambio es parcial o selectivo."
+      origen: [disruptor/h1/1]
+    - id: h1-03
+      texto: "Ningún gobierno declara la emergencia formal. Se activan las salas de crisis existentes (en España, el Departamento de Seguridad Nacional) solo para recoger información, sin que comparezca el jefe de Gobierno. La OMS y la UE se limitan a contactos informales entre puntos focales, sin comité de emergencia ni Consejo extraordinario. Los gobiernos de América, donde es de noche, responden con declaraciones de calma, y eso descoordina el mensaje internacional."
+      origen: [politico/h1/1, politico/h1/4, politico/h1/3]
+    - id: h1-04
+      texto: "La primera decisión pública concreta la toman los reguladores sectoriales de transporte: autoridades aéreas y de tráfico emiten avisos de precaución por el deslumbramiento y algunos operadores retienen o ralentizan salidas. En carretera aparece además una distracción propia: el parabrisas bloquea casi todo el UV-A y las ventanillas laterales no, así que el conductor ve los colores nuevos a los lados y no al frente, y eso provoca giros de cabeza, frenazos y paradas para comparar."
+      origen: [politico/h1/2, disruptor/h1/2]
+    - id: h1-05
+      texto: "Los servicios de inteligencia y defensa de las grandes potencias abren evaluaciones urgentes y secretas para descartar un ataque y medir el efecto sobre la vigilancia, el camuflaje y la señalización militar, que ahora quedan expuestos a la vista UV-A."
+      origen: [politico/h1/5]
+    - id: h1-06
+      texto: "El relato nace en la mensajería privada (WhatsApp, Telegram, grupos familiares y de clase) antes que en los medios. Ninguna cámara ni pantalla de consumo puede captar ni mostrar los colores nuevos, así que las fotos salen normales y la gente publica que 'la foto no lo pilla'. La demanda de pruebas se llena con imágenes UV antiguas recicladas y con filtros de falso color, y crece la desconfianza hacia la imagen grabada como prueba. Hacia el final de la hora los medios tradicionales entran en directo con testimonios y expertos que reconocen no saber nada."
+      origen: [medios/h1/1, medios/h1/2, disruptor/h1/4, adolescente/h1/2, medios/h1/4]
+    - id: h1-07
+      texto: "Los primeros bulos con tracción son falsos avisos sanitarios con apariencia oficial ('te quemas la retina', 'tápale los ojos al bebé', supuestos comunicados de la OMS o de Sanidad). A la vez, las urgencias oftalmológicas y los teléfonos de información sanitaria reciben un primer pico de consultas por fotofobia y miedo a una lesión, y las exploraciones salen normales, lo que desconcierta más de lo que tranquiliza."
+      origen: [medios/h1/3, oftalmologa/h1/4]
+    - id: h1-08
+      texto: "Empieza una disputa por el vocabulario. Las primeras descripciones hablan de un blanco azulado o violáceo que brilla en el cielo, las nubes y las superficies blancas al sol, y son vagas y contradictorias. En cada lengua surgen en paralelo nombres nuevos para el color, y los que impulsan las cuentas con más alcance empiezan a fijarse como término común."
+      origen: [medios/h1/5, adolescente/h1/4, oftalmologa/h1/1]
+    - id: h1-09
+      texto: "La crema solar y el maquillaje con filtro UV se ven como manchas oscuras, casi negras, con huecos claros donde no llegó el producto, y la piel muestra manchas antes invisibles. Allí donde es de día, esto provoca vergüenza social y comparaciones, sobre todo entre adolescentes, y lleva a mucha gente a lavarse la cara y quedarse sin protección justo cuando hay deslumbramiento al aire libre."
+      origen: [disruptor/h1/3, adolescente/h1/5]
+    - id: h1-10
+      texto: "Los índices europeos no se hunden. El ajuste llega por la liquidez: los diferenciales se amplían, el libro de órdenes pierde profundidad y el volumen se concentra en unos pocos valores, con Nueva York cerrada y Tokio ya cerrada. EssilorLuxottica es el valor europeo que más sube y sufre al menos una interrupción por volatilidad en Euronext París, arrastrando a ópticas y fabricantes de filtros. Es un impulso de relato que los análisis fríos ya ven como un adelanto de demanda y no como un aumento permanente."
+      origen: [economista/h1/1, economista/h1/2]
+  tensiones_abiertas:
+    - "No está claro cuánto deslumbramiento hay en Europa en noviembre. El economista apoya con datos de AEMET (índice UV máximo de 2 en Madrid) que la molestia allí es escasa, mientras que la adolescente, el político y el disruptor describen deslumbramiento y efectos en el tráfico en España y Europa. El índice UV mide sobre todo UV-B, y el UV-A varía menos con la estación, así que no basta para zanjar la cuestión."
+    - "Queda por ver si el rumor de 'yo no lo veo' entre quienes llevan lentes con filtro UV se aclara pronto o se suma a los bulos sanitarios y alimenta teorías de un cambio selectivo."
+    - "Queda por ver si quitarse las gafas de sol y la crema por estética o curiosidad choca con la necesidad de protegerse del deslumbramiento, y cómo responden las autoridades sanitarias."
+    - "Queda por ver si las evaluaciones secretas de defensa se filtran y cómo cambiaría eso el silencio de los gobiernos."
+  contradicciones_resueltas:
+    - entre: [economista/h1/3, adolescente/h1/3, politico/h1/2, disruptor/h1/2]
+      decision: "Se establece que el impacto físico es mayor en las regiones con UV alto y que en Europa existe pero es más suave. Su intensidad exacta en Europa queda como tensión abierta."
+      motivo: "El economista aporta un dato verificable, pero mide índice UV (sobre todo UV-B) y no UV-A. Los demás describen mecanismos plausibles sin dato. Ninguna parte se impone del todo."
+    - entre: [disruptor/h1/4, medios/h1/2, adolescente/h1/2]
+      decision: "Se combinan en un solo hecho sobre la imposibilidad de documentar el fenómeno."
+      motivo: "Las tres describen la misma limitación técnica de cámaras y pantallas con consecuencias complementarias: falsificaciones, frustración y desconfianza en la imagen."
+  descartadas:
+    - id: economista/h1/4
+      motivo: "Tiene confianza baja y no aporta dato. Es un efecto sectorial que de momento no cambia el rumbo."
+    - id: oftalmologa/h1/5
+      motivo: "Tiene confianza baja y no aporta dato. Además, el bulo sobre bebés ya está recogido en h1-07."
+    - id: oftalmologa/h1/2
+      motivo: "Es un efecto de detalle clínico que solo concreta cómo se describe el fenómeno (h1-08) y no añade una consecuencia nueva para otras áreas."
+    - id: adolescente/h1/1
+      motivo: "Es un efecto local en el aula, plausible pero de detalle. El impacto en la comunicación ya está recogido en h1-06."
+    - id: disruptor/h1/5
+      motivo: "Las marcas fluorescentes ya emiten luz visible bajo una lámpara UV, así que la visión UV-A no las revela sin fuente UV de forma tan clara como se afirma. No aporta dato y, con el límite de diez hechos, cede ante efectos de más alcance. Puede volver en un tramo posterior con mecanismo más preciso."
+  metricas:
+    alarma_social: 3
+    respuesta_gobiernos: comunicacion
+    impacto_economico: 2
+    adaptacion: 1

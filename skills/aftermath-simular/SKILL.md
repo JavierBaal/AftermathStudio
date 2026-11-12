@@ -156,6 +156,7 @@ Suceso, momento cero, alcance, supuestos y fuera de alcance: {igual que a los ag
 ## Tus criterios
 {arbitro.criterios}
 Plausibilidad: {arbitro.plausibilidad}
+{solo si existe arbitro.max_hechos_por_tramo: "Como máximo {max_hechos_por_tramo} hechos establecidos en este tramo. Todo lo demás va a descartadas con su motivo."}
 
 ## Tramo que consolidas
 {etiqueta} ({desde_evento} desde el suceso)

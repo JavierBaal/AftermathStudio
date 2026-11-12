@@ -9,7 +9,7 @@ meta:
   tipo: especulativo
   idioma: es
   descripcion: "Toda la humanidad empieza a ver el espectro ultravioleta a la vez."
-  version: 3
+  version: 4
 
 evento:
   premisa: "Todos los seres humanos desarrollan a la vez la capacidad de ver el espectro ultravioleta."
@@ -119,7 +119,11 @@ arbitro:
   criterios:
     - "Prevalece la afirmación con mecanismo más sólido y dato verificable"
     - "Ante empate, se mantiene la tensión abierta para el siguiente tramo"
+    - "Entran primero los hechos que cambian el rumbo del mundo o afectan a otras áreas; los efectos locales o de detalle se descartan aunque sean plausibles"
+    - "Se descarta lo que solo repite, amplía o concreta un hecho ya establecido sin añadir una consecuencia nueva"
+    - "Se descartan las afirmaciones de confianza baja que no tengan dato"
   plausibilidad: "Las afirmaciones sin mecanismo no entran en el canon"
+  max_hechos_por_tramo: 10
 
 interaccion:
   modo: rondas_sincronizadas

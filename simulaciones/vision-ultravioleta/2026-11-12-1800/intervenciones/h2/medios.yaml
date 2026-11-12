@@ -1,0 +1,35 @@
+intervencion:
+  agente: medios
+  tramo: h2
+  afirmaciones:
+    - texto: "En la segunda hora el rumor de 'yo no lo veo' se desactiva en buena parte gracias a una prueba casera que se vuelve viral: 'quítate las gafas y mira al cielo por una ventana abierta'. Sin embargo, la aclaración genera un bulo derivado: que las gafas con filtro UV 'protegen' del fenómeno, o que los ópticos y fabricantes 'lo sabían'. Esto se mezcla con la subida de EssilorLuxottica que ya circula en titulares."
+      mecanismo: "A diferencia del color nuevo, que no se puede fotografiar, esta prueba la puede repetir cualquiera en diez segundos, así que se difunde como instrucción y no como imagen, que es el formato que mejor funciona cuando la prueba es imposible. Al confirmar que la lente cambia lo que se ve, la gente pasa de 'el cambio es selectivo' a 'el filtro me salva', una explicación más sencilla y con un culpable o un remedio a mano. La noticia bursátil de las ópticas, que ya está en el canon, le da al bulo un supuesto beneficiario y lo convierte en sospecha de lucro."
+      dato: ""
+      fuente: ""
+      confianza: media
+      areas_afectadas: [desinformacion, salud, consumo, redes_sociales]
+    - texto: "Los verificadores (Maldita, Newtral, EFE Verifica y sus equivalentes en la red IFCN) publican los primeros desmentidos de los falsos comunicados de la OMS y de Sanidad, pero sin una fuente oficial que citar. Se apoyan en sociedades científicas de oftalmología y en urgencias que dicen que las exploraciones salen normales. El desmentido llega con un 'no hay pruebas de daño, pero nadie sabe la causa' que los grupos de mensajería leen como una confirmación a medias."
+      mecanismo: "Un verificador necesita una fuente con autoridad para cerrar un bulo y los gobiernos callan (h1-03), así que se recurre a la siguiente fuente con autoridad disponible: los colectivos médicos. Además, el desmentido viaja peor que el bulo por la misma vía. En la mensajería privada, el límite de reenvío y la etiqueta de 'reenviado muchas veces' frenan las cadenas largas, pero el bulo ya circuló durante la primera hora y el desmentido entra tarde y con menos carga emocional. La honestidad sobre lo que no se sabe, que sería lo correcto, deja un hueco que el miedo rellena."
+      dato: "Tras limitar en 2020 el reenvío de mensajes muy reenviados a un chat cada vez, WhatsApp informó de una caída del 70 % en ese tipo de mensajes."
+      fuente: "https://techcrunch.com/2020/04/27/whatsapps-new-limit-cuts-virality-of-highly-forwarded-messages-by-70"
+      confianza: media
+      areas_afectadas: [desinformacion, salud, medios, verificacion]
+    - texto: "En Norteamérica, donde siguen a oscuras (entre las 5:00 y las 6:00 en la costa este), los primeros informativos matinales y los comentaristas de redes reciben el suceso como una noticia de Europa sin pruebas visuales y una parte lo enmarca como 'histeria colectiva' o sugestión. Así se abre una brecha transatlántica de credibilidad que dura hasta que allí sale el sol."
+      mecanismo: "Quien no lo ha sentido en su cuerpo solo tiene relatos y fotos que salen normales (h1-06), así que el escepticismo es el marco más barato y además da audiencia porque lleva la contraria. De noche y con iluminación interior apenas hay UV-A, así que el espectador estadounidense no puede comprobarlo por sí mismo. Las declaraciones de calma de los gobiernos americanos (h1-03) refuerzan ese marco. Cuando amanezca, el escepticismo se volverá contra quienes lo defendieron, pero en esta hora domina el formato de debate entre 'lo veo' y 'es sugestión'."
+      dato: ""
+      fuente: ""
+      confianza: media
+      areas_afectadas: [medios, politica_internacional, redes_sociales, confianza_publica]
+    - texto: "Aparece la primera ola de fraude oportunista que explota la prueba imposible: aplicaciones y filtros que dicen 'mostrar el color nuevo en tu pantalla', webs de venta de 'gafas para potenciar la visión UV' o 'gafas antiultravioleta certificadas' y dominios recién registrados con los nombres del color que se están haciendo virales."
+      mecanismo: "La demanda de 'enséñamelo' que ningún dispositivo puede cubrir (h1-06) es un mercado ideal para la estafa, porque el comprador no puede comprobar la promesa. La disputa por el vocabulario (h1-08) da palabras clave con un volumen de búsqueda que crece de golpe, y registrar un dominio o subir una app con esos términos cuesta minutos. Es el mismo patrón que en cualquier suceso global con búsquedas masivas: los estafadores registran dominios con el término de moda en las primeras horas."
+      dato: "Al principio de la pandemia de 2020 se registraron miles de dominios nuevos relacionados con el coronavirus, y una parte se identificó como maliciosa o sospechosa."
+      fuente: "https://www.scmagazine.com/news/sc-stats-coronavirus-spurring-thousands-of-new-domains-many-malicious"
+      confianza: alta
+      areas_afectadas: [fraude, consumo, ciberseguridad, desinformacion]
+    - texto: "Los primeros mensajes de salud que consiguen difusión masiva no vienen de los gobiernos sino de dermatólogos, oftalmólogos y divulgadores sanitarios con muchos seguidores, que piden no quitarse la crema solar ni las gafas de sol por estética. El mensaje choca con la tendencia de lavarse la cara y la convierte en una guerra cultural incipiente entre 'proteger' y 'ver'."
+      mecanismo: "Ante el silencio oficial (h1-03), la autoridad sanitaria la ocupan los perfiles que ya tienen audiencia y credibilidad en redes y que pueden publicar sin esperar a nadie. La vergüenza por las manchas de crema (h1-09) es un comportamiento visible y fácil de corregir con un consejo, así que es un tema perfecto para un vídeo corto. Pero el consejo pide renunciar justo a lo que hace atractivo el fenómeno, ver los colores nuevos y no salir 'manchado', y eso polariza: los adolescentes y los curiosos responden con contenido a favor de quitarse las gafas para 'vivirlo'."
+      dato: ""
+      fuente: ""
+      confianza: media
+      areas_afectadas: [salud, redes_sociales, adolescentes, comunicacion_publica]
+  reacciona_a: [disruptor/h1/1, disruptor/h1/3, economista/h1/1, politico/h1/3]

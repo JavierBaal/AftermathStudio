@@ -1,0 +1,7 @@
+
+### Hora 1
+- [politico/h1/1] En la primera hora ningún gobierno declara emergencia formal; lo que se activa son las salas de crisis existentes (en España, el Departamento de Seguridad Nacional en Moncloa) en modo de recogida de información, sin comparecencia del jefe de Gobierno. (entró en el canon)
+- [politico/h1/2] La primera decisión pública concreta no la toma un gobierno central sino los reguladores operativos de transporte: autoridades aéreas y gestores de tráfico emiten avisos de precaución sobre el deslumbramiento en exteriores y algunos operadores ralentizan o retienen salidas. (entró en el canon)
+- [politico/h1/3] Los gobiernos de los países donde es de noche (América) van por detrás: sus ciudadanos aún no han sufrido deslumbramiento y la primera reacción oficial allí es una declaración de calma, mientras los países de Europa y Asia con sol ya gestionan incidencias. (entró en el canon)
+- [politico/h1/4] En la primera hora la OMS y la Unión Europea solo hacen contactos informales entre puntos focales; no hay convocatoria de comité de emergencia ni de Consejo extraordinario. (entró en el canon)
+- [politico/h1/5] Los servicios de inteligencia y defensa de las grandes potencias abren evaluaciones urgentes sobre si el fenómeno puede ser un ataque o puede alterar la vigilancia, el camuflaje y la señalización militar, y los gobiernos tratan esas evaluaciones como secretas. (entró en el canon)

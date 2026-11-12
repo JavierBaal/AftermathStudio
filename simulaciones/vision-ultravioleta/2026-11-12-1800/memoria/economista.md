@@ -1,0 +1,6 @@
+
+### Hora 1
+- [economista/h1/1] Hacia las 11:00, EssilorLuxottica es el valor europeo que más sube y salta en Euronext París al menos una interrupción por volatilidad. Arrastra en menor medida a otras ópticas cotizadas y a fabricantes de filtros y lentes. (entró en el canon)
+- [economista/h1/2] Los índices europeos no se hunden. En la primera hora el ajuste llega por la liquidez: los creadores de mercado amplían los diferenciales, baja la profundidad del libro de órdenes y el volumen se concentra en unos pocos valores. Las interrupciones se producen en valores concretos y no paran todo el mercado. (entró en el canon)
+- [economista/h1/3] El tirón de consumo por deslumbramiento casi no se nota en Europa en la primera hora. Se concentra en las zonas que están en pleno día con UV alto: África austral y oriental, Oriente Medio y el sur de Asia. Allí se agotan las primeras existencias de gafas de sol en farmacias, ópticas y puestos callejeros. (entró en el canon)
+- [economista/h1/4] En las regiones con sol fuerte, una parte de los empleadores de construcción, agricultura, puertos y reparto suspende o ralentiza los turnos al aire libre como precaución. En la primera hora se pierden horas de trabajo, pero no hay despidos ni efecto medible en el empleo. (no entró en el canon)

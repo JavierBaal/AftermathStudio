@@ -1,0 +1,55 @@
+intervencion:
+  agente: medios
+  tramo: h1
+  afirmaciones:
+  - texto: 'En la primera hora el relato no nace en los medios sino en la mensajería privada (WhatsApp, Telegram, grupos familiares): millones de mensajes de ''ve algo raro, ¿tú también?'' antes de que ninguna redacción publique nada verificado.'
+    mecanismo: Un fenómeno que cada persona puede comprobar mirando por la ventana se valida primero preguntando a los conocidos, no a la prensa. La mensajería ya mueve un volumen diario enorme y absorbe el pico al instante; las redacciones necesitan confirmar que no es un problema óptico individual y llegan tarde respecto a los chats.
+    dato: WhatsApp entrega del orden de 100.000 millones de mensajes al día.
+    fuente: https://techcrunch.com/2020/10/29/whatsapp-is-now-delivering-roughly-100-billion-messages-a-day
+    confianza: alta
+    areas_afectadas:
+    - comunicacion
+    - redes_sociales
+    - medios
+    id: medios/h1/1
+  - texto: 'Aparece una crisis de ''prueba imposible'': el contenido viral es texto, audio y vídeo de caras asombradas, pero nadie consigue enseñar el color nuevo, y las fotos que dicen mostrarlo son en su mayoría falsas o filtros de falso color.'
+    mecanismo: Las cámaras de los móviles están optimizadas y filtradas para el visible y las pantallas emiten solo RGB visible, así que ningún dispositivo puede reproducir lo que la gente ve. La demanda de 'enséñamelo' choca con la imposibilidad técnica y la llenan imágenes UV antiguas recicladas (flores, fotografía UV de crema solar) y ediciones, que se presentan como capturas del momento.
+    dato: La fotografía ultravioleta con móvil requiere hardware específico; el Huawei P50 Pocket fue un caso excepcional con cámara UV dedicada.
+    fuente: https://www.galaxus.de/en/page/uv-photography-and-the-mysterious-huawei-p50-pocket-22320
+    confianza: media
+    areas_afectadas:
+    - redes_sociales
+    - desinformacion
+    - tecnologia
+    id: medios/h1/2
+  - texto: 'Los primeros bulos con tracción no son conspiraciones elaboradas, sino falsos avisos sanitarios: ''no salgas a la calle, te quemas la retina'', ''tápate los ojos de los bebés'', supuestos comunicados de la OMS o del Ministerio de Sanidad con logos copiados.'
+    mecanismo: El deslumbramiento y la fatiga en exteriores son reales y se sienten en el cuerpo, lo que da credibilidad inmediata a cualquier advertencia de daño. Ningún organismo puede desmentir aún con datos, y el vacío institucional se llena con mensajes de tono oficial. La novedad y el miedo aceleran la difusión de lo falso frente a lo verdadero.
+    dato: Las noticias falsas se difunden en Twitter unas seis veces más rápido que las verdaderas para alcanzar a 1.500 personas (Vosoughi, Roy y Aral, Science 2018).
+    fuente: https://news.mit.edu/2018/study-twitter-false-news-travels-faster-true-stories-0308
+    confianza: alta
+    areas_afectadas:
+    - salud_publica
+    - desinformacion
+    - instituciones
+    id: medios/h1/3
+  - texto: 'Los medios tradicionales entran en directo hacia el final de la hora con un formato de testimonios sin explicación: presentadores describiendo en antena lo que ven, conexiones con corresponsales en husos donde es de noche y no notan casi nada, y expertos en óptica que solo pueden decir que no saben.'
+    mecanismo: 'A las 10:00 de Madrid media humanidad está de noche y apenas percibe UV, así que el fenómeno se vive de forma desigual según la hora local y la luz. Los medios se ven obligados a cubrir algo que su propia audiencia está experimentando, sin causa que contar: la cobertura se convierte en un espejo de la experiencia del espectador en lugar de en información, lo que refuerza la búsqueda de respuestas en redes.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - medios
+    - audiovisual
+    - opinion_publica
+    id: medios/h1/4
+  - texto: 'Arranca una disputa por el vocabulario: en distintas lenguas surgen en paralelo nombres para el color nuevo, y los primeros términos que se hacen virales fijan cómo se hablará del fenómeno durante días.'
+    mecanismo: Ninguna lengua tiene palabra para un color que nadie había visto, y sin palabra no se puede compartir la experiencia. En redes gana el término más corto y memeable, impulsado por cuentas con mucho alcance y por el algoritmo, que premia el hashtag que más crece. Quien bautiza el color controla las búsquedas, la conversación y la tendencia, y las marcas y los oportunistas lo saben.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - redes_sociales
+    - cultura
+    - lenguaje
+    id: medios/h1/5
+  reacciona_a: []

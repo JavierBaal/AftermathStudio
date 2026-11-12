@@ -1,0 +1,54 @@
+intervencion:
+  agente: oftalmologa
+  tramo: h1
+  afirmaciones:
+  - texto: En la primera hora, lo que la gente describe como colores nuevos lo nombra casi siempre como un blanco azulado o violáceo que brilla, sobre todo en el cielo, en las nubes y en superficies blancas al sol. Las primeras descripciones serán vagas y contradictorias entre sí.
+    mecanismo: Los conos S (azules) son los más sensibles al UV y, cuando entra suficiente energía UV, los tres tipos de cono responden a la vez. Eso da una sensación de base blanquecina teñida de azul o violeta. Además, nadie tiene palabras para el color nuevo, así que lo describe con el vocabulario del color vecino más cercano.
+    dato: Las personas afáquicas o con lentes intraoculares que dejan pasar el UV lo perciben, según la longitud de onda, como blanco azulado o blanco violáceo. En un estudio con 42 jóvenes, el 100 % detectó un pico de UV aislado a 315 nm.
+    fuente: https://2020mag.com/article/uv-vision-seeing-invisible-ultraviolet
+    confianza: media
+    areas_afectadas:
+    - percepcion
+    - lenguaje
+    - salud
+    id: oftalmologa/h1/1
+  - texto: Las primeras personas que pueden comparar con criterio son los operados de cataratas antiguos y las personas afáquicas. Algunos dirán en la primera hora que ese tinte ya lo conocían y que ahora lo ve todo el mundo, y los oftalmólogos lo recogeremos como la primera pista clínica para describir el fenómeno.
+    mecanismo: El cristalino adulto absorbe la mayor parte del UV-A antes de que llegue a la retina. Sin cristalino, o con implantes antiguos sin filtro UV, la retina recibe UV-A y una minoría ya percibía ese tinte azulado. Son los únicos que tienen un punto de referencia previo para comparar.
+    dato: Las personas afáquicas o con implantes que transmiten UV pueden percibirlo en ciertas condiciones hasta unos 315 nm.
+    fuente: https://2020mag.com/article/uv-vision-seeing-invisible-ultraviolet
+    confianza: media
+    areas_afectadas:
+    - salud
+    - ciencia
+    - medios
+    id: oftalmologa/h1/2
+  - texto: En la primera hora se nota una diferencia clara entre interiores y exteriores. Dentro de edificios y vehículos con cristal, el cambio pasa casi desapercibido. Al salir a la calle a mediodía con sol, aparecen los deslumbramientos y la gente vuelve a entrar o se pone gafas de sol.
+    mecanismo: La luz solar que llega al suelo tiene mucho UV-A porque la capa de ozono apenas lo filtra, mientras que el vidrio común y la mayoría de lámparas LED interiores emiten o dejan pasar muy poco UV-A. Las gafas de sol homologadas con filtro UV400 bloquean justamente esa franja, así que vuelven a dar la visión de antes.
+    dato: La OMS indica que el UV-A no queda absorbido por la capa de ozono de forma significativa, a diferencia del UV-B y el UV-C.
+    fuente: https://www.who.int/uv/faq/whatisuv/en/
+    confianza: media
+    areas_afectadas:
+    - vida_cotidiana
+    - salud
+    - comercio
+    id: oftalmologa/h1/3
+  - texto: En la primera hora, las consultas de urgencias oftalmológicas y los teléfonos de información sanitaria reciben un primer pico de llamadas por fotofobia y por miedo a una lesión. La mayoría de las exploraciones son normales, y eso la primera mañana genera desconcierto más que tranquilidad.
+    mecanismo: El deslumbramiento se parece subjetivamente a los síntomas de alarma conocidos, como la fotofobia de una uveítis o de una queratitis. Sin embargo, la exploración con lámpara de hendidura y fondo de ojo no muestra lesión, porque el supuesto excluye daño permanente. El profesional no tiene hallazgo que explicar ni protocolo que aplicar.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud
+    - sistema_sanitario
+    id: oftalmologa/h1/4
+  - texto: Los recién nacidos y los lactantes muestran en la primera hora más incomodidad ante la luz exterior que los adultos, y los padres que salen a la calle lo notan antes en el bebé que en sí mismos.
+    mecanismo: El cristalino infantil es mucho más transparente al UV que el adulto, que amarillea y filtra cada vez más con la edad. Si todos pasan a percibir UV-A, a la retina del niño le llega más UV-A, así que la señal y el deslumbramiento son mayores. Además, el bebé no puede apartar la mirada ni protegerse de forma voluntaria.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    areas_afectadas:
+    - salud
+    - infancia
+    - familias
+    id: oftalmologa/h1/5
+  reacciona_a: []

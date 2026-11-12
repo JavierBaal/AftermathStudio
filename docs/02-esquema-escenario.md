@@ -19,7 +19,7 @@ Diez bloques cubren cualquier simulación. Los cuatro primeros describen el mund
 | `evento` | La premisa, el momento cero, el alcance y los supuestos que se dan por fijos | Configurador, agentes, árbitro |
 | `cronologia` | Los tramos en los que avanza la simulación | Motor |
 | `agentes` | Cada rol: tipo, perfil, objetivos, conocimiento privado, herramientas y modelo | Motor, agentes |
-| `arbitro` | Cómo consolida cada tramo y resuelve contradicciones | Árbitro |
+| `arbitro` | Cómo consolida cada tramo, resuelve contradicciones y cuántos hechos admite como máximo por tramo | Árbitro |
 | `interaccion` | Qué ve cada agente de los demás y qué exige cada afirmación | Motor, agentes |
 | `variables` | Lo que cambia entre repeticiones para obtener futuros distintos | Motor |
 | `ejecucion` | Repeticiones, semilla, modo (ligero o intensivo), proveedor por defecto y, opcionalmente, un subconjunto de agentes y tramos para pruebas | Motor |

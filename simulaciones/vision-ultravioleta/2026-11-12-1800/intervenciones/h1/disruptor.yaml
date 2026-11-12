@@ -1,0 +1,58 @@
+intervencion:
+  agente: disruptor
+  tramo: h1
+  afirmaciones:
+  - texto: 'En la primera hora aparece una brecha perceptiva inesperada: quienes llevan gafas graduadas o de sol con filtro UV400, o lentillas con bloqueo UV, no ven los colores nuevos a través de la lente y solo los perciben en la periferia o al quitárselas. Miles de personas creen al principio que el fenómeno no les ha afectado, y las redes se llenan de mensajes de ''yo no lo veo'' que alimentan rumores de que el cambio es parcial o selectivo.'
+    mecanismo: El fenómeno cambia el ojo, no la luz que llega a él. La mayoría de los cristales orgánicos y los tratamientos actuales cortan el UV-A por debajo de 400 nm, así que la retina del usuario de gafas recibe una imagen sin componente ultravioleta en el campo central. La diferencia entre el centro de la vista y la periferia y el gesto de quitarse las gafas tardan un rato en entenderse, y en esa primera hora la confusión se interpreta como desigualdad del fenómeno.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud visual
+    - opticas
+    - redes sociales
+    - desinformacion
+    id: disruptor/h1/1
+  - texto: 'En Europa y África, donde es media mañana, el tráfico sufre una distracción específica que no tiene que ver con el deslumbramiento: el parabrisas de los coches tapa casi todo el ultravioleta y las ventanillas laterales no, de modo que el conductor ve el mundo sin colores nuevos al frente y con ellos a los lados. Ese salto en el campo visual provoca giros de cabeza, frenazos y conductores que bajan la ventanilla o paran para comparar.'
+    mecanismo: El parabrisas es vidrio laminado con una lámina de PVB que absorbe la mayor parte del UV-A; las ventanillas laterales suelen ser de vidrio templado y dejan pasar mucho más. Con visión UV, esa diferencia física, que antes no se veía, se convierte en una frontera de color dentro del habitáculo, y el cerebro dirige la atención hacia la parte del campo visual que ha cambiado, que es la lateral y no la carretera.
+    dato: Un estudio sobre 29 coches publicado en JAMA Ophthalmology (2016) midió un bloqueo medio del UV-A del 96 % en parabrisas frente al 71 % en ventanillas laterales, con mucha variación entre modelos.
+    fuente: https://www.hcplive.com/view/cars-side-windows-lack-uv-protection-and-contribute-to-skin-cancer-cataracts
+    confianza: media
+    areas_afectadas:
+    - trafico
+    - seguridad vial
+    - automocion
+    id: disruptor/h1/2
+  - texto: 'Quienes llevan crema solar o maquillaje con filtro UV aparecen ante los demás con la cara cubierta de manchas oscuras, casi negras, donde se aplicó el producto, y con huecos claros donde no llegó. En oficinas, colegios y playas del hemisferio sur con luz diurna, esto genera en la primera hora un momento de vergüenza social y un efecto en cadena: la gente se lava la cara en masa, lo que la deja sin protección justo cuando hay deslumbramiento en exteriores.'
+    mecanismo: Los filtros solares funcionan absorbiendo o dispersando el ultravioleta, así que en el canal UV la piel protegida refleja muy poco y se ve oscura, como ya muestran las cámaras UV. Lo que antes era invisible pasa a ser un rasgo de apariencia, y la reacción inmediata no responde a un cálculo sanitario sino al pudor social.
+    dato: Las fotografías con cámara ultravioleta muestran la piel con crema solar como zonas oscuras o negras, y los huecos sin producto como zonas claras.
+    fuente: https://www.medicaldaily.com/your-face-under-ultraviolet-camera-and-sunscreen-shocking-why-blocking-uv-protects-your-298260
+    confianza: media
+    areas_afectadas:
+    - cosmetica
+    - salud dermatologica
+    - vida social
+    id: disruptor/h1/3
+  - texto: 'En la primera hora, el suceso resulta imposible de documentar: las fotos y vídeos de los móviles y las cámaras de televisión no capturan los colores nuevos y las pantallas no pueden mostrarlos. Las coberturas en directo enseñan un mundo que a los espectadores les parece apagado e incompleto, y crece la desconfianza hacia la imagen grabada como prueba de lo que pasa.'
+    mecanismo: Los sensores de las cámaras de consumo llevan filtros que cortan el ultravioleta y los modelos de color (RGB) están calibrados para la visión tricromática anterior; las pantallas no emiten UV. Toda la cadena de captura y reproducción está diseñada para el ojo de antes, así que el contenido que se comparte se queda corto frente a lo que cada persona ve directamente.
+    dato: ''
+    fuente: ''
+    confianza: alta
+    areas_afectadas:
+    - medios de comunicacion
+    - redes sociales
+    - tecnologia de imagen
+    - confianza en la evidencia
+    id: disruptor/h1/4
+  - texto: 'Las marcas de seguridad fluorescentes y las manchas ocultas quedan expuestas en cuanto hay luz natural o lámparas UV: hilos y tintas de billetes y documentos, sellos UV de discotecas, tintas forenses y restos orgánicos en baños, cocinas y hoteles. En la primera hora esto se nota sobre todo en comercios y en el sector de hostelería, con quejas de clientes por la limpieza y una pérdida de valor de las marcas UV como señal oculta antifraude.'
+    mecanismo: Muchos sistemas de seguridad y de control de limpieza se basan en que el UV es invisible para el ojo y solo se revela con una lámpara. Al desaparecer esa asimetría, lo oculto pasa a ser visible para todos sin herramienta, cosa que deja al descubierto la suciedad y vacía de sentido la marca como secreto.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - hosteleria
+    - banca
+    - seguridad documental
+    - consumo
+    id: disruptor/h1/5
+  reacciona_a: []

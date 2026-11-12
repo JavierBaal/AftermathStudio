@@ -1,0 +1,54 @@
+intervencion:
+  agente: adolescente
+  tramo: h1
+  afirmaciones:
+  - texto: 'En mi clase de las diez se para todo en cinco minutos: la profe intenta seguir con la lección, pero nadie atiende porque todos nos estamos mirando la ropa, las manos y la pizarra, y al final nos deja hablar.'
+    mecanismo: Es martes a primera hora y estamos todos juntos en el aula, así que treinta personas ven lo mismo a la vez y se lo dicen en voz alta. La profe también lo ve y no tiene nada que explicar, así que pierde la autoridad para pedir silencio.
+    dato: ''
+    fuente: ''
+    confianza: alta
+    areas_afectadas:
+    - educacion
+    - vida_cotidiana
+    id: adolescente/h1/1
+  - texto: Antes de las diez y media ya hay móviles fuera aunque estén prohibidos en el instituto, y los grupos de WhatsApp y los stories se llenan de fotos que no enseñan nada, porque la cámara no capta los colores nuevos.
+    mecanismo: Lo primero que hago cuando pasa algo raro es contarlo y comprobar si a los demás también les pasa. Al hacer foto y ver que sale normal, la gente lo publica igual con texto tipo 'la foto no lo pilla', y eso confirma que es real y que no estamos locos, pero también nos frustra porque no podemos enseñarlo.
+    dato: ''
+    fuente: ''
+    confianza: alta
+    areas_afectadas:
+    - redes_sociales
+    - tecnologia
+    - educacion
+    id: adolescente/h1/2
+  - texto: En el recreo, quien sale al patio vuelve con los ojos llorosos y diciendo que el sol 'chilla'; muchas nos quedamos dentro o en la sombra y alguna se pone gafas de sol que normalmente no llevaría al instituto.
+    mecanismo: El deslumbramiento fuera con sol es fuerte desde el primer momento y el recreo es la primera vez que salimos. Lo que hace una o dos personas populares (quedarse dentro, ponerse gafas) lo copia el resto en seguida porque nadie quiere ser la que se queja sola ni la que se queda fuera sufriendo.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud
+    - educacion
+    - vida_cotidiana
+    id: adolescente/h1/3
+  - texto: Empiezan a salir palabras inventadas para los colores nuevos en mi grupo y en TikTok, y en una hora ya hay dos o tres que compiten; la que usa la gente que más sigo es la que acabo usando yo.
+    mecanismo: No hay palabra para lo que vemos y necesitamos describirlo para hablar entre nosotros. Cada grupo improvisa (comparaciones con colores que ya existen o nombres de broma) y como no se puede enseñar con fotos, el nombre es lo único compartible; quien tiene más alcance fija el término y usar otro te deja fuera.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - redes_sociales
+    - lenguaje
+    - cultura
+    id: adolescente/h1/4
+  - texto: 'Me preocupa cómo me veo: me fijo en que mi piel, mi pelo y el maquillaje se ven distintos y con manchas que antes no estaban, y en el baño se monta un corrillo de chicas comparándose la cara.'
+    mecanismo: Con ultravioleta se ven cosas que antes estaban escondidas, como manchas de la piel o productos que brillan o se oscurecen. A mi edad lo que más me importa es cómo me ven los demás, y de golpe todos tenemos un aspecto nuevo que nadie ha elegido, así que lo primero es mirarse en el espejo y comparar quién 'sale mejor'.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - autoimagen
+    - cosmetica
+    - salud_mental
+    id: adolescente/h1/5
+  reacciona_a: []

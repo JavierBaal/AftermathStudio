@@ -1,0 +1,46 @@
+intervencion:
+  agente: economista
+  tramo: h1
+  afirmaciones:
+  - texto: Hacia las 11:00, EssilorLuxottica es el valor europeo que más sube y salta en Euronext París al menos una interrupción por volatilidad. Arrastra en menor medida a otras ópticas cotizadas y a fabricantes de filtros y lentes.
+    mecanismo: 'En la primera hora, el único relato bursátil fácil de leer es deslumbramiento y fatiga en exteriores, que lleva a comprar gafas de sol y filtros. Los algoritmos que operan por titulares y los gestores que buscan una operación fácil concentran el flujo comprador en el líder mundial con cotización europea abierta. Las bandas de precio de Euronext detienen la cotización y abren una subasta cuando el precio se mueve demasiado en poco tiempo. Desde el escepticismo, el impulso no se sostiene: los supuestos dicen que el deslumbramiento remite en unas dos semanas, así que es un adelanto de demanda y no un aumento permanente. Los análisis más fríos lo señalarán en cuanto se lea la letra pequeña.'
+    dato: EssilorLuxottica controla cerca del 25 % del mercado mundial de gafas (Euromonitor), facturó 26.500 millones de euros en 2024 y Ray-Ban supone en torno al 12 % de sus ventas. Euronext aplica umbrales de reserva por valor que interrumpen la negociación continua.
+    fuente: https://fortune.com/europe/2025/06/04/essilorluxottica-ray-ban-oakley-med-tech-vision/ ; https://www.euronext.com/en/for-investors/market-quality/trading-safeguards
+    confianza: media
+    areas_afectadas:
+    - mercados_financieros
+    - bolsa
+    - optica
+    id: economista/h1/1
+  - texto: 'Los índices europeos no se hunden. En la primera hora el ajuste llega por la liquidez: los creadores de mercado amplían los diferenciales, baja la profundidad del libro de órdenes y el volumen se concentra en unos pocos valores. Las interrupciones se producen en valores concretos y no paran todo el mercado.'
+    mecanismo: 'Nadie ha identificado todavía una pérdida de flujos de caja ni un daño en balances. La infraestructura sigue funcionando: los operadores trabajan bajo iluminación LED, que apenas emite UV-A, y su visión normal se conserva. Ante una incertidumbre que no se puede cuantificar, el creador de mercado no apuesta en ninguna dirección: se protege ampliando la horquilla. Además, Nueva York está a las 04:00 y Tokio ya ha cerrado, así que el descubrimiento de precios global se limita a Europa y a los futuros nocturnos con poco volumen. Eso amplifica los movimientos en valores concretos pero no crea una tendencia general.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - mercados_financieros
+    - liquidez
+    - bolsa
+    id: economista/h1/2
+  - texto: 'El tirón de consumo por deslumbramiento casi no se nota en Europa en la primera hora. Se concentra en las zonas que están en pleno día con UV alto: África austral y oriental, Oriente Medio y el sur de Asia. Allí se agotan las primeras existencias de gafas de sol en farmacias, ópticas y puestos callejeros.'
+    mecanismo: 'La fatiga y el deslumbramiento dependen de la cantidad de UV-A del ambiente. En noviembre, el sol del hemisferio norte templado está bajo: Madrid ronda un índice UV máximo de 2 y la península no pasa de 4. En cambio, a esa hora Johannesburgo y Nairobi están a media mañana, el Golfo al mediodía y la India a primera hora de la tarde, todas con UV alto. Asia oriental está anocheciendo y América de noche, así que allí el shock llega como noticia y no como molestia física. La demanda física se mueve antes donde la molestia es inmediata y las existencias minoristas son escasas.'
+    dato: En noviembre de 2025, la media de los máximos diarios del índice UV en Madrid fue de 2,0 y el máximo peninsular fue de 4,1 (Huelva), según AEMET.
+    fuente: https://repositorio.aemet.es/bitstream/20.500.11765/17509/1/InformeRad_UVByOzono_2025_11.pdf
+    confianza: media
+    areas_afectadas:
+    - consumo
+    - comercio_minorista
+    - cadena_de_suministro
+    id: economista/h1/3
+  - texto: En las regiones con sol fuerte, una parte de los empleadores de construcción, agricultura, puertos y reparto suspende o ralentiza los turnos al aire libre como precaución. En la primera hora se pierden horas de trabajo, pero no hay despidos ni efecto medible en el empleo.
+    mecanismo: Mueve la decisión la responsabilidad legal, más que la productividad. Si un trabajador deslumbrado sufre un accidente con maquinaria o un vehículo, el coste para el empleador supera con mucho el de parar unas horas. Nadie sabe aún que el efecto no deja daño permanente, así que el seguro y el cumplimiento normativo empujan a parar. Además, como se espera que remita en dos semanas, lo racional es reorganizar turnos (más trabajo a cubierto o de noche) y no ajustar plantilla.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    areas_afectadas:
+    - empleo
+    - construccion
+    - logistica
+    - agricultura
+    id: economista/h1/4
+  reacciona_a: []

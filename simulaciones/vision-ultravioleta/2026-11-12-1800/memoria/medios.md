@@ -1,0 +1,7 @@
+
+### Hora 1
+- [medios/h1/1] En la primera hora el relato no nace en los medios sino en la mensajería privada (WhatsApp, Telegram, grupos familiares): millones de mensajes de 've algo raro, ¿tú también?' antes de que ninguna redacción publique nada verificado. (entró en el canon)
+- [medios/h1/2] Aparece una crisis de 'prueba imposible': el contenido viral es texto, audio y vídeo de caras asombradas, pero nadie consigue enseñar el color nuevo, y las fotos que dicen mostrarlo son en su mayoría falsas o filtros de falso color. (entró en el canon)
+- [medios/h1/3] Los primeros bulos con tracción no son conspiraciones elaboradas, sino falsos avisos sanitarios: 'no salgas a la calle, te quemas la retina', 'tápate los ojos de los bebés', supuestos comunicados de la OMS o del Ministerio de Sanidad con logos copiados. (entró en el canon)
+- [medios/h1/4] Los medios tradicionales entran en directo hacia el final de la hora con un formato de testimonios sin explicación: presentadores describiendo en antena lo que ven, conexiones con corresponsales en husos donde es de noche y no notan casi nada, y expertos en óptica que solo pueden decir que no saben. (entró en el canon)
+- [medios/h1/5] Arranca una disputa por el vocabulario: en distintas lenguas surgen en paralelo nombres para el color nuevo, y los primeros términos que se hacen virales fijan cómo se hablará del fenómeno durante días. (entró en el canon)

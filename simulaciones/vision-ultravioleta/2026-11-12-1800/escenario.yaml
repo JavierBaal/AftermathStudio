@@ -1,0 +1,178 @@
+# Escenario de prueba: visión ultravioleta
+# Supuestos revisados y confirmados por Fran el 12/11/2026.
+
+version_esquema: "0.1"
+
+meta:
+  id: vision-ultravioleta
+  titulo: "El día que vimos el ultravioleta"
+  tipo: especulativo
+  idioma: es
+  descripcion: "Toda la humanidad empieza a ver el espectro ultravioleta a la vez."
+  version: 4
+
+evento:
+  premisa: "Todos los seres humanos desarrollan a la vez la capacidad de ver el espectro ultravioleta."
+  momento_cero: "Martes, 10:00 hora de Madrid, simultáneo en todo el planeta"
+  alcance: global
+  supuestos:
+    - id: s1
+      texto: "El cambio es instantáneo y afecta a todas las personas, incluidos recién nacidos"
+      fuente: usuario
+    - id: s2
+      texto: "Se percibe el ultravioleta cercano (UV-A) como colores nuevos, sin perder la visión normal"
+      fuente: usuario
+    - id: s3
+      texto: "Los primeros días hay deslumbramiento y fatiga visual en exteriores con mucho sol; remite en unas dos semanas y no deja daño ocular permanente"
+      fuente: usuario
+    - id: s4
+      texto: "Nadie conoce la causa y nadie sabe si es permanente"
+      fuente: usuario
+  fuera_de_alcance:
+    - "Explicar la causa del fenómeno"
+    - "Efectos en animales"
+
+cronologia:
+  tramos:
+    - { id: h1, etiqueta: "Hora 1",         desde_evento: PT1H }
+    - { id: h2, etiqueta: "Hora 2",         desde_evento: PT2H }
+    - { id: h3, etiqueta: "Hora 3",         desde_evento: PT3H }
+    - { id: h5, etiqueta: "Hora 5",         desde_evento: PT5H }
+    - { id: s1, etiqueta: "Primera semana", desde_evento: P1W }
+    - { id: s2, etiqueta: "Segunda semana", desde_evento: P2W }
+    - { id: m1, etiqueta: "Primer mes",     desde_evento: P1M }
+    - { id: m2, etiqueta: "2 meses",        desde_evento: P2M }
+    - { id: m6, etiqueta: "6 meses",        desde_evento: P6M }
+    - { id: a1, etiqueta: "1 año",          desde_evento: P1Y }
+
+agentes:
+  # Expertos
+  - id: economista
+    tipo: experto
+    rol: "Macroeconomía y mercados financieros"
+    perfil: "Escéptico con el pánico; razona por incentivos y cadenas de suministro"
+    objetivos: ["Anticipar efectos en mercados, consumo y empleo"]
+    herramientas: [busqueda_web]
+  - id: sociologo
+    tipo: experto
+    rol: "Comportamiento colectivo y cambio social"
+    perfil: "Atento a desigualdades y a cómo se forman las normas nuevas"
+    objetivos: ["Detectar cambios en normas, grupos y desigualdad"]
+    herramientas: [busqueda_web]
+  - id: psicologa
+    tipo: experto
+    rol: "Psicología social y percepción"
+    perfil: "Se fija en la experiencia individual y la autoimagen"
+    objetivos: ["Describir cómo vive cada persona el cambio"]
+    herramientas: [busqueda_web]
+  - id: psiquiatra
+    tipo: experto
+    rol: "Salud mental clínica"
+    perfil: "Prudente; distingue reacción normal de trastorno"
+    objetivos: ["Prever demanda clínica y poblaciones vulnerables"]
+    herramientas: [busqueda_web]
+  - id: politico
+    tipo: experto
+    rol: "Gobierno y gestión de crisis"
+    perfil: "Pragmático; piensa en legitimidad, coordinación y votos"
+    objetivos: ["Prever respuestas de gobiernos y organismos internacionales"]
+    herramientas: [busqueda_web]
+  - id: oftalmologa
+    tipo: experto
+    rol: "Fisiología de la visión"
+    perfil: "Rigurosa; ancla el escenario en cómo funciona el ojo"
+    objetivos: ["Explicar qué se ve exactamente y qué cambia en lo cotidiano"]
+    conocimiento_privado:
+      - "Las personas sin cristalino ya perciben algo de ultravioleta cercano"
+    herramientas: [busqueda_web]
+  - id: medios
+    tipo: experto
+    rol: "Medios de comunicación y redes sociales"
+    perfil: "Conoce cómo se propagan los relatos y los bulos"
+    objetivos: ["Prever la narrativa pública y la desinformación"]
+    herramientas: [busqueda_web]
+  # Agentes de a pie
+  - id: agricultor
+    tipo: a_pie
+    rol: "Agricultor de 58 años en la vega de Granada"
+    perfil: "Práctico, desconfiado de las noticias, atento a cultivos y plagas"
+    objetivos: ["Sacar adelante la cosecha"]
+  - id: adolescente
+    tipo: a_pie
+    rol: "Estudiante de 16 años en Madrid, muy activa en redes"
+    perfil: "Curiosa, sensible a la mirada de los demás"
+    objetivos: ["Entender qué está pasando y encajar con su grupo"]
+  - id: mayor
+    tipo: a_pie
+    rol: "Mujer de 79 años que vive sola en un pueblo"
+    perfil: "Serena, con mala vista previa y poca tecnología"
+    objetivos: ["Mantener su rutina y su independencia"]
+  # Disruptor
+  - id: disruptor
+    tipo: disruptor
+    rol: "Busca efectos que nadie ha previsto"
+    perfil: "Lateral; desconfía de la narrativa dominante del tramo"
+    objetivos: ["Proponer en cada tramo al menos un efecto no obvio con mecanismo"]
+    herramientas: [busqueda_web]
+
+arbitro:
+  criterios:
+    - "Prevalece la afirmación con mecanismo más sólido y dato verificable"
+    - "Ante empate, se mantiene la tensión abierta para el siguiente tramo"
+    - "Entran primero los hechos que cambian el rumbo del mundo o afectan a otras áreas; los efectos locales o de detalle se descartan aunque sean plausibles"
+    - "Se descarta lo que solo repite, amplía o concreta un hecho ya establecido sin añadir una consecuencia nueva"
+    - "Se descartan las afirmaciones de confianza baja que no tengan dato"
+  plausibilidad: "Las afirmaciones sin mecanismo no entran en el canon"
+  max_hechos_por_tramo: 10
+
+interaccion:
+  modo: rondas_sincronizadas
+  visibilidad: estado_e_intervenciones
+  exigencias: { mecanismo: obligatorio, dato: recomendado, confianza: obligatorio }
+  max_afirmaciones_por_tramo: 5
+
+variables:
+  - id: explicacion_publica
+    descripcion: "Qué explicación domina en las primeras horas"
+    aplica_a: evento
+    valores: [ninguna, cientifica_rapida, conspirativa]
+  - id: permanencia_percibida
+    descripcion: "Qué cree la gente sobre la duración"
+    aplica_a: evento
+    valores: [temporal, permanente]
+
+ejecucion:
+  repeticiones: 1          # primera prueba: una sola ejecución
+  modo: ligero
+  # Primera prueba con elenco reducido: 6 agentes y los 4 primeros tramos.
+  # Quitar estas dos líneas para la simulación completa (11 agentes, 10 tramos).
+  agentes: [economista, politico, medios, oftalmologa, adolescente, disruptor]
+  tramos: [h1, h2, h3, h5]
+
+resultados:
+  metricas:
+    - id: alarma_social
+      pregunta: "Nivel de alarma social"
+      tipo: escala
+    - id: respuesta_gobiernos
+      pregunta: "Respuesta dominante de los gobiernos"
+      tipo: categorica
+      opciones: [ninguna, comunicacion, emergencia, medidas_excepcionales]
+    - id: impacto_economico
+      pregunta: "Impacto económico agregado"
+      tipo: escala
+    - id: adaptacion
+      pregunta: "Grado de normalización del cambio"
+      tipo: escala
+  informe:
+    secciones:
+      - "Cronología consolidada"
+      - "Efectos cruzados entre áreas"
+      - "Lo que nadie esperaba"
+      - "Cómo lo vivió la gente corriente"
+      - "El mundo un año después"
+    extension: larga
+
+seguimiento:
+  biblia: [estados, intervenciones, memoria_agentes, fuentes]
+  modos: [entrevista, zoom, rama]

@@ -45,6 +45,7 @@ arbitro:
   modelo: string                   # opcional
   criterios: [string]              # cómo decide entre versiones incompatibles
   plausibilidad: string            # qué hace con afirmaciones sin mecanismo
+  max_hechos_por_tramo: number     # opcional: tope de hechos que entran en el canon por tramo
 
 interaccion:
   modo: rondas_sincronizadas

@@ -1,0 +1,56 @@
+intervencion:
+  agente: politico
+  tramo: h1
+  afirmaciones:
+  - texto: En la primera hora ningún gobierno declara emergencia formal; lo que se activa son las salas de crisis existentes (en España, el Departamento de Seguridad Nacional en Moncloa) en modo de recogida de información, sin comparecencia del jefe de Gobierno.
+    mecanismo: Los protocolos de gestión de crisis están diseñados para amenazas con causa identificable (apagón, atentado, pandemia). Sin daño visible, sin causa y con toda la población afectada a la vez, incluidos los propios ministros y técnicos, nadie puede asignar el asunto a un ministerio concreto. Comparecer sin saber nada cuesta legitimidad, así que el incentivo es callar y recopilar datos. En el apagón de 2025 la coordinación formal entre ministerios se fue articulando a lo largo de días, no de minutos.
+    dato: Tras el apagón del 28 de abril de 2025, el Comité de Situación con representantes de 14 ministerios celebró su primera reunión el 1 de mayo.
+    fuente: https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/presidencia-justicia-relaciones-cortes/Paginas/2025/010525-bolanos-comite-situacion-crisis-electrica.aspx
+    confianza: alta
+    areas_afectadas:
+    - gobierno
+    - gestion_de_crisis
+    - comunicacion_institucional
+    id: politico/h1/1
+  - texto: 'La primera decisión pública concreta no la toma un gobierno central sino los reguladores operativos de transporte: autoridades aéreas y gestores de tráfico emiten avisos de precaución sobre el deslumbramiento en exteriores y algunos operadores ralentizan o retienen salidas.'
+    mecanismo: Los reguladores sectoriales tienen competencia delegada para actuar sin esperar al Consejo de Ministros cuando hay un riesgo operativo inmediato. El deslumbramiento en exteriores soleados afecta a pilotos, controladores con vista a pista y conductores, y la responsabilidad legal de no actuar ante un riesgo conocido es mayor que el coste de retrasar operaciones. A las 10:00 de Madrid es pleno día en Europa, África y Oriente Medio, que concentran el primer impacto.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - transporte
+    - aviacion
+    - trafico
+    - regulacion
+    id: politico/h1/2
+  - texto: 'Los gobiernos de los países donde es de noche (América) van por detrás: sus ciudadanos aún no han sufrido deslumbramiento y la primera reacción oficial allí es una declaración de calma, mientras los países de Europa y Asia con sol ya gestionan incidencias.'
+    mecanismo: El fenómeno es simultáneo, pero el síntoma molesto depende de la luz solar. A las 10:00 de Madrid es madrugada en el continente americano, así que esos gobiernos tienen menos presión operativa, más tiempo para leer lo que pasa en Europa y menos coste por tranquilizar. Eso desincroniza las respuestas nacionales y dificulta un mensaje internacional común.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - gobierno
+    - relaciones_internacionales
+    - comunicacion_institucional
+    id: politico/h1/3
+  - texto: En la primera hora la OMS y la Unión Europea solo hacen contactos informales entre puntos focales; no hay convocatoria de comité de emergencia ni de Consejo extraordinario.
+    mecanismo: 'Los mecanismos internacionales (Reglamento Sanitario Internacional, mecanismo integrado de respuesta política a las crisis de la UE) necesitan una notificación formal de un Estado y una evaluación de riesgo, y este suceso no encaja en las categorías previstas: no es contagioso, no hay país de origen ni daño ocular permanente. La primera hora la ocupan llamadas entre sherpas y canales de puntos focales para preguntarse si alguien sabe algo.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - organismos_internacionales
+    - salud_publica
+    - union_europea
+    id: politico/h1/4
+  - texto: Los servicios de inteligencia y defensa de las grandes potencias abren evaluaciones urgentes sobre si el fenómeno puede ser un ataque o puede alterar la vigilancia, el camuflaje y la señalización militar, y los gobiernos tratan esas evaluaciones como secretas.
+    mecanismo: 'Ante un suceso global sin causa conocida, el reflejo institucional de defensa es descartar primero la hipótesis hostil. Además, ver el UV-A cambia lo que el ojo humano detecta (marcas, pinturas, señales que antes eran invisibles), lo que afecta a la seguridad operativa. El secreto se explica por un cálculo de legitimidad: reconocer que se investiga un posible ataque alimentaría el miedo sin aportar respuestas.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - defensa
+    - inteligencia
+    - seguridad_nacional
+    id: politico/h1/5
+  reacciona_a: []
