@@ -76,7 +76,7 @@ Los identificadores del tipo `agente/tramo/número` permiten rastrear cualquier 
 
 Cinco puntos que conviene cerrar antes de montar la skill:
 
-- [ ] **Supuestos del ultravioleta.** Confirmar o cambiar s2, s3 y s4: qué rango se ve, si hay molestias y si se sabe la causa. Cambian mucho el escenario.
+- [x] **Supuestos del ultravioleta.** Cerrado el 12/11/2026: se mantienen s2 (UV-A como colores nuevos) y s4 (causa y permanencia desconocidas); s3 pasa a incluir deslumbramiento y fatiga visual los primeros días, sin daño permanente.
 - [ ] **Visibilidad entre agentes.** Propuesta: `estado_e_intervenciones`, con más efectos cruzados a cambio de más contexto por agente y más riesgo de convergencia. La alternativa `estado` es más barata y aislada.
 - [ ] **Número de agentes.** 11 agentes × 10 tramos son 110 intervenciones más 10 consolidaciones. En modo ligero es mucho uso. Opción: empezar con 6 agentes y los 4 primeros tramos para validar.
 - [ ] **Formato del archivo.** YAML para que lo lean personas; más adelante, un JSON Schema para que el motor valide antes de ejecutar.
