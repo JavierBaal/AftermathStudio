@@ -1,0 +1,62 @@
+intervencion:
+  agente: disruptor
+  tramo: h3
+  afirmaciones:
+  - texto: El amanecer en la costa este de EE. UU. (hacia las 6:40 en Nueva York, ya dentro de la hora 3) no da la confirmación masiva que esperaba la Casa Blanca. Con el sol pegado al horizonte, quien sale a la calle o se asoma a la ventana apenas ve los colores nuevos, sobre todo si está nublado, y en redes estadounidenses circula el 'he salido y no veo nada' justo cuando se esperaba el 'lo estamos viendo todos'. La prueba que convence en esta hora sigue siendo la luz negra de casa, no el sol, y la declaración presidencial pierde el momento de experiencia compartida que buscaba.
+    mecanismo: Con el sol a pocos grados sobre el horizonte la luz atraviesa muchas veces más atmósfera que a mediodía, y la dispersión, que crece mucho al acortarse la longitud de onda, se lleva antes el UV-A que el visible. La intensidad UV-A del amanecer de noviembre es una fracción pequeña de la que vive en ese momento el sur de Europa a mediodía. El plan de esperar al amanecer (politico/h2/2) suponía que el sol bastaría para igualar la experiencia; en realidad el pico de UV en la costa este llegará a su mediodía, unas seis horas después, lo que alarga la ventana en la que el marco de bulo convive con testimonios débiles.
+    dato: 'Amanecer en Nueva York el 12 de noviembre: 6:39 EST'
+    fuente: https://sunrise-sunset.org/us/10012
+    confianza: media
+    areas_afectadas:
+    - comunicacion
+    - politica
+    - desinformacion
+    - eeuu
+    id: disruptor/h3/1
+  - texto: 'En pleno mediodía europeo aparece una brecha norte-sur que nadie ha nombrado: en Noruega, Suecia, Finlandia, los países bálticos y buena parte de Escocia la experiencia es tenue, mientras en España, Italia o Grecia es intensa. El escepticismo, que se daba por concentrado en Norteamérica, encuentra un segundo bastión dentro de Europa, y en los medios nórdicos el relato pasa a ser el de un fenómeno de los países del sur, exagerado por sus redes.'
+    mecanismo: A mediados de noviembre la declinación solar es de unos -18 grados, de modo que en Oslo o Estocolmo el sol de mediodía apenas sube unos 12 grados y la luz cruza una atmósfera muy larga que atenúa sobre todo el UV-A. El mismo suceso global produce estímulos muy distintos según la latitud y la estación, igual que antes los produjo según la hora. Como cada uno juzga por lo que ve, la diferencia física se lee como diferencia cultural, y el marco de histeria regional que se rompió en América (h2-01) se recicla dentro de Europa con otro eje.
+    dato: 'Elevación solar máxima en Oslo (59,9 N) a mediados de noviembre: unos 12 grados (90 - 59,9 - 17,7 de declinación)'
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - comunicacion
+    - desinformacion
+    - politica-ue
+    - sociedad
+    id: disruptor/h3/2
+  - texto: En el norte de Europa y en EE. UU., donde el sol no da para ver, los solarios y centros de bronceado reciben llamadas y visitas de gente que quiere ver los colores nuevos sin esperar ni viajar, y algunos centros abren antes de hora. Dentro de la cabina hay quien se quita las gafas protectoras para mirar, justo lo contrario de lo que exige su uso.
+    mecanismo: Las camas solares emiten sobre todo UV-A y, según las mediciones del regulador noruego, con una intensidad media superior al doble del sol de verano del sur de Noruega. Para quien vive en latitudes donde en noviembre el UV es mínimo, son la fuente más potente a mano, más que una lámpara de uñas. La gafa obligatoria del solario apaga precisamente lo que el cliente viene a ver, y la norma social adolescente de aguantar sin gafas (h2-25) se traslada a adultos. Esto abre un frente sanitario que el aviso de los oftalmólogos sobre gafas baratas (h2-15) no cubre, porque la exposición ocular a corta distancia en la cabina no es comparable a la del sol.
+    dato: Las camas solares noruegas medidas tenían una intensidad UV media más del doble que el sol de verano del sur de Noruega, con mucha más UVA y menos UVB
+    fuente: https://dsa.no/en/sun-and-sunbeds/uv-radiation-from-sun-and-sunbeds
+    confianza: baja
+    areas_afectadas:
+    - salud
+    - consumo
+    - oftalmologia
+    - dermatologia
+    id: disruptor/h3/3
+  - texto: 'Al sol del mediodía europeo, los adultos descubren en su propia cara y en la de los demás pecas, manchas solares y daño acumulado que en el visible no se notaban, y las consultas de dermatología y las farmacias empiezan a recibir preguntas sobre si esas manchas son cáncer. No es un problema de maquillaje como el de los adolescentes, sino de envejecimiento visible de golpe, y afecta sobre todo a quien ha tomado mucho sol: trabajadores al aire libre, agricultores, deportistas.'
+    mecanismo: La melanina absorbe el UV-A con mucha más fuerza que el visible, así que los depósitos irregulares que deja la exposición solar crónica, que bajo luz normal se diluyen en el tono de la piel, en el nuevo canal aparecen con gran contraste. Es lo que ya mostraban las cámaras ultravioleta en el vídeo viral de 2014 que revelaba manchas invisibles a simple vista. Ahora cada persona lo ve sin cámara, en una población que no sabe distinguir una mancha benigna de una lesión, lo que duplica la presión que ya sufren las urgencias oftalmológicas (h2-23) con un segundo pico, dermatológico.
+    dato: El vídeo 'How the sun sees you' (Thomas Leveritt, 2014) mostró con cámara UV pecas y daño solar invisibles a simple vista
+    fuente: https://www.smithsonianmag.com/smart-news/ultraviolet-camera-reveals-secret-price-sunbathing-180952363/
+    confianza: media
+    areas_afectadas:
+    - salud
+    - dermatologia
+    - sanidad-publica
+    - sociedad
+    id: disruptor/h3/4
+  - texto: 'La contraprueba casera de la luz negra en EE. UU. (h2-02) se desvía en esta hora hacia otro descubrimiento: al apuntar la lámpara por la casa, la gente ve manchas de orina, sudor y otros fluidos en colchones, sofás, alfombras y baños, y empiezan los vídeos desde habitaciones de hotel y apartamentos turísticos. El asco hace más por convencer a los escépticos que los argumentos, porque nadie graba su propio colchón para fingir un bulo.'
+    mecanismo: Varios fluidos corporales fluorescen bajo UV-A de 365 nm, y por eso se venden linternas UV para localizar orina en moquetas. Lo que era una herramienta de limpieza o de criminalística pasa a manos de millones de personas recién despiertas que ya tienen la lámpara encendida para comprobar el fenómeno. Un vídeo en tu propia casa, que te deja en mal lugar, es un testimonio costoso y por tanto creíble, y desplaza la conversación del si es real al qué más hay que no veíamos. A medio plazo apunta a hoteles, alquileres turísticos y transporte, que no tienen protocolo de limpieza pensado para un cliente que ve la fluorescencia.
+    dato: Las linternas UV-A se comercializan para detectar manchas de orina invisibles a simple vista
+    fuente: https://www.preventivevet.com/dogs/using-a-blacklight-to-discover-dog-pee-accidents
+    confianza: media
+    areas_afectadas:
+    - desinformacion
+    - consumo
+    - turismo
+    - hosteleria
+    - eeuu
+    id: disruptor/h3/5
+  reacciona_a:
+  - politico/h2/2

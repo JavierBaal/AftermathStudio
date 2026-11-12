@@ -2,34 +2,60 @@ intervencion:
   agente: medios
   tramo: h3
   afirmaciones:
-    - texto: "El amanecer en la costa este, que los medios estadounidenses retransmiten en directo desde azoteas de Nueva York y Boston como el momento de la verdad, resulta un anticlímax: con el sol en el horizonte los primeros testigos describen apenas un tinte raro en el cielo o nada claro, y los escépticos recortan esos directos como prueba de que no pasa nada. La confirmación en EE. UU. no llega como un instante compartido sino a goteo durante la mañana, lo que da a la Casa Blanca un motivo más para esperar."
-      mecanismo: "La televisión necesita un momento único y fija el amanecer como hito, pero con el sol a pocos grados el camino atmosférico es muy largo y el UV-A que llega al suelo es una fracción mínima del de mediodía, así que el estímulo es débil justo cuando más cámaras miran. Un directo con reacciones tibias es el material perfecto para el bando del bulo, que ya tenía las capturas de chatbots (h2-03). La prueba fuerte seguirá siendo la casera con lámparas (h2-02) y la que llegue cuando el sol suba, no la del amanecer."
-      dato: "El 12 de noviembre de 2026 el amanecer en Nueva York es a las 6:39 EST (12:39 en Madrid) y el crepúsculo civil empieza a las 6:10, dentro de la hora 3."
-      fuente: "https://sunrise-sunset.org/us/10012"
-      confianza: media
-      areas_afectadas: [medios, politica, opinion_publica, estados_unidos]
-    - texto: "El contenido de lo que nos ocultaban se muda a la piel: a mediodía en el sur de Europa se viralizan vídeos de caras al sol donde aparecen manchas solares, pecas profundas y daño acumulado que antes no se veían, y el formato deriva a la vez en vergüenza estética, en tertulias con dermatólogos y en una variante conspirativa según la cual la industria cosmética y sanitaria sabía lo que había bajo la piel y lo callaba."
-      mecanismo: "La melanina y el daño solar absorben el UV mucho más que el visible, por eso la fotografía UV lleva años usándose en campañas dermatológicas para enseñar manchas invisibles a simple vista. Ahora cualquiera lo ve en la cara de otro sin cámara. La piel es justo el terreno sin ficha técnica al que se desplazó el bulo tras el desmentido de los billetes (h2-06), y la mirada entre iguales que ya se ve en los patios (h2-24) le da un público inmediato. Que ese material existiera en campañas de salud alimenta el argumento de que alguien ya lo sabía."
-      dato: "Las cámaras UV usadas en campañas de prevención muestran pecas y daño solar bajo la superficie que no se ven a simple vista."
-      fuente: "https://www.smithsonianmag.com/smart-news/ultraviolet-camera-reveals-secret-price-sunbathing-180952363/"
-      confianza: media
-      areas_afectadas: [redes_sociales, salud, cosmetica, adolescentes, desinformacion]
-    - texto: "Las empresas de IA corrigen en pocas horas la respuesta de sus asistentes (avisos de suceso en curso, respuestas apoyadas en noticias recientes) y la corrección se convierte en un nuevo bulo: circulan en paralelo la captura de antes y la de después como prueba de que alguien está editando lo que la máquina puede decir, y el bando escéptico estadounidense la lee como que las IA se han plegado a la versión oficial."
-      mecanismo: "Una captura viral de un producto negando lo que la gente vive es un problema de reputación que las empresas resuelven con lo más rápido que tienen, que es ajustar instrucciones o activar búsqueda en noticias, no reentrenar. Pero el cambio visible de respuesta en cuestión de horas encaja en los dos marcos fijados en h2-03: para el conspirativo europeo confirma que la IA se manipula, y para el escéptico americano que se ha impuesto un relato desde arriba. Una corrección sin explicar alimenta la sospecha en lugar de cerrarla."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [tecnologia, desinformacion, plataformas, estados_unidos]
-    - texto: "Los verificadores españoles y las cuentas de hospitales y sociedades médicas desmienten el audio de la 'prima enfermera' en lo de quedarse ciega, pero no pueden desmentir lo de que es para siempre, porque nadie sabe si el fenómeno es permanente. El desmentido sale a medias, el audio sigue reenviándose en grupos de familia y aparece la réplica: audios de supuestos médicos tranquilizadores que tampoco tienen base y que se mezclan con los originales."
-      mecanismo: "Un verificador solo puede desmentir lo que tiene una fuente contraria; para la ceguera tiene los signos de alarma ya publicados por los hospitales (h2-23), pero para la permanencia no hay ninguna fuente oficial que diga otra cosa, así que el titular honesto es 'no se sabe', que compite mal con un audio de alguien de confianza. Los límites de reenvío de WhatsApp frenan la difusión masiva, pero estos audios circulan de grupo en grupo por personas reales y no dependen del reenvío en bloque. El hueco lo llena un contraaudio igual de anónimo, con lo que el canal familiar queda saturado de voces sin autoría."
-      dato: "WhatsApp limita a un chat por vez los mensajes reenviados con frecuencia; un recorte previo del límite de 20 a 5 chats redujo el reenvío global en torno a un 25 %."
-      fuente: "https://www.xatakamovil.com/aplicaciones/whatsapp-limitara-reenvio-mensajes-virales-a-solo-chat-a-vez"
-      confianza: media
-      areas_afectadas: [desinformacion, salud, familias, mensajeria]
-    - texto: "Ante el fracaso de las imágenes en falso color, la conversación se desplaza de la imagen a la palabra: compiten en redes nombres para el color nuevo en cada idioma, convertidos en etiquetas y memes, y las redacciones empiezan a pedir criterio para nombrarlo en titulares. La guerra sobre la imagen buena no se resuelve con una convención visual sino que se aparca, y el campo de batalla pasa a ser cómo se llama."
-      mecanismo: "El formato dominante desde la hora 1 es el testimonio (h1/1) y la imagen ha fallado como prueba (h2-05); para contar algo y agruparlo en una etiqueta hace falta un sustantivo, y quien acuña el más pegadizo gana alcance. Las redacciones no pueden escribir 'color nuevo' en cada titular durante horas y tienen mecanismos de consulta lingüística (libros de estilo, Fundéu en español, guías de agencias) que suelen pronunciarse sobre palabras de actualidad. Como el inglés domina las plataformas globales, el término inglés que se imponga tenderá a colarse en las demás lenguas, igual que pasó con otros neologismos de crisis."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [medios, redes_sociales, lenguaje, cultura]
+  - texto: 'El amanecer en la costa este, que los medios estadounidenses retransmiten en directo desde azoteas de Nueva York y Boston como el momento de la verdad, resulta un anticlímax: con el sol en el horizonte los primeros testigos describen apenas un tinte raro en el cielo o nada claro, y los escépticos recortan esos directos como prueba de que no pasa nada. La confirmación en EE. UU. no llega como un instante compartido sino a goteo durante la mañana, lo que da a la Casa Blanca un motivo más para esperar.'
+    mecanismo: La televisión necesita un momento único y fija el amanecer como hito, pero con el sol a pocos grados el camino atmosférico es muy largo y el UV-A que llega al suelo es una fracción mínima del de mediodía, así que el estímulo es débil justo cuando más cámaras miran. Un directo con reacciones tibias es el material perfecto para el bando del bulo, que ya tenía las capturas de chatbots (h2-03). La prueba fuerte seguirá siendo la casera con lámparas (h2-02) y la que llegue cuando el sol suba, no la del amanecer.
+    dato: El 12 de noviembre de 2026 el amanecer en Nueva York es a las 6:39 EST (12:39 en Madrid) y el crepúsculo civil empieza a las 6:10, dentro de la hora 3.
+    fuente: https://sunrise-sunset.org/us/10012
+    confianza: media
+    areas_afectadas:
+    - medios
+    - politica
+    - opinion_publica
+    - estados_unidos
+    id: medios/h3/1
+  - texto: 'El contenido de lo que nos ocultaban se muda a la piel: a mediodía en el sur de Europa se viralizan vídeos de caras al sol donde aparecen manchas solares, pecas profundas y daño acumulado que antes no se veían, y el formato deriva a la vez en vergüenza estética, en tertulias con dermatólogos y en una variante conspirativa según la cual la industria cosmética y sanitaria sabía lo que había bajo la piel y lo callaba.'
+    mecanismo: La melanina y el daño solar absorben el UV mucho más que el visible, por eso la fotografía UV lleva años usándose en campañas dermatológicas para enseñar manchas invisibles a simple vista. Ahora cualquiera lo ve en la cara de otro sin cámara. La piel es justo el terreno sin ficha técnica al que se desplazó el bulo tras el desmentido de los billetes (h2-06), y la mirada entre iguales que ya se ve en los patios (h2-24) le da un público inmediato. Que ese material existiera en campañas de salud alimenta el argumento de que alguien ya lo sabía.
+    dato: Las cámaras UV usadas en campañas de prevención muestran pecas y daño solar bajo la superficie que no se ven a simple vista.
+    fuente: https://www.smithsonianmag.com/smart-news/ultraviolet-camera-reveals-secret-price-sunbathing-180952363/
+    confianza: media
+    areas_afectadas:
+    - redes_sociales
+    - salud
+    - cosmetica
+    - adolescentes
+    - desinformacion
+    id: medios/h3/2
+  - texto: 'Las empresas de IA corrigen en pocas horas la respuesta de sus asistentes (avisos de suceso en curso, respuestas apoyadas en noticias recientes) y la corrección se convierte en un nuevo bulo: circulan en paralelo la captura de antes y la de después como prueba de que alguien está editando lo que la máquina puede decir, y el bando escéptico estadounidense la lee como que las IA se han plegado a la versión oficial.'
+    mecanismo: 'Una captura viral de un producto negando lo que la gente vive es un problema de reputación que las empresas resuelven con lo más rápido que tienen, que es ajustar instrucciones o activar búsqueda en noticias, no reentrenar. Pero el cambio visible de respuesta en cuestión de horas encaja en los dos marcos fijados en h2-03: para el conspirativo europeo confirma que la IA se manipula, y para el escéptico americano que se ha impuesto un relato desde arriba. Una corrección sin explicar alimenta la sospecha en lugar de cerrarla.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - tecnologia
+    - desinformacion
+    - plataformas
+    - estados_unidos
+    id: medios/h3/3
+  - texto: 'Los verificadores españoles y las cuentas de hospitales y sociedades médicas desmienten el audio de la ''prima enfermera'' en lo de quedarse ciega, pero no pueden desmentir lo de que es para siempre, porque nadie sabe si el fenómeno es permanente. El desmentido sale a medias, el audio sigue reenviándose en grupos de familia y aparece la réplica: audios de supuestos médicos tranquilizadores que tampoco tienen base y que se mezclan con los originales.'
+    mecanismo: Un verificador solo puede desmentir lo que tiene una fuente contraria; para la ceguera tiene los signos de alarma ya publicados por los hospitales (h2-23), pero para la permanencia no hay ninguna fuente oficial que diga otra cosa, así que el titular honesto es 'no se sabe', que compite mal con un audio de alguien de confianza. Los límites de reenvío de WhatsApp frenan la difusión masiva, pero estos audios circulan de grupo en grupo por personas reales y no dependen del reenvío en bloque. El hueco lo llena un contraaudio igual de anónimo, con lo que el canal familiar queda saturado de voces sin autoría.
+    dato: WhatsApp limita a un chat por vez los mensajes reenviados con frecuencia; un recorte previo del límite de 20 a 5 chats redujo el reenvío global en torno a un 25 %.
+    fuente: https://www.xatakamovil.com/aplicaciones/whatsapp-limitara-reenvio-mensajes-virales-a-solo-chat-a-vez
+    confianza: media
+    areas_afectadas:
+    - desinformacion
+    - salud
+    - familias
+    - mensajeria
+    id: medios/h3/4
+  - texto: 'Ante el fracaso de las imágenes en falso color, la conversación se desplaza de la imagen a la palabra: compiten en redes nombres para el color nuevo en cada idioma, convertidos en etiquetas y memes, y las redacciones empiezan a pedir criterio para nombrarlo en titulares. La guerra sobre la imagen buena no se resuelve con una convención visual sino que se aparca, y el campo de batalla pasa a ser cómo se llama.'
+    mecanismo: El formato dominante desde la hora 1 es el testimonio (h1/1) y la imagen ha fallado como prueba (h2-05); para contar algo y agruparlo en una etiqueta hace falta un sustantivo, y quien acuña el más pegadizo gana alcance. Las redacciones no pueden escribir 'color nuevo' en cada titular durante horas y tienen mecanismos de consulta lingüística (libros de estilo, Fundéu en español, guías de agencias) que suelen pronunciarse sobre palabras de actualidad. Como el inglés domina las plataformas globales, el término inglés que se imponga tenderá a colarse en las demás lenguas, igual que pasó con otros neologismos de crisis.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - medios
+    - redes_sociales
+    - lenguaje
+    - cultura
+    id: medios/h3/5
   reacciona_a: []

@@ -2,34 +2,60 @@ intervencion:
   agente: oftalmologa
   tramo: h3
   afirmaciones:
-    - texto: "En la tercera hora, con el sol del mediodía en el sur de Europa, muchos mayores de 50 sin operar describen en exteriores un velo o neblina azulada que lo lava todo, en lugar de colores nuevos nítidos. Las consultas empiezan a explicar que buena parte de lo que esas personas ven no viene del mundo, sino de su propio cristalino, que brilla al recibir el UV-A."
-      mecanismo: "El cristalino humano emite fluorescencia azul-verdosa cuando absorbe UV-A cercano, y esa fluorescencia aumenta con la edad porque se acumulan cromóforos y proteínas modificadas. La luz emitida se reparte por toda la retina como un deslumbramiento de velo que baja el contraste. Antes del suceso existía igual, pero era débil y se perdía en el visible. Ahora el UV-A del cielo pasa a ser un estímulo intenso al mediodía y la persona mayor recibe a la vez el canal nuevo, atenuado por un cristalino más amarillo, y el velo fluorescente. Esto explica con un mecanismo concreto por qué los abuelos ven apagado lo que los nietos ven vivo (h2-27) y separa ese efecto del gradiente por las lentes intraoculares (h2-21)."
-      dato: "La fluorescencia del cristalino inducida por luz UV cercana y azul se ha medido in vivo y produce deslumbramiento de velo que interfiere con la función visual, con mayor efecto en cristalinos envejecidos."
-      fuente: "https://proceedings.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-10/issue-4/044021/Near-UV-blue-light-induced-fluorescence-in-the-human-lens/10.1117/1.1990163.full"
-      confianza: media
-      areas_afectadas: [salud, vida cotidiana, familia, comunicacion clinica]
-    - texto: "Los usuarios de lentes de contacto descubren en masa que su marca decide lo que ven: quienes llevan lentes blandas con bloqueador UV apenas ven los colores nuevos al mirar de frente, mientras que quienes usan modelos sin filtro, muchas lentes rígidas y diarias baratas, los ven como todo el mundo. Las ópticas reciben consultas de quien quiere cambiar a una lente sin filtro y de quien quiere justo lo contrario."
-      mecanismo: "Varias familias de lentes blandas incorporan un absorbente UV en el material, clasificado en clase 1 o clase 2 según cuánto UV-A bloquean, y la lente cubre toda la córnea, así que actúa como un filtro pegado al ojo sobre la pupila. Nadie lo sabía porque no tenía consecuencias visibles. Ahora es un interruptor que depende del modelo que eligió el óptico hace años. Como las lentes de contacto, a diferencia de las intraoculares, se cambian en minutos, aparece por primera vez una forma barata y reversible de decidir si se ve o no el UV, que interesa tanto al adolescente que quiere ver (h2-25) como al conductor o al trabajador que quiere apagarlo sin parecer que lleva gafas de sol."
-      dato: "Las lentes de contacto de clase 1 bloquean más del 90 % del UV-A y del 99 % del UV-B; las de clase 2, más del 70 % del UV-A y del 95 % del UV-B."
-      fuente: "https://visiondirect.co.uk/eye-health/uv-protection-contact-lenses"
-      confianza: alta
-      areas_afectadas: [salud, consumo, optica, adolescentes]
-    - texto: "Quienes compraron gafas UV400 auténticas en la primera hora vuelven a las ópticas quejándose de que siguen viendo un resplandor del color nuevo por el lado, sobre todo en el borde nasal del campo visual. Los ópticos empiezan a recomendar monturas envolventes o con protección lateral, y el modelo deportivo envolvente se convierte en el producto que de verdad funciona."
-      mecanismo: "Por el efecto de focalización periférica de la luz descrito por Coroneo, la luz que entra en el ojo desde el lado temporal con ángulo rasante se concentra al atravesar la córnea y llega muy amplificada a la zona nasal. Las gafas de montura plana dejan un hueco lateral por el que entra el cielo, que ahora es una fuente de UV-A difusa en todas las direcciones (h2-11). Con el visible esto apenas se notaba, pero el canal nuevo es el más intenso que viene del cielo, así que el resplandor lateral se ve como una mancha de color nuevo. Este matiz desplaza la demanda de h2-14 de la gafa básica a la envolvente, que tiene menos stock y otro cuello de botella."
-      dato: "La luz que incide lateralmente sobre la córnea puede concentrarse hasta unas 20 veces en el limbo nasal (efecto de focalización periférica de Coroneo)."
-      fuente: "https://wikipedia.com/wiki/Peripheral_light_focusing"
-      confianza: media
-      areas_afectadas: [salud, consumo, optica, cadena de suministro]
-    - texto: "En la tercera hora llegan a las consultas de cirugía refractiva y de cataratas las primeras peticiones de operados que quieren cambiar su lente intraocular por una sin filtro UV, y de jóvenes que preguntan por cirugía de cristalino para ver más. Las sociedades de oftalmología responden con una recomendación expresa de no indicar ni cambiar lentes por este motivo mientras no se sepa si el fenómeno es permanente."
-      mecanismo: "La frustración de los operados que no ven (h2-21) busca una solución, y la única que existe es quirúrgica: el recambio o explante de la lente. Es una cirugía con riesgos mayores que la primera (rotura de cápsula, edema corneal, desprendimiento de retina) para un beneficio estético y de duración desconocida. Las sociedades científicas reaccionan rápido porque el riesgo no es la demanda masiva, que no se puede atender en horas, sino que algún centro privado empiece a ofrecerlo y fije un precedente. La recomendación es barata de emitir y no obliga a opinar sobre la causa, igual que el aviso de las gafas de h2-15."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [salud, sanidad privada, regulacion profesional]
-    - texto: "Los oftalmólogos clínicos empiezan a usar el fenómeno como herramienta diagnóstica improvisada: al mirar la lámpara de Wood o una linterna UV de 365 nm, el paciente que no ve el color nuevo con un ojo pero sí con el otro revela una lente intraocular con filtro, una catarata incipiente o una lente de contacto con bloqueador sin necesidad de más pruebas, y las consultas organizan esa comprobación en el triaje telefónico y presencial."
-      mecanismo: "La transmisión de UV-A depende de lo que haya en el camino óptico de cada ojo: cristalino claro, cristalino amarillento, lente intraocular con cromóforo o lente de contacto con absorbente. Comparar un ojo con el otro frente a una fuente de UV-A estable convierte esa diferencia en un síntoma que el propio paciente describe. Las consultas ya tienen lámparas de Wood y linternas UV para otros usos, así que el procedimiento cuesta cero. Además resuelve parte del ruido de urgencias de h2-23: muchos que llaman porque ven distinto con cada ojo tienen una explicación óptica benigna que se comprueba en segundos, y solo los que además tienen dolor o pérdida de visión pasan a urgencias."
-      dato: ""
-      fuente: ""
-      confianza: baja
-      areas_afectadas: [salud, practica clinica, investigacion]
-  reacciona_a: ["adolescente/h2/5", "economista/h2/2", "disruptor/h2/5"]
+  - texto: En la tercera hora, con el sol del mediodía en el sur de Europa, muchos mayores de 50 sin operar describen en exteriores un velo o neblina azulada que lo lava todo, en lugar de colores nuevos nítidos. Las consultas empiezan a explicar que buena parte de lo que esas personas ven no viene del mundo, sino de su propio cristalino, que brilla al recibir el UV-A.
+    mecanismo: El cristalino humano emite fluorescencia azul-verdosa cuando absorbe UV-A cercano, y esa fluorescencia aumenta con la edad porque se acumulan cromóforos y proteínas modificadas. La luz emitida se reparte por toda la retina como un deslumbramiento de velo que baja el contraste. Antes del suceso existía igual, pero era débil y se perdía en el visible. Ahora el UV-A del cielo pasa a ser un estímulo intenso al mediodía y la persona mayor recibe a la vez el canal nuevo, atenuado por un cristalino más amarillo, y el velo fluorescente. Esto explica con un mecanismo concreto por qué los abuelos ven apagado lo que los nietos ven vivo (h2-27) y separa ese efecto del gradiente por las lentes intraoculares (h2-21).
+    dato: La fluorescencia del cristalino inducida por luz UV cercana y azul se ha medido in vivo y produce deslumbramiento de velo que interfiere con la función visual, con mayor efecto en cristalinos envejecidos.
+    fuente: https://proceedings.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-10/issue-4/044021/Near-UV-blue-light-induced-fluorescence-in-the-human-lens/10.1117/1.1990163.full
+    confianza: media
+    areas_afectadas:
+    - salud
+    - vida cotidiana
+    - familia
+    - comunicacion clinica
+    id: oftalmologa/h3/1
+  - texto: 'Los usuarios de lentes de contacto descubren en masa que su marca decide lo que ven: quienes llevan lentes blandas con bloqueador UV apenas ven los colores nuevos al mirar de frente, mientras que quienes usan modelos sin filtro, muchas lentes rígidas y diarias baratas, los ven como todo el mundo. Las ópticas reciben consultas de quien quiere cambiar a una lente sin filtro y de quien quiere justo lo contrario.'
+    mecanismo: Varias familias de lentes blandas incorporan un absorbente UV en el material, clasificado en clase 1 o clase 2 según cuánto UV-A bloquean, y la lente cubre toda la córnea, así que actúa como un filtro pegado al ojo sobre la pupila. Nadie lo sabía porque no tenía consecuencias visibles. Ahora es un interruptor que depende del modelo que eligió el óptico hace años. Como las lentes de contacto, a diferencia de las intraoculares, se cambian en minutos, aparece por primera vez una forma barata y reversible de decidir si se ve o no el UV, que interesa tanto al adolescente que quiere ver (h2-25) como al conductor o al trabajador que quiere apagarlo sin parecer que lleva gafas de sol.
+    dato: Las lentes de contacto de clase 1 bloquean más del 90 % del UV-A y del 99 % del UV-B; las de clase 2, más del 70 % del UV-A y del 95 % del UV-B.
+    fuente: https://visiondirect.co.uk/eye-health/uv-protection-contact-lenses
+    confianza: alta
+    areas_afectadas:
+    - salud
+    - consumo
+    - optica
+    - adolescentes
+    id: oftalmologa/h3/2
+  - texto: Quienes compraron gafas UV400 auténticas en la primera hora vuelven a las ópticas quejándose de que siguen viendo un resplandor del color nuevo por el lado, sobre todo en el borde nasal del campo visual. Los ópticos empiezan a recomendar monturas envolventes o con protección lateral, y el modelo deportivo envolvente se convierte en el producto que de verdad funciona.
+    mecanismo: Por el efecto de focalización periférica de la luz descrito por Coroneo, la luz que entra en el ojo desde el lado temporal con ángulo rasante se concentra al atravesar la córnea y llega muy amplificada a la zona nasal. Las gafas de montura plana dejan un hueco lateral por el que entra el cielo, que ahora es una fuente de UV-A difusa en todas las direcciones (h2-11). Con el visible esto apenas se notaba, pero el canal nuevo es el más intenso que viene del cielo, así que el resplandor lateral se ve como una mancha de color nuevo. Este matiz desplaza la demanda de h2-14 de la gafa básica a la envolvente, que tiene menos stock y otro cuello de botella.
+    dato: La luz que incide lateralmente sobre la córnea puede concentrarse hasta unas 20 veces en el limbo nasal (efecto de focalización periférica de Coroneo).
+    fuente: https://wikipedia.com/wiki/Peripheral_light_focusing
+    confianza: media
+    areas_afectadas:
+    - salud
+    - consumo
+    - optica
+    - cadena de suministro
+    id: oftalmologa/h3/3
+  - texto: En la tercera hora llegan a las consultas de cirugía refractiva y de cataratas las primeras peticiones de operados que quieren cambiar su lente intraocular por una sin filtro UV, y de jóvenes que preguntan por cirugía de cristalino para ver más. Las sociedades de oftalmología responden con una recomendación expresa de no indicar ni cambiar lentes por este motivo mientras no se sepa si el fenómeno es permanente.
+    mecanismo: 'La frustración de los operados que no ven (h2-21) busca una solución, y la única que existe es quirúrgica: el recambio o explante de la lente. Es una cirugía con riesgos mayores que la primera (rotura de cápsula, edema corneal, desprendimiento de retina) para un beneficio estético y de duración desconocida. Las sociedades científicas reaccionan rápido porque el riesgo no es la demanda masiva, que no se puede atender en horas, sino que algún centro privado empiece a ofrecerlo y fije un precedente. La recomendación es barata de emitir y no obliga a opinar sobre la causa, igual que el aviso de las gafas de h2-15.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud
+    - sanidad privada
+    - regulacion profesional
+    id: oftalmologa/h3/4
+  - texto: 'Los oftalmólogos clínicos empiezan a usar el fenómeno como herramienta diagnóstica improvisada: al mirar la lámpara de Wood o una linterna UV de 365 nm, el paciente que no ve el color nuevo con un ojo pero sí con el otro revela una lente intraocular con filtro, una catarata incipiente o una lente de contacto con bloqueador sin necesidad de más pruebas, y las consultas organizan esa comprobación en el triaje telefónico y presencial.'
+    mecanismo: 'La transmisión de UV-A depende de lo que haya en el camino óptico de cada ojo: cristalino claro, cristalino amarillento, lente intraocular con cromóforo o lente de contacto con absorbente. Comparar un ojo con el otro frente a una fuente de UV-A estable convierte esa diferencia en un síntoma que el propio paciente describe. Las consultas ya tienen lámparas de Wood y linternas UV para otros usos, así que el procedimiento cuesta cero. Además resuelve parte del ruido de urgencias de h2-23: muchos que llaman porque ven distinto con cada ojo tienen una explicación óptica benigna que se comprueba en segundos, y solo los que además tienen dolor o pérdida de visión pasan a urgencias.'
+    dato: ''
+    fuente: ''
+    confianza: baja
+    areas_afectadas:
+    - salud
+    - practica clinica
+    - investigacion
+    id: oftalmologa/h3/5
+  reacciona_a:
+  - adolescente/h2/5
+  - economista/h2/2
+  - disruptor/h2/5

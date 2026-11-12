@@ -1,0 +1,35 @@
+intervencion:
+  agente: oftalmologa
+  tramo: h5
+  afirmaciones:
+    - texto: "Entre las 14:00 y las 15:00 de Madrid todavía no llega a urgencias ningún caso de queratitis por los solarios de la hora 3, y eso se lee como prueba de que no pasa nada. Las sociedades de oftalmología y algunas consejerías de sanidad amplían el aviso de las gafas baratas a las cabinas de bronceado de forma preventiva: no quitarse nunca la gafa del solario, y acudir a urgencias si esa noche aparecen dolor intenso, sensación de arena y lagrimeo. Prevén los primeros casos para la madrugada del miércoles en el norte de Europa y en EE. UU."
+      mecanismo: "La fotoqueratitis no duele en el momento: el epitelio corneal dañado por la radiación ultravioleta tarda horas en desprenderse, y los síntomas aparecen con una latencia típica de 6 a 12 horas. Quien se quitó la gafa en una cabina hacia las 12:00 o las 13:00 está ahora sin síntomas y lo cuenta en redes como prueba de que es inocuo, justo cuando más gente se anima a imitarlo. El supuesto de que el deslumbramiento no deja daño permanente se refiere a la percepción del fenómeno, no a la dosis física de una lámpara a pocos centímetros, que es la misma que antes del suceso y que ya justificaba la gafa obligatoria. Por eso el oftalmólogo tiene que avisar antes de ver ningún caso, y las urgencias nocturnas serán las primeras en notarlo."
+      dato: "Los síntomas de la queratitis por ultravioleta suelen aparecer entre 6 y 12 horas después de la exposición, por lo que los pacientes acuden de noche o de madrugada; las camas de bronceado figuran entre las fuentes artificiales."
+      fuente: "https://wikem.org/wiki/UV_keratitis"
+      confianza: media
+      areas_afectadas: [salud, urgencias, solarios, comunicacion_sanitaria]
+    - texto: "Los padres de bebés y niños pequeños llenan las consultas de pediatría y las ópticas: los niños lloran en el carrito al sol, cierran los ojos o se frotan, y no pueden explicar qué ven. Pediatras y oftalmólogos recomiendan sombra, gorras con visera y capotas en los carritos antes que gafas, y las gafas infantiles con filtro certificado se convierten en el modelo más escaso de todos."
+      mecanismo: "El cristalino del niño es mucho más transparente al ultravioleta que el del adulto, porque los cromóforos que lo amarillean se van acumulando con la edad. Así, el estímulo del canal nuevo y el deslumbramiento son mayores cuanto más pequeño es el niño: es el extremo opuesto del velo de los mayores (h3-22). Un bebé no puede decir que le molesta ni ponerse gafas por su cuenta, y muchas gafas de bebé se caen o se las quitan, así que la recomendación clínica práctica es reducir la exposición con sombra y viseras. Las tallas infantiles certificadas son una parte pequeña de la producción y compiten con la compra de EPI de las empresas (h3-11) en el mismo cuello de botella de lentes certificadas."
+      dato: "En menores de 10 años el cristalino deja pasar más del 75 % de la radiación ultravioleta, frente a alrededor del 10 % en mayores de 25."
+      fuente: "https://www.zeiss.com/vision-care/en/eye-health-and-care/health-prevention/why-kids-glasses-should-offer-the-best-uv-protection.html"
+      confianza: media
+      areas_afectadas: [salud_infantil, opticas, cadena_suministro_gafas, familias]
+    - texto: "Se abre una brecha generacional en el uso de gafas: los mayores de 50 sin operar las adoptan en masa y sin discusión al salir a comer y a pasear a primera hora de la tarde, mientras los jóvenes las siguen rechazando. Los oftalmólogos lo recomiendan expresamente a ese grupo, porque para ellos la gafa con filtro quita el velo y casi no les quita colores."
+      mecanismo: "El velo azulado que ven los mayores (h3-22) es fluorescencia de su propio cristalino, y solo se produce cuando el UV-A llega a ese cristalino y es absorbido. Una gafa UV400 o una envolvente corta el UV-A antes de que entre en el ojo, así que apaga a la vez el canal nuevo y la fuente del velo. Para un joven ponerse gafas es perder lo que ve; para un mayor con el cristalino amarillento, que ya veía apagado el color nuevo, es recuperar el contraste. El cálculo de coste y beneficio es opuesto según la edad, y eso divide el uso por edades, con efecto en la conducción y la marcha de los mayores por la tarde."
+      dato: ""
+      fuente: ""
+      confianza: alta
+      areas_afectadas: [salud, mayores, opticas, trafico]
+    - texto: "Las ópticas reciben a primera hora de la tarde a adolescentes miopes, a veces con sus padres, que piden lentes de contacto sin filtro UV para no seguir siendo el chiste de clase (h3-18). Muchos ópticos se niegan a adaptarlas con prisa a menores sin revisión previa, y el que lo consigue vuelve al instituto como el miope que sí lo ve."
+      mecanismo: "El ojo tiene aberración cromática longitudinal: las longitudes de onda cortas se enfocan delante de la retina, con unas 2 dioptrías de diferencia entre 400 y 700 nm, y más aún hacia el UV-A. En un ojo miope todo se enfoca ya delante de la retina, así que el color nuevo es lo más borroso que ve sin gafas. Con gafas lo ve enfocado pero muy atenuado, porque el policarbonato y muchos orgánicos absorben el UV. La lente de contacto sin filtro (h3-23) es la única forma de corregir la miopía sin apagar el canal. Los ópticos frenan por responsabilidad profesional, porque adaptar una lente a un menor exige una revisión y enseñarle a manejarla, y con eso se alarga la espera y la desigualdad dentro del aula."
+      dato: "La aberración cromática longitudinal del ojo humano es de unas 2 dioptrías entre 400 y 700 nm, con las longitudes de onda cortas enfocadas más cerca."
+      fuente: "https://telescope-optics.net/eye_chromatism.htm"
+      confianza: media
+      areas_afectadas: [adolescentes, opticas, salud, educacion]
+    - texto: "El cribado casero ojo contra ojo con una linterna UV, que las consultas han empezado a usar en el triaje (h3-25), da falsos resultados cuando el paciente lo hace en casa: con las linternas baratas de 395 nm los dos ojos ven luz y la diferencia desaparece. Los servicios de oftalmología precisan en sus criterios telefónicos que la prueba solo vale con una lámpara de 365 nm con filtro, como la de Wood, y dejan de pedirla a quien no la tiene."
+      mecanismo: "La mayoría de las linternas UV domésticas y las lámparas de uñas usan LED de 395 a 405 nm, cuya emisión se sale en buena parte al violeta visible, que atraviesa sin problema una lente intraocular con filtro, una lente de contacto con bloqueador o una catarata incipiente. El ojo con filtro sigue viendo una luz violeta brillante y el paciente informa de que ve igual con los dos ojos. Una fuente de 365 nm con filtro de vidrio de Wood emite casi solo UV-A, que es justo la banda en la que esos filtros marcan la diferencia. Como el triaje se hace por teléfono y el paciente usa lo que tiene en casa, el procedimiento solo es fiable si se especifica la fuente."
+      dato: ""
+      fuente: ""
+      confianza: media
+      areas_afectadas: [triaje_sanitario, urgencias, consumo_lamparas_uv]
+  reacciona_a: [disruptor/h3/3, adolescente/h3/4]

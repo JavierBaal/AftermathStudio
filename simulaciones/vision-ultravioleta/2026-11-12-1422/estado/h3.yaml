@@ -1,0 +1,126 @@
+estado_del_mundo:
+  tramo: h3
+  resumen: "En la tercera hora (12:00 a 13:00 de Madrid) el amanecer en la costa este de EE. UU. es un anticlímax: con el sol pegado al horizonte apenas se ven los colores nuevos, el 'he salido y no veo nada' alimenta al bando del bulo y lo que convence son las luces negras caseras, que además destapan manchas de fluidos en colchones y hoteles; a la vez aparece una brecha norte-sur en Europa que da al escepticismo un segundo bastión nórdico. Los gobiernos siguen en modo comunicación pero ya con salidas operativas: la rueda de prensa de Moncloa convierte el 'no lo sabemos' en titular, CCTV fija una línea científica y calmada, EASA deja reanudar las inspecciones fluorescentes con gafas que absorben el UV y los bancos centrales de economías informales recuerdan que un billete que se ve raro sigue siendo de curso legal, mientras en los mercados de la India y Brasil el pago por QR resuelve las discusiones. Los efectos se cruzan en la cara y en los ojos: al sol del mediodía se ven manchas solares y daño acumulado (vergüenza adolescente, consultas dermatológicas y abandono anunciado de crema solar y maquillaje), los mayores ven un velo por la fluorescencia de su cristalino, las lentes de contacto con bloqueador y las monturas sin protección lateral deciden quién ve qué, y la demanda de gafas se desplaza a modelos certificados y envolventes empujada por las empresas, que compran EPI para su plantilla en exteriores. La disputa por la imagen buena se aparca y se convierte en una disputa por el nombre del color nuevo, mientras la corrección de los chatbots, desigual y sin explicar, genera su propio bulo."
+  hechos_establecidos:
+    - id: h3-01
+      texto: "El amanecer en Nueva York (6:39 EST, 12:39 de Madrid), retransmitido en directo desde azoteas de Nueva York y Boston como el momento de la verdad, resulta un anticlímax: con el sol a pocos grados el UV-A que llega al suelo es una fracción mínima del de mediodía, y quienes salen a la calle o se asoman a la ventana describen apenas un tinte raro o nada claro, sobre todo con nubes. Los escépticos recortan esos directos y el 'he salido y no veo nada' circula justo cuando se esperaba el 'lo estamos viendo todos'; la confirmación en EE. UU. llegará a goteo a medida que suba el sol, con el pico unas seis horas después."
+      origen: [medios/h3/1, disruptor/h3/1]
+    - id: h3-02
+      texto: "La contraprueba casera con luz negra en EE. UU. sigue siendo la que convence y se desvía hacia otro descubrimiento: al apuntar la lámpara por la casa aparecen manchas fluorescentes de orina, sudor y otros fluidos en colchones, sofás, alfombras y baños, y empiezan los vídeos desde habitaciones de hotel y apartamentos turísticos. Como nadie graba su propio colchón para fingir un bulo, el asco convence a escépticos y desplaza la conversación hacia lo que no se veía, con hoteles, alquileres turísticos y transporte sin protocolo de limpieza para clientes que ven la fluorescencia."
+      origen: [disruptor/h3/5]
+    - id: h3-03
+      texto: "Entre las 6:00 y las 7:00 de Washington la Casa Blanca anuncia que el presidente hablará después del amanecer y deja lo operativo a las agencias federales (FAA y servicio meteorológico), que emiten avisos técnicos sobre deslumbramiento al volante y en vuelo; varios gobernadores de la costa este dan avisos de tráfico para la hora punta sin esperar a Washington. El anticlímax del amanecer le quita a la declaración presidencial el momento de experiencia compartida que buscaba."
+      origen: [politico/h3/5, medios/h3/1, disruptor/h3/1]
+    - id: h3-04
+      texto: "En pleno mediodía europeo aparece una brecha norte-sur: en Noruega, Suecia, Finlandia, los bálticos y buena parte de Escocia, donde el sol de mediados de noviembre apenas sube unos 12 grados en Oslo, la experiencia es tenue, mientras en España, Italia o Grecia es intensa. La diferencia física se lee como cultural y en los medios nórdicos el relato pasa a ser el de un fenómeno de los países del sur exagerado por sus redes, de modo que el escepticismo tiene un segundo bastión dentro de Europa."
+      origen: [disruptor/h3/2]
+    - id: h3-05
+      texto: "En el norte de Europa, y en menor medida en EE. UU., los solarios reciben llamadas y visitas de gente que quiere ver los colores nuevos con la fuente de UV-A más potente a mano, y algunos centros abren antes de hora; dentro de la cabina hay quien se quita las gafas protectoras para mirar, lo que abre un frente sanitario de exposición ocular a corta distancia que el aviso sobre gafas baratas no cubre."
+      origen: [disruptor/h3/3]
+    - id: h3-06
+      texto: "El Consejo de Ministros español del martes se celebra según lo previsto y su rueda de prensa en Moncloa, entre las 12:30 y las 13:30, es la primera comparecencia de un gobierno europeo grande ante preguntas abiertas: parte operativo (tráfico, colegios, urgencias oftalmológicas, aviso sobre gafas sin filtro UV400), insistencia en que no consta daño ocular permanente y negativa a hablar de causa o duración. El 'no lo sabemos' en directo se recorta y circula como confesión de ignorancia, y la oposición pide comparecencia en el Congreso."
+      origen: [politico/h3/1]
+    - id: h3-07
+      texto: "A las 19:00 de Pekín (12:00 de Madrid) el Xinwen Lianbo de CCTV recoge el suceso con encuadre sobrio y científico: expertos de la Academia China de Ciencias, fenómeno mundial que no afecta a la salud y llamamientos a la calma y a la información oficial, sin mencionar ataques ni a otros países. Como en China el suceso llegó casi al anochecer y buena parte de la población solo lo ha visto con lámparas UV, los censores de Weibo y Douyin rebajan los vídeos de 'lo que nos ocultaban'."
+      origen: [politico/h3/2]
+    - id: h3-08
+      texto: "EASA y varias autoridades nacionales de aviación civil aclaran a los talleres que pueden reanudar las inspecciones fluorescentes si los inspectores llevan gafas de seguridad que absorben el UV, equipo que ya existe en esos puestos, como alternativa provisional sin modificar el procedimiento certificado. La parada empieza a revertirse en Europa y la FAA queda presionada para hacer lo mismo al abrir su jornada."
+      origen: [politico/h3/3]
+    - id: h3-09
+      texto: "El Banco de la Reserva de la India y otros bancos centrales de países con mucha economía informal (Egipto, Nigeria, Kenia, los del Golfo) difunden por SMS de operadoras, radio y altavoces de mercado un mensaje corto: un billete sucio, lavado o que se vea diferente al sol sigue siendo de curso legal y no puede rechazarse por eso. No cambia la percepción, pero da al comprador un argumento de autoridad."
+      origen: [politico/h3/4]
+    - id: h3-10
+      texto: "En los mercados callejeros del sur de Asia (16:30 en la India) y en el comercio ambulante de Brasil (8:00 en São Paulo), vendedores y compradores zanjan las discusiones por billetes raros pasando al pago por QR con UPI y Pix, que ya está impreso en casi todos los puestos y no tiene coste para el comercio. Nadie lo ordena; el efectivo pierde peso en el pago pequeño, pero los rechazos sin alternativa persisten en zonas rurales y entre vendedores sin móvil."
+      origen: [economista/h3/2]
+    - id: h3-11
+      texto: "La demanda de gafas no se desinfla por el rechazo adolescente porque el volumen se desplaza al canal de empresa: constructoras, logística, cooperativas agrícolas (con la campaña de la aceituna en marcha en Andalucía) y ayuntamientos piden a sus distribuidores de EPI lotes de gafas con filtro UV certificado para el personal en exteriores, amparados en la obligación de proteger a los trabajadores (art. 17.2 de la Ley 31/1995). Este comprador exige marcado y certificación y refuerza el cuello de botella de las lentes certificadas."
+      origen: [economista/h3/3]
+    - id: h3-12
+      texto: "Quienes compraron gafas UV400 auténticas vuelven a las ópticas porque siguen viendo un resplandor del color nuevo por el lado, sobre todo en el borde nasal del campo visual, por la focalización periférica de la luz lateral que entra por el hueco de las monturas planas desde un cielo que emite UV-A difuso. Los ópticos recomiendan monturas envolventes o con protección lateral, y la demanda se desplaza hacia ese modelo, con menos stock y otro cuello de botella."
+      origen: [oftalmologa/h3/3]
+    - id: h3-13
+      texto: "En el Golfo, a primera hora de la tarde, repartidores en moto de plataformas de comida y entrega rápida se desconectan o rechazan pedidos a pleno sol mientras la demanda de entregas sube porque la gente se refugia en interiores; los tiempos de entrega se alargan y las plataformas reutilizan los incentivos y recargos que ya tienen para calor extremo o lluvia, de modo que el coste lo paga primero el consumidor."
+      origen: [economista/h3/4]
+    - id: h3-14
+      texto: "En España, con las cocinas preparando el servicio de comidas, hostelería y alimentación llaman a sus empresas de control de plagas por los mataínsectos apagados, y la respuesta que se impone es tapar o reubicar los aparatos fuera de la línea de visión o pasar a placas adhesivas sin luz, sin comprar equipos nuevos. Las grandes empresas del sector no se mueven en bolsa porque el cambio cabe en contratos ya firmados."
+      origen: [economista/h3/5]
+    - id: h3-15
+      texto: "Al sol del mediodía en el sur de Europa, adultos y adolescentes ven en su cara y en la de los demás pecas, manchas solares y daño acumulado que en el visible no se notaban, porque la melanina absorbe el UV-A mucho más que el visible. Se viralizan vídeos de caras al sol que derivan en vergüenza estética, tertulias con dermatólogos y una variante conspirativa según la cual la industria cosmética y sanitaria lo sabía y lo callaba; consultas de dermatología y farmacias reciben preguntas sobre si esas manchas son cáncer, sobre todo de quienes han tomado mucho sol (trabajadores al aire libre, agricultores, deportistas), lo que abre un segundo pico de consultas, dermatológico."
+      origen: [medios/h3/2, disruptor/h3/4]
+    - id: h3-16
+      texto: "Después del recreo muchas adolescentes se quitan en el baño la crema con color y el corrector, y en los grupos se extiende que mañana nadie se pondrá crema solar ni maquillaje porque se ve como una máscara; los avisos de las madres para que se pongan crema igual se reciben como no entender nada."
+      origen: [adolescente/h3/2]
+    - id: h3-17
+      texto: "A media mañana los adolescentes que aguantaron sin gafas en el patio o en las ventanas empiezan a tener dolor de cabeza y ojos rojos por la fatiga visual; bajan a conserjería o jefatura a pedir que llamen a casa, y algunos padres, con los audios de 'te quedas ciega' en la cabeza, vienen a recogerlos aunque la Consejería dijo que no hacía falta, lo que arrastra más peticiones."
+      origen: [adolescente/h3/3]
+    - id: h3-18
+      texto: "Los adolescentes miopes con gafas graduadas se convierten en el chiste de la clase porque sin gafas ven borrosos los colores nuevos y con ellas ven menos; algunos se las quitan en el patio aunque no vean, para no quedarse fuera."
+      origen: [adolescente/h3/4]
+    - id: h3-19
+      texto: "La guerra sobre la imagen buena no se resuelve con una convención visual sino que se aparca: la conversación se desplaza a cómo se llama el color nuevo. En redes compiten nombres en cada idioma convertidos en etiquetas y memes, en los institutos cada grupo usa el suyo ('el brillo', 'el morado fantasma') y decir la palabra del grupo funciona como señal de pertenencia, y las redacciones empiezan a pedir criterio a libros de estilo y a Fundéu para nombrarlo en titulares."
+      origen: [medios/h3/5, adolescente/h3/1]
+    - id: h3-20
+      texto: "Las empresas de IA empiezan a corregir la respuesta de sus asistentes con avisos de suceso en curso y búsqueda en noticias, pero de forma desigual: a mediodía muchas consultas, también en clases donde los profesores convierten el fenómeno en tema, siguen devolviendo que los humanos no ven el ultravioleta. Las capturas de antes y después circulan como prueba de que alguien edita lo que la máquina puede decir, lo que el bando escéptico estadounidense lee como plegarse a la versión oficial, y los adolescentes concluyen que solo pueden fiarse de lo que ven y de lo que cuentan los suyos."
+      origen: [medios/h3/3, adolescente/h3/5]
+    - id: h3-21
+      texto: "Verificadores españoles y cuentas de hospitales y sociedades médicas desmienten el audio de la 'prima enfermera' en lo de quedarse ciega, apoyados en los signos de alarma ya publicados, pero no pueden desmentir que sea para siempre porque nadie sabe si es permanente; el audio sigue circulando de grupo en grupo y aparecen contraaudios igual de anónimos de supuestos médicos tranquilizadores."
+      origen: [medios/h3/4]
+    - id: h3-22
+      texto: "Muchos mayores de 50 sin operar describen en exteriores al mediodía un velo o neblina azulada que lo lava todo en lugar de colores nuevos nítidos, y las consultas explican que en buena parte viene de la fluorescencia de su propio cristalino, que aumenta con la edad y produce deslumbramiento de velo; es el mecanismo de que los abuelos vean apagado lo que los nietos ven vivo, distinto del efecto de las lentes intraoculares."
+      origen: [oftalmologa/h3/1]
+    - id: h3-23
+      texto: "Los usuarios de lentes de contacto descubren que el modelo decide lo que ven: las blandas con bloqueador UV de clase 1 o 2 apagan casi todo el color nuevo al mirar de frente, mientras las que no llevan filtro, muchas rígidas y diarias baratas, lo dejan ver. Las ópticas reciben a la vez peticiones de cambiar a lentes sin filtro para ver y de lo contrario para apagarlo sin llevar gafas de sol, la primera forma barata y reversible de elegir."
+      origen: [oftalmologa/h3/2]
+    - id: h3-24
+      texto: "Llegan a cirugía refractiva y de cataratas las primeras peticiones de operados que quieren cambiar su lente intraocular por una sin filtro y de jóvenes que preguntan por cirugía de cristalino para ver más; las sociedades de oftalmología recomiendan expresamente no indicar ni cambiar lentes por este motivo mientras no se sepa si el fenómeno es permanente."
+      origen: [oftalmologa/h3/4]
+    - id: h3-25
+      texto: "Algunas consultas oftalmológicas empiezan a usar el fenómeno como cribado improvisado: comparar un ojo con otro frente a una lámpara de Wood o una linterna UV de 365 nm revela de forma orientativa una lente intraocular con filtro, una catarata incipiente o una lente de contacto con bloqueador, y lo incorporan al triaje para separar a quienes ven distinto con cada ojo por causa óptica benigna de los que tienen signos de alarma."
+      origen: [oftalmologa/h3/5]
+  tensiones_abiertas:
+    - "Qué dice el presidente de EE. UU. en su comparecencia sin el momento de experiencia compartida del amanecer, si la retrasa hasta que el sol suba y si el marco de bulo resiste hasta el mediodía de la costa este, ahora con la corrección de los chatbots leída como manipulación."
+    - "Cómo reacciona la volatilidad y Wall Street a la apertura de Nueva York (15:30 de Madrid) si la confirmación en EE. UU. llega a goteo y no de golpe."
+    - "Si la brecha norte-sur se convierte en un conflicto de relato dentro de la UE y si alguna autoridad nórdica o europea explica la diferencia por latitud y estación."
+    - "Si el abandono anunciado de crema solar y maquillaje entre adolescentes se materializa mañana y si autoridades sanitarias, dermatólogos o marcas responden antes; y si el pico de consultas dermatológicas satura atención primaria y farmacias."
+    - "Si el uso de solarios sin gafas para ver el UV produce casos clínicos y obliga a las autoridades a pronunciarse."
+    - "Si la FAA y los reguladores no europeos aceptan la reanudación de inspecciones fluorescentes con gafas que absorben el UV, y si el mercado deja de castigar a MTU, Safran y Lufthansa."
+    - "Si el paso al QR y el recordatorio de curso legal frenan los rechazos de billetes o si la economía informal sin móvil sufre un deterioro del efectivo."
+    - "Si la demanda de gafas certificadas y envolventes, empujada por las compras de EPI de las empresas, choca con el cuello de botella de lentes certificadas y transporte aéreo y alimenta el mercado de gafas sin filtro."
+    - "Qué nombre se impone para el color nuevo y si Fundéu u otras instancias lingüísticas se pronuncian."
+    - "Si el aumento de incidentes de tráfico en maniobras laterales es medible y empuja a medidas obligatorias (sigue abierta desde h1)."
+  contradicciones_resueltas:
+    - entre: [economista/h3/1, medios/h3/1, disruptor/h3/1]
+      decision: "Prevalece el anticlímax del amanecer: la confirmación en EE. UU. llega a goteo, no en el amanecer, y se descarta la caída de la volatilidad europea atribuida a esa confirmación."
+      motivo: "medios/h3/1 y disruptor/h3/1 aportan dato verificable (amanecer a las 6:39 EST, 12:39 de Madrid) y un mecanismo físico sólido (camino atmosférico largo con el sol bajo que atenúa el UV-A); la premisa de economista/h3/1, que la experiencia directa del amanecer resuelve el riesgo binario, queda contradicha y no aporta dato."
+    - entre: [politico/h3/5, medios/h3/1]
+      decision: "Se combinan: la Casa Blanca anuncia que el presidente hablará tras el amanecer y las agencias y gobernadores dan avisos operativos, pero el amanecer tibio le quita el momento compartido; si la comparecencia se retrasa queda como tensión abierta."
+      motivo: "Anunciar la comparecencia y tener motivos para esperar no se excluyen; el contenido y el momento de la declaración no pueden decidirse con lo dicho en este tramo."
+    - entre: [medios/h3/3, adolescente/h3/5]
+      decision: "Se combinan: las empresas de IA empiezan a corregir, pero la corrección es desigual y a mediodía muchos asistentes siguen negando la visión UV."
+      motivo: "Ajustar instrucciones o activar búsqueda lleva horas y no llega a la vez a todos los productos; la convivencia de respuestas viejas y nuevas es lo que alimenta las capturas de antes y después."
+    - entre: [medios/h3/2, disruptor/h3/4, adolescente/h3/2]
+      decision: "Se combinan medios/h3/2 y disruptor/h3/4 en un solo hecho sobre la piel; adolescente/h3/2 se mantiene aparte como reacción específica de las adolescentes con cosméticos."
+      motivo: "Las tres se apoyan en el mismo mecanismo (melanina y filtros absorben el UV-A con mucho contraste) y operan en grupos y consecuencias distintas: viralización y consultas en adultos, abandono de crema solar y maquillaje entre adolescentes."
+    - entre: [medios/h3/5, adolescente/h3/1]
+      decision: "Se combinan: la disputa por la imagen se aparca y pasa a ser una disputa por el nombre, visible a la vez en redes, redacciones e institutos."
+      motivo: "Mismo mecanismo (fracaso de la imagen como prueba y necesidad de un sustantivo para compartir la experiencia) observado a dos escalas."
+    - entre: [disruptor/h3/2, h2-01]
+      decision: "Se matiza el canon: el escepticismo no queda solo concentrado en Norteamérica, también arraiga en el norte de Europa por la baja elevación solar de noviembre."
+      motivo: "Dato geométrico verificable (elevación solar máxima en Oslo de unos 12 grados a mediados de noviembre); h2-01 sigue siendo cierto para América."
+    - entre: [politico/h3/3, h2-16]
+      decision: "Se refina el canon: el regulador europeo no valida un procedimiento nuevo sino que permite el equipo de protección existente, y la parada empieza a revertirse en Europa."
+      motivo: "Mecanismo sólido y dato verificable: la indicación fluorescente sigue emitiendo en el visible y las gafas que absorben el UV devuelven al inspector a su visión anterior; resuelve en parte la tensión abierta desde h1."
+    - entre: [economista/h3/2, politico/h3/4]
+      decision: "Se mantienen las dos como hechos complementarios: salida espontánea al QR donde hay infraestructura y recordatorio de curso legal por canales masivos."
+      motivo: "Actúan sobre segmentos distintos (comercio con móvil frente a economía informal sin alternativa) y no se contradicen."
+    - entre: [economista/h3/3, oftalmologa/h3/3, adolescente/h2/2]
+      decision: "Se mantienen las tres: la demanda agregada de gafas se sostiene por el canal de empresa y se desplaza a modelos certificados y envolventes, mientras entre adolescentes siguen perdiendo estatus."
+      motivo: "Operan en escalas distintas y las dos nuevas tienen mecanismo con dato (obligación legal de EPI y focalización periférica); ambas refuerzan el cuello de botella de h2-14 en lugar de aliviarlo."
+  descartadas:
+    - id: economista/h3/1
+      motivo: "Su mecanismo depende de que el amanecer en la costa este confirme el fenómeno por experiencia directa, lo que contradice h3-01, apoyado en dato horario y en la atenuación atmosférica del UV-A con el sol bajo; no aporta dato verificable."
+  metricas:
+    alarma_social: 3
+    respuesta_gobiernos: comunicacion
+    impacto_economico: 2
+    adaptacion: 3
