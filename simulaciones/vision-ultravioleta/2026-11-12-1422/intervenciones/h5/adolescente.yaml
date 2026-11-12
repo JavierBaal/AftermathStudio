@@ -2,34 +2,58 @@ intervencion:
   agente: adolescente
   tramo: h5
   afirmaciones:
-    - texto: "A la salida del insti, entre las 14:00 y las 15:00, en los grupos circula una lista de 'maquillaje que no se ve' y la regla que se impone es mirar la etiqueta: si pone SPF, fuera. Los polvos y las bases sin protección solar se salvan y las cremas con color, los correctores con SPF y la crema solar quedan como lo que delata."
-      mecanismo: "En el recreo vimos que lo que hace la mancha no es el maquillaje en sí, sino lo que tapa el sol, y alguien con muchos seguidores lo dice en un vídeo con dos productos al lado. Leer 'SPF' en el bote es una prueba fácil que cualquiera puede hacer en el baño o en casa sin salir al sol, así que se convierte en la norma del grupo. El problema es que lo que te deja bien delante de las amigas es justo quitarte la protección, y eso no lo piensa nadie."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [salud, consumo, cosmetica, adolescentes]
-    - texto: "En la comida en casa los que llevamos gafas graduadas le pedimos a nuestros padres lentillas, y los que ya las llevan comparan en el grupo la marca de su caja para saber cuáles 'dejan verlo'. Sale una lista de marcas buenas y malas que se pasa de grupo en grupo antes de que abran las ópticas por la tarde."
-      mecanismo: "A los miopes se les ha hecho el chiste toda la mañana y quitarse las gafas significa ver borroso. Cuando se corre la voz de que unas lentillas sí dejan ver y otras no, es la única salida para ver bien y no quedarse fuera. Como no sabes qué lentilla te toca, lo más rápido es preguntar a quien ya las lleva y mirar la caja; los padres, que ya vienen preocupados, son los que tienen que pagar y pedir cita, así que la pelea pasa a la mesa de la comida."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [optica, salud, familia, adolescentes]
-    - texto: "Al llegar a casa sacamos la lámpara de uñas de gel o una linterna UV y hacemos nuestra versión del vídeo americano: grabamos la habitación, la ropa, los dientes y el baño. Lo que más se sube no son los colchones sino 'mira cómo me brillan los dientes' o la ropa, y algunos vídeos del baño o de la habitación se borran a los pocos minutos porque se ven cosas que dan vergüenza."
-      mecanismo: "Mucha gente de mi edad tiene en casa una lámpara de uñas o una linterna UV de juguete, y después de ver los vídeos de EE. UU. es lo primero que haces al llegar a casa y no tener sol. Delante de la lámpara se ve muchísimo más fuerte que al aire libre, así que es la forma de enseñar el color nuevo sin depender del sol. Pero lo que sale en tu casa no lo controlas, y como todo el mundo mira y comenta, te arriesgas a que te hagan captura antes de borrarlo."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [redes_sociales, hogar, adolescentes]
-    - texto: "En el grupo de clase y en los de todo el insti circula una captura falsa de la Consejería diciendo que mañana se suspenden las clases presenciales. Mucha gente se lo cree o hace como que se lo cree, y los padres empiezan a preguntar en el grupo de madres si es verdad antes de que el instituto lo desmienta por la aplicación."
-      mecanismo: "Con los padres que vinieron a recoger a sus hijos y con la rueda de prensa del Gobierno hablando de colegios, que se suspendan las clases parece lo siguiente lógico. Una captura con el logo es fácil de hacer y es lo que todos queremos que sea verdad, así que nadie la comprueba antes de reenviarla. Y como los profes tampoco saben nada hasta que les llega la instrucción, durante un rato no hay nadie que la desmienta."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [educacion, desinformacion, familia]
-    - texto: "Volviendo a casa del insti a pie o en bus, mis amigas y yo vamos por la acera de la sombra y nos paramos a grabar las cosas de la calle que brillan: los coches, los carteles, la ropa tendida en los balcones. Algunos que llegan con dolor de cabeza se echan en la cama con la persiana bajada y se pierden la tarde, y en el grupo se dice que 'mejor descansar los ojos hoy para verlo bien mañana'."
-      mecanismo: "Después de toda la mañana aguantando sin gafas tenemos la vista cansada, pero el camino a casa es el primer momento sin profes en que puedes mirar lo que quieras por la calle. La sombra te deja mirar sin que te duela tanto. Los que ya tienen dolor de cabeza no se ponen gafas para no quedar mal, prefieren meterse en casa a oscuras, y le dan la vuelta diciendo que descansan para mañana, así no parece que se rindan."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [salud, movilidad, adolescentes]
-  reacciona_a: [oftalmologa/h3/2, disruptor/h3/5]
+  - texto: 'A la salida del insti, entre las 14:00 y las 15:00, en los grupos circula una lista de ''maquillaje que no se ve'' y la regla que se impone es mirar la etiqueta: si pone SPF, fuera. Los polvos y las bases sin protección solar se salvan y las cremas con color, los correctores con SPF y la crema solar quedan como lo que delata.'
+    mecanismo: En el recreo vimos que lo que hace la mancha no es el maquillaje en sí, sino lo que tapa el sol, y alguien con muchos seguidores lo dice en un vídeo con dos productos al lado. Leer 'SPF' en el bote es una prueba fácil que cualquiera puede hacer en el baño o en casa sin salir al sol, así que se convierte en la norma del grupo. El problema es que lo que te deja bien delante de las amigas es justo quitarte la protección, y eso no lo piensa nadie.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud
+    - consumo
+    - cosmetica
+    - adolescentes
+    id: adolescente/h5/1
+  - texto: En la comida en casa los que llevamos gafas graduadas le pedimos a nuestros padres lentillas, y los que ya las llevan comparan en el grupo la marca de su caja para saber cuáles 'dejan verlo'. Sale una lista de marcas buenas y malas que se pasa de grupo en grupo antes de que abran las ópticas por la tarde.
+    mecanismo: A los miopes se les ha hecho el chiste toda la mañana y quitarse las gafas significa ver borroso. Cuando se corre la voz de que unas lentillas sí dejan ver y otras no, es la única salida para ver bien y no quedarse fuera. Como no sabes qué lentilla te toca, lo más rápido es preguntar a quien ya las lleva y mirar la caja; los padres, que ya vienen preocupados, son los que tienen que pagar y pedir cita, así que la pelea pasa a la mesa de la comida.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - optica
+    - salud
+    - familia
+    - adolescentes
+    id: adolescente/h5/2
+  - texto: 'Al llegar a casa sacamos la lámpara de uñas de gel o una linterna UV y hacemos nuestra versión del vídeo americano: grabamos la habitación, la ropa, los dientes y el baño. Lo que más se sube no son los colchones sino ''mira cómo me brillan los dientes'' o la ropa, y algunos vídeos del baño o de la habitación se borran a los pocos minutos porque se ven cosas que dan vergüenza.'
+    mecanismo: Mucha gente de mi edad tiene en casa una lámpara de uñas o una linterna UV de juguete, y después de ver los vídeos de EE. UU. es lo primero que haces al llegar a casa y no tener sol. Delante de la lámpara se ve muchísimo más fuerte que al aire libre, así que es la forma de enseñar el color nuevo sin depender del sol. Pero lo que sale en tu casa no lo controlas, y como todo el mundo mira y comenta, te arriesgas a que te hagan captura antes de borrarlo.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - redes_sociales
+    - hogar
+    - adolescentes
+    id: adolescente/h5/3
+  - texto: En el grupo de clase y en los de todo el insti circula una captura falsa de la Consejería diciendo que mañana se suspenden las clases presenciales. Mucha gente se lo cree o hace como que se lo cree, y los padres empiezan a preguntar en el grupo de madres si es verdad antes de que el instituto lo desmienta por la aplicación.
+    mecanismo: Con los padres que vinieron a recoger a sus hijos y con la rueda de prensa del Gobierno hablando de colegios, que se suspendan las clases parece lo siguiente lógico. Una captura con el logo es fácil de hacer y es lo que todos queremos que sea verdad, así que nadie la comprueba antes de reenviarla. Y como los profes tampoco saben nada hasta que les llega la instrucción, durante un rato no hay nadie que la desmienta.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - educacion
+    - desinformacion
+    - familia
+    id: adolescente/h5/4
+  - texto: 'Volviendo a casa del insti a pie o en bus, mis amigas y yo vamos por la acera de la sombra y nos paramos a grabar las cosas de la calle que brillan: los coches, los carteles, la ropa tendida en los balcones. Algunos que llegan con dolor de cabeza se echan en la cama con la persiana bajada y se pierden la tarde, y en el grupo se dice que ''mejor descansar los ojos hoy para verlo bien mañana''.'
+    mecanismo: Después de toda la mañana aguantando sin gafas tenemos la vista cansada, pero el camino a casa es el primer momento sin profes en que puedes mirar lo que quieras por la calle. La sombra te deja mirar sin que te duela tanto. Los que ya tienen dolor de cabeza no se ponen gafas para no quedar mal, prefieren meterse en casa a oscuras, y le dan la vuelta diciendo que descansan para mañana, así no parece que se rindan.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - salud
+    - movilidad
+    - adolescentes
+    id: adolescente/h5/5
+  reacciona_a:
+  - oftalmologa/h3/2
+  - disruptor/h3/5

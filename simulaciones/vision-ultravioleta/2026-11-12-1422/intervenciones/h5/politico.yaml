@@ -2,34 +2,58 @@ intervencion:
   agente: politico
   tramo: h5
   afirmaciones:
-    - texto: "El presidente de EE. UU. no habla al amanecer, sino entre las 8:00 y las 9:00 de Washington (14:00 a 15:00 de Madrid), y cambia el guion: deja de pedir que la gente salga a comprobarlo y presenta el fenómeno como un hecho confirmado por terceros. Cita a aliados, a tropas y personal diplomático destinados en Europa, Oriente Medio y Asia, y a las agencias federales; afirma que no hay indicios de ataque, sin descartar nada, pide paciencia hasta el mediodía y deja lo operativo a gobernadores y agencias. No declara emergencia nacional."
-      mecanismo: "El anticlímax del amanecer (h3-01) destruye el plan de escenificar una experiencia compartida, y retrasar la comparecencia hasta el mediodía dejaría seis horas más al marco de bulo y a la lectura de que los chatbots se pliegan a la versión oficial (h3-20). La salida que queda es la autoridad de testigos que el escéptico americano no puede tachar de histeria extranjera: militares y diplomáticos propios que llevan horas viéndolo a pleno sol. Decir que no hay indicios de ataque sin descartarlo protege al presidente si inteligencia cambia de criterio, y no declarar emergencia evita activar poderes que la oposición leería como sobrerreacción ante algo que en su costa todavía no se ve bien."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [politica, comunicacion_institucional, desinformacion, eeuu]
-    - texto: "Al abrir su jornada, la FAA publica un SAFO (alerta de seguridad para operadores) que replica la salida de EASA: los talleres pueden reanudar las inspecciones fluorescentes con gafas que absorben el UV, sin cambiar el procedimiento certificado. Transport Canada y otras autoridades americanas se alinean en las horas siguientes."
-      mecanismo: "El SAFO es un instrumento informativo, no regulatorio, que la FAA puede emitir en horas sin pasar por un proceso de reglamentación ni una directiva de aeronavegabilidad. Como EASA ya ha fijado la solución (h3-08) y el equipo de protección ya existe en los puestos, la FAA no asume riesgo técnico propio al copiarla, y si no lo hace las aerolíneas y talleres estadounidenses quedarían parados frente a sus competidores europeos justo cuando empieza su operación de mañana. La presión llega por los mismos canales de la industria que movieron a EASA."
-      dato: "La FAA regula los SAFO y los InFO mediante la Orden 8000.87A; su cumplimiento es voluntario y sirven para difundir información de seguridad con rapidez."
-      fuente: "https://www.faa.gov/documentLibrary/media/Order/8000.87A.pdf"
-      confianza: alta
-      areas_afectadas: [aviacion, regulacion, mantenimiento, eeuu]
-    - texto: "Las autoridades de protección radiológica nórdicas (la sueca SSM, la noruega DSA y la finlandesa STUK) publican antes de las 15:00 de Madrid una nota conjunta o coordinada que hace dos cosas: explica con el índice UV que ya miden a diario por qué en Escandinavia el fenómeno se ve tenue en noviembre, y recuerda que en los solarios es obligatorio llevar la gafa protectora y que quitársela para mirar expone el ojo a una dosis muy superior a la del sol local. Es la primera autoridad europea que explica la brecha norte-sur por latitud y estación."
-      mecanismo: "Estos organismos ya tienen las dos competencias en la mano: publican el índice UV en sus webs y regulan los solarios con normas que exigen gafas. El auge de visitas a solarios (h3-05) les crea una obligación de actuar y les da el motivo para hablar, y el índice UV casi nulo de noviembre en Oslo o Estocolmo es el dato que desmonta el relato del 'fenómeno del sur exagerado' (h3-04) sin tener que opinar sobre la causa. A los gobiernos nórdicos les conviene que la explicación salga de un organismo técnico y no de un ministro, porque así el escepticismo local se corrige sin parecer que Bruselas o el sur imponen un relato."
-      dato: "La normativa sueca sobre solarios (SSMFS 2012:5) regula estas instalaciones y la protección de los usuarios, incluidas las gafas protectoras."
-      fuente: "https://www.stralsakerhetsmyndigheten.se/contentassets/ca098d0df9904f0a9adfb4ee1be58c0c/ssmfs-20125-stralsakerhetsmyndighetens-foreskrifter-om-solarier-och-artificiella-solningsanlaggningar-ursprunglig-version.pdf"
-      confianza: media
-      areas_afectadas: [salud_publica, union_europea, desinformacion, paises_nordicos]
-    - texto: "En España el Gobierno se adelanta a la petición de la oposición y registra la comparecencia a petición propia de la ministra de Sanidad, para la próxima semana, en lugar de esperar a que la Mesa y la Junta de Portavoces tramiten la solicitud ajena. A la vez, Sanidad y la Academia Española de Dermatología y Venereología difunden un mensaje corto antes de la salida de los institutos: la crema solar se sigue usando aunque se vea, y las manchas que ahora se ven no son por sí mismas una urgencia, con derivación a atención primaria solo si cambian, sangran o crecen."
-      mecanismo: "Pedir la comparecencia uno mismo convierte la exigencia de la oposición en iniciativa propia, fija la fecha con margen para tener más información y desactiva el titular de que el Gobierno huye del Congreso tras el 'no lo sabemos' (h3-06). El frente dermatológico es el que se puede ganar ya: el abandono de la crema solar anunciado para mañana (h3-16) y el pico de consultas (h3-15) tienen respuesta técnica sin tocar la causa, y la salida de clase entre las 14:00 y las 15:00 es la última ventana para llegar a las familias antes de la mañana siguiente. Apoyarse en la sociedad científica da al mensaje la autoridad que el Gobierno, cuestionado por su rueda de prensa, ya no tiene por sí solo."
-      dato: "El Reglamento del Congreso prevé que los miembros del Gobierno comparezcan ante el Pleno o las comisiones a petición propia o a solicitud de los grupos parlamentarios."
-      fuente: "https://www.congreso.es/cem/tit11"
-      confianza: media
-      areas_afectadas: [politica, sanidad, educacion, espana]
-    - texto: "En el canal intergubernamental la reacción sigue sin llegar a los líderes: no hay cumbre ni declaración del G7 ni del Consejo Europeo en la hora 5. Lo que sí ocurre es que el informe de situación del Centro de Coordinación de la Respuesta a Emergencias añade mapas de índice UV por latitud y un apartado sobre solarios y dermatología, y varios Estados del sur piden en la plataforma IPCR que la Comisión difunda esa explicación en todas las lenguas."
-      mecanismo: "Una cumbre exige un objetivo político concreto y un texto que firmar, y nadie sabe qué firmar sobre un fenómeno sin causa conocida ni daño permanente; un comunicado vacío costaría más que el silencio. El dispositivo IPCR en modo de intercambio de información (politico/h2/1) sí tiene un uso inmediato: convertir la brecha norte-sur, que amenaza con volverse un conflicto de relato entre socios, en un dato técnico compartido. A los gobiernos del sur les interesa que la explicación por latitud la dé Bruselas, porque los protege de la acusación de exagerar sin que tengan que replicar ellos a los medios nórdicos."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [union_europea, coordinacion_internacional, desinformacion]
+  - texto: 'El presidente de EE. UU. no habla al amanecer, sino entre las 8:00 y las 9:00 de Washington (14:00 a 15:00 de Madrid), y cambia el guion: deja de pedir que la gente salga a comprobarlo y presenta el fenómeno como un hecho confirmado por terceros. Cita a aliados, a tropas y personal diplomático destinados en Europa, Oriente Medio y Asia, y a las agencias federales; afirma que no hay indicios de ataque, sin descartar nada, pide paciencia hasta el mediodía y deja lo operativo a gobernadores y agencias. No declara emergencia nacional.'
+    mecanismo: 'El anticlímax del amanecer (h3-01) destruye el plan de escenificar una experiencia compartida, y retrasar la comparecencia hasta el mediodía dejaría seis horas más al marco de bulo y a la lectura de que los chatbots se pliegan a la versión oficial (h3-20). La salida que queda es la autoridad de testigos que el escéptico americano no puede tachar de histeria extranjera: militares y diplomáticos propios que llevan horas viéndolo a pleno sol. Decir que no hay indicios de ataque sin descartarlo protege al presidente si inteligencia cambia de criterio, y no declarar emergencia evita activar poderes que la oposición leería como sobrerreacción ante algo que en su costa todavía no se ve bien.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - politica
+    - comunicacion_institucional
+    - desinformacion
+    - eeuu
+    id: politico/h5/1
+  - texto: 'Al abrir su jornada, la FAA publica un SAFO (alerta de seguridad para operadores) que replica la salida de EASA: los talleres pueden reanudar las inspecciones fluorescentes con gafas que absorben el UV, sin cambiar el procedimiento certificado. Transport Canada y otras autoridades americanas se alinean en las horas siguientes.'
+    mecanismo: El SAFO es un instrumento informativo, no regulatorio, que la FAA puede emitir en horas sin pasar por un proceso de reglamentación ni una directiva de aeronavegabilidad. Como EASA ya ha fijado la solución (h3-08) y el equipo de protección ya existe en los puestos, la FAA no asume riesgo técnico propio al copiarla, y si no lo hace las aerolíneas y talleres estadounidenses quedarían parados frente a sus competidores europeos justo cuando empieza su operación de mañana. La presión llega por los mismos canales de la industria que movieron a EASA.
+    dato: La FAA regula los SAFO y los InFO mediante la Orden 8000.87A; su cumplimiento es voluntario y sirven para difundir información de seguridad con rapidez.
+    fuente: https://www.faa.gov/documentLibrary/media/Order/8000.87A.pdf
+    confianza: alta
+    areas_afectadas:
+    - aviacion
+    - regulacion
+    - mantenimiento
+    - eeuu
+    id: politico/h5/2
+  - texto: 'Las autoridades de protección radiológica nórdicas (la sueca SSM, la noruega DSA y la finlandesa STUK) publican antes de las 15:00 de Madrid una nota conjunta o coordinada que hace dos cosas: explica con el índice UV que ya miden a diario por qué en Escandinavia el fenómeno se ve tenue en noviembre, y recuerda que en los solarios es obligatorio llevar la gafa protectora y que quitársela para mirar expone el ojo a una dosis muy superior a la del sol local. Es la primera autoridad europea que explica la brecha norte-sur por latitud y estación.'
+    mecanismo: 'Estos organismos ya tienen las dos competencias en la mano: publican el índice UV en sus webs y regulan los solarios con normas que exigen gafas. El auge de visitas a solarios (h3-05) les crea una obligación de actuar y les da el motivo para hablar, y el índice UV casi nulo de noviembre en Oslo o Estocolmo es el dato que desmonta el relato del ''fenómeno del sur exagerado'' (h3-04) sin tener que opinar sobre la causa. A los gobiernos nórdicos les conviene que la explicación salga de un organismo técnico y no de un ministro, porque así el escepticismo local se corrige sin parecer que Bruselas o el sur imponen un relato.'
+    dato: La normativa sueca sobre solarios (SSMFS 2012:5) regula estas instalaciones y la protección de los usuarios, incluidas las gafas protectoras.
+    fuente: https://www.stralsakerhetsmyndigheten.se/contentassets/ca098d0df9904f0a9adfb4ee1be58c0c/ssmfs-20125-stralsakerhetsmyndighetens-foreskrifter-om-solarier-och-artificiella-solningsanlaggningar-ursprunglig-version.pdf
+    confianza: media
+    areas_afectadas:
+    - salud_publica
+    - union_europea
+    - desinformacion
+    - paises_nordicos
+    id: politico/h5/3
+  - texto: 'En España el Gobierno se adelanta a la petición de la oposición y registra la comparecencia a petición propia de la ministra de Sanidad, para la próxima semana, en lugar de esperar a que la Mesa y la Junta de Portavoces tramiten la solicitud ajena. A la vez, Sanidad y la Academia Española de Dermatología y Venereología difunden un mensaje corto antes de la salida de los institutos: la crema solar se sigue usando aunque se vea, y las manchas que ahora se ven no son por sí mismas una urgencia, con derivación a atención primaria solo si cambian, sangran o crecen.'
+    mecanismo: 'Pedir la comparecencia uno mismo convierte la exigencia de la oposición en iniciativa propia, fija la fecha con margen para tener más información y desactiva el titular de que el Gobierno huye del Congreso tras el ''no lo sabemos'' (h3-06). El frente dermatológico es el que se puede ganar ya: el abandono de la crema solar anunciado para mañana (h3-16) y el pico de consultas (h3-15) tienen respuesta técnica sin tocar la causa, y la salida de clase entre las 14:00 y las 15:00 es la última ventana para llegar a las familias antes de la mañana siguiente. Apoyarse en la sociedad científica da al mensaje la autoridad que el Gobierno, cuestionado por su rueda de prensa, ya no tiene por sí solo.'
+    dato: El Reglamento del Congreso prevé que los miembros del Gobierno comparezcan ante el Pleno o las comisiones a petición propia o a solicitud de los grupos parlamentarios.
+    fuente: https://www.congreso.es/cem/tit11
+    confianza: media
+    areas_afectadas:
+    - politica
+    - sanidad
+    - educacion
+    - espana
+    id: politico/h5/4
+  - texto: 'En el canal intergubernamental la reacción sigue sin llegar a los líderes: no hay cumbre ni declaración del G7 ni del Consejo Europeo en la hora 5. Lo que sí ocurre es que el informe de situación del Centro de Coordinación de la Respuesta a Emergencias añade mapas de índice UV por latitud y un apartado sobre solarios y dermatología, y varios Estados del sur piden en la plataforma IPCR que la Comisión difunda esa explicación en todas las lenguas.'
+    mecanismo: 'Una cumbre exige un objetivo político concreto y un texto que firmar, y nadie sabe qué firmar sobre un fenómeno sin causa conocida ni daño permanente; un comunicado vacío costaría más que el silencio. El dispositivo IPCR en modo de intercambio de información (politico/h2/1) sí tiene un uso inmediato: convertir la brecha norte-sur, que amenaza con volverse un conflicto de relato entre socios, en un dato técnico compartido. A los gobiernos del sur les interesa que la explicación por latitud la dé Bruselas, porque los protege de la acusación de exagerar sin que tengan que replicar ellos a los medios nórdicos.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - union_europea
+    - coordinacion_internacional
+    - desinformacion
+    id: politico/h5/5
   reacciona_a: []

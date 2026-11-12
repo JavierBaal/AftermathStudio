@@ -16,3 +16,6 @@ Nota: cada subagente lee solo su ficha en _prompts/<tramo>/<agente>.md y escribe
 - 2026-11-12 14:34 · h3: ficha del árbitro preparada
 - 2026-11-12 14:36 · h3: estado consolidado; 25 hechos; métricas {'alarma_social': 3, 'respuesta_gobiernos': 'comunicacion', 'impacto_economico': 2, 'adaptacion': 3}
 - 2026-11-12 14:36 · h5: fichas preparadas para economista, politico, medios, oftalmologa, adolescente, disruptor
+- 2026-11-12 14:39 · h5: intervenciones comprobadas
+- 2026-11-12 14:39 · h5: ficha del árbitro preparada
+- 2026-11-12 14:41 · h5: estado consolidado; 24 hechos; métricas {'alarma_social': 3, 'respuesta_gobiernos': 'comunicacion', 'impacto_economico': 2, 'adaptacion': 3}

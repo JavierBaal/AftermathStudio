@@ -1,0 +1,56 @@
+intervencion:
+  agente: disruptor
+  tramo: h5
+  afirmaciones:
+  - texto: 'Entre las 13:00 y las 15:00 de Madrid el índice UV de las apps del tiempo y de los servicios meteorológicos se convierte en la herramienta con la que la gente intenta prever dónde y cuándo verá el color nuevo, y falla de una forma que nadie había previsto: en Escandinavia, en Escocia y en la costa este de EE. UU. a primera hora marca 0 o 1 mientras mucha gente sigue viendo el canal nuevo con claridad. Cuando institutos meteorológicos nórdicos o el servicio meteorológico estadounidense explican la brecha citando su índice UV casi nulo, el dato oficial refuerza sin querer el relato de que en el norte no hay nada que ver, y aparece la petición de un índice o una previsión específica de UV-A que ningún servicio tiene lista.'
+    mecanismo: 'El índice UV no mide el UV-A: pondera la radiación con el espectro de acción eritemático de la CIE, pensado para la quemadura de la piel clara, que da mucho más peso al UV-B. Aunque el 94 % del UV que llega al suelo es UV-A, el 83 % del índice lo aporta el UV-B. Con el sol bajo (noviembre en el norte, amanecer en EE. UU.) el UV-B, más absorbido por el ozono y más dispersado en un camino atmosférico largo, cae mucho más deprisa que el UV-A, así que el índice se desploma antes que el estímulo que ahora ve la gente. Es la única cifra de UV que existe en las apps y en las webs oficiales, y quien lo explica por latitud y estación (la tensión abierta de h3-04) la usa sin advertir que exagera la diferencia norte-sur. Los servicios meteorológicos disponen de mediciones espectrales en algunas estaciones, pero no de un producto de previsión de UV-A para el público, y montarlo lleva días, no horas.'
+    dato: La radiación UV global en superficie es en un 94 % UV-A y en un 6 % UV-B, pero de la radiación eritemática que compone el índice UV el 17 % es UV-A y el 83 % UV-B.
+    fuente: https://temis.nl/uvradiation/info/index.html
+    confianza: media
+    areas_afectadas:
+    - meteorologia
+    - comunicacion_publica
+    - desinformacion
+    - brecha_norte_sur
+    - estados_unidos
+    - paises_nordicos
+    id: disruptor/h5/1
+  - texto: 'A la hora de comer en el sur de Europa, el foco de la piel visible pasa de las pecas y el maquillaje a quienes tienen vitíligo, melasma o pitiriasis versicolor: manchas que se disimulaban con maquillaje o pasaban inadvertidas en pieles claras aparecen ahora con un contraste fuerte a ojos de todos. Asociaciones de pacientes con vitíligo y dermatólogos salen en redes y medios a explicar que no es contagioso, y las mujeres embarazadas con melasma y los adolescentes con pitiriasis se suman al flujo de consultas a farmacias y atención primaria con una pregunta distinta a la del cáncer: si eso se pega o si es una enfermedad nueva.'
+    mecanismo: La lámpara de Wood, que es UV-A, se usa en dermatología precisamente porque acentúa las zonas sin melanina, que se ven blanco azuladas y muy contrastadas, y porque algunas infecciones fúngicas de la piel fluorescen. Lo que antes era un examen en consulta con la luz apagada lo hace ahora cualquiera al sol y sin aparato. El vitíligo afecta a entre el 0,5 % y el 2 % de la población, así que en cualquier patio, oficina o terraza hay alguien con lesiones que el canal nuevo hace evidentes, y en una población que acaba de leer que lo que se veía en la cara era daño oculto (medios/h3/2) la primera lectura de una mancha nueva y llamativa es la de enfermedad o contagio. Es el estigma de siempre, multiplicado por la visibilidad y sin la defensa del maquillaje, que ahora también se ve como mancha (h3-16).
+    dato: El vitíligo afecta a aproximadamente entre el 0,5 % y el 2 % de la población mundial; bajo la lámpara de Wood las zonas despigmentadas se ven de un blanco azulado brillante.
+    fuente: https://www.unboundmedicine.com/5minute/view/5-Minute-Clinical-Consult/116646/all/Vitiligo
+    confianza: media
+    areas_afectadas:
+    - salud
+    - dermatologia
+    - estigma
+    - atencion_primaria
+    - farmacias
+    - educacion
+    id: disruptor/h5/2
+  - texto: 'En la compraventa de segunda mano empieza a verse lo restaurado: compradores que quedan a mediodía para recoger un mueble, una lámpara, una porcelana o un cuadro de Wallapop, Vinted o un anticuario lo miran al sol o con la linterna UV que ya tienen en casa y ven retoques, pegados, barnices nuevos y repintes que el vendedor no mencionó. Hay entregas que se cancelan en la calle, regateos sobre la marcha y anticuarios y casas de subastas que retiran piezas de escaparate o aplazan entregas hasta revisar sus descripciones, porque el comprador medio acaba de conseguir la herramienta que antes solo tenían los restauradores.'
+    mecanismo: 'Los conservadores llevan décadas usando la fluorescencia ultravioleta para detectar intervenciones: barnices envejecidos, retoques, adhesivos y materiales modernos absorben o emiten de forma distinta a los originales, y lo que es homogéneo con luz visible se ve en parches con UV. La herramienta no estaba al alcance del comprador porque exigía una lámpara y saber mirar. Ahora el canal se ve sin aparato al sol, y la luz negra doméstica se ha generalizado en unas horas por la contraprueba (h3-02). En el mercado de segunda mano el vendedor tiene más información que el comprador sobre el estado de la pieza; el suceso reduce de golpe esa asimetría justo en el momento del intercambio, que en las plataformas entre particulares es en persona y a menudo en la calle. El efecto se concentra en objetos cuyo precio depende de la originalidad (antigüedades, arte, muebles de época, coleccionismo), no en la ropa o la electrónica.'
+    dato: El examen con radiación ultravioleta se usa en conservación de colecciones para detectar restauraciones, retoques, barnices y adhesivos que no se ven con luz normal.
+    fuente: https://www.nps.gov/museum/publications/conserveogram/01-10.pdf
+    confianza: media
+    areas_afectadas:
+    - comercio_segunda_mano
+    - antiguedades
+    - mercado_del_arte
+    - plataformas_digitales
+    - consumo
+    id: disruptor/h5/3
+  - texto: 'En Noruega, Suecia, Finlandia y Dinamarca se disparan las búsquedas de vuelos y paquetes a Canarias, Málaga y Alicante para esta misma semana: el viaje al sur se convierte en la forma de comprobar por uno mismo si el fenómeno es real o una exageración de los países del sur. Las aerolíneas y turoperadores nórdicos que ya operan esas rutas de invierno ven el pico antes que los medios y no tienen asientos extra que poner en días.'
+    mecanismo: La brecha norte-sur (h3-04) deja a los nórdicos ante dos versiones que no pueden comprobar en casa salvo con un solario (h3-05), que ya tiene mala prensa por la exposición ocular. Canarias y la Costa del Sol son en noviembre el destino de invierno por defecto de los países nórdicos, con rutas directas y una gran población residente escandinava que manda testimonios en su idioma, de modo que el viaje de comprobación tiene infraestructura y fricción baja. Como la temporada de invierno empieza en estas semanas y la capacidad de las rutas está planificada con meses de antelación, el efecto inmediato no son más vuelos sino tarifas que suben en la reserva de última hora, y la duda sobre si es permanente empuja a no esperar.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    areas_afectadas:
+    - turismo
+    - aviacion
+    - paises_nordicos
+    - canarias
+    - brecha_norte_sur
+    id: disruptor/h5/4
+  reacciona_a:
+  - medios/h3/2

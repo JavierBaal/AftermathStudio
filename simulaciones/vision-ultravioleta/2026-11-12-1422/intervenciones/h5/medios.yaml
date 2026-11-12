@@ -2,34 +2,65 @@ intervencion:
   agente: medios
   tramo: h5
   afirmaciones:
-    - texto: "Los magacines matinales de las cadenas estadounidenses (de 7:00 a 9:00 en Nueva York) llevan la luz negra al plató como demostración en directo y convierten las manchas de colchones y hoteles en una sección de consumo, pero el bando escéptico encuentra una réplica eficaz: las manchas de orina bajo luz negra se han visto siempre, así que esos vídeos no prueban nada nuevo. La prueba que se busca a partir de ahí ya no es la mancha, sino ver el color de la propia lámpara y de superficies que antes parecían negras o apagadas bajo ella."
-      mecanismo: "Un plató no tiene sol y la televisión necesita una demostración repetible a hora fija; la lámpara de 365 nm es la única que cabe en un estudio. Pero la fluorescencia de los fluidos es luz visible que reemiten al absorber el UV-A, y por eso las linternas UV se venden desde hace años para localizar orina en moquetas: cualquiera que haya usado una puede decir que eso ya se veía. El testimonio costoso del colchón propio (disruptor/h3/5) convence al que lo graba, pero en televisión pierde fuerza frente a un escéptico que sabe cómo funciona la lámpara. La discusión obliga a separar lo que reemite en visible de lo que solo se ve con el canal nuevo, y la televisión no tiene preparado ese matiz técnico."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [medios, desinformacion, estados_unidos, hosteleria]
-    - texto: "Las televisiones públicas nórdicas (NRK, SVT, Yle) y los servicios meteorológicos y de radioprotección responden a la brecha norte-sur con mapas del índice UV en tiempo real, y el mapa del índice UV de Europa y del mundo se convierte en la primera imagen viral que funciona: no enseña cómo se ve el color nuevo, sino dónde y cuándo se puede ver. El relato de la exageración del sur pierde fuerza en los medios de referencia nórdicos, aunque sobrevive en redes como agravio."
-      mecanismo: "Las imágenes en falso color fracasaron porque intentaban representar una experiencia (h2-05); un mapa de índice UV representa un dato medible que ya existe, se publica cada día y tiene autor institucional. Noruega tiene una red de medición del UV con valores diarios públicos, y los servicios públicos de radiodifusión tienen secciones de ciencia y meteorología que pueden emitir esos mapas sin esperar al gobierno. El mapa explica a la vez la brecha norte-sur (h3-04), el anticlímax del amanecer estadounidense (h3-01) y el uso de solarios (h3-05) con una sola variable, por eso lo reutilizan medios de todos los países. No cierra el agravio porque quien vive en Oslo sigue viendo poco, pero quita a los medios serios el argumento cultural."
-      dato: "La autoridad noruega de radioprotección (DSA) mantiene una red de medición del UV con valores diarios publicados y remite al índice UV del día y a las previsiones de Yr y NILU."
-      fuente: "https://uvnett.dsa.no/dagsverdier_en.aspx"
-      confianza: media
-      areas_afectadas: [medios, europa, desinformacion, ciencia]
-    - texto: "Antes de la mañana siguiente se libra en los móviles de los adolescentes una batalla por el protector solar: dermatólogos y cuentas de cuidado de la piel rescatan los vídeos de cámara UV que ya existían con el lema 'si se ve como una máscara, está funcionando', mientras el movimiento antiprotector que ya circulaba en TikTok aprovecha el mismo vídeo para decir que la crema tapa la piel y que no hace falta. El mismo material sirve a los dos bandos y el desenlace depende de qué creador llega antes a cada grupo."
-      mecanismo: "Lo que las adolescentes ven en el recreo como mancha (h3-16) es el filtro haciendo su trabajo: el protector absorbe el UV y por eso las cámaras UV lo muestran oscuro, un formato que ya se usaba en campañas y en vídeos virales de dermatología. Los dermatólogos tienen ese contenido grabado y solo tienen que volver a publicarlo con el contexto nuevo, que es lo más rápido que pueden hacer. Pero los creadores antiprotector ya tenían audiencia y un relato de desconfianza hacia la industria que encaja con la variante conspirativa de la piel (h3-15). Como los adolescentes solo se fían de lo que ven y de los suyos (h3-20), la persuasión no la gana la autoridad médica sino quien consigue que una influencer de su edad diga que el brillo de la crema mola."
-      dato: "Bajo cámara UV el protector aparece oscuro sobre la piel; y antes del suceso ya existía en TikTok una corriente de creadores contra el protector solar que dermatólogos de Columbia se dedicaron a desmentir."
-      fuente: "https://www.cancer.columbia.edu/news/shining-light-sun-safety-debunking-TikToks-anti-sunscreen-claims"
-      confianza: media
-      areas_afectadas: [medios, salud, adolescentes, cosmetica]
-    - texto: "Los telediarios de las 15:00 en España, la franja informativa con más audiencia del día, se convierten en el primer gran resumen generalista del suceso para los mayores que no lo han seguido en redes, y para nombrarlo optan por una fórmula descriptiva y neutra (el color ultravioleta o lo ultravioleta) en lugar de cualquiera de las palabras de los grupos. La palabra de la tele pasa a ser, para los adolescentes, la de quien no lo ve bien, y la brecha generacional se marca ya en el vocabulario."
-      mecanismo: "Las redacciones generalistas no pueden adoptar un término de TikTok que puede durar horas, y su libro de estilo y las consultas lingüísticas (h3-19) recomiendan en estos casos describir antes que acuñar, porque un neologismo prematuro obliga a rectificar. Para el público mayor, que ve apagado lo que los nietos ven vivo (h3-22), la tele de la sobremesa es la fuente que ordena el día. Los adolescentes, que usan la palabra del grupo como señal de pertenencia (adolescente/h3/1), leen la fórmula neutra como la prueba de que los adultos hablan de algo que no ven, y la usan en burla."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [medios, lenguaje, adolescentes, mayores]
-    - texto: "Aparecen directos en TikTok, Instagram y Twitch desde cabinas de solario y con linternas UV a pocos centímetros de la cara sin gafas para enseñar quién aguanta más, y las plataformas los retiran o les quitan alcance aplicando sus normas sobre retos y actividades peligrosas. La retirada se convierte en otro episodio de censura para el bando conspirativo, que la suma a la corrección de los chatbots como prueba de que alguien decide qué se puede ver."
-      mecanismo: "La norma adolescente de aguantar sin gafas (h2-25) y el uso de solarios sin gafas (h3-05) ya tienen el formato del reto: una prueba de resistencia que se demuestra en directo y da estatus. Las plataformas tienen equipos de moderación y políticas ya escritas contra retos peligrosos, aplicadas en casos anteriores, y retirar contenido que expone los ojos a una fuente UV intensa no exige decidir nada sobre la causa del suceso. Pero la retirada se ve y la razón sanitaria no se explica en el momento, lo mismo que pasó con la corrección de los asistentes de IA (h3-20), y el marco de que alguien edita lo que se puede ver encuentra su segunda prueba en el mismo día."
-      dato: ""
-      fuente: ""
-      confianza: media
-      areas_afectadas: [medios, plataformas, salud, desinformacion, adolescentes]
-  reacciona_a: ["disruptor/h3/5", "disruptor/h3/2", "adolescente/h3/2", "adolescente/h3/1", "disruptor/h3/3"]
+  - texto: 'Los magacines matinales de las cadenas estadounidenses (de 7:00 a 9:00 en Nueva York) llevan la luz negra al plató como demostración en directo y convierten las manchas de colchones y hoteles en una sección de consumo, pero el bando escéptico encuentra una réplica eficaz: las manchas de orina bajo luz negra se han visto siempre, así que esos vídeos no prueban nada nuevo. La prueba que se busca a partir de ahí ya no es la mancha, sino ver el color de la propia lámpara y de superficies que antes parecían negras o apagadas bajo ella.'
+    mecanismo: 'Un plató no tiene sol y la televisión necesita una demostración repetible a hora fija; la lámpara de 365 nm es la única que cabe en un estudio. Pero la fluorescencia de los fluidos es luz visible que reemiten al absorber el UV-A, y por eso las linternas UV se venden desde hace años para localizar orina en moquetas: cualquiera que haya usado una puede decir que eso ya se veía. El testimonio costoso del colchón propio (disruptor/h3/5) convence al que lo graba, pero en televisión pierde fuerza frente a un escéptico que sabe cómo funciona la lámpara. La discusión obliga a separar lo que reemite en visible de lo que solo se ve con el canal nuevo, y la televisión no tiene preparado ese matiz técnico.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - medios
+    - desinformacion
+    - estados_unidos
+    - hosteleria
+    id: medios/h5/1
+  - texto: 'Las televisiones públicas nórdicas (NRK, SVT, Yle) y los servicios meteorológicos y de radioprotección responden a la brecha norte-sur con mapas del índice UV en tiempo real, y el mapa del índice UV de Europa y del mundo se convierte en la primera imagen viral que funciona: no enseña cómo se ve el color nuevo, sino dónde y cuándo se puede ver. El relato de la exageración del sur pierde fuerza en los medios de referencia nórdicos, aunque sobrevive en redes como agravio.'
+    mecanismo: Las imágenes en falso color fracasaron porque intentaban representar una experiencia (h2-05); un mapa de índice UV representa un dato medible que ya existe, se publica cada día y tiene autor institucional. Noruega tiene una red de medición del UV con valores diarios públicos, y los servicios públicos de radiodifusión tienen secciones de ciencia y meteorología que pueden emitir esos mapas sin esperar al gobierno. El mapa explica a la vez la brecha norte-sur (h3-04), el anticlímax del amanecer estadounidense (h3-01) y el uso de solarios (h3-05) con una sola variable, por eso lo reutilizan medios de todos los países. No cierra el agravio porque quien vive en Oslo sigue viendo poco, pero quita a los medios serios el argumento cultural.
+    dato: La autoridad noruega de radioprotección (DSA) mantiene una red de medición del UV con valores diarios publicados y remite al índice UV del día y a las previsiones de Yr y NILU.
+    fuente: https://uvnett.dsa.no/dagsverdier_en.aspx
+    confianza: media
+    areas_afectadas:
+    - medios
+    - europa
+    - desinformacion
+    - ciencia
+    id: medios/h5/2
+  - texto: 'Antes de la mañana siguiente se libra en los móviles de los adolescentes una batalla por el protector solar: dermatólogos y cuentas de cuidado de la piel rescatan los vídeos de cámara UV que ya existían con el lema ''si se ve como una máscara, está funcionando'', mientras el movimiento antiprotector que ya circulaba en TikTok aprovecha el mismo vídeo para decir que la crema tapa la piel y que no hace falta. El mismo material sirve a los dos bandos y el desenlace depende de qué creador llega antes a cada grupo.'
+    mecanismo: 'Lo que las adolescentes ven en el recreo como mancha (h3-16) es el filtro haciendo su trabajo: el protector absorbe el UV y por eso las cámaras UV lo muestran oscuro, un formato que ya se usaba en campañas y en vídeos virales de dermatología. Los dermatólogos tienen ese contenido grabado y solo tienen que volver a publicarlo con el contexto nuevo, que es lo más rápido que pueden hacer. Pero los creadores antiprotector ya tenían audiencia y un relato de desconfianza hacia la industria que encaja con la variante conspirativa de la piel (h3-15). Como los adolescentes solo se fían de lo que ven y de los suyos (h3-20), la persuasión no la gana la autoridad médica sino quien consigue que una influencer de su edad diga que el brillo de la crema mola.'
+    dato: Bajo cámara UV el protector aparece oscuro sobre la piel; y antes del suceso ya existía en TikTok una corriente de creadores contra el protector solar que dermatólogos de Columbia se dedicaron a desmentir.
+    fuente: https://www.cancer.columbia.edu/news/shining-light-sun-safety-debunking-TikToks-anti-sunscreen-claims
+    confianza: media
+    areas_afectadas:
+    - medios
+    - salud
+    - adolescentes
+    - cosmetica
+    id: medios/h5/3
+  - texto: Los telediarios de las 15:00 en España, la franja informativa con más audiencia del día, se convierten en el primer gran resumen generalista del suceso para los mayores que no lo han seguido en redes, y para nombrarlo optan por una fórmula descriptiva y neutra (el color ultravioleta o lo ultravioleta) en lugar de cualquiera de las palabras de los grupos. La palabra de la tele pasa a ser, para los adolescentes, la de quien no lo ve bien, y la brecha generacional se marca ya en el vocabulario.
+    mecanismo: Las redacciones generalistas no pueden adoptar un término de TikTok que puede durar horas, y su libro de estilo y las consultas lingüísticas (h3-19) recomiendan en estos casos describir antes que acuñar, porque un neologismo prematuro obliga a rectificar. Para el público mayor, que ve apagado lo que los nietos ven vivo (h3-22), la tele de la sobremesa es la fuente que ordena el día. Los adolescentes, que usan la palabra del grupo como señal de pertenencia (adolescente/h3/1), leen la fórmula neutra como la prueba de que los adultos hablan de algo que no ven, y la usan en burla.
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - medios
+    - lenguaje
+    - adolescentes
+    - mayores
+    id: medios/h5/4
+  - texto: Aparecen directos en TikTok, Instagram y Twitch desde cabinas de solario y con linternas UV a pocos centímetros de la cara sin gafas para enseñar quién aguanta más, y las plataformas los retiran o les quitan alcance aplicando sus normas sobre retos y actividades peligrosas. La retirada se convierte en otro episodio de censura para el bando conspirativo, que la suma a la corrección de los chatbots como prueba de que alguien decide qué se puede ver.
+    mecanismo: 'La norma adolescente de aguantar sin gafas (h2-25) y el uso de solarios sin gafas (h3-05) ya tienen el formato del reto: una prueba de resistencia que se demuestra en directo y da estatus. Las plataformas tienen equipos de moderación y políticas ya escritas contra retos peligrosos, aplicadas en casos anteriores, y retirar contenido que expone los ojos a una fuente UV intensa no exige decidir nada sobre la causa del suceso. Pero la retirada se ve y la razón sanitaria no se explica en el momento, lo mismo que pasó con la corrección de los asistentes de IA (h3-20), y el marco de que alguien edita lo que se puede ver encuentra su segunda prueba en el mismo día.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    areas_afectadas:
+    - medios
+    - plataformas
+    - salud
+    - desinformacion
+    - adolescentes
+    id: medios/h5/5
+  reacciona_a:
+  - disruptor/h3/5
+  - disruptor/h3/2
+  - adolescente/h3/2
+  - adolescente/h3/1
+  - disruptor/h3/3

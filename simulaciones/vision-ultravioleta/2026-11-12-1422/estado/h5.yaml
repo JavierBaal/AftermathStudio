@@ -1,0 +1,117 @@
+estado_del_mundo:
+  tramo: h5
+  resumen: "Entre las 13:00 y las 15:00 de Madrid los gobiernos siguen en modo comunicación, pero con salidas más finas: el presidente de EE. UU. habla a las 8:00 de Washington apoyándose en testigos propios (tropas, diplomáticos, agencias) y sin declarar emergencia, la FAA copia a EASA con un SAFO y las acciones de MTU, Safran y Lufthansa recuperan parte de lo perdido, las autoridades nórdicas de radioprotección explican la brecha norte-sur por latitud y estación, y el Gobierno español pide su propia comparecencia y lanza con los dermatólogos el mensaje de seguir usando crema solar. El índice UV se convierte en el mapa que explica dónde se ve el fenómeno, pero como pondera sobre todo el UV-B exagera la diferencia norte-sur, y el sur empieza a cobrar esa brecha en forma de reservas nórdicas de última hora a Canarias y la costa mediterránea, con subida de tarifas y sin vuelos nuevos. Los efectos se cruzan en la piel y en los ojos: la regla adolescente de quitarse todo lo que lleve SPF choca de frente con el mensaje sanitario, el vitíligo y el melasma pasan a verse con fuerte contraste y abren un frente de estigma, las citas de dermatología privada se agotan, la fotoqueratitis de los solarios aún no ha dado síntomas por su latencia de 6 a 12 horas (lo que alimenta los retos en directo que las plataformas retiran y el bando conspirativo lee como censura), y las gafas dividen por edad: los mayores las adoptan porque les quitan el velo, los niños pequeños son los más expuestos y los adolescentes miopes buscan lentillas sin filtro. La luz negra doméstica pierde fuerza como prueba en la televisión estadounidense pero se agota en las tiendas, sirve de autodiagnóstico poco fiable si es de 395 nm y da a los compradores de segunda mano la herramienta para ver restauraciones que no se declararon."
+  hechos_establecidos:
+    - id: h5-01
+      texto: "El presidente de EE. UU. no habla al amanecer sino entre las 8:00 y las 9:00 de Washington (14:00 a 15:00 de Madrid) y cambia el guion: en lugar de pedir que la gente salga a comprobarlo, presenta el fenómeno como un hecho confirmado por terceros, citando a aliados, tropas y personal diplomático destinados en Europa, Oriente Medio y Asia, y a las agencias federales. Afirma que no hay indicios de ataque sin descartar nada, pide paciencia hasta el mediodía, deja lo operativo a gobernadores y agencias y no declara emergencia nacional."
+      origen: [politico/h5/1]
+    - id: h5-02
+      texto: "En la sesión de tarde europea MTU Aero Engines, Safran y Lufthansa recuperan parte, no todo, de lo que perdieron frente al índice en la hora 2, tras la aclaración de EASA. Al abrir su jornada la FAA publica un SAFO, instrumento informativo de cumplimiento voluntario que no exige reglamentación, que replica la salida de EASA: los talleres pueden reanudar las inspecciones fluorescentes con gafas que absorben el UV sin cambiar el procedimiento certificado, y Transport Canada y otras autoridades americanas se alinean en las horas siguientes. El rebote bursátil no es completo porque en las notas de los analistas el riesgo pasa de capacidad perdida a días de retraso acumulados en talleres que ya iban con cola."
+      origen: [politico/h5/2, economista/h5/4]
+    - id: h5-03
+      texto: "Antes de las 15:00 de Madrid las autoridades de protección radiológica nórdicas (SSM, DSA y STUK) publican una nota coordinada que explica con el índice UV por qué en Escandinavia el fenómeno se ve tenue en noviembre y recuerda que en los solarios es obligatorio llevar la gafa protectora y que quitársela expone el ojo a una dosis muy superior a la del sol local. Es la primera autoridad europea que explica la brecha norte-sur por latitud y estación, y las televisiones públicas nórdicas (NRK, SVT, Yle) y los servicios meteorológicos difunden mapas de índice UV en tiempo real; el mapa de dónde y cuándo se puede ver se convierte en la primera imagen viral que funciona, porque representa un dato medible y no una experiencia. El argumento cultural de la exageración del sur pierde fuerza en los medios de referencia nórdicos, aunque sobrevive en redes como agravio."
+      origen: [politico/h5/3, medios/h5/2]
+    - id: h5-04
+      texto: "El índice UV, la única cifra de UV disponible en apps y webs oficiales, falla como predictor del color nuevo: pondera la radiación con el espectro eritemático de la CIE, de modo que el 83 % del índice lo aporta el UV-B aunque el 94 % del UV en superficie sea UV-A, y con el sol bajo el UV-B cae mucho más deprisa que el UV-A. En Escandinavia, Escocia y la costa este de EE. UU. a primera hora el índice marca 0 o 1 mientras la gente sigue viendo el canal nuevo, tenue pero visible, y al explicar la brecha con ese índice casi nulo las autoridades refuerzan sin querer la idea de que en el norte no hay nada que ver. Aparece la petición de una previsión específica de UV-A que ningún servicio meteorológico tiene lista y que llevará días montar."
+      origen: [disruptor/h5/1]
+    - id: h5-05
+      texto: "Entre las 13:00 y las 15:00 de Madrid se disparan en Noruega, Suecia, Dinamarca y Finlandia las búsquedas y reservas de última hora de vuelos y paquetes a Canarias, Málaga y Alicante para esta semana y el fin de semana: el viaje al sur se convierte en la forma de comprobar por uno mismo si el fenómeno es real. Aprovechando las rutas y la temporada de invierno ya montadas (Canarias recibió 1.278.000 turistas nórdicos en 2025), aerolíneas de bajo coste y turoperadores nórdicos suben las tarifas de las plazas restantes con su precio dinámico sin añadir vuelos, porque sumar capacidad lleva días, y el sur empieza a cobrar la brecha norte-sur como turismo."
+      origen: [economista/h5/1, disruptor/h5/4]
+    - id: h5-06
+      texto: "En la UE la reacción no llega a los líderes: no hay cumbre ni declaración del G7 ni del Consejo Europeo en la hora 5. El informe de situación del Centro de Coordinación de la Respuesta a Emergencias añade mapas de índice UV por latitud y un apartado sobre solarios y dermatología, y varios Estados del sur piden en la plataforma IPCR que la Comisión difunda esa explicación en todas las lenguas para no tener que replicar ellos a los medios nórdicos."
+      origen: [politico/h5/5]
+    - id: h5-07
+      texto: "El Gobierno español registra la comparecencia a petición propia de la ministra de Sanidad para la próxima semana, adelantándose a la solicitud de la oposición. A la vez, Sanidad y la Academia Española de Dermatología y Venereología difunden antes de la salida de los institutos un mensaje corto: la crema solar se sigue usando aunque se vea, y las manchas que ahora se ven no son por sí mismas una urgencia, con derivación a atención primaria solo si cambian, sangran o crecen."
+      origen: [politico/h5/4]
+    - id: h5-08
+      texto: "A la salida del instituto, entre las 14:00 y las 15:00, circula en los grupos adolescentes una lista de maquillaje que no se ve y se impone la regla de mirar la etiqueta: si pone SPF, fuera; polvos y bases sin protección se salvan y la crema solar, las cremas con color y los correctores con SPF quedan como lo que delata. En los móviles se libra una batalla por el protector: los dermatólogos rescatan los vídeos de cámara UV ya existentes con el lema de que si se ve como una máscara está funcionando, mientras el movimiento antiprotector que ya circulaba en TikTok usa el mismo material para decir que la crema tapa la piel; el desenlace depende de qué creador llega antes a cada grupo, no de la autoridad médica."
+      origen: [adolescente/h5/1, medios/h5/3]
+    - id: h5-09
+      texto: "Las preguntas sobre si las manchas de la cara son cáncer saturan primero la sanidad privada y no la atención primaria pública: a primera hora de la tarde las citas de dermatología y teledermatología de las grandes aseguradoras (con hasta 12,8 millones de asegurados en España) para esta semana se agotan y las listas se van a varias semanas, mientras las clínicas de dermatología estética lanzan ofertas de revisión de lunares con dermatoscopia."
+      origen: [economista/h5/3]
+    - id: h5-10
+      texto: "A la hora de comer en el sur de Europa el foco de la piel pasa a quienes tienen vitíligo, melasma o pitiriasis versicolor: el canal nuevo hace al sol lo que la lámpara de Wood hacía en consulta, y manchas que se disimulaban o pasaban inadvertidas en pieles claras se ven con fuerte contraste, sin la defensa del maquillaje. Asociaciones de pacientes de vitíligo y dermatólogos explican en redes y medios que no es contagioso, y embarazadas con melasma y adolescentes con pitiriasis se suman al flujo de consultas en farmacias y atención primaria con otra pregunta: si se pega o si es una enfermedad nueva."
+      origen: [disruptor/h5/2]
+    - id: h5-11
+      texto: "Entre las 14:00 y las 15:00 de Madrid aún no llega a urgencias ningún caso de queratitis por quitarse la gafa en los solarios, porque la fotoqueratitis tiene una latencia de 6 a 12 horas, y quienes se expusieron a mediodía lo cuentan en redes como prueba de que es inocuo. Las sociedades de oftalmología y algunas consejerías amplían de forma preventiva el aviso a las cabinas de bronceado (no quitarse nunca la gafa, urgencias si aparecen dolor intenso, sensación de arena y lagrimeo) y prevén los primeros casos para la madrugada del miércoles en el norte de Europa y en EE. UU."
+      origen: [oftalmologa/h5/1]
+    - id: h5-12
+      texto: "Aparecen directos en TikTok, Instagram y Twitch desde cabinas de solario y con linternas UV a centímetros de la cara sin gafas para ver quién aguanta más, y las plataformas los retiran o les quitan alcance aplicando sus normas sobre retos peligrosos. Como la razón sanitaria no se explica en el momento, la retirada se suma a la corrección de los chatbots como segunda prueba, para el bando conspirativo, de que alguien decide qué se puede ver."
+      origen: [medios/h5/5]
+    - id: h5-13
+      texto: "Los magacines matinales de las cadenas estadounidenses llevan la luz negra al plató y convierten las manchas de colchones y hoteles en sección de consumo, pero el bando escéptico encuentra una réplica eficaz: la fluorescencia de la orina bajo luz negra es luz visible reemitida y se ha visto siempre, así que esos vídeos no prueban nada nuevo. La prueba buscada pasa a ser el color de la propia lámpara y de superficies que antes parecían negras o apagadas bajo ella, un matiz técnico que la televisión no tiene preparado."
+      origen: [medios/h5/1]
+    - id: h5-14
+      texto: "Antes de la apertura de Wall Street las linternas UV de 365 nm y las lámparas de luz negra se agotan en Amazon, Walmart y ferreterías y los vendedores de marketplace suben precios; las cadenas hoteleras y los gestores de alquiler turístico compran esas mismas linternas para que sus equipos de limpieza revisen colchones y baños antes que el huésped, de modo que el comprador profesional compite con el particular por un producto de importación con reposición lenta. El movimiento se queda en el producto y no en la bolsa de hoteles y alquiler turístico."
+      origen: [economista/h5/5]
+    - id: h5-15
+      texto: "El cribado ojo contra ojo con linterna UV que las consultas usaban en el triaje da falsos resultados cuando el paciente lo hace en casa con las linternas o lámparas de uñas baratas de 395 a 405 nm, cuya emisión violeta visible atraviesa lentes intraoculares con filtro, lentillas con bloqueador y cataratas incipientes. Los servicios de oftalmología precisan en sus criterios telefónicos que la prueba solo vale con una lámpara de 365 nm con filtro, como la de Wood, y dejan de pedirla a quien no la tiene."
+      origen: [oftalmologa/h5/5]
+    - id: h5-16
+      texto: "Padres de bebés y niños pequeños llenan pediatría y ópticas porque los niños lloran en el carrito al sol, cierran los ojos o se frotan sin poder explicar qué ven: en menores de 10 años el cristalino deja pasar más del 75 % del ultravioleta, frente a alrededor del 10 % en mayores de 25, así que el estímulo y el deslumbramiento son máximos en los más pequeños. Pediatras y oftalmólogos recomiendan sombra, viseras y capotas antes que gafas, y las gafas infantiles con filtro certificado se convierten en el modelo más escaso, compitiendo con las compras de EPI de las empresas en el mismo cuello de botella."
+      origen: [oftalmologa/h5/2]
+    - id: h5-17
+      texto: "Se abre una brecha generacional en el uso de gafas: los mayores de 50 sin operar las adoptan en masa al salir a comer y pasear a primera hora de la tarde, por recomendación expresa de los oftalmólogos, porque al cortar el UV-A antes de que llegue al cristalino la gafa con filtro les quita el velo de fluorescencia y casi no les quita colores, mientras los jóvenes las siguen rechazando porque para ellos supone perder lo que ven."
+      origen: [oftalmologa/h5/3]
+    - id: h5-18
+      texto: "Los adolescentes miopes, que sin gafas ven el color nuevo como lo más borroso por la aberración cromática del ojo y con gafas lo ven atenuado, piden en la comida a sus padres lentillas, y en los grupos circula antes de la apertura de la tarde una lista de marcas que dejan verlo y marcas que no, hecha mirando las cajas de quienes ya las llevan. Las ópticas reciben a primera hora de la tarde a adolescentes con sus padres pidiendo lentillas sin filtro UV; muchos ópticos se niegan a adaptarlas con prisa a menores sin revisión previa, y quien lo consigue vuelve al instituto como el miope que sí lo ve."
+      origen: [oftalmologa/h5/4, adolescente/h5/2]
+    - id: h5-19
+      texto: "El cuello de botella de las gafas envolventes se alivia en parte en Europa por el inventario de invierno de las tiendas de deporte: gafas de ciclismo y running envolventes y máscaras de esquí, casi todas con filtro UV400 y categoría marcada, se agotan durante la tarde en Decathlon y otras cadenas de las ciudades del sur, a donde los ópticos mandan a los clientes que se quejan del resplandor lateral. El precio no sube porque estas cadenas no tienen precio dinámico en tienda física, y el canal de empresa no compite porque exige EPI laboral certificado."
+      origen: [economista/h5/2]
+    - id: h5-20
+      texto: "Al llegar a casa los adolescentes españoles sacan la lámpara de uñas de gel o una linterna UV y hacen su versión del vídeo americano grabando habitación, ropa, dientes y baño; lo que más se sube es lo que brilla en dientes y ropa, y algunos vídeos del baño o la habitación se borran en minutos por lo que dejan ver, con riesgo de captura antes de borrarlos."
+      origen: [adolescente/h5/3]
+    - id: h5-21
+      texto: "De vuelta a casa los adolescentes caminan por la acera de la sombra y se paran a grabar coches, carteles y ropa tendida que brillan; quienes llegan con dolor de cabeza se meten en la cama con la persiana bajada en lugar de ponerse gafas y lo presentan como descansar los ojos hoy para verlo bien mañana."
+      origen: [adolescente/h5/5]
+    - id: h5-22
+      texto: "En los grupos de clase de los institutos circula una captura falsa con el logo de la Consejería que anuncia la suspensión de las clases presenciales mañana; muchos se la creen o hacen como que se la creen, y los padres preguntan en sus grupos antes de que el instituto pueda desmentirla por la aplicación, porque los profesores tampoco han recibido instrucción alguna."
+      origen: [adolescente/h5/4]
+    - id: h5-23
+      texto: "Los telediarios de las 15:00 en España, la franja de más audiencia, hacen el primer gran resumen generalista para los mayores que no lo han seguido en redes y nombran el fenómeno con una fórmula descriptiva y neutra (el color ultravioleta, lo ultravioleta) en lugar de las palabras de los grupos; para los adolescentes esa pasa a ser la palabra de quien no lo ve bien y la usan en burla, de modo que la brecha generacional se marca ya en el vocabulario."
+      origen: [medios/h5/4]
+    - id: h5-24
+      texto: "En la compraventa de segunda mano empieza a verse lo restaurado: compradores que recogen muebles, lámparas, porcelanas o cuadros de Wallapop, Vinted o anticuarios los miran al sol o con la linterna UV de casa y ven retoques, pegados, barnices nuevos y repintes no declarados, como hacían los conservadores con fluorescencia UV. Hay entregas canceladas en la calle y regateos sobre la marcha, y anticuarios y casas de subastas retiran piezas o aplazan entregas para revisar sus descripciones; el efecto se concentra en objetos cuyo precio depende de la originalidad."
+      origen: [disruptor/h5/3]
+  tensiones_abiertas:
+    - "Cómo reacciona Wall Street a la apertura de las 15:30 de Madrid tras una comparecencia presidencial sin emergencia y con la confirmación aún a goteo, y si el marco de bulo resiste hasta el mediodía de la costa este ahora que tiene la retirada de directos y la corrección de los chatbots como pruebas de censura."
+    - "Si el índice UV, que exagera la brecha norte-sur, refuerza el escepticismo nórdico pese a la explicación oficial, y si algún servicio meteorológico o la Comisión ofrece una previsión o explicación específica de UV-A."
+    - "Si la subida de tarifas a Canarias y la costa mediterránea se convierte en un flujo real de viajeros nórdicos y si las aerolíneas añaden capacidad en los próximos días."
+    - "Quién gana la batalla del protector solar entre adolescentes antes de mañana (mensaje de Sanidad y dermatólogos frente a la regla de quitar todo lo que lleve SPF y el movimiento antiprotector), y si el abandono se materializa."
+    - "Si la madrugada del miércoles trae los primeros casos de fotoqueratitis por solarios en el norte de Europa y EE. UU. y obliga a medidas sobre solarios más allá del aviso."
+    - "Si el estigma sobre vitíligo, melasma y otras manchas visibles produce incidentes en colegios y trabajos y si las asociaciones de pacientes consiguen fijar el mensaje de que no es contagioso; y si la saturación de dermatología privada se traslada a atención primaria y farmacias."
+    - "Cuándo y cómo desmienten las Consejerías y los institutos la captura falsa de suspensión de clases, y si alguna autoridad educativa acaba modificando de verdad la actividad presencial."
+    - "Si el cuello de botella de gafas certificadas, ahora con las tallas infantiles como lo más escaso, choca con el EPI de empresa y alimenta el mercado de gafas sin filtro; y si las ópticas ceden a la demanda de lentillas sin filtro para menores."
+    - "Si la revelación de restauraciones no declaradas en segunda mano y antigüedades deriva en reclamaciones, cambios de condiciones de las plataformas o caída de precios en esos mercados."
+    - "Si el paso al QR y el recordatorio de curso legal frenan los rechazos de billetes o si la economía informal sin móvil sufre un deterioro del efectivo (sigue abierta desde h3)."
+    - "Qué nombre se impone para el color nuevo, ahora con la fórmula neutra de la televisión frente a las palabras de grupo, y si Fundéu u otras instancias lingüísticas se pronuncian."
+    - "Si el aumento de incidentes de tráfico en maniobras laterales es medible y empuja a medidas obligatorias, ahora también con la adopción de gafas por los mayores al volante (sigue abierta desde h1)."
+  contradicciones_resueltas:
+    - entre: [politico/h5/3, medios/h5/2, disruptor/h5/1]
+      decision: "Se combinan en dos hechos: la explicación oficial por latitud y estación con mapas de índice UV funciona como imagen viral y quita el argumento cultural (h5-03), pero el índice exagera la diferencia porque pesa sobre todo el UV-B, y su lectura refuerza sin querer la idea de que en el norte no hay nada que ver (h5-04). La afirmación de que en el norte se ve con claridad se rebaja a tenue pero visible para no contradecir h3-04."
+      motivo: "disruptor/h5/1 aporta el mecanismo más sólido y dato verificable (espectro eritemático de la CIE, 94 % frente a 83 %), que no anula que el mapa explique la dirección correcta de la brecha, apoyada por politico/h5/3 y medios/h5/2 con fuentes institucionales; h3-04 estableció que la experiencia nórdica es tenue, no nula ni clara."
+    - entre: [economista/h5/1, disruptor/h5/4]
+      decision: "Se combinan en un solo hecho sobre reservas nórdicas de última hora al sur con subida de precios y sin capacidad nueva."
+      motivo: "Mismo mecanismo (viaje de comprobación con rutas de invierno ya montadas y capacidad fija a corto plazo); economista/h5/1 aporta el dato FRONTUR que eleva la confianza baja de disruptor/h5/4."
+    - entre: [economista/h5/4, politico/h5/2]
+      decision: "Se ordenan en secuencia: rebote parcial en la tarde europea y SAFO de la FAA al abrir su jornada; el rebote no se completa porque queda el descuento por días de retraso acumulados en talleres."
+      motivo: "No se excluyen: el SAFO tiene mecanismo y fuente (Orden 8000.87A) y resuelve la tensión abierta desde h1, y el descuento residual de economista/h5/4 se sostiene en las horas perdidas, no solo en la incertidumbre regulatoria."
+    - entre: [adolescente/h5/1, medios/h5/3, politico/h5/4]
+      decision: "Se mantienen como frentes enfrentados: el mensaje de Sanidad y la AEDV es un hecho (h5-07) y la regla adolescente y la batalla de creadores otro (h5-08); el resultado queda como tensión abierta."
+      motivo: "Las tres tienen mecanismo plausible y operan a la vez sobre el mismo público; con lo dicho en este tramo no puede decidirse qué mensaje se impone antes de mañana."
+    - entre: [oftalmologa/h5/4, adolescente/h5/2]
+      decision: "Se combinan: lista de marcas en los grupos y peticiones en las ópticas, con freno de los ópticos a adaptar lentillas a menores sin revisión."
+      motivo: "Mismo mecanismo (la lentilla sin filtro como única forma de corregir la miopía sin apagar el canal, ya establecida en h3-23) visto desde la familia y desde la óptica."
+    - entre: [medios/h5/1, h3-02]
+      decision: "Se matiza el canon: la luz negra sigue convenciendo a quien graba su propia casa, pero en la televisión estadounidense pierde fuerza como prueba porque la fluorescencia de fluidos ya se veía antes del suceso."
+      motivo: "Mecanismo físico sólido: lo que se ve en las manchas es luz visible reemitida, no el canal nuevo; h3-02 sigue siendo cierto para el testimonio costoso en primera persona."
+    - entre: [oftalmologa/h5/1, medios/h5/5, politico/h5/3]
+      decision: "Se mantienen como hechos distintos y encadenados: la ausencia de síntomas por latencia anima los retos en directo que las plataformas retiran, y las autoridades nórdicas y las sociedades de oftalmología avisan antes de ver casos."
+      motivo: "No se contradicen; la latencia de 6 a 12 horas de la fotoqueratitis, con fuente, explica por qué conviven el aviso preventivo y la sensación de inocuidad."
+  descartadas: []
+  metricas:
+    alarma_social: 3
+    respuesta_gobiernos: comunicacion
+    impacto_economico: 2
+    adaptacion: 3
