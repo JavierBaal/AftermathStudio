@@ -1,0 +1,84 @@
+# Aftermath Studio — Plantilla del esquema de escenario v0.1
+# Documentación: docs/02-esquema-escenario.md
+# Los campos marcados como opcionales tienen un valor por defecto en el motor.
+
+version_esquema: "0.1"
+
+meta:
+  id: string                       # slug único del escenario
+  titulo: string
+  tipo: especulativo | negocio
+  idioma: es
+  descripcion: string              # una o dos frases
+  version: 1                       # sube con cada cambio del escenario
+
+evento:
+  premisa: string                  # qué ocurre, en una frase concreta
+  momento_cero: string             # cuándo empieza ("martes, 10:00")
+  alcance: string                  # global, país, sector, empresa...
+  supuestos:                       # lo que se da por fijo
+    - id: string
+      texto: string
+      fuente: usuario | configurador
+  fuera_de_alcance: [string]       # lo que la simulación no debe tratar
+
+cronologia:
+  tramos:
+    - id: string                   # h1, s1, m6...
+      etiqueta: string             # "Hora 1"
+      desde_evento: string         # duración ISO 8601: PT1H, P1W, P6M
+      foco: string                 # opcional: qué mirar en este tramo
+
+agentes:
+  - id: string
+    nombre: string                 # cómo se presenta en el informe
+    tipo: experto | a_pie | disruptor
+    rol: string                    # su área o su lugar en el mundo
+    perfil: string                 # carácter, sesgos, estilo de razonamiento
+    objetivos: [string]            # qué le importa
+    conocimiento_privado: [string] # solo lo ve este agente
+    herramientas: [busqueda_web]   # opcional
+    modelo: string                 # opcional: proveedor/modelo
+    temperatura: number            # opcional
+
+arbitro:
+  modelo: string                   # opcional
+  criterios: [string]              # cómo decide entre versiones incompatibles
+  plausibilidad: string            # qué hace con afirmaciones sin mecanismo
+
+interaccion:
+  modo: rondas_sincronizadas
+  visibilidad: estado | estado_e_intervenciones
+                                   # estado: cada agente ve solo el estado del mundo
+                                   # estado_e_intervenciones: ve también lo que dijeron los demás
+  exigencias:
+    mecanismo: obligatorio
+    dato: recomendado | obligatorio
+    confianza: obligatorio
+  max_afirmaciones_por_tramo: 5
+
+variables:                         # solo si hay repeticiones
+  - id: string
+    descripcion: string
+    aplica_a: evento | interaccion | agente.<id>
+    valores: [string]              # se elige uno por ejecución
+
+ejecucion:
+  repeticiones: 1
+  semilla: number                  # opcional, para reproducir una ejecución
+  modo: ligero | intensivo
+  proveedor_defecto: string        # opcional en modo ligero
+
+resultados:
+  metricas:                        # el árbitro las puntúa en cada tramo
+    - id: string
+      pregunta: string
+      tipo: escala | categorica | numerica
+      opciones: [string]           # para categorica; 1-5 por defecto en escala
+  informe:
+    secciones: [string]            # estructura del informe final
+    extension: corta | media | larga
+
+seguimiento:
+  biblia: [estados, intervenciones, memoria_agentes, fuentes]
+  modos: [entrevista, zoom, rama]

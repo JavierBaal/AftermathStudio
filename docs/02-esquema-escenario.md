@@ -1,0 +1,83 @@
+# Aftermath Studio — Esquema del escenario v0.1
+
+12 de noviembre de 2026 · Fran Barbero
+
+Documento vivo: https://claude.ai/artifact/DetSZyD3cQea6c3j9XhYrc
+
+El esquema es un archivo YAML que describe una simulación completa: el configurador lo genera entrevistando al usuario, el motor lo ejecuta sin saber nada del tema y la biblia del escenario guarda todo lo que produce.
+
+- Plantilla completa: [`esquema/plantilla-escenario.yaml`](../esquema/plantilla-escenario.yaml)
+- Ejemplo real: [`escenarios/vision-ultravioleta/escenario.yaml`](../escenarios/vision-ultravioleta/escenario.yaml)
+
+## Los bloques del esquema
+
+Diez bloques cubren cualquier simulación. Los cuatro primeros describen el mundo; los seis siguientes, cómo se ejecuta y qué se obtiene.
+
+| Bloque | Qué describe | Quién lo usa |
+| --- | --- | --- |
+| `meta` | Identidad: título, tipo (especulativo o negocio), idioma, versión | Todos |
+| `evento` | La premisa, el momento cero, el alcance y los supuestos que se dan por fijos | Configurador, agentes, árbitro |
+| `cronologia` | Los tramos en los que avanza la simulación | Motor |
+| `agentes` | Cada rol: tipo, perfil, objetivos, conocimiento privado, herramientas y modelo | Motor, agentes |
+| `arbitro` | Cómo consolida cada tramo y resuelve contradicciones | Árbitro |
+| `interaccion` | Qué ve cada agente de los demás y qué exige cada afirmación | Motor, agentes |
+| `variables` | Lo que cambia entre repeticiones para obtener futuros distintos | Motor |
+| `ejecucion` | Repeticiones, semilla, modo (ligero o intensivo) y proveedor por defecto | Motor |
+| `resultados` | Métricas que el árbitro puntúa y estructura del informe | Árbitro, análisis |
+| `seguimiento` | Qué se guarda en la biblia y qué modos de exploración se permiten | Motor, Claude |
+
+Dos reglas del formato:
+
+- **Todo supuesto es explícito.** Lo que el usuario no dijo y el configurador decidió queda marcado con `fuente: configurador`, para que el usuario lo vea y lo corrija.
+- **El motor no interpreta el tema.** Solo lee bloques, lanza agentes y guarda salidas. Todo el conocimiento del escenario está en el archivo.
+
+## Contratos de salida
+
+Agentes y árbitro responden siempre con la misma estructura. Así el motor puede guardar, comparar y contar sin entender el contenido.
+
+**Intervención de un agente en un tramo.** Cada afirmación lleva su mecanismo, su dato si lo hay y su grado de confianza:
+
+```yaml
+intervencion:
+  agente: economista
+  tramo: h1
+  afirmaciones:
+    - texto: "Las bolsas suspenden la cotización en las primeras horas"
+      mecanismo: "Los reguladores activan los cortacircuitos ante caídas bruscas por incertidumbre"
+      dato: "Descripción del mecanismo de suspensión del mercado en cuestión"
+      fuente: "URL consultada"        # vacío si no hay dato buscado
+      confianza: media               # baja | media | alta
+      areas_afectadas: [finanzas, politica]
+  reacciona_a: [politico/h1/2]       # afirmaciones de otros agentes que tiene en cuenta
+```
+
+**Estado del mundo al cerrar un tramo.** Lo redacta el árbitro y es el punto de partida del tramo siguiente:
+
+```yaml
+estado_del_mundo:
+  tramo: h1
+  resumen: "Tres o cuatro frases que cualquier agente pueda leer"
+  hechos_establecidos:               # canon: lo que ya no se puede contradecir
+    - id: h1-01
+      texto: "..."
+      origen: [psicologo/h1/1, sociologo/h1/3]
+  tensiones_abiertas: ["..."]        # lo que el siguiente tramo debe resolver
+  contradicciones_resueltas:
+    - entre: [economista/h1/2, politico/h1/1]
+      decision: "..."
+      motivo: "..."
+  metricas:                          # las definidas en el bloque resultados
+    alarma_social: 4
+```
+
+Los identificadores del tipo `agente/tramo/número` permiten rastrear cualquier hecho del informe hasta la intervención que lo originó.
+
+## Decisiones abiertas
+
+Cinco puntos que conviene cerrar antes de montar la skill:
+
+- [ ] **Supuestos del ultravioleta.** Confirmar o cambiar s2, s3 y s4: qué rango se ve, si hay molestias y si se sabe la causa. Cambian mucho el escenario.
+- [ ] **Visibilidad entre agentes.** Propuesta: `estado_e_intervenciones`, con más efectos cruzados a cambio de más contexto por agente y más riesgo de convergencia. La alternativa `estado` es más barata y aislada.
+- [ ] **Número de agentes.** 11 agentes × 10 tramos son 110 intervenciones más 10 consolidaciones. En modo ligero es mucho uso. Opción: empezar con 6 agentes y los 4 primeros tramos para validar.
+- [ ] **Formato del archivo.** YAML para que lo lean personas; más adelante, un JSON Schema para que el motor valide antes de ejecutar.
+- [ ] **Métricas.** Las cuatro propuestas son orientativas. Decidir qué se quiere poder comparar entre ejecuciones cuando haya repeticiones.
