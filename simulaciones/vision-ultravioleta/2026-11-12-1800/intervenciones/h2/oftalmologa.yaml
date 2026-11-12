@@ -1,0 +1,35 @@
+intervencion:
+  agente: oftalmologa
+  tramo: h2
+  afirmaciones:
+    - texto: "En la segunda hora queda claro que en Europa sí hay deslumbramiento en noviembre, aunque el índice UV sea bajo. Molesta más en la calle, al conducir hacia el sol y en superficies claras o mojadas que mirando al cielo a mediodía, y los oftalmólogos lo explican en los medios como un problema de ángulo y no de cantidad de sol."
+      mecanismo: "El índice UV mide la radiación que cae sobre una superficie horizontal y pesa sobre todo el UV-B. Al ojo, que mira en horizontal y queda protegido por la ceja cuando el sol está alto, le llega la luz directa sobre todo cuando el sol está bajo. En noviembre, entre las 11:00 y las 12:00 en Madrid, el sol está a unos 30 grados sobre el horizonte, justo en la franja en la que entra de frente en el campo visual. A eso se suma que el UV-A varía menos con la estación que el UV-B. Por eso el índice UV de 2 que cita el economista no permite deducir que la molestia sea escasa."
+      dato: "En invierno, con el sol a 30 grados en su punto más alto, el índice UV fue 1 a mediodía, pero el índice UV ocular con el maniquí de cara al sol rondó 4 y superó al índice UV durante todo el día. La exposición ocular máxima se dio con el sol a unos 40 grados (medición de UV-B en Japón)."
+      fuente: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8185396/"
+      confianza: media
+      areas_afectadas: [salud, transporte, comunicacion]
+    - texto: "A media mañana se ve que la intensidad de los colores nuevos depende de la edad. Niños y adolescentes los describen vivos y molestos, los adultos de mediana edad, más tenues, y muchas personas mayores casi no los notan en el centro de la vista. En grupos familiares y redes la comparación entre abuelos y nietos se suma al rumor de que el cambio es selectivo."
+      mecanismo: "El cambio afecta a la percepción, pero el UV-A tiene que atravesar el cristalino para llegar a la retina. El cristalino infantil es casi transparente al UV, y con los años amarillea y absorbe cada vez más. A los operados de cataratas con lente intraocular moderna con filtro UV les pasa lo mismo que a quienes llevan gafas UV400. Es el mismo filtro óptico que el de las gafas, solo que dentro del ojo, y por eso no se puede corregir quitándose nada."
+      dato: "El cristalino transmite más del 75 % de la radiación UV en menores de 10 años y en torno al 10 % en mayores de 25."
+      fuente: "https://zeiss.com/vision-care/int/better-vision/health-prevention/why-kids-glasses-should-offer-the-best-uv-protection.html"
+      confianza: media
+      areas_afectadas: [salud, sociedad, comunicacion, desinformacion]
+    - texto: "Las sociedades científicas de oftalmología y optometría son las primeras instituciones que difunden una explicación técnica del 'yo no lo veo', antes que cualquier gobierno. Proponen una prueba casera: mirar un cielo luminoso o una pared blanca al sol con las gafas o lentillas puestas y luego sin ellas. La prueba se viraliza y frena la parte del rumor que atribuía el fenómeno a una diferencia entre personas."
+      mecanismo: "La sociedad científica no necesita conocer la causa para explicar por qué un filtro UV400 corta lo que ahora ve el ojo, porque es óptica de manual. Además, sus portavoces tienen un incentivo para hablar: reducir las urgencias por miedo a una lesión que vieron en la primera hora. Los gobiernos siguen sin asignar el asunto a nadie, así que el primer mensaje con autoridad sale de colegios profesionales y no de Sanidad. La prueba funciona porque cada persona la comprueba por sí misma en diez segundos, y eso convence más que cualquier comunicado en una crisis donde ninguna imagen sirve como prueba."
+      dato: ""
+      fuente: ""
+      confianza: media
+      areas_afectadas: [salud, comunicacion, desinformacion, instituciones]
+    - texto: "En las zonas con UV alto donde se han agotado las gafas homologadas, se venden gafas de sol baratas, muy oscuras y sin filtro UV real. Quien las usa nota más deslumbramiento y fatiga que sin ellas, y empiezan las primeras quejas de que las gafas no sirven, que se suman a la confusión sobre qué protege."
+      mecanismo: "Un cristal tintado sin filtro UV reduce la luz visible, así que la pupila se dilata para compensar. Como el cristal deja pasar el UV-A, entra en el ojo más UV-A que sin gafas. Cuando la demanda supera a las existencias, el mercado informal llena el hueco con producto sin certificar, y el comprador no puede distinguirlo a simple vista. Ahora el usuario nota la diferencia con su propio ojo: unas gafas UV400 de verdad le devuelven la visión de antes y unas falsas no."
+      dato: ""
+      fuente: ""
+      confianza: media
+      areas_afectadas: [salud, consumo, comercio_informal]
+    - texto: "Las consultas cambian en la segunda hora. Bajan las llamadas por miedo a quemarse la retina y suben las de dolor de cabeza, ojos cansados y crisis de migraña en quienes han pasado un rato al aire libre o junto a ventanas soleadas. Los oftalmólogos derivan parte de ellas a atención primaria y neurología."
+      mecanismo: "Cuando alguien se deslumbra de forma sostenida, entrecierra los ojos, contrae la musculatura de la frente y activa las vías del trigémino que intervienen en la fotofobia, y eso produce cefalea al cabo de una o dos horas. Las personas con migraña tienen esas vías sensibilizadas y la luz intensa es uno de sus desencadenantes conocidos. Que las exploraciones de la primera hora salieran normales y empiece a circular una explicación técnica reduce el miedo a la lesión, mientras que la molestia acumulada crece con el tiempo de exposición."
+      dato: ""
+      fuente: ""
+      confianza: media
+      areas_afectadas: [salud, sanidad_publica, trabajo]
+  reacciona_a: [economista/h1/3, disruptor/h1/1]
