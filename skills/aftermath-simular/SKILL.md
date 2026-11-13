@@ -230,7 +230,7 @@ Tu evaluación del tramo anterior, como referencia: {si existe}
 
 ## Tu tarea
 1. Para cada métrica, elige el nivel cuya descripción se ajusta mejor a los hechos establecidos, no a las tensiones ni a lo que podría pasar.
-2. Si el mundo está entre dos niveles, elige el inferior y dilo en la justificación.
+2. Si el mundo está entre dos niveles, elige el más cercano según los hechos, no el inferior ni el superior por prudencia, y di en la justificación qué falta para alcanzar el siguiente.
 3. Justifica cada valor en una o dos frases: por qué este nivel y no el contiguo. Cita en apoyos los ids de los hechos que lo sostienen.
 4. Mide el mundo en su conjunto. Si hay diferencias claras entre regiones, dilo en la justificación.
 

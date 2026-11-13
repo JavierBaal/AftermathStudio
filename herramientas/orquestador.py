@@ -231,7 +231,7 @@ elif CMD == "evaluador":
         else:
             p += "Escala de 1 a 5.\n"
     p += "\n## Tu tarea\n1. Para cada métrica, elige el nivel cuya descripción se ajusta mejor a los hechos establecidos, no a las tensiones ni a lo que podría pasar.\n"
-    p += "2. Si el mundo está entre dos niveles, elige el inferior y dilo en la justificación.\n"
+    p += "2. Si el mundo está entre dos niveles, elige el más cercano según los hechos, no el inferior ni el superior por prudencia, y di en la justificación qué falta para alcanzar el siguiente.\n"
     p += "3. Justifica cada valor en una o dos frases: por qué este nivel y no el contiguo. Cita en apoyos los ids de los hechos que lo sostienen.\n"
     p += "4. Mide el mundo en su conjunto. Si hay diferencias claras entre regiones, dilo en la justificación.\n"
     p += f"\n## Formato de respuesta\nSolo este YAML (comillas dobles en los textos):\n\nevaluacion:\n  tramo: {T}\n  metricas:\n" + "".join(f"    - id: {m['id']}\n      valor: ...\n      justificacion: \"...\"\n      apoyos: [ids de hechos]\n" for m in METS)

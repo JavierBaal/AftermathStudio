@@ -92,5 +92,6 @@ Los identificadores del tipo `agente/tramo/número` y `tramo-NN` permiten rastre
 
 ## Historial
 
+- **v0.2, revisión del 13/11/2026.** Sin cambios de formato. El evaluador ya no elige el nivel inferior cuando duda entre dos: elige el más cercano según los hechos y explica qué falta para el siguiente. Nueva métrica recomendada para escenarios de crisis: `relatos_en_competencia`. Motivos en [`docs/03-aprendizajes-y-decisiones.md`](03-aprendizajes-y-decisiones.md).
 - **v0.2 (12/11/2026).** Procedencia `externa` en supuestos; tipo de agente `actor`; `incentivos` y `restricciones`; tipo de evidencia por afirmación; regla de cifras sin fuente; evaluador separado del árbitro; niveles descritos en las métricas; registro de modelos por ejecución. Motivos en [`docs/03-aprendizajes-y-decisiones.md`](03-aprendizajes-y-decisiones.md).
 - **v0.1 (12/11/2026).** Primera versión. Se añadieron después `ejecucion.agentes`, `ejecucion.tramos` y `arbitro.max_hechos_por_tramo`. Decisiones cerradas antes de la skill: supuestos del ultravioleta confirmados, visibilidad `estado_e_intervenciones`, primera prueba con 6 agentes y 4 tramos, YAML como formato y cuatro métricas iniciales.

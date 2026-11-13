@@ -86,7 +86,13 @@ Detalle en [`simulaciones/vision-ultravioleta/comparativa-tres-ejecuciones.md`](
 
 ## 5. Pendientes
 
-- Evaluador: sustituir la regla "ante la duda, el inferior" por "el nivel más cercano, justificado", y añadir métricas de dinámica (polarización, relatos en competencia).
+- ~~Evaluador: sustituir la regla "ante la duda, el inferior" por "el nivel más cercano, justificado", y añadir métricas de dinámica.~~ Aplicado el 13/11/2026 (ver sección 6).
+- Cuarta ejecución con el escenario v6 para comprobar si las métricas captan ya la tensión.
 - Si se mantiene la calma: probar la variable `explicacion_publica: conspirativa` o mezclar modelos.
 - Modos de seguimiento (entrevista, zoom y rama).
 - Motor MCP y modo intensivo.
+
+## 6. Cambios aplicados tras la tercera ejecución (13/11/2026)
+
+- **Regla del evaluador.** Antes: "si el mundo está entre dos niveles, elige el inferior". Ahora: "elige el más cercano según los hechos, no el inferior ni el superior por prudencia, y di qué falta para alcanzar el siguiente". Motivo: la regla anterior empujaba de forma sistemática hacia la calma; en la tercera ejecución la alarma quedó en 3 estando, según el propio evaluador, "entre 3 y 4". Aplicado en `herramientas/orquestador.py` y en la skill.
+- **Métrica `relatos_en_competencia`** (escala de 1 a 5, con niveles descritos). Mide el grado de enfrentamiento entre relatos sobre lo que está pasando: de un relato compartido (1) a una fractura en la que grupos amplios viven en relatos incompatibles (5). Motivo: en la tercera ejecución lo que de verdad cambió fue la competencia entre el recuento oficial y el del agitador, y ninguna métrica lo registraba. Se añade al escenario ultravioleta, que pasa a la versión 6, y se recomienda para cualquier escenario de crisis.

@@ -9,7 +9,7 @@ meta:
   tipo: especulativo
   idioma: es
   descripcion: "Toda la humanidad empieza a ver el espectro ultravioleta a la vez."
-  version: 5
+  version: 6
 
 evento:
   premisa: "Todos los seres humanos desarrollan a la vez la capacidad de ver el espectro ultravioleta."
@@ -188,6 +188,15 @@ resultados:
         3: "Dividida: la versión oficial convive con una sospecha amplia"
         4: "La mayoría sigue las indicaciones oficiales, con reservas"
         5: "Confianza alta; las instituciones marcan el relato"
+    - id: relatos_en_competencia
+      pregunta: "Grado de enfrentamiento entre relatos sobre lo que está pasando"
+      tipo: escala
+      niveles:
+        1: "Un relato dominante, compartido por instituciones, medios y público"
+        2: "Relato dominante; versiones alternativas marginales, sin canales ni audiencia propios"
+        3: "El relato oficial y uno alternativo conviven; el alternativo tiene audiencia y canales propios"
+        4: "Relatos enfrentados con cifras o pruebas incompatibles; los medios generalistas recogen los dos"
+        5: "Fractura: grupos amplios viven en relatos incompatibles y desconfían de cualquier fuente del otro"
     - id: respuesta_gobiernos
       pregunta: "Respuesta dominante de los gobiernos"
       tipo: categorica
