@@ -1,0 +1,74 @@
+estado_del_mundo:
+  tramo: h2
+  resumen: "En la segunda hora el mundo empieza a ordenar el suceso: los medios encuentran una imagen que emitir en la fotografía ultravioleta de archivo, los oftalmólogos explican que las manchas de la piel siempre estuvieron ahí y fijan un uso situacional de las gafas de sol, y la subida bursátil de las gafas se desinfla mientras la volatilidad salta a la cosmética con protector solar. El Gobierno de España pasa de la contención a la coordinación sin medidas excepcionales, pero las comunidades dan instrucciones distintas a los colegios y el debate mediático gira de '¿es peligroso?' a '¿quién manda?', terreno en el que el relato de ocultación del agitador entra en la política a través de la oposición. Los desmentidos sobre las 'marcas ocultas' llegan, pero el agitador los convierte en confesión, apoyado en que algunas marcas forenses sí estaban hechas para no verse, y las retiradas de las plataformas empujan a su audiencia a canales sin moderación. El efecto cruzado más peligroso es sanitario: la curiosidad por ver más empuja a lámparas UV y a mirar cerca del sol, y las lesiones reales llegarán con seis a doce horas de retraso, justo cuando encajan con el relato de que 'algo nos han hecho'."
+  hechos_establecidos:
+    - id: h2-01
+      texto: "La subida de EssilorLuxottica y de los valores de gafas de sol pierde fuerza y devuelve parte de lo ganado: los analistas separan el pico de demanda transitorio del negocio recurrente y el economista presenta en público su advertencia de la hora 1 como primer acierto. Contribuye la pauta de la sociedad de oftalmología, que rebaja la idea de que todo el mundo necesita gafas: gafas homologadas con filtro UV a pleno sol, sobre todo para moto, bici y deporte, y sin ellas a la sombra o en interiores, donde los colores nuevos se ven sin molestias; denuncia además que no existen gafas que potencien la visión UV."
+      origen: [economista/h2/1, oftalmologa/h2/5]
+    - id: h2-02
+      texto: "Los usuarios de gafas graduadas descubren que a través de sus lentes ven los colores nuevos muy atenuados, porque materiales como el policarbonato bloquean el ultravioleta por sí mismos o llevan tratamiento anti-UV, y que los ven al mirar por encima o por fuera de la montura. Muchos se quitan las gafas en la calle, y la sociedad de oftalmología pide que no lo hagan para conducir, ir en bici o cruzar, lo que suma riesgo a peatones y ciclistas, ya expuestos al deslumbramiento completo."
+      origen: [oftalmologa/h2/2]
+    - id: h2-03
+      texto: "La visibilidad del protector solar genera dos flujos opuestos a la vez: parte de quienes lo llevan, sobre todo en zonas de sol fuerte y en oficinas y centros educativos europeos, se lo quita para no mostrar la máscara, mientras otros, alarmados por el daño solar que ahora ven en su piel, compran protección. Sin datos de ventas, los valores de cosmética y protección solar como L'Oréal o Beiersdorf se mueven con fuerza en ambos sentidos y sin tendencia clara, y los dermatólogos quedan en la posición incómoda de recomendar algo que ahora estigmatiza; el riesgo real que nadie atribuye bien son las quemaduras por quitarse la protección."
+      origen: [economista/h2/2, disruptor/h2/2]
+    - id: h2-04
+      texto: "Surge una demanda inesperada de lámparas de luz negra, lámparas de uñas UV y linternas UV para ver los colores nuevos en interiores, donde la iluminación LED no los muestra, con subidas de precio y agotamiento de existencias. El agitador presenta el aviso de no mirar al sol ni a lámparas UV como prueba de que 'no quieren que miremos', y parte de su audiencia busca las 'marcas' con esas fuentes o mirando cerca del sol. Ambas conductas preparan casos de fotoqueratitis por exposición, no por el fenómeno."
+      origen: [economista/h2/4, agitador/h2/2]
+    - id: h2-05
+      texto: "Circulan titulares y vídeos sobre los 'primeros heridos oculares', que en realidad son deslumbramiento, fatiga y consultas por ansiedad. La sociedad de oftalmología publica una nota de triaje que separa lo benigno del fenómeno (deslumbramiento, fatiga, asimetría de percepción) de las lesiones por mirar al sol o a lámparas UV, y avisa de que estas aún no se ven porque la fotoqueratitis da síntomas entre 6 y 12 horas después de la exposición: la oleada de casos llegará esta tarde y noche, y se anticipa para que no se lea como un daño nuevo del fenómeno."
+      origen: [medios/h2/3, oftalmologa/h2/1]
+    - id: h2-06
+      texto: "El Gobierno de España pasa de la contención a la coordinación: convoca el Consejo de Seguridad Nacional o su Comité de Situación, previsto en la Ley 36/2015, para ordenar bajo un mensaje único los avisos de Estado, comunidades y ayuntamientos, sin declarar situación de interés para la Seguridad Nacional ni estado de alarma. Después comparecen la portavoz o el ministro de Sanidad junto a representantes de las sociedades de oftalmología con un mensaje limitado a lo que respaldan los técnicos (deslumbramiento transitorio, no mirar al sol ni a lámparas UV, precaución extra en moto y bici), sin pronunciarse sobre causa ni permanencia, y anuncian una comparecencia del presidente en el Congreso a petición propia en los próximos días."
+      origen: [politico/h2/1, politico/h2/2]
+    - id: h2-07
+      texto: "Las consejerías de Educación envían instrucciones a lo largo de la hora, distintas entre comunidades: casi todas mantienen los centros abiertos, permiten la recogida por el procedimiento ordinario y varias ordenan recreos en interior; ninguna cierra. Mientras llegan, las aulas se vacían a trozos según decide cada familia y los alumnos que quedan se agrupan sin clase y con el móvil permitido. La sociedad de oftalmología aporta la primera pauta clínica para colegios (recreo a la sombra o con gorra de visera y no mirar al sol, sin mandar a nadie a casa) a partir de un gradiente por edad: los niños, con un cristalino mucho más transparente al ultravioleta, describen los colores nuevos con más intensidad y sufren más deslumbramiento, y los mayores ven menos. La disparidad entre comunidades se convierte en nuevo frente de crítica, y alguna gobernada por la oposición se desmarca con mensaje propio."
+      origen: [politico/h2/3, adolescente/h2/1, oftalmologa/h2/3]
+    - id: h2-08
+      texto: "Televisiones y digitales encuentran imagen que emitir: recuperan el vídeo de 2014 'How the sun sees you', grabado con cámara UV, y piden imágenes ultravioleta propias a laboratorios, policía científica y fotógrafos técnicos. Esas imágenes en grises o falso color se convierten en la ilustración estándar y, junto con el mensaje de la oftalmóloga de que las manchas y las máscaras de protector no son una enfermedad ni una quemadura sino lo que siempre estuvo ahí y ahora se ve porque cambió el ojo del observador, frenan parte de la alarma por la piel. A la vez, los negacionistas las señalan como prueba de montaje porque no se parecen a lo que la gente dice ver."
+      origen: [medios/h2/1, oftalmologa/h2/4]
+    - id: h2-09
+      texto: "Los verificadores desmienten las capturas falsas de comunicados y la tesis de las 'marcas ocultas' con documentos públicos como la guía del BCE sobre los elementos de seguridad del euro visibles con luz ultravioleta. El agitador no retrocede: presenta la aclaración como confesión ('ahora admiten que estaba marcado') y desplaza la sospecha a envases, ropa y señalización. Le ayuda un fragmento de verdad: hay marcas hechas para no verse que ahora ve todo el mundo, como los marcadores forenses tipo SmartWater, los rociadores antiintrusión, los sellos de locales y las tintas de seguridad, de modo que el marcado forense pierde su invisibilidad, quien lleva algo marcado puede detectarlo y limpiarlo, y empresas de seguridad y policías reciben consultas. El bulo se mueve también en broma por grupos de clase y de familia."
+      origen: [medios/h2/2, agitador/h2/1, disruptor/h2/1, adolescente/h2/4]
+    - id: h2-10
+      texto: "Las grandes plataformas activan protocolos de crisis (paneles, etiquetas, menos difusión de consejos de salud falsos) pero, sin una autoridad sanitaria común a la que enlazar, cada plataforma e idioma remite a fuentes distintas; además retiran contenido racista sobre las 'caras negras' del protector por sus normas contra el odio. España y otros gobiernos piden a la Comisión Europea que presione, y esta recuerda a las plataformas de muy gran tamaño sus obligaciones bajo la Ley de Servicios Digitales sin activar el mecanismo de respuesta a crisis, que exige antes una recomendación de la Junta. El agitador convierte cada retirada en historia de censura y lleva a su audiencia a su canal propio de mensajería, donde la versión más dura circula sin moderación ni verificadores."
+      origen: [medios/h2/4, politico/h2/5, agitador/h2/4]
+  tensiones_abiertas:
+    - "Si la oleada nocturna de fotoqueratitis se lee como lesión por conducta, como anticipan los oftalmólogos, o como el daño diferido del fenómeno que el agitador lleva horas anunciando."
+    - "En España el encuadre mediático pasa de '¿es peligroso?' a '¿quién manda?' y cuentas de la oposición comparten clips del agitador sobre la descoordinación; no está decidido si la coordinación del Consejo de Seguridad Nacional y la comparecencia anunciada desactivan esa presión o si el relato de ocultación se consolida en la política institucional, ni si la OMS convoca el Comité de Emergencias."
+    - "Si el abandono del protector solar por vergüenza produce quemaduras reales y si la demanda neta de cosmética con SPF cae o sube."
+    - "Si los jóvenes rechazan las gafas de sol para seguir viendo los colores y con ello se acorta del todo el tirón de demanda."
+    - "Cómo responden policías y empresas de seguridad a la pérdida de invisibilidad del marcado forense y si se produce una ola de borrado de rastros."
+    - "Cómo reaccionan Wall Street en su apertura, con precios de referencia previos formados de madrugada, y las bolsas asiáticas en su siguiente sesión."
+  contradicciones_resueltas:
+    - entre: [medios/h2/3, oftalmologa/h1/5]
+      decision: "Se establece que las lesiones reales por mirar al sol o a lámparas UV aflorarán con un desfase de 6 a 12 horas, no en las horas inmediatas, y que la propia sociedad de oftalmología lo anticipa en su nota de triaje."
+      motivo: "Medios y oftalmologa/h2/1 coinciden en la latencia con dato y fuente clínica; la propia oftalmóloga corrige en este tramo su calendario anterior."
+    - entre: [politico/h2/3, adolescente/h2/1]
+      decision: "Las circulares autonómicas llegan a lo largo de la hora y de forma desigual; en muchos centros aún no habían llegado cuando las aulas empezaron a vaciarse según la decisión de cada familia."
+      motivo: "Ambas tienen mecanismo plausible y son compatibles si se entiende que la llegada de instrucciones es escalonada; ninguna aporta dato que excluya a la otra."
+    - entre: [adolescente/h2/5, economista/h1/2]
+      decision: "Se recoge que el tirón bursátil de las gafas se desinfla y que la pauta clínica reduce su uso a pleno sol, pero el rechazo masivo entre los jóvenes no entra como hecho y queda como tensión abierta."
+      motivo: "La afirmación del adolescente es especulación sin dato; la del economista sobre la pérdida de fuerza tiene mecanismo y dato con fuente."
+  descartadas:
+    - id: economista/h2/3
+      motivo: "Amplía y concreta el hecho h1-01 sobre la reacción estadounidense de madrugada sin cambiar el rumbo del mundo; su efecto queda recogido como tensión de la apertura de Wall Street."
+    - id: economista/h2/5
+      motivo: "Inferencia sin dato que confirma la normalidad ya descrita en h1-01; no añade una consecuencia nueva."
+    - id: politico/h2/4
+      motivo: "Aviso declarativo sin efecto en este tramo que solo concreta el oportunismo comercial ya recogido en h1-02."
+    - id: adolescente/h2/2
+      motivo: "Efecto local y de detalle (burlas y lavados de cara en un instituto) que concreta la fricción por el protector ya recogida en h1-08 y h2-03."
+    - id: adolescente/h2/3
+      motivo: "Especulación sin dato y efecto cultural de detalle que no cambia el rumbo del mundo en este tramo."
+    - id: adolescente/h2/5
+      motivo: "Especulación sin dato; se deja como tensión abierta sobre la demanda de gafas entre los jóvenes."
+    - id: agitador/h2/3
+      motivo: "Especulación sin dato; la extensión del relato a la cosmética y la difusión de caras sin consentimiento no tienen respaldo suficiente para entrar en el canon."
+    - id: agitador/h2/5
+      motivo: "Se recoge solo como tensión abierta: el cruce entre agitador y oposición es plausible pero sin dato, y ocupa el mismo hueco que el cambio de encuadre mediático."
+    - id: medios/h2/5
+      motivo: "Se recoge como tensión abierta junto a agitador/h2/5; es inferencia sin dato y el límite de hechos obliga a priorizar los que cambian el rumbo en otras áreas."
+    - id: disruptor/h2/3
+      motivo: "Efecto de detalle que amplía la dependencia del UV-A en la escena ya establecida en h1-08 y h1-09; la fuente del dato es poco sólida y no supera el límite de hechos."
+    - id: disruptor/h2/4
+      motivo: "Confianza baja y especulación sin dato."

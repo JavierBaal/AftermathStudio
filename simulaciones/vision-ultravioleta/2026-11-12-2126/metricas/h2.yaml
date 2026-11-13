@@ -1,0 +1,23 @@
+evaluacion:
+  tramo: h2
+  metricas:
+    - id: alarma_social
+      valor: 3
+      justificacion: "Siguen los cambios de conducta visibles en parte de la población: compra y agotamiento de lámparas UV, gente que se quita las gafas graduadas o el protector solar, aulas que se vacían según decide cada familia y consultas por ansiedad. No llega a 4 porque no hay acaparamiento de bienes básicos, colapso de servicios ni protestas, y parte de la alarma por la piel se frena con las imágenes UV y la explicación oftalmológica."
+      apoyos: [h2-02, h2-03, h2-04, h2-05, h2-07, h2-08]
+    - id: confianza_institucional
+      valor: 3
+      justificacion: "La versión oficial gana cuerpo (mensaje único coordinado con los técnicos, pauta y triaje de oftalmología, desmentidos de verificadores) pero convive con una sospecha amplia: el agitador convierte los desmentidos en confesión apoyado en marcas forenses reales y su audiencia migra a canales sin moderación. No sube a 4 porque las pautas oficiales no se siguen de forma mayoritaria y no baja a 2 porque los medios tradicionales y las plataformas siguen amplificando la versión oficial."
+      apoyos: [h2-05, h2-06, h2-08, h2-09, h2-10]
+    - id: respuesta_gobiernos
+      valor: comunicacion
+      justificacion: "El mundo está entre comunicacion y medidas_sectoriales y se elige la inferior: el Gobierno de España coordina avisos bajo un mensaje único sin medidas excepcionales y la Comisión Europea solo recuerda obligaciones a las plataformas, aunque varias consejerías de Educación ordenan recreos en interior sin cerrar centros. Esas instrucciones escolares son desiguales y limitadas a algunas comunidades españolas, por lo que no bastan para que la respuesta dominante sean medidas sectoriales; del resto de países no hay hechos nuevos."
+      apoyos: [h2-06, h2-07, h2-10]
+    - id: impacto_economico
+      valor: 2
+      justificacion: "Los movimientos siguen siendo sectoriales: la subida de las gafas de sol se desinfla, la volatilidad salta a la cosmética con protector solar y suben precios y se agotan lámparas UV. No llega a 3 porque no hay caídas generales de índices ni disrupción operativa en varios sectores; Wall Street y Asia aún no han reaccionado en sesión."
+      apoyos: [h2-01, h2-03, h2-04]
+    - id: adaptacion
+      valor: 2
+      justificacion: "Ya hay primeras pautas claras (uso situacional de gafas de sol, triaje oftalmológico, pauta para colegios, mensaje oficial único), pero poco seguidas: muchos se quitan las gafas graduadas en la calle, se abandona el protector y parte de la población mira con lámparas UV o cerca del sol. No llega a 3 porque no hay indicio de que esas pautas las haya adoptado una parte relevante de la población y las instrucciones a colegios llegan desiguales."
+      apoyos: [h2-01, h2-02, h2-03, h2-04, h2-05, h2-07]

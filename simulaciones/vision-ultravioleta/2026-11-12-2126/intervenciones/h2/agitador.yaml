@@ -1,0 +1,71 @@
+intervencion:
+  agente: agitador
+  tramo: h2
+  afirmaciones:
+  - texto: 'En la segunda hora, cuando bancos centrales, policías y verificadores empiezan a explicar que las marcas que se ven en billetes y documentos son medidas de seguridad conocidas y públicas, el agitador no retrocede: reencuadra la aclaración como una confesión (''ahora admiten que estaba marcado'') y desplaza la sospecha de los billetes a lo que todavía no tiene explicación oficial, como marcas en envases, ropa o señalización.'
+    mecanismo: Las fibras y elementos que brillan bajo UV en los billetes de euro están documentados por el BCE en sus guías para el público, así que la explicación llega rápido y es sólida. Para el agitador, desmentir sería perder audiencia; aceptar el hecho y cambiar su significado (de 'medida antifalsificación' a 'prueba de que nos marcan') le permite conservar el relato. Como en la hora 1 ya pidió no fiarse de las autoridades, la aclaración oficial llega desacreditada de antemano ante su audiencia, y el foco se traslada a objetos donde la verificación tarda más.
+    dato: El BCE indica que, bajo luz ultravioleta, en los billetes de euro aparecen fibras y elementos impresos que brillan en distintos colores como medida de seguridad.
+    fuente: https://www.ecb.europa.eu/euro/pdf/material/quick_guide_specimen_en.pdf
+    confianza: alta
+    evidencia: inferencia
+    areas_afectadas:
+    - desinformacion
+    - redes_sociales
+    - confianza_institucional
+    - banca
+    id: agitador/h2/1
+  - texto: 'El agitador se apropia del aviso de la oftalmóloga de no mirar al sol ni a lámparas UV y lo presenta ante su audiencia como prueba de que ''no quieren que miremos''. Parte de sus seguidores hace justo lo contrario: busca las marcas con lámparas de luz negra, linternas UV o mirando cerca del sol, lo que suma casos de fotoqueratitis y molestias a las urgencias oftalmológicas en las horas siguientes.'
+    mecanismo: Un aviso de prudencia que llega después de una advertencia previa contra las fuentes oficiales funciona como confirmación dentro de una comunidad que se define por 'ver la verdad'. El agitador no necesita recomendar conductas de riesgo; le basta con sembrar sospecha sobre el aviso. La curiosidad por ver las 'marcas' empuja hacia las fuentes de UV más intensas, y la fototoxicidad de siempre sigue actuando aunque el fenómeno no deje daño.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - desinformacion
+    - sanidad_oftalmologica
+    - redes_sociales
+    id: agitador/h2/2
+  - texto: 'Con la piel y las ''máscaras'' de protector solar ya en conversación, el agitador amplía su relato a la industria cosmética: presenta el protector visible en UV como otra ''marca'' que nos ponían sin saberlo y pide a su audiencia que mande fotos de caras con la máscara. Su canal se llena de imágenes de personas identificables, sin su consentimiento, que circulan con burla o sospecha, y la fricción estética del protector solar se carga de connotación conspirativa.'
+    mecanismo: La máscara oscura o clara del protector es el efecto más visible y personal del suceso, y no se puede enseñar en foto, así que el relato tiene que apoyarse en testimonio y en señalar a quien la lleva. Sumar una industria más al reparto de culpables amplía su audiencia potencial y alimenta la urgencia que sostiene las donaciones. Pedir material a la audiencia, como en la hora 1, le da contenido gratis, pero expone a terceros que no han elegido aparecer.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - cohesion_social
+    - privacidad
+    - desinformacion
+    - sector_cosmetico
+    - redes_sociales
+    id: agitador/h2/3
+  - texto: Las grandes plataformas, que en la segunda hora empiezan a aplicar criterios de moderación sobre el suceso, retiran o limitan algunos fragmentos del agitador por desinformación sanitaria. Él convierte cada retirada en contenido ('me censuran por enseñar las marcas'), lleva a su audiencia a su canal propio de mensajería y la versión más dura del relato pasa a moverse donde no hay moderación.
+    mecanismo: 'Las plataformas reaccionan con retraso y valor a valor, y retirar contenido a una cuenta con mucho alcance produce un efecto rebote: la retirada se percibe como confirmación por la audiencia que ya desconfía de las instituciones. El agitador tiene un canal propio que no se puede desmonetizar desde fuera, así que el coste de la retirada es bajo y la ganancia en lealtad y en tráfico migrado, alta. La falsedad se propaga más rápido que la corrección, y la migración la saca además del alcance de los verificadores.'
+    dato: Un estudio sobre Twitter (2006-2017) encontró que las noticias falsas llegaban a 1.500 personas unas seis veces más rápido que las verdaderas.
+    fuente: https://www.media.mit.edu/publications/the-spread-of-true-and-false-news-online/
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - plataformas
+    - moderacion_de_contenido
+    - desinformacion
+    - redes_sociales
+    id: agitador/h2/4
+  - texto: 'El agitador recoge en directo la descoordinación entre administraciones españolas: compara avisos de tráfico, protección civil y sanidad con matices distintos y los presenta como prueba de que ''cada uno oculta una parte''. Algunos cargos y cuentas de la oposición comparten fragmentos de su directo para reforzar la petición de comparecencia, y el relato de ocultación entra en la conversación política a pesar de su origen.'
+    mecanismo: 'El mosaico de avisos no coordinados es un hecho verificable, y al agitador le sirve como material creíble para su tesis porque no tiene que inventar nada: solo cambia la explicación (descoordinación por ocultación). A la oposición le rinde cualquier prueba de improvisación del Gobierno, y un clip con mucho alcance es munición barata, aunque quien lo comparte asume el riesgo de quedar asociado a un bulo. El cruce entre agitación y política institucional le da al agitador una legitimidad que no tenía en la hora 1.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - politica_espanola
+    - confianza_institucional
+    - desinformacion
+    - medios
+    id: agitador/h2/5
+  reacciona_a:
+  - oftalmologa/h1/5
+  - disruptor/h1/2
+  - politico/h1/2
+  - politico/h1/5
+  - medios/h1/4

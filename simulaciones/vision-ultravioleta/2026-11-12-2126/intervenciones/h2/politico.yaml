@@ -1,0 +1,68 @@
+intervencion:
+  agente: politico
+  tramo: h2
+  afirmaciones:
+  - texto: 'En la hora 2 el Gobierno de España pasa de la contención a la coordinación: convoca el Consejo de Seguridad Nacional (o su Comité de Situación) para ordenar los avisos de Estado, comunidades autónomas y ayuntamientos bajo un mensaje único, pero no declara todavía una situación de interés para la Seguridad Nacional ni el estado de alarma.'
+    mecanismo: 'El mosaico de avisos descoordinados de la hora 1 es la munición principal de la oposición, y el Gobierno necesita un órgano que parezca de mando sin comprometerse con medidas excepcionales sin base técnica. La Ley 36/2015 de Seguridad Nacional ofrece justo eso: un sistema de gestión de crisis con un Comité de Situación que coordina a todas las administraciones sin suspender derechos. Declarar la situación de interés exige un real decreto con recursos y medidas concretas, y declarar la alarma exige daño acreditado; ninguna de las dos cosas tiene aún respaldo de los técnicos, así que el Gobierno se queda en el escalón que da imagen de control sin riesgo de rectificar.'
+    dato: La Ley 36/2015 regula el Sistema de Seguridad Nacional, el Consejo de Seguridad Nacional como órgano de dirección y la declaración de situación de interés para la Seguridad Nacional mediante real decreto.
+    fuente: https://www.boe.es/buscar/pdf/2015/BOE-A-2015-10389-consolidado.pdf
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - gobierno
+    - coordinacion_administrativa
+    - oposicion
+    id: politico/h2/1
+  - texto: 'Tras esa reunión, la portavoz o el ministro de Sanidad comparecen en rueda de prensa flanqueados por representantes de las sociedades de oftalmología. El mensaje se limita a lo que los técnicos respaldan: el deslumbramiento es transitorio, mirar al sol o a lámparas UV sigue lesionando la vista y conducir en moto o bici en exteriores soleados exige precaución extra. El Gobierno evita pronunciarse sobre causa y permanencia, y anuncia una comparecencia del presidente en el Congreso a petición propia en los próximos días para desactivar la exigencia de la oposición.'
+    mecanismo: 'Ningún gobierno puede afirmar lo que sus técnicos no respaldan, y en la hora 1 la única fuente con autoridad empírica son los oftalmólogos y el precedente de los afáquicos. Poner a los médicos en el atril traslada la credibilidad científica al Gobierno y le permite decir algo concreto sin rectificar después. Ofrecer la comparecencia a petición propia le devuelve el control del calendario: la oposición ya no puede acusarle de esconderse, y el presidente llega al Congreso con informes técnicos en lugar de improvisar hoy. El precio es que los agitadores presentarán el aviso de no mirar al sol como confirmación de que se oculta algo.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - gobierno
+    - salud_publica
+    - comunicacion_institucional
+    - oposicion
+    id: politico/h2/2
+  - texto: 'Las consejerías de Educación de las comunidades autónomas envían a lo largo de la hora 2 instrucciones a los centros, pero distintas entre sí: casi todas mantienen los colegios abiertos y permiten que las familias recojan a sus hijos por el procedimiento ordinario, y varias ordenan recreos en interior; ninguna cierra centros. La disparidad entre comunidades se convierte en el nuevo frente de la crítica por descoordinación, y alguna comunidad gobernada por la oposición se desmarca con un mensaje propio más duro o más tranquilizador que el del Gobierno central.'
+    mecanismo: 'La gestión de los centros es competencia autonómica, y en la hora 1 las secretarías quedaron desbordadas por llamadas sin instrucción que dar. Cerrar colegios sin daño acreditado sería una medida desproporcionada y, además, cargaría a las familias trabajadoras, así que nadie la asume. Cada consejería redacta su circular con sus propios técnicos y a su ritmo, y las comunidades de distinto color político tienen incentivos para diferenciarse del Gobierno central: la oposición gana con cada contraste visible entre administraciones.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - educacion
+    - comunidades_autonomas
+    - familias
+    - oposicion
+    id: politico/h2/3
+  - texto: El Ministerio de Consumo y las autoridades autonómicas de consumo anuncian vigilancia de precios abusivos y de productos sin marcado CE, y piden comprar gafas de sol solo en establecimientos con producto homologado. En la hora 2 es un aviso con amenaza de inspección, no una actuación sobre el terreno, y no llega a las plataformas extranjeras que venden filtros UV sin certificación.
+    mecanismo: 'Actuar contra el oportunismo comercial es la medida concreta más barata y con base legal ya existente: las gafas de sol son equipos de protección individual que deben llevar marcado CE según el Reglamento (UE) 2016/425, así que el Gobierno puede señalar a los infractores sin norma nueva. Le permite aparecer protegiendo al ciudadano frente a los aprovechados, un mensaje transversal que la oposición no puede atacar. Pero las inspecciones requieren días y la venta online desde fuera de la UE escapa a su alcance inmediato, por eso el efecto en esta hora es sobre todo declarativo.'
+    dato: Consumo recuerda que las gafas de sol son equipos de protección individual y deben llevar marcado CE e información sobre su categoría de filtro.
+    fuente: https://portal-cec.consumo.gob.es/es/comunicacion/noticias/2021/cec-espana-recuerda-la-importancia-de-proteger-la-vista-con-gafas-de-sol
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - consumo
+    - comercio
+    - gobierno
+    id: politico/h2/4
+  - texto: Varios gobiernos europeos, entre ellos España, piden a la Comisión Europea que presione a las plataformas por los bulos y los falsos comunicados oficiales. La Comisión contacta con las plataformas de muy gran tamaño y les recuerda sus obligaciones de mitigar riesgos bajo la Ley de Servicios Digitales, pero no activa en la hora 2 el mecanismo de respuesta a crisis, que exige antes una recomendación de la Junta Europea de Servicios Digitales.
+    mecanismo: Las capturas falsificadas de comunicados oficiales atacan directamente la legitimidad de los gobiernos, que necesitan que su mensaje no sea suplantado, y ningún gobierno puede ordenar retirar contenidos por su cuenta sin base legal. El cauce disponible es el Reglamento de Servicios Digitales, pero su artículo 36 requiere que la Comisión decida a recomendación de la Junta, lo que no ocurre en dos horas. La Comisión se queda en requerimientos informales, mientras los agitadores ya han movido su versión dura a canales propios de mensajería donde esa presión no alcanza.
+    dato: El artículo 36 del Reglamento de Servicios Digitales permite a la Comisión exigir medidas a las plataformas de muy gran tamaño en situación de crisis, por decisión adoptada a recomendación de la Junta Europea de Servicios Digitales.
+    fuente: https://dsa-observatory.eu/2023/02/21/the-dsas-crisis-approach-crisis-response-mechanism-and-crisis-protocols/
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - union_europea
+    - plataformas_digitales
+    - desinformacion
+    - gobierno
+    id: politico/h2/5
+  reacciona_a:
+  - medios/h1/2
+  - agitador/h1/3
+  - agitador/h1/4
+  - economista/h1/4
+  - adolescente/h1/4

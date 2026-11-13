@@ -1,0 +1,66 @@
+intervencion:
+  agente: oftalmologa
+  tramo: h2
+  afirmaciones:
+  - texto: 'En la segunda hora, la sociedad de oftalmología publica una nota de triaje que separa tres cosas: el deslumbramiento y la fatiga del fenómeno (benignos), las consultas por asimetría de percepción (benignas) y las lesiones por mirar al sol o a lámparas UV. Advierte de forma expresa que esas lesiones aún no se ven en urgencias porque tardan horas en dar síntomas, y que la oleada de casos llegará esta noche, no ahora.'
+    mecanismo: La fotoqueratitis tiene una latencia de varias horas entre la exposición y el dolor, así que quien miró al sol en la hora 1 todavía se encuentra bien en la hora 2. Si la sociedad no lo dice antes, la ausencia de casos se leerá como prueba de inocuidad y los casos nocturnos parecerán un daño nuevo del fenómeno. Ese segundo relato es justo el que el agitador ha preparado al decir que algo nos han hecho. Anticipar el calendario clínico protege la credibilidad de la sociedad cuando lleguen los casos.
+    dato: Los síntomas de la queratitis por ultravioleta suelen aparecer entre 6 y 12 horas después de la exposición.
+    fuente: https://wikem.org/wiki/Ultraviolet_keratitis
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - sanidad
+    - medios
+    - desinformacion
+    id: oftalmologa/h2/1
+  - texto: Los usuarios de gafas graduadas descubren en la segunda hora que a través de sus lentes ven los colores nuevos muy atenuados y que aparecen al mirar por encima o por fuera de la montura. Muchos se quitan las gafas en la calle para verlos, y la sociedad añade a su nota que no se las quiten para conducir, ir en bici o cruzar.
+    mecanismo: 'El policarbonato, un material habitual en las lentes graduadas, bloquea el ultravioleta por sí mismo, y otras lentes llevan un tratamiento anti-UV de serie. Es la misma asimetría que ya notaron los operados de cataratas, pero ahora a escala de cualquiera que lleve gafas: el campo central filtrado contrasta con la periferia sin filtrar. La tentación de ver los colores nuevos choca con la necesidad de ver nítido, y el riesgo se concentra en peatones y ciclistas, que ya reciben el deslumbramiento completo.'
+    dato: El policarbonato bloquea los rayos UV por sí mismo, sin necesidad de añadir un tratamiento UV.
+    fuente: https://www.allaboutvision.com/eyewear/eyeglasses/lenses/plastic-vs-polycarbonate-lenses/
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - sanidad
+    - trafico
+    - optica
+    - consumo
+    id: oftalmologa/h2/2
+  - texto: 'Empieza a aparecer un gradiente por edad en los testimonios y las consultas: los niños describen los colores nuevos con más intensidad y se quejan más del deslumbramiento en el patio, mientras que las personas mayores dicen ver menos. La sociedad lo convierte en la primera recomendación concreta para los centros educativos: recreo a la sombra o con gorra de visera y nada de mirar al sol, sin necesidad de mandar a los alumnos a casa.'
+    mecanismo: El cristalino infantil es mucho más transparente al ultravioleta que el adulto y amarillea con la edad. Si la percepción nueva depende de cuánto UV-A llega a la retina, como sugiere el precedente de los afáquicos, los niños reciben más estímulo y más deslumbramiento, y los mayores menos. Los colegios llevan una hora sin instrucciones y las familias quieren recoger a sus hijos; una pauta sencilla de una fuente clínica llena ese vacío antes que la Consejería, y además desmiente a quien exagera síntomas para irse a casa.
+    dato: En niños menores de 10 años, el cristalino transmite más del 75 % de la radiación ultravioleta, frente a un 10 % en mayores de 25 años.
+    fuente: https://zeiss.com/vision-care/int/better-vision/health-prevention/why-kids-glasses-should-offer-the-best-uv-protection.html
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - sanidad
+    - educacion
+    - familias
+    id: oftalmologa/h2/3
+  - texto: 'La oftalmóloga sale a desactivar el miedo a la piel: dice en público que las manchas y las máscaras de protector solar no son una enfermedad nueva ni una quemadura del fenómeno, sino lo que siempre estuvo ahí y ahora se ve porque ha cambiado el ojo del observador. Busca el respaldo de los dermatólogos para dar el mensaje juntos.'
+    mecanismo: La pigmentación por daño solar acumulado y los filtros solares tienen un contraste muy distinto en UV-A que en luz visible, y por eso la fotografía ultravioleta se usa desde hace tiempo para mostrar el daño solar oculto. Como el cambio está en quien mira y no en quien es mirado, el argumento clínico es directo, y es la única manera de cortar los rumores de contagio antes de que saturen la atención primaria. A la sociedad de oftalmología le interesa liderar esa explicación, porque el fenómeno es visual aunque el síntoma aparente sea cutáneo.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - sanidad
+    - convivencia
+    - medios
+    id: oftalmologa/h2/4
+  - texto: 'Sobre las gafas de sol, la sociedad fija una pauta de uso situacional que rebaja la idea de que todo el mundo las necesita: gafas homologadas con filtro UV a pleno sol, sobre todo para moto, bici y deporte, y sin ellas a la sombra o en interiores, donde se pueden ver los colores nuevos sin molestias. También denuncia que no existen gafas que potencien la visión UV.'
+    mecanismo: El deslumbramiento depende de la cantidad de UV-A en la escena, que es alta a pleno sol y baja a la sombra y en interiores con luz LED, así que no hace falta llevar gafas todo el día. Una guía clínica que dé permiso para disfrutar de la novedad donde no molesta resuelve el dilema de ver o no ver mejor que una prohibición, y desactiva el argumento comercial de la protección imprescindible. Coincide con la tesis del economista de que el tirón de demanda está sobredimensionado, y da a la sociedad un mensaje propio frente a los portavoces improvisados.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - consumo
+    - optica
+    - mercados
+    - sanidad
+    id: oftalmologa/h2/5
+  reacciona_a:
+  - disruptor/h1/1
+  - economista/h1/2
+  - adolescente/h1/3
+  - agitador/h1/4

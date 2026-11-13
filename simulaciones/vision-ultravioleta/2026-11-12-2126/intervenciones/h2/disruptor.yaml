@@ -1,0 +1,55 @@
+intervencion:
+  agente: disruptor
+  tramo: h2
+  afirmaciones:
+  - texto: 'La tesis de las ''marcas ocultas'' encuentra en la segunda hora un fragmento de verdad que la vuelve más difícil de desmontar: existen marcas pensadas para ser invisibles y ahora las ve todo el mundo. Son los marcadores forenses de propiedad tipo SmartWater en obras, comercios y vehículos de transporte de fondos, los rociadores antiintrusión que marcan a quien entra, los sellos de entrada de locales y las tintas de seguridad de documentos y embalajes. Empresas de seguridad y policías empiezan a recibir consultas, y quien lleva o guarda algo marcado puede verlo y limpiarlo por primera vez.'
+    mecanismo: 'Estos sistemas funcionan porque la marca no se ve sin una lámpara UV, y la policía la busca precisamente con esa luz. Si todo el mundo percibe el UV-A, la condición de invisibilidad desaparece de golpe: el marcado deja de disuadir en secreto y el delincuente puede detectar el rastro en su ropa, su piel o en lo robado y eliminarlo antes de que lo encuentren. Además, como estas marcas sí se pusieron a propósito para que no se vieran, al agitador ya no le hace falta inventar la intención oculta: le basta con mezclar marcas de seguridad reales con residuos y blanqueantes. Los desmentidos oficiales tienen que admitir que parte de lo que se ve sí estaba oculto a propósito, y esa admisión parcial alimenta la desconfianza.'
+    dato: SmartWater es un líquido con un código identificativo que apenas se ve a simple vista, salvo bajo luz negra ultravioleta; algunos sistemas lo rocían sobre el intruso y la policía localiza las marcas con luz UV.
+    fuente: https://en.wikipedia.org/wiki/SmartWater_(forensic)
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - seguridad
+    - policia
+    - desinformacion
+    - comercio
+    id: disruptor/h2/1
+  - texto: En las zonas de día con sol fuerte (África, Oriente Medio, sur de Asia) y en oficinas y centros educativos europeos, una parte de quienes llevan protector solar o maquillaje con SPF se lo quita durante la segunda hora para no mostrar la máscara visible, mientras otros, alarmados por las manchas solares que ahora ven en su piel, compran protector. Los dos flujos opuestos llegan a la vez a las farmacias, a las redes y a los valores cotizados de cosmética y protección solar, que se mueven con volatilidad y sin dirección clara.
+    mecanismo: 'La máscara del protector tiene un coste social inmediato y visible: en la oficina o en clase destaca, y quitarse la crema es gratis y rápido. El daño de exponerse al sol sin protección, en cambio, es diferido e invisible en el momento. A la vez, ver de golpe el daño solar acumulado en la propia cara empuja a otra parte de la gente a protegerse más. La señal de demanda se contradice, y el mercado no sabe si descontar una caída del uso de protector por vergüenza o un auge por miedo. Los dermatólogos quedan en la posición incómoda de pedir que se siga usando algo que ahora estigmatiza, y el riesgo real que nadie atribuye bien es el de las quemaduras por quitarse la protección, no por el fenómeno.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - consumo
+    - mercados
+    - cosmetica
+    id: disruptor/h2/2
+  - texto: 'Dentro de los edificios la experiencia se rompe por ventanas: según el vidrio, en unos despachos, aulas y habitaciones de hospital se ven los colores nuevos y en otros no, incluso en el mismo edificio. Quien está tras un vidrio que bloquea el UV-A, o en una fachada sellada que no se abre, sale a la calle, a balcones o a terrazas para verlos, lo que interrumpe el trabajo a media mañana y expone a más gente al deslumbramiento exterior.'
+    mecanismo: El vidrio común y buena parte del bajo emisivo dejan pasar bastante UV-A, mientras que el laminado lo bloquea casi del todo, como ya se vio con los parabrisas. Las plantas bajas, los escaparates, las mamparas y muchas fachadas modernas usan vidrio laminado por seguridad, de modo que la misma luz de mañana produce experiencias distintas según dónde se siente cada uno. Como la gente no sabe que la diferencia está en el cristal, atribuye a su propia vista ver menos que el compañero de al lado, y la salida para comprobarlo es salir al exterior, justo donde el deslumbramiento es mayor.
+    dato: El vidrio bajo emisivo estándar bloquea solo en torno al 75 % de la radiación UVB y es mucho menos eficaz frente al UVA.
+    fuente: https://fennel-gopher-pg3p.squarespace.com/blog/did-you-know-modern-architectural-glass-and-uv-protection-limitations
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - trabajo
+    - educacion
+    - sanidad
+    - vivienda
+    id: disruptor/h2/3
+  - texto: En hospitales, transporte público, hoteles y aseos bajo luz fluorescente o cerca de ventanas aparecen manchas y restos en superficies que parecían limpias (residuos de productos de limpieza, fluidos y marcas de manos), y en la segunda hora surge una alarma de higiene que se descarga sobre el personal de limpieza y los gestores de esos espacios, no sobre el fenómeno.
+    mecanismo: Muchos residuos orgánicos y productos químicos absorben o reflejan el UV de forma distinta a la superficie limpia, y por eso los hospitales ya auditan la limpieza con marcadores fluorescentes y lámparas UV. Ahora esa auditoría la hace cualquiera sin lámpara. Una superficie que antes parecía limpia muestra rastros, y el público no distingue entre suciedad real, restos inocuos de detergente y fluorescencia de materiales. La reacción previsible es fotografiar y denunciar en redes, pero como la foto no muestra nada, la queja se vuelve testimonial y se dirige contra quien limpia, mientras empresas de limpieza y hospitales reciben reclamaciones que no pueden refutar con imágenes.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - sanidad
+    - transporte
+    - hosteleria
+    - trabajo
+    id: disruptor/h2/4
+  reacciona_a:
+  - agitador/h1/2
+  - agitador/h1/4

@@ -1,0 +1,67 @@
+intervencion:
+  agente: medios
+  tramo: h2
+  afirmaciones:
+  - texto: 'En la segunda hora las televisiones y los digitales encuentran por fin una imagen que emitir: recuperan el vídeo viral de 2014 ''How the sun sees you'', grabado con cámara ultravioleta, y piden a laboratorios, policía científica y fotógrafos técnicos imágenes UV propias de caras, protector solar y billetes. Esas imágenes, en blanco y negro o en falso color, se convierten en la ilustración estándar de los especiales y frenan parte de la alarma por la piel: los medios explican que las manchas siempre estuvieron ahí. A la vez, los negacionistas las señalan como prueba de montaje, porque no se parecen a lo que la gente dice ver.'
+    mecanismo: La televisión no puede sostener un directo de horas sin imagen, y en la primera hora el fenómeno no se podía fotografiar con cámaras normales. Las cámaras con sensibilidad UV existen desde hace años y ya mostraron que el protector solar se ve negro y que el daño solar antiguo aparece como pecas y manchas. Un vídeo de archivo con autor y fecha cumple el requisito de fuente y se puede emitir sin esperar a nadie. Como esas cámaras traducen el UV a grises o a colores falsos, no reproducen la experiencia, y esa diferencia es justo lo que necesita quien defiende que todo es sugestión.
+    dato: En 2014, el vídeo 'How the sun sees you' de Thomas Leveritt mostró con cámara UV que el protector solar aparece negro y que el daño solar antiguo se ve como pecas y manchas invisibles a simple vista.
+    fuente: https://petapixel.com/2014/08/14/this-incredible-short-film-shows-what-your-aging-skin-looks-like-to-a-uv-camera
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - medios
+    - sanidad
+    - sociedad
+    - desinformacion
+    id: medios/h2/1
+  - texto: 'Los verificadores publican en la segunda hora sus primeros desmentidos: señalan las capturas falsas de comunicados oficiales y contestan a la tesis de las ''marcas ocultas'' con documentos públicos que ya describían esas marcas, como la guía del Banco Central Europeo sobre los elementos de seguridad del euro visibles con luz ultravioleta. El desmentido llega a los medios y a un público ya escéptico, pero apenas entra en los canales propios del agitador, que lo presenta como una prueba más de que se sabía y se ocultaba.'
+    mecanismo: Un desmentido rápido necesita un documento verificable, y las marcas UV de billetes y documentos están publicadas desde hace años porque sirven para detectar falsificaciones. Es el desmentido más barato y el primero que sale. Pero el agitador ya ha llevado a su audiencia a mensajería sin moderación y la ha vacunado contra las fuentes oficiales, así que 'estaba documentado' se convierte en 'lo sabían y no nos lo dijeron'. La corrección refuerza el relato en vez de desmontarlo.
+    dato: La guía del BCE indica que, con luz ultravioleta, en los billetes de euro aparecen fibras rojas, azules y verdes, la bandera de la UE se ve verde con estrellas naranjas y la firma del presidente del BCE se vuelve verde.
+    fuente: https://www.ecb.europa.eu/euro/pdf/material/quick_guide_specimen_en.pdf
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - desinformacion
+    - medios
+    - finanzas
+    - confianza_institucional
+    id: medios/h2/2
+  - texto: En la segunda hora circulan titulares y vídeos sobre los 'primeros heridos oculares'. En realidad, lo que se cuenta como lesión es deslumbramiento, fatiga visual y consultas por ansiedad. Las quemaduras reales de córnea de quienes miraron al sol o a lámparas UV todavía no se notan y aflorarán por la tarde y la noche. Ese retraso abre una segunda ola informativa, 'los efectos tardíos', que los agitadores presentan como prueba de que algo nos han hecho.
+    mecanismo: 'La fotoqueratitis no duele en el momento: los síntomas aparecen horas después de la exposición. En la segunda hora los medios necesitan casos y aceptan como fuente el testimonio de urgencias o de un afectado, aunque lo que describe sean molestias benignas del fenómeno. Cuando lleguen las lesiones reales, ya de noche, encajarán con el relato de daño diferido que el agitador preparó en la primera hora. Discrepo en parte de oftalmologa/h1/5: los casos clínicos reales no llegan ''en horas'' próximas, sino con un desfase de seis a doce horas que el ciclo informativo convierte en una segunda noticia de miedo.'
+    dato: Los síntomas de la fotoqueratitis suelen aparecer entre 6 y 12 horas después de la exposición.
+    fuente: https://www.college-optometrists.org/Clinical-guidance/Clinical-Management-Guidelines/Photokeratitis_Ultraviolet_UV_Burn_ArcEye_SnowBlin
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - sanidad
+    - medios
+    - desinformacion
+    id: medios/h2/3
+  - texto: 'Las grandes plataformas activan sus protocolos de crisis, con paneles informativos, etiquetas en las búsquedas y menos difusión para los consejos de salud falsos. Pero no tienen una autoridad clara a la que enlazar: la OMS solo hace seguimiento y los gobiernos emiten mensajes de contención distintos. Por eso cada plataforma y cada idioma enlazan a fuentes diferentes, ministerios nacionales o sociedades de oftalmología. Además, el contenido racista sobre las ''caras negras'' del protector solar empieza a retirarse por las normas contra el discurso de odio, y los agitadores lo convierten en otra historia de censura.'
+    mecanismo: Los protocolos de desinformación sanitaria que las plataformas montaron en crisis anteriores funcionan enlazando a una autoridad sanitaria de referencia. Sin una declaración de la OMS ni una postura técnica común, cada equipo regional elige su fuente, y el mensaje sale fragmentado. Las bromas y los insultos sobre las máscaras oscuras de los filtros químicos sí encajan en normas ya existentes contra el odio, que se aplican antes que las sanitarias. Cada retirada visible le sirve al agitador para decir que hay algo que callar.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - plataformas
+    - desinformacion
+    - sociedad
+    - confianza_institucional
+    id: medios/h2/4
+  - texto: En España el encuadre de los medios pasa en la segunda hora de '¿es peligroso?' a '¿quién manda?'. Tertulias, digitales y cabeceras de cada lado ponen en primer plano los avisos contradictorios de las distintas administraciones, la exigencia de comparecencia de la oposición y la comparación con los líderes extranjeros que ya han dado una causa o han declarado el fenómeno seguro. El relato científico de los oftalmólogos pasa a ser un rótulo secundario.
+    mecanismo: 'Sobre la salud ya no hay nada nuevo que contar con fuente: el deslumbramiento está contado y nadie sabe la causa. La política, en cambio, ofrece fuentes con nombre, declaraciones grabadas y conflicto, que es lo que retiene audiencia en un directo largo. Cada medio elige además el ángulo que encaja con su público, y la descoordinación de los avisos es un hecho documentable. Los mensajes de contención sin medidas dejan un hueco que la crítica política llena antes que la explicación técnica.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - politica
+    - medios
+    - confianza_institucional
+    id: medios/h2/5
+  reacciona_a:
+  - oftalmologa/h1/5
+  - agitador/h1/2
+  - agitador/h1/4
+  - politico/h1/2

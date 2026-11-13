@@ -1,0 +1,63 @@
+intervencion:
+  agente: adolescente
+  tramo: h2
+  afirmaciones:
+  - texto: 'Entre las once y las doce mi clase se va vaciando a trozos: algunos padres se presentan en el instituto y se llevan a sus hijos, otros no, y a los que nos quedamos nos juntan en el aula o en el salón de actos sin dar clase de verdad, con el móvil ya permitido por casi todos los profes.'
+    mecanismo: Sigue sin llegar una instrucción clara de la Consejería, así que el centro no puede impedir que un padre recoja a su hijo, pero tampoco puede mandar a todos a casa. Como los profesores no saben qué explicar y muchos padres llaman sin parar, dejar el móvil es la forma más fácil de que nos calmemos y de que en casa sepan que estamos bien. Quedarse o irse depende de si tus padres trabajan cerca o se agobian, no de una norma.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - educacion
+    - familias
+    - redes_sociales
+    id: adolescente/h2/1
+  - texto: En el baño y junto a las ventanas las chicas que llevamos base o crema con protector vemos que se nos nota una especie de máscara en la cara, y empieza una ola de ir al baño a lavarse la cara a toda prisa, mientras algunos chicos se ríen y llaman a las que la llevan con motes.
+    mecanismo: El reflejo de la ventana deja pasar luz con ultravioleta y el espejo nos enseña lo que los demás ya veían en el patio. A los dieciséis lo que más te importa es cómo te ven, así que cualquier cosa que te haga distinta en la cara se vive como una humillación inmediata; y para quien quiere protagonismo, burlarse del que se nota es la manera más barata de conseguirlo.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - educacion
+    - imagen_corporal
+    - convivencia_escolar
+    id: adolescente/h2/2
+  - texto: En cuanto tenemos el móvil, en mi grupo y en TikTok empezamos a ponerles nombres inventados a los colores nuevos, y se monta una competición por ver qué nombre se queda; quien consigue que su palabra se repita en los grupos de clase gana muchísimo estatus.
+    mecanismo: Como las fotos no enseñan nada, lo único que se puede compartir es cómo lo llamas. Ponerle nombre a algo que todos ven pero nadie sabe decir es lo que más se comenta y lo que más rápido se copia, y entre adolescentes ser quien inventa la palabra que usa todo el mundo es la forma más clara de ser importante en el grupo.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - redes_sociales
+    - lenguaje
+    - cultura_juvenil
+    id: adolescente/h2/3
+  - texto: Nos llegan por los grupos de clase y por los padres trozos de los directos de las 'marcas ocultas', y varios de clase se ponen a mirar billetes, el DNI y los apuntes contra la ventana para buscar las marcas; unos se lo creen y se asustan y otros nos reímos y lo convertimos en meme.
+    mecanismo: Los vídeos son reales, de verdad se ven dibujos en los billetes y en la ropa, y nadie en clase sabe que siempre estuvieron ahí por seguridad o por los blanqueantes. Si no te lo explican, lo que suena a secreto es lo más emocionante. Los grupos de familia reenvían sin mirar, y a la vez a nosotros burlarnos de lo que se creen los mayores también nos da atención, así que el bulo se mueve igual aunque sea en broma.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - desinformacion
+    - redes_sociales
+    - familias
+    id: adolescente/h2/4
+  - texto: 'Casi nadie de mi grupo se pone gafas de sol para salir al patio aunque le molesten los ojos: preferimos aguantar el deslumbramiento para seguir viendo los colores, y quien se las pone queda como el que se lo está perdiendo.'
+    mecanismo: Ya sabemos por lo que se comenta que las gafas con filtro hacen que dejes de ver lo nuevo. Para nosotros lo que cuenta es poder contarlo y compararlo con los demás, y quedarte fuera de lo que todos ven es peor que la molestia; además la molestia no parece grave y nadie nos obliga a llevarlas. Esto contradice que la demanda de gafas se sostenga entre la gente joven.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - consumo
+    - salud_visual
+    - cultura_juvenil
+    id: adolescente/h2/5
+  reacciona_a:
+  - agitador/h1/2
+  - disruptor/h1/2
+  - economista/h1/2

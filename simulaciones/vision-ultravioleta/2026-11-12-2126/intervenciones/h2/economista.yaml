@@ -1,0 +1,63 @@
+intervencion:
+  agente: economista
+  tramo: h2
+  afirmaciones:
+  - texto: En la segunda hora la subida de EssilorLuxottica y de los valores de gafas de sol pierde fuerza y devuelve parte de lo ganado. Los analistas de ventas empiezan a publicar notas que separan el pico de demanda transitorio del negocio recurrente, y el economista repite en público que la subida estaba sobredimensionada y lo presenta como primer acierto.
+    mecanismo: La tesis alcista de la hora 1 era 'todo el mundo necesitará gafas de sol', pero en esta hora se extiende la idea de que las gafas homologadas bloquean justo lo que la gente quiere ver, y quien se las pone deja de ver los colores nuevos. Si una parte de la población las rechaza, el tirón de demanda es más corto y más pequeño. Frente a una facturación anual de decenas de miles de millones, dos semanas de ventas extra en zonas soleadas no cambian el valor del grupo. Las compras por narrativa se deshacen cuando entra el análisis fundamental, y el economista gana prestigio si se le ve acertar antes que nadie.
+    dato: EssilorLuxottica facturó 28.500 millones de euros en 2025.
+    fuente: https://www.marketscreener.com/news/essilorluxottica-and-the-price-of-reinventing-eyewear-ce7e51dcde8df722
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - mercados
+    - consumo
+    - optica
+    id: economista/h2/1
+  - texto: 'La volatilidad bursátil salta a una segunda historia fácil de contar: protectores solares y cosmética con SPF. L''Oréal, Beiersdorf y otros valores del sector se mueven con fuerza en ambos sentidos según se imponga el relato de ''nadie querrá ir con la cara enmascarada'' o el de ''el daño solar ahora se ve y todo el mundo comprará protección y tratamientos''.'
+    mecanismo: La máscara visible del protector solar y las manchas de daño solar ya establecidas son dos narrativas opuestas sobre el mismo producto. Sin datos de ventas, los operadores apuestan por titulares y los algoritmos que leen noticias amplifican cualquiera de las dos. La señal neta es ambigua, así que el movimiento es de volatilidad y horquillas anchas más que de tendencia clara. Los frenos de Euronext, que actúan valor a valor, pueden dispararse también en estos nombres.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - mercados
+    - cosmetica
+    - consumo
+    id: economista/h2/2
+  - texto: 'En EE. UU. la reacción de madrugada no se queda en los futuros: los inversores minoristas que se despiertan con la noticia operan valores sueltos y ETF en las plataformas de mercado nocturno y de preapertura, sobre todo los ligados a óptica, cosmética y ocio nocturno. Así se forman precios de referencia ruidosos antes de la apertura de Wall Street.'
+    mecanismo: Algunas plataformas de inversión minorista permiten negociar acciones y ETF seleccionados las 24 horas laborables, de modo que la reacción no tiene que esperar a las 9:30 de Nueva York. Con poca liquidez y mucha emoción, unas pocas órdenes mueven el precio y esos niveles se difunden en redes como si fueran el juicio del mercado. El cierre de discotecas y locales con luz negra en América durante la madrugada da al minorista una historia propia para operar.
+    dato: El 24 Hour Market de Robinhood ejecuta órdenes de 00:00 a 20:00 (hora del Este) en días hábiles completos, sobre una lista seleccionada de acciones y ETF.
+    fuente: https://robinhood.com/us/en/support/articles/24hour-market
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - mercados
+    - inversores_minoristas
+    id: economista/h2/3
+  - texto: Aparece una demanda inesperada de lámparas de luz negra, lámparas de uñas UV y linternas UV para casa, en tiendas físicas y online, por parte de gente que quiere ver los colores nuevos en interiores, donde la iluminación LED no los muestra. Los vendedores con stock suben precios y pronto se agotan.
+    mecanismo: 'Que la novedad dependa de que haya UV-A en la escena significa que en casa, con LED, casi no se ve nada. Quien quiere repetir la experiencia de la calle, sobre todo de noche o en la Europa nublada de noviembre, busca fuentes UV-A baratas que ya existen en el mercado. Es el mismo mecanismo de poder de precio que con las gafas de sol, pero al revés: aquí se paga por ver más. Esa demanda choca con la advertencia clínica de no mirar fuentes UV intensas y producirá casos de lesión por conducta.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - consumo
+    - comercio_electronico
+    - salud
+    id: economista/h2/4
+  - texto: 'No hay huida generalizada a activos refugio: la deuda alemana, el oro y el dólar se mueven poco en la segunda hora, y el economista lo usa en público para desmontar el relato de pánico financiero, a diferencia de comentaristas que hablan de ''crisis'' sin datos.'
+    mecanismo: 'La huida a refugio responde a amenazas sobre flujos de caja agregados: recesión, guerra, quiebras bancarias. En la hora 2 no hay daño económico medible, ni interrupciones de producción, ni cierres de plantas, porque las fábricas y oficinas funcionan con luz artificial y el deslumbramiento es transitorio. La volatilidad sigue confinada a valores con historia. Los bancos centrales no tienen ningún motivo para hablar, y su silencio refuerza la idea de normalidad en los mercados de tipos.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - mercados
+    - deuda_publica
+    - divisas
+    id: economista/h2/5
+  reacciona_a:
+  - oftalmologa/h1/3
+  - disruptor/h1/2
+  - disruptor/h1/5
+  - oftalmologa/h1/4
