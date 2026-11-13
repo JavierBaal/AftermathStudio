@@ -1,0 +1,69 @@
+intervencion:
+  agente: medios
+  tramo: h3
+  afirmaciones:
+  - texto: 'En la tercera hora los medios difunden los primeros casos clínicos reales de quemadura de córnea, antes de la oleada nocturna anunciada: personas que miraron de cerca lámparas de uñas o de luz negra, o al sol, durante la primera hora llegan a urgencias con dolor, lagrimeo y sensación de arena. Los digitales los titulan como ''los primeros afectados reales'' y el calendario de ''esta noche, no ahora'' que fijó la sociedad de oftalmología queda en entredicho, lo que el agitador usa para decir que también en eso se equivocan o mienten.'
+    mecanismo: 'La latencia de la fotoqueratitis no es fija: depende de la dosis, y con exposiciones intensas y cercanas los síntomas pueden aparecer mucho antes que el rango de seis a doce horas que se ha popularizado. Quien acercó una lámpara UV a los ojos a las 10:30 puede tener síntomas a mediodía. Un medio que compite por ser el primero acepta como fuente el testimonio de urgencias o del afectado, y un caso real temprano le da la exclusiva. Discrepo en parte de oftalmologa/h2/1: la oleada principal será nocturna, pero los casos más graves llegan antes y rompen el mensaje de que ''aún no hay lesiones'', que era la baza de credibilidad de la sociedad.'
+    dato: Según la EyeWiki de la Academia Americana de Oftalmología, los síntomas de la fotoqueratitis aparecen entre 30 minutos y 12 horas después de la exposición, y el epitelio corneal se cura en 24 a 72 horas.
+    fuente: https://eyewiki.aao.org/Photokeratitis
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - salud
+    - medios
+    - desinformacion
+    - confianza_institucional
+    id: medios/h3/1
+  - texto: 'Las grandes cadenas de Estados Unidos abren sus programas matinales con el amanecer en la Costa Este, y la conversación global cambia de centro: las imágenes de gente viendo su primera salida del sol con los colores nuevos generan una segunda ola viral en inglés, con encuadres propios (seguridad al volante en la hora punta matinal, colegios, la Casa Blanca), que desplaza en las plataformas el relato europeo y obliga a los medios españoles a importar el ángulo estadounidense.'
+    mecanismo: En la Costa Este el suceso cayó de madrugada y en oscuridad, donde casi no hay UV-A que ver; la experiencia de la luz solar llega con el amanecer, al final de la tercera hora en hora de Madrid. Los matinales estadounidenses son el mayor escaparate televisivo de la mañana y las plataformas dominantes tienen allí su mercado principal, así que sus algoritmos priorizan ese contenido nuevo en inglés. Para los medios europeos, que llevan tres horas sin novedad sanitaria con fuente, el contenido estadounidense es material nuevo para el directo.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - medios
+    - redes_sociales
+    - politica_internacional
+    id: medios/h3/2
+  - texto: 'Las fotos de personas identificables con la ''máscara'' de protector que circulan por el canal del agitador y por grupos de clase se convierten en noticia de acoso: los medios recogen testimonios de chicas burladas en institutos y de adultos expuestos sin consentimiento, y la Agencia Española de Protección de Datos o sus portavoces recuerdan que difundir imágenes de terceros puede ser ilícito y remiten a su canal prioritario de retirada. El aviso llega a los medios pero apenas a la mensajería cerrada donde circulan las imágenes.'
+    mecanismo: El acoso a menores y la exposición de personas concretas es un ángulo humano con víctimas y fuentes con nombre, justo lo que necesita un directo que se ha quedado sin novedad técnica. La AEPD tiene ya un cauce para pedir la retirada urgente de contenido sensible difundido sin consentimiento, así que puede pronunciarse sin norma nueva y con bajo coste. Pero el canal propio del agitador está fuera del alcance práctico de las retiradas, de modo que la respuesta institucional es sobre todo declarativa y el agitador la presenta como otra forma de censura.
+    dato: La AEPD mantiene un canal prioritario para comunicar la difusión ilícita de contenido sensible en internet y solicitar su retirada urgente.
+    fuente: https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/presentacion-del-canal-prioritario-para-comunicar-la-difusion
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - medios
+    - educacion
+    - privacidad
+    - menores
+    - desinformacion
+    id: medios/h3/3
+  - texto: 'Los medios adoptan los nombres inventados por los adolescentes para los colores nuevos y los convierten en tema propio: piezas de ''cómo se llama este color'', encuestas a la audiencia y consultas a lingüistas, a la Fundéu o a la RAE, que piden prudencia y no fijan ningún término. Cada idioma y cada país acaba con nombres distintos, y la falta de vocabulario común complica que testigos, médicos y periodistas se entiendan sobre lo que cada uno ve.'
+    mecanismo: Las cámaras no reproducen el fenómeno, así que la palabra es lo único compartible, y un contenido ligero y participativo da respiro a un directo cargado de miedo y política. Las instituciones del idioma no acuñan términos en horas, solo orientan, de modo que los nombres los fija el uso en redes, que es fragmentado por idioma y plataforma. Sin una palabra común, las descripciones clínicas y los testimonios se vuelven difíciles de comparar, y eso deja más espacio a quien dice ver cosas distintas o 'más' que los demás.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - medios
+    - redes_sociales
+    - cultura
+    - salud
+    id: medios/h3/4
+  - texto: 'La pérdida de invisibilidad del marcado forense salta de los foros a los medios como historia de seguridad: piezas sobre ''el fin de la marca invisible'' con declaraciones de empresas de seguridad y portavoces policiales que reconocen consultas pero no dan detalles operativos. La cobertura funciona sin querer como tutorial, porque explica qué se marcaba y dónde, y el agitador la cita como confirmación de que ''nos marcaban a todos''.'
+    mecanismo: Es un ángulo con fuentes con nombre, conflicto y novedad, y encaja con el interés por las 'marcas' que ya ha creado el agitador, así que garantiza audiencia. La policía no puede detallar sus métodos sin perjudicar investigaciones y las empresas evitan admitir que su producto ha perdido valor, de modo que el hueco lo llenan expertos y periodistas que describen el funcionamiento del sistema. Al explicar el mecanismo, el medio difunde a la vez cómo detectar y limpiar los rastros, y el relato de vigilancia gana un ejemplo verificable.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - medios
+    - seguridad
+    - policia
+    - desinformacion
+    id: medios/h3/5
+  reacciona_a:
+  - oftalmologa/h2/1
+  - adolescente/h2/3
+  - agitador/h2/3
+  - disruptor/h2/1

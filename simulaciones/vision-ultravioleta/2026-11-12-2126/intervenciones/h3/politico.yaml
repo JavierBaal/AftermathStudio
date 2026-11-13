@@ -1,0 +1,66 @@
+intervencion:
+  agente: politico
+  tramo: h3
+  afirmaciones:
+  - texto: En la hora 3 el Ministerio de Sanidad convoca un pleno extraordinario y telemático del Consejo Interterritorial del Sistema Nacional de Salud, y Educación hace lo mismo con su conferencia sectorial, para cerrar una pauta común para colegios y centros sanitarios basada en la nota de la sociedad de oftalmología (recreo a la sombra o con visera, no mirar al sol, sin cierres). La mayoría de comunidades se adhiere, pero alguna gobernada por la oposición vota en contra o se abstiene y mantiene su circular propia, con lo que el Gobierno reduce la disparidad sin poder eliminarla.
+    mecanismo: La gestión sanitaria y educativa es autonómica y el Gobierno no puede imponer instrucciones sin declarar medidas excepcionales que sus técnicos no respaldan. El cauce ordinario para homogeneizar es el Consejo Interterritorial, órgano de coordinación previsto en la Ley 16/2003, que adopta acuerdos y recomendaciones pero no obliga a quien no los acepta. Al Gobierno le sirve para convertir el frente de '¿quién manda?' en una foto de acuerdo con nombres y apellidos; a la comunidad de la oposición que se desmarca le rinde mantener el contraste, porque la oposición gana con cada diferencia visible.
+    dato: El Consejo Interterritorial es el órgano permanente de coordinación, cooperación, comunicación e información de los servicios de salud entre ellos y con la Administración del Estado (Ley 16/2003, de cohesión y calidad del SNS).
+    fuente: https://www.sanidad.gob.es/organizacion/consejoInterterri/introduccion.htm
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - politica
+    - sanidad
+    - educacion
+    - coordinacion_territorial
+    id: politico/h3/1
+  - texto: 'El Gobierno se adelanta a la oleada nocturna de fotoqueratitis: Sanidad, junto a las comunidades, pide a los hospitales reforzar las urgencias oftalmológicas para la tarde y la noche y difunde un mensaje explícito de que los casos que lleguen serán lesiones por mirar al sol o a lámparas UV, no un efecto diferido del fenómeno. Consumo añade un aviso específico sobre lámparas de uñas, linternas y lámparas de luz negra.'
+    mecanismo: Un gobierno pierde legitimidad si rectifica y la gana si parece haberlo previsto. La sociedad de oftalmología ya ha fijado el calendario clínico (síntomas entre 6 y 12 horas después de la exposición), y eso da al Gobierno respaldo técnico para anunciarlo sin riesgo de que le desmientan. Si las urgencias se llenan esta noche sin aviso previo, el relato del agitador ('algo nos han hecho') y la oposición capitalizan el silencio; si se anuncia antes, cada caso confirma al Gobierno. El aviso sobre lámparas es la medida más barata y con base ya existente, y apunta a la conducta, no al fenómeno.
+    dato: ''
+    fuente: ''
+    confianza: alta
+    evidencia: inferencia
+    areas_afectadas:
+    - sanidad
+    - comunicacion_publica
+    - politica
+    - consumo
+    id: politico/h3/2
+  - texto: 'La oposición se divide ante el relato de ocultación: el principal partido de la oposición registra peticiones de información y de comparecencia sobre la coordinación y los avisos, pero sus portavoces evitan citar las ''marcas ocultas''; otra fuerza o cargos sueltos siguen compartiendo clips del agitador y piden explicaciones sobre qué ''estaba marcado''. El Gobierno aprovecha la fisura y acusa a quien comparte esos clips de difundir bulos en plena crisis.'
+    mecanismo: Compartir clips del agitador da munición barata, pero cuando los verificadores ya han desmentido las 'marcas ocultas' y se acerca una noche con lesiones, quedar asociado a un bulo sanitario es un coste que un partido con aspiración de gobierno no quiere asumir. Le conviene más atacar la descoordinación, que es un hecho verificable, que la ocultación, que no lo es. Una fuerza que compite por el voto desconfiado no tiene ese freno. Para el Gobierno, señalar a quien amplifica el bulo es la forma de recuperar la iniciativa sin tener que explicar la causa, que no conoce.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - politica
+    - desinformacion
+    - parlamento
+    id: politico/h3/3
+  - texto: 'Interior evita pronunciarse en público sobre la pérdida de invisibilidad del marcado forense: no confirma qué sistemas quedan afectados ni da instrucciones abiertas, y canaliza la respuesta por vía interna a Policía Nacional, Guardia Civil y empresas de seguridad privada (preservar pruebas ya marcadas, documentar antes de que se limpien, revisar protocolos). En público se limita a decir que las investigaciones en curso cuentan con otros medios de prueba.'
+    mecanismo: Explicar en rueda de prensa qué marcas forenses ya no son secretas sería dar una guía a quien quiere borrar rastros y, a la vez, confirmar al agitador que 'había marcas ocultas'. Ningún gobierno puede afirmar lo que sus técnicos no han evaluado, y en tres horas nadie ha medido cuánto pierde cada sistema. El silencio público con instrucción interna protege la eficacia policial sin abrir un frente de rectificación, aunque deja a las consultas de ciudadanos y empresas de seguridad sin respuesta oficial.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - seguridad
+    - justicia
+    - comunicacion_publica
+    id: politico/h3/4
+  - texto: En el plano internacional la presidencia del Consejo de la UE sube el dispositivo de respuesta política a crisis del modo de intercambio de información a una mesa redonda de crisis con Estados, Comisión y Servicio de Acción Exterior para alinear mensajes sanitarios y la presión a las plataformas, sin medidas comunes. La OMS sigue sin convocar el Comité de Emergencias y publica en su lugar una orientación técnica sobre protección ocular que sirve de autoridad de referencia a la que pueden enlazar gobiernos y plataformas.
+    mecanismo: El dispositivo de respuesta política a crisis de la UE tiene escalones (seguimiento, intercambio de información, activación plena) y su activación y su nivel los decide la presidencia del Consejo; la mesa redonda es el instrumento que da imagen de coordinación europea sin exigir base legal para medidas nuevas. La OMS, por su parte, solo convoca el Comité de Emergencias del Reglamento Sanitario Internacional cuando hay un evento que puede constituir una emergencia de salud pública de importancia internacional, y un cambio de percepción sin daño acreditado ni propagación no encaja; pero la falta de una autoridad común está fragmentando los paneles de las plataformas, y una orientación técnica es la forma de llenar ese hueco sin comprometerse con una declaración que tendría que retirar.
+    dato: El IPCR tiene tres modos (seguimiento, intercambio de información y activación plena) y la presidencia del Consejo decide su activación; según el artículo 12 del RSI, el director general de la OMS convoca el Comité de Emergencias cuando considera que un evento puede constituir una emergencia de salud pública de importancia internacional.
+    fuente: https://www.consilium.europa.eu/en/policies/ipcr-response-to-crises ; https://www.who.int/features/qa/39/en/
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - politica_internacional
+    - union_europea
+    - sanidad
+    - plataformas_digitales
+    id: politico/h3/5
+  reacciona_a:
+  - medios/h2/4
+  - disruptor/h2/1
+  - oftalmologa/h2/1

@@ -1,0 +1,23 @@
+evaluacion:
+  tramo: h3
+  metricas:
+    - id: alarma_social
+      valor: 3
+      justificacion: "Los cambios de conducta visibles se amplían: compra de lámparas germicidas, retos entre adolescentes, comida tirada y reclamaciones, trabajadores que interrumpen tajos, líneas de consulta saturadas y abandono preventivo del protector en el Cono Sur. No llega a 4 porque no hay acaparamiento de bienes básicos, protestas en varios países ni servicios colapsados: las urgencias se refuerzan antes de la oleada y la saturación se limita a líneas de consulta."
+      apoyos: [h3-01, h3-02, h3-06, h3-08, h3-09, h3-10]
+    - id: confianza_institucional
+      valor: 3
+      justificacion: "La versión oficial gana autoridad (protocolo con fuente de exposición, pauta común del Consejo Interterritorial, orientación técnica de la OMS), pero convive con una sospecha amplia: los primeros casos ponen en entredicho el 'esta noche, no ahora', el agitador abre su registro de 'síntomas tardíos', presenta el triaje como conocimiento previo y amplía las 'marcas' a la comida, e Interior calla sobre el marcado forense. No sube a 4 porque las indicaciones no se siguen de forma mayoritaria y no baja a 2 porque medios, gobiernos y la OMS siguen marcando una referencia común."
+      apoyos: [h3-02, h3-03, h3-04, h3-07, h3-08, h3-10]
+    - id: respuesta_gobiernos
+      valor: comunicacion
+      justificacion: "El mundo está entre comunicacion y medidas_sectoriales y se elige la inferior: España ya da pasos sectoriales (refuerzo de urgencias oftalmológicas, pauta común para colegios aprobada por la mayoría de comunidades), pero la UE solo alinea mensajes sin medidas comunes, la OMS publica orientación sin convocar el Comité de Emergencias y no hay medidas de otros países. Además la pauta escolar son recomendaciones sin cierres y el conflicto laboral sigue sin criterio oficial."
+      apoyos: [h3-03, h3-05, h3-06, h3-07, h3-08]
+    - id: impacto_economico
+      valor: 2
+      justificacion: "Siguen siendo movimientos sectoriales: desvío de demanda a lámparas germicidas, pedidos por lotes de gafas homologadas al canal profesional, reclamaciones a supermercados y paradas en algunos tajos al aire libre. Está entre 2 y 3 y se elige el inferior porque las interrupciones laborales son puntuales y no hay caídas generales de índices ni disrupción operativa sostenida en varios sectores."
+      apoyos: [h3-01, h3-06, h3-10]
+    - id: adaptacion
+      valor: 2
+      justificacion: "Las pautas son más claras y operativas (aviso por tipo de lámpara, protocolo de urgencias, pauta común escolar, gafas homologadas por obligación del empresario, orientación de la OMS), pero poco seguidas: se compran germicidas, los adolescentes miran al sol como reto, se aplica 'si brilla, se tira' y en el Cono Sur se abandona el protector con índice UV extremo. No llega a 3 porque no hay indicio de que una parte relevante de la población las haya adoptado."
+      apoyos: [h3-01, h3-02, h3-03, h3-05, h3-06, h3-07, h3-09, h3-10]

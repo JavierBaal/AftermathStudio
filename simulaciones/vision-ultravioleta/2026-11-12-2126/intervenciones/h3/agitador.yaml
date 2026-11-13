@@ -1,0 +1,65 @@
+intervencion:
+  agente: agitador
+  tramo: h3
+  afirmaciones:
+  - texto: 'En la tercera hora el agitador se adelanta a la oleada nocturna de fotoqueratitis: abre en su canal propio un formulario o hilo fijo para que sus seguidores registren ''síntomas tardíos'' (escozor, lagrimeo, sensación de arena) y anuncia que esta noche se verá ''lo que nos han hecho''. Así, cuando los casos lleguen a urgencias, ya tendrá una base de testimonios propia y un marco previo que convierte la lesión por conducta en daño del fenómeno.'
+    mecanismo: La fotoqueratitis aparece horas después de la exposición, y la nota de triaje de la sociedad de oftalmología ya ha anunciado la oleada para esta tarde y noche. Ese anuncio es público, así que el agitador sabe cuándo llegará la noticia y puede preparar su versión antes. Recoger testimonios propios le da material que los verificadores no pueden contrastar, porque está en un canal cerrado y es testimonial. Además, parte de esos síntomas vendrá de seguidores que buscaron marcas con lámparas UV o cerca del sol tras su propio encuadre de la hora 2, de modo que el relato se alimenta del daño que contribuyó a provocar. Para él, que la oleada se lea como conducta sería perder la historia; adelantarse es la única forma de ganarla.
+    dato: La fotoqueratitis es una quemadura corneal por UV cuyos síntomas aparecen con varias horas de retraso tras la exposición.
+    fuente: https://eyewiki.aao.org/Photokeratitis
+    confianza: alta
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - informacion
+    - redes
+    id: agitador/h3/1
+  - texto: 'El agitador ataca la nota de triaje de la sociedad de oftalmología precisamente porque anticipó los casos: presenta que ''ya sabían que habría heridos esta noche'' como prueba de conocimiento previo, y no como predicción clínica. El anuncio preventivo, pensado para desactivar su relato, se convierte en su pieza central del tramo.'
+    mecanismo: 'Es el mismo patrón que le funcionó en la hora 2 con el BCE: tomar una explicación correcta y cambiar su significado de ''lo conocemos'' a ''lo ocultaban''. Una predicción acertada de una autoridad es, para una audiencia ya vacunada contra fuentes oficiales, más sospechosa que un error, porque sugiere que alguien sabía. No necesita negar la latencia de la fotoqueratitis, solo omitir que la causa es mirar al sol o a lámparas UV. La sociedad de oftalmología no puede retirar el aviso sin perder credibilidad, así que su mensaje queda fijado y él puede citarlo una y otra vez.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - informacion
+    - confianza_institucional
+    id: agitador/h3/2
+  - texto: 'Con la oposición compartiendo sus clips sobre descoordinación, el agitador sube la apuesta en el terreno de ''¿quién manda?'': se apropia de la comparecencia anunciada del presidente como ''lo que nosotros forzamos'' y señala la reunión del Consejo de Seguridad Nacional como prueba de que el asunto es ''de seguridad, no de salud''. Algunos cargos de la oposición empiezan a tomar distancia pública de él para no quedar asociados al bulo, y él convierte esa distancia en una historia de traición que le acerca aún más a su núcleo duro.'
+    mecanismo: 'El agitador gana relevancia cuando puede atribuirse efectos visibles, y la comparecencia es un hecho con fecha. Que el Gobierno haya usado un órgano de seguridad nacional, aunque sea solo para coordinar, le da una palabra (''seguridad'') que su audiencia lee como confirmación de amenaza oculta. Para la oposición, el clip era munición barata en la hora 2, pero en la hora 3 el relato de las ''marcas ocultas'' ya está desmentido en medios generalistas y asociarse a él tiene coste reputacional; lo racional es usar la descoordinación sin el marco conspirativo. Para el agitador, la ruptura no es una pérdida: el abandono por parte de la política institucional confirma ante su audiencia que nadie de dentro es de fiar.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - politica
+    - informacion
+    - confianza_institucional
+    id: agitador/h3/3
+  - texto: 'El agitador se sube al hallazgo del marcado forense que pierde su invisibilidad y lo convierte en el eje de su relato: mezcla en su canal ejemplos reales de marcadores tipo SmartWater, rociadores antiintrusión y tintas de seguridad con residuos y blanqueantes sin relación, y anima a sus seguidores a revisar su ropa, su casa y sus coches en busca de ''marcas''. El efecto colateral es que su contenido funciona de facto como guía para detectar y limpiar marcado forense, y empresas de seguridad y policía ven crecer las consultas de particulares asustados mezcladas con quienes buscan borrar rastros.'
+    mecanismo: En la hora 2 los desmentidos tuvieron que admitir que parte de lo que se ve sí estaba oculto a propósito; ese fragmento de verdad es su activo más creíble y lo explota porque necesita credibilidad ante su audiencia. Pedir a la audiencia que revise sus cosas le da contenido gratis y participación, como en las horas anteriores. Como no distingue entre marcadores forenses y fluorescencia inocua, multiplica las falsas alarmas y satura las líneas de consulta, y a la vez difunde a un público masivo cómo se ve el marcado de seguridad, lo que beneficia a quien tiene algo marcado que ocultar. Él no lo busca, pero tampoco le cuesta nada.
+    dato: Los marcadores forenses tipo SmartWater se basan en una traza invisible que se detecta con luz ultravioleta.
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - seguridad
+    - policia
+    - informacion
+    id: agitador/h3/4
+  - texto: 'La migración a su canal propio de mensajería le sale rentable en audiencia pero cara en ingresos: las plataformas grandes limitan su alcance y desmonetizan algunos directos, y él compensa pidiendo donaciones directas y suscripciones en su canal, con llamamientos ligados a ''seguir investigando las marcas'' y a ''cubrir esta noche los casos de urgencias''. La urgencia de la noche que viene se convierte en motor de recaudación.'
+    mecanismo: Sus restricciones dicen que las plataformas grandes pueden retirarle contenido y desmonetizarlo, y en la hora 2 ya empezaron. El canal propio no se puede desmonetizar desde fuera, pero tampoco paga por publicidad, así que su ingreso pasa a depender del pago directo de la audiencia. La donación responde a urgencia y a sensación de pertenencia, y el calendario clínico anunciado por los oftalmólogos le regala una fecha concreta, esta noche, para pedir dinero con un motivo. Cuanto más miedo hay ante lo que viene, más dona su núcleo duro, que es exactamente su incentivo.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - redes
+    - economia_creadores
+    - informacion
+    id: agitador/h3/5
+  reacciona_a:
+  - oftalmologa/h2/1
+  - medios/h2/3
+  - disruptor/h2/1
+  - politico/h2/1
+  - politico/h2/2

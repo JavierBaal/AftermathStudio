@@ -1,0 +1,61 @@
+intervencion:
+  agente: adolescente
+  tramo: h3
+  afirmaciones:
+  - texto: 'En mi grupo y en los de clase se monta el pique de ''quién ve más'': cuando se enteran de que los niños ven los colores más fuertes que los mayores, nosotros lo usamos para decir que vemos cosas que nuestros padres y los profes no ven, y salen memes y vídeos de ''los boomers no lo ven'' que se comparten muchísimo.'
+    mecanismo: 'La pauta de los oftalmólogos sobre la edad llega a los grupos convertida en titular simple: cuanto más joven, más ves. Por una vez algo nos pone por encima de los adultos, que llevan toda la mañana diciéndonos qué hacer sin saber nada, y presumir de eso da estatus en clase y en redes. Como nadie puede demostrar con una foto lo que ve, cada uno exagera lo suyo y nadie puede pillarle.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - redes_sociales
+    - juventud
+    - relaciones_familiares
+    id: adolescente/h3/1
+  - texto: Entre los de mi edad corre el rumor de que si miras un rato cerca del sol o muy de cerca una lámpara de uñas 'se te abre' más la vista y ves más colores, y algunos lo prueban como reto en el patio, en el camino a casa o en la habitación, sin que les duela en el momento.
+    mecanismo: Si ver más colores da estatus, cualquier truco para ver más se copia rápido, y el aviso de no mirar al sol suena a lo típico que dicen los mayores. Como mirarlo no duele en el momento, quien lo hace dice que no pasa nada y eso anima a otros. Así entran adolescentes en la oleada de lesiones de esta noche que ya anticipan los oftalmólogos, por conducta y no por el fenómeno.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - juventud
+    - redes_sociales
+    id: adolescente/h3/2
+  - texto: 'La amiga que tiene una lámpara de uñas UV o una linterna de luz negra en casa se convierte en el centro del plan de la tarde: se queda gente para ir a su casa a mirar ropa, maquillaje, dientes y billetes con la luz, y lo grabamos contándolo aunque el vídeo no enseñe nada.'
+    mecanismo: En casa con luz LED casi no se ven los colores y las lámparas se están agotando en las tiendas, así que quien ya tiene una tiene algo que los demás no pueden comprar hoy. Entre adolescentes, tener lo que todos quieren te da poder para decidir quién viene y quién no. Además los padres prefieren que estemos en casa de alguien conocido que por la calle, así que nos dejan.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - juventud
+    - consumo
+    - salud
+    id: adolescente/h3/3
+  - texto: En clase algunos descubren en la mano o en la muñeca restos del sello de la discoteca o del local del fin de semana, que antes no se veía, y empiezan los cotilleos y las capturas sobre quién salió a sitios donde no deberían dejarle entrar o sin que lo supieran sus padres.
+    mecanismo: Los sellos de entrada de los locales están hechos para verse solo con luz negra y ahora los vemos todos, igual que otras marcas que se ponían para no verse. Si no te has frotado bien, queda rastro en la piel o en la pulsera del móvil. A los dieciséis, saber dónde ha estado alguien es información que da poder en el grupo, y que se entere tu familia es el miedo número uno, así que hay quien se va al baño a frotarse y quien lo usa para dejar en evidencia a otro.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - juventud
+    - relaciones_familiares
+    - seguridad
+    id: adolescente/h3/4
+  - texto: 'Cuando acaban las clases a mediodía y salimos a la calle con el sol más alto, la salida del instituto se convierte en un rato largo en la puerta: nadie se va directo a casa, nos quedamos mirando la calle y grabándonos mientras contamos lo que vemos, y llegamos tarde a comer, lo que provoca broncas y llamadas de padres que ya estaban nerviosos.'
+    mecanismo: Llevamos toda la mañana dentro, con recreo en interior y ventanas que no siempre dejan ver los colores, así que la salida es el primer momento libre para verlo todo al aire libre y con el grupo. Como casi nadie lleva gafas de sol para no perderse los colores, el deslumbramiento hace que vayamos más despacio y nos paremos. Los padres, con el móvil localizándonos y el miedo que traen de la mañana, ven que no llegamos y llaman, y lo que para ellos es preocupación para nosotros es control.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - juventud
+    - relaciones_familiares
+    - educacion
+    - salud
+    id: adolescente/h3/5
+  reacciona_a: []

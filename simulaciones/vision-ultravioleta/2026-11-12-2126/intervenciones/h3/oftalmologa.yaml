@@ -1,0 +1,67 @@
+intervencion:
+  agente: oftalmologa
+  tramo: h3
+  afirmaciones:
+  - texto: 'Con las lámparas de luz negra agotadas, parte de la demanda se desvía a lo que queda en las tiendas y en los marketplaces con la etiqueta ''lámpara UV'': esterilizadores y lámparas germicidas de UV-C. La sociedad de oftalmología publica en la hora 3 un aviso por tipo de producto: la luz negra de UV-A muestra los colores nuevos y solo es peligrosa si se mira de cerca y durante mucho rato, mientras que la lámpara germicida no muestra nada nuevo y quema la córnea con exposiciones cortas.'
+    mecanismo: El fenómeno amplía la percepción al UV-A, no al UV-C, así que una lámpara germicida (UV-C) no enseña ningún color nuevo y quien la enciende tiende a acercarse más o a dejarla encendida para 'ver algo', con lo que se expone a la radiación más lesiva para el epitelio corneal. El comprador no distingue entre bandas porque los anuncios dicen solo 'UV'. Ya ocurrió con las lámparas germicidas compradas en la pandemia, que produjeron fotoqueratitis en usuarios domésticos. Separar los productos por banda le da a la sociedad un mensaje útil y concreto, distinto del genérico 'no mires lámparas UV' que el agitador ya ha reencuadrado como ocultación.
+    dato: Serie de 7 pacientes con fotoqueratitis por lámparas germicidas de uso doméstico compradas durante la pandemia de COVID-19, con erosiones epiteliales punteadas difusas en todos; la mayoría resolvió en 2-3 días.
+    fuente: https://pubmed.ncbi.nlm.nih.gov/33215961/
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - salud
+    - consumo
+    - comercio_online
+    - informacion_publica
+    id: oftalmologa/h3/1
+  - texto: La sociedad de oftalmología difunde a las urgencias hospitalarias un protocolo para la oleada de la noche que obliga a anotar en cada caso la hora y la fuente de exposición (sol, luz negra, lámpara de uñas, germicida) y que separa la fotoqueratitis, molesta pero que se cura en pocos días, de la retinopatía solar, menos frecuente pero capaz de dejar una mancha central persistente. Pide también no dar colirio anestésico para casa.
+    mecanismo: La retinopatía solar es la única lesión de esta jornada que puede no curarse del todo, y por eso es la que mejor encajaría en el relato de daño permanente del agitador si se presenta sin contexto. Si cada historia clínica registra que hubo una conducta de exposición previa, la sociedad puede demostrar con datos propios que las lesiones vienen de mirar al sol o a lámparas y no del fenómeno, y protege su credibilidad cuando lleguen los casos. El colirio anestésico alivia el dolor de la fotoqueratitis pero su uso repetido retrasa la curación del epitelio, y la presión asistencial de una noche saturada empuja a recetarlo para despachar pacientes.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - urgencias
+    - informacion_publica
+    - politica
+    id: oftalmologa/h3/2
+  - texto: La sociedad lanza un registro abierto de testimonios estructurado (edad, si ha sido operado de cataratas y con qué lente, si lleva gafas y de qué material, ojo por ojo) para medir el gradiente de percepción, y lo presenta como el primer estudio sistemático del fenómeno. En pocas horas recibe miles de respuestas y otras sociedades europeas piden adherirse o copiar el formulario.
+    mecanismo: 'Lo único que la oftalmología puede medir sin conocer la causa es cuánto UV-A llega a la retina de cada persona, y eso depende de variables conocidas: la edad del cristalino, la lente intraocular y el filtro de las gafas. Los afáquicos, los operados con y sin filtro y los niños forman un experimento natural que ya existe. Quien publique primero un protocolo de recogida se convierte en la referencia a la que enlazan plataformas y gobiernos, que en la hora 2 no tenían una autoridad común; ese es justo el incentivo de la sociedad. El riesgo es que un registro abierto mezcla testimonios fiables con sugestión, y los primeros resultados serán descriptivos, no concluyentes.'
+    dato: El cristalino adulto absorbe casi toda la energía incidente hasta cerca de 400 nm; el pico de absorción está en 365 nm a los 8 años y en 450 nm a los 65, y en niños hasta unos 10 años hay una pequeña ventana de transmisión hacia 320 nm.
+    fuente: https://www.dovepress.com/ultraviolet-damage-to-the-eye-revisited-eye-sun-protection-factor-e-sp-peer-reviewed-fulltext-article-OPTH
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - ciencia
+    - salud
+    - informacion_publica
+    - plataformas
+    id: oftalmologa/h3/3
+  - texto: Empiezan a llegar a las clínicas oftalmológicas privadas consultas de personas mayores que preguntan si operarse de cataratas o cambiar su lente intraocular les permitiría ver los colores nuevos como los demás, y alguna clínica lo aprovecha en redes sugiriendo que la cirugía de cristalino 'devuelve' la visión ultravioleta. La sociedad lo denuncia como publicidad sanitaria engañosa.
+    mecanismo: 'El gradiente por edad ya es público y el precedente de los afáquicos, que la propia sociedad difundió en la hora 1, deja una inferencia peligrosa al alcance de cualquiera: si sin cristalino se ve más UV, quitar el cristalino amarillento haría ver más. Las clínicas privadas ya venden la cirugía de cristalino como refractiva y tienen incentivo para captar ese interés, aunque las lentes intraoculares actuales suelen llevar filtro UV y nadie sabe si el fenómeno es permanente. Para la sociedad, cortar este uso comercial de su propio argumento es una cuestión de credibilidad: no puede dejar que su referencia clínica se convierta en reclamo de quirófano.'
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - salud
+    - sanidad_privada
+    - publicidad
+    - consumo
+    id: oftalmologa/h3/4
+  - texto: 'Cuando medios y comunidades piden ligar la pauta de gafas al índice ultravioleta que publican los servicios meteorológicos, la sociedad advierte que ese índice no sirve para medir el deslumbramiento del fenómeno: un índice bajo en noviembre no garantiza poco deslumbramiento, porque el índice mide sobre todo el riesgo de quemadura y el deslumbramiento depende del UV-A.'
+    mecanismo: El índice UV está ponderado por el espectro de eritema, en el que pesa mucho más el UV-B, que cae con fuerza en invierno y con el sol bajo, mientras que el UV-A, la banda que ahora se percibe, varía menos con la estación y atraviesa mejor las nubes. Usar el índice como semáforo para las gafas daría falsa tranquilidad en el norte de Europa nublado y descolocaría la pauta situacional que la sociedad fijó en la hora 2. Corregir a tiempo una regla fácil pero equivocada es lo que separa a la sociedad de los portavoces improvisados y refuerza su papel de referencia técnica.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - meteorologia
+    - educacion
+    - informacion_publica
+    id: oftalmologa/h3/5
+  reacciona_a:
+  - economista/h2/4
+  - agitador/h2/2

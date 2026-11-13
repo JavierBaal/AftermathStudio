@@ -1,0 +1,66 @@
+intervencion:
+  agente: disruptor
+  tramo: h3
+  afirmaciones:
+  - texto: 'En el Cono Sur (Chile, Argentina, Uruguay, sur de Brasil), donde amanece entre la hora 2 y la hora 3 en plena primavera austral, la gente vive el fenómeno ya contado por Europa y decide su rutina antes de salir de casa: una parte deja el protector solar y el maquillaje con SPF en el baño para no llevar la máscara que ha visto descrita en redes europeas. Es el primer lugar donde el abandono del protector es preventivo y masivo, no reactivo, y coincide con la época de índice UV más alto del año, así que las quemaduras reales aparecerán allí antes y con más intensidad que en la Europa de noviembre.'
+    mecanismo: 'En Europa la gente se quitó el protector al descubrir la máscara; en Sudamérica la decisión se toma con horas de información previa, en el momento más barato (no ponérselo cuesta menos que quitárselo en la oficina) y con el estigma ya construido, incluido el contenido burlón y racista sobre las caras negras. Pero noviembre en Santiago o Buenos Aires no es noviembre en Madrid: el índice UV ronda niveles muy altos o extremos a mediodía, de modo que el coste diferido de ir sin protección es mucho mayor. La tensión sobre si el abandono produce quemaduras se resuelve primero en el hemisferio sur, y esas quemaduras, que aparecen horas después, se sumarán a la noche de fotoqueratitis como otra ''lesión tardía'' disponible para el relato de daño diferido.'
+    dato: Meteored y Meganoticias anticipan en noviembre índice UV extremo para Santiago y la Región Metropolitana.
+    fuente: https://www.meganoticias.cl/nacional/505260-indice-uv-radiacion-extremo-muy-alto-calor-temperaturas-santiago-region-metropolitana-13-11-2025.html
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - cosmetica
+    - redes_sociales
+    - latinoamerica
+    id: disruptor/h3/1
+  - texto: 'Las lámparas de luz negra y las linternas UV compradas en la hora 2 se apuntan, una vez en casa, a la nevera y la despensa: frutos secos, maíz, especias, cítricos y pan muestran puntos y halos fluorescentes. Arranca una ola de comida tirada, reclamaciones a supermercados y llamadas a las agencias de seguridad alimentaria, y el agitador amplía las ''marcas'' a la comida (''nos envenenan y lo marcan'').'
+    mecanismo: 'La fluorescencia bajo UV-A de 365 nm es un método de cribado real: la fluorescencia verde-amarilla brillante se usa como prueba presuntiva de aflatoxinas en maíz, y el moho, las magulladuras y algunos tratamientos poscosecha se ven distintos bajo esa luz. Pero es una prueba de sospecha que genera falsos positivos y no mide cantidad. El consumidor no distingue entre moho real, piel o cera inocua y residuos legales, así que actúa por la regla más simple: si brilla, se tira o se reclama. Para el agitador es el salto perfecto, porque la comida es universal, íntima y de verificación lenta, y además hay un fragmento de verdad: el sector sí usaba esa luz para detectar lo que no se ve.'
+    dato: La FAO describe la prueba de fluorescencia verde-amarilla brillante (BGY) bajo luz UV como método presuntivo para estimar aflatoxinas en maíz.
+    fuente: https://www.fao.org/4/X5036E/x5036E0G.HTM
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - alimentacion
+    - consumo
+    - desinformacion
+    - distribucion
+    id: disruptor/h3/2
+  - texto: En España los sindicatos y los delegados de prevención reclaman a mediodía que las empresas evalúen el nuevo riesgo para quien trabaja al aire libre (obra en altura, repartidores en moto y bici, agricultura, conductores de reparto, operarios de grúa), y en algunos tajos los trabajadores invocan el derecho a interrumpir la actividad por riesgo grave e inminente. La Inspección de Trabajo y las mutuas reciben consultas que no saben contestar.
+    mecanismo: 'La Ley de Prevención de Riesgos Laborales obliga al empresario a evaluar los riesgos nuevos y su artículo 21 permite al trabajador interrumpir la actividad y abandonar el lugar de trabajo ante un riesgo grave e inminente. El deslumbramiento en altura o en moto encaja de forma discutible en ese supuesto, y la pauta oftalmológica de precaución extra en moto y bici ofrece justo el respaldo técnico que necesita un delegado para pararlo. Ningún protocolo de empresa contempla el caso, nadie quiere responder de un accidente laboral, y el mediodía de la hora 3 concentra el sol más intenso del día en España. El conflicto no es sanitario ni político: es laboral y local, y escapa al mensaje único del Consejo de Seguridad Nacional.'
+    dato: 'Artículo 21 de la Ley 31/1995 de Prevención de Riesgos Laborales: derecho del trabajador a interrumpir su actividad ante riesgo grave e inminente.'
+    fuente: https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - trabajo
+    - sindicatos
+    - construccion
+    - reparto
+    - prevencion
+    id: disruptor/h3/3
+  - texto: 'Las personas con vitíligo y otras alteraciones de la pigmentación pasan de golpe a ser mucho más visibles en exterior: sus zonas despigmentadas destacan con un contraste que antes solo veía un dermatólogo con lámpara de Wood. Empiezan los comentarios y las fotos en la calle y el transporte, y las asociaciones de pacientes salen a pedir respeto antes de que nadie en el debate público se acuerde de ellas.'
+    mecanismo: 'La lámpara de Wood, que emite UV-A, se usa en dermatología precisamente porque acentúa la diferencia entre piel pigmentada y despigmentada: la melanina absorbe el ultravioleta y la piel sin melanina lo refleja. Si todo el mundo ve en UV-A, la luz de mediodía hace de lámpara de Wood permanente. El canon ya cuenta las manchas y el protector como fenómenos de todos, pero aquí la visibilidad nueva recae sobre un grupo concreto que ya sufría estigma, y lo hace en un clima de burla sobre caras y pieles que las plataformas solo moderan cuando encaja como odio racial.'
+    dato: El Manual MSD indica que el examen con lámpara de Wood ayuda a detectar y delimitar las lesiones de vitíligo.
+    fuente: https://www.msdmanuals.com/es/professional/trastornos-dermatol%C3%B3gicos/trastornos-de-la-pigmentaci%C3%B3n/vitiligo
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - salud
+    - discriminacion
+    - dermatologia
+    - asociaciones_pacientes
+    id: disruptor/h3/4
+  - texto: Anticuarios, galerías, casas de subastas y coleccionistas empiezan a recibir llamadas de compradores que, con la lámpara recién comprada o junto a una ventana, ven en sus cuadros, cerámicas y muebles retoques, repintes y piezas reconstruidas que nadie les dijo. A la vez, en oficinas y casas aparecen correcciones y borrados en documentos (tachaduras con corrector, tinta borrada, firmas repasadas), y surgen las primeras reclamaciones por piezas o papeles 'manipulados'.
+    mecanismo: 'El examen con fluorescencia UV es una técnica estándar de conservación y de peritaje: el barniz antiguo fluoresce de forma distinta al repinte moderno, y las alteraciones de tinta y papel se detectan con la misma luz. Esa información estaba reservada a restauradores y peritos; ahora la tiene cualquiera, sin contexto para saber si una restauración declarada es legítima o un engaño. El efecto se reparte entre reclamaciones fundadas, sospechas infundadas y oportunistas que intentan devolver una compra antigua, y abre una vía que el agitador puede usar (''todo está retocado''), aunque su impacto principal es comercial y jurídico.'
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - arte
+    - comercio
+    - documentos
+    - consumo
+    id: disruptor/h3/5
+  reacciona_a: []
