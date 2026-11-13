@@ -2,39 +2,66 @@ intervencion:
   agente: adolescente
   tramo: h5
   afirmaciones:
-    - texto: "Después de comer, a una amiga que estuvo a mediodía con el juego de la lámpara en los ojos le empiezan a doler, le lloran y dice que tiene arena. Sus padres la llevan a urgencias pensando que es por el fenómeno, y ella no cuenta lo de la lámpara, o lo cuenta a medias, porque le da miedo que la castiguen. En el grupo nadie dice que jugamos con lámparas: lo contamos como que a ella el sol le ha hecho daño."
-      mecanismo: "El dolor no sale cuando te alumbras, sale horas después, cuando ya estás en otra cosa y no lo relacionas. El aviso de los oftalmólogos lo han visto nuestros padres en la tele, no nosotros, y lo que pregunta un padre en urgencias es qué ha pasado hoy. Si dices la verdad, te quitan la lámpara, el móvil y la salida de la tarde, y además quedas como la tonta del reto. Decir que ha sido el sol es más fácil y nadie te lo puede discutir, así que el caso se suma a los heridos del fenómeno aunque sea de la lámpara."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [salud, familias, redes, informacion]
-    - texto: "En la comida, con el telediario hablando de heridos por lámparas, varios padres del grupo de familias requisan las lámparas de uñas y las linternas de luz negra. Las que se salvan acaban en casa de quien tiene los padres trabajando por la tarde, que se convierte en el sitio donde quedar."
-      mecanismo: "Los padres no distinguen una lámpara de uñas de una germicida, y el titular dice heridos, así que quitan todas por si acaso, igual que hicieron con el móvil cuando lo del reto del sol. Pero el juego ya da estatus y en la calle no se puede estar a todas horas, así que no se acaba: se va a donde no hay adultos. La casa sin padres siempre ha sido el sitio de quedar, y ahora además tiene lo único que no se ha agotado."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [familias, salud, consumo]
-    - texto: "En el grupo de clase empieza a circular que a un compañero se le ven marcas en los brazos o en el cuello, con capturas del chat y teorías de que le pegan en casa o de que se hace daño. Nadie sabe si son moratones antiguos, manchas de nacimiento o de jugar al fútbol, pero el rumor llega a la tutora antes que el chaval sepa que se habla de él."
-      mecanismo: "Lo de ver moratones antiguos ya lo comentan los profes y sale en las noticias, y nosotros vemos mejor que ellos esos colores. En un grupo de clase lo que más corre es lo que tiene que ver con alguien concreto, y ser quien lo ha visto te da protagonismo. Como nadie tiene ni idea de qué es una mancha normal en este canal nuevo, cualquiera con marcas puede acabar señalado, y la tutora, que tiene que avisar si sospecha algo, recibe el rumor ya inflado."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [educacion, menores, redes, proteccion_infancia]
-    - texto: "Algunas chicas de mi grupo que tienen pecas o manchas de verano en la cara vuelven a ponerse crema en la cara, pero no para protegerse: una capa uniforme de crema se ve oscura igual en toda la cara y tapa el dibujo de manchas, y prefieren ir todas iguales a que se les vean las pecas por dentro."
-      mecanismo: "Si en la cara del abuelo las manchas se ven como suciedad, en la tuya también se ven, aunque sean menos. Entre ir manchada a trozos o ir oscura entera, ir entera es menos raro, sobre todo si tus amigas hacen lo mismo y se convierte en lo normal del grupo. No es que hayamos hecho caso a los dermatólogos: la crema pasa de ser lo que te mancha a ser lo que te tapa, y eso parte en dos al grupo de las que se la quitaban en el portal."
-      dato: ""
-      fuente: ""
-      confianza: baja
-      evidencia: especulacion
-      areas_afectadas: [salud, imagen, consumo, redes]
-    - texto: "Por la tarde quedamos en parques y azoteas mirando el índice UV en el móvil para saber cuándo se ven mejor los colores, y al ver que baja según avanza la tarde se extiende entre los de mi edad la idea de que el fenómeno se está apagando y mañana ya no estará, así que hay que aprovechar ahora sin gafas."
-      mecanismo: "El índice UV es el único dato que tenemos y lo usamos como el tiempo de los colores. Nadie nos ha explicado que baja cada tarde porque el sol está más bajo, igual que a los americanos les pareció flojo al amanecer, así que cuando vemos que el número cae y los colores se ven más flojos, lo leemos como que se acaba. Si crees que es la última tarde, protegerte te parece perder lo único especial del día, y quien se quita las gafas tiene una excusa más."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [salud, redes, informacion, ocio]
-  reacciona_a: [oftalmologa/h3/1, disruptor/h3/2, disruptor/h3/3]
+  - texto: 'Después de comer, a una amiga que estuvo a mediodía con el juego de la lámpara en los ojos le empiezan a doler, le lloran y dice que tiene arena. Sus padres la llevan a urgencias pensando que es por el fenómeno, y ella no cuenta lo de la lámpara, o lo cuenta a medias, porque le da miedo que la castiguen. En el grupo nadie dice que jugamos con lámparas: lo contamos como que a ella el sol le ha hecho daño.'
+    mecanismo: El dolor no sale cuando te alumbras, sale horas después, cuando ya estás en otra cosa y no lo relacionas. El aviso de los oftalmólogos lo han visto nuestros padres en la tele, no nosotros, y lo que pregunta un padre en urgencias es qué ha pasado hoy. Si dices la verdad, te quitan la lámpara, el móvil y la salida de la tarde, y además quedas como la tonta del reto. Decir que ha sido el sol es más fácil y nadie te lo puede discutir, así que el caso se suma a los heridos del fenómeno aunque sea de la lámpara.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - familias
+    - redes
+    - informacion
+    id: adolescente/h5/1
+  - texto: En la comida, con el telediario hablando de heridos por lámparas, varios padres del grupo de familias requisan las lámparas de uñas y las linternas de luz negra. Las que se salvan acaban en casa de quien tiene los padres trabajando por la tarde, que se convierte en el sitio donde quedar.
+    mecanismo: 'Los padres no distinguen una lámpara de uñas de una germicida, y el titular dice heridos, así que quitan todas por si acaso, igual que hicieron con el móvil cuando lo del reto del sol. Pero el juego ya da estatus y en la calle no se puede estar a todas horas, así que no se acaba: se va a donde no hay adultos. La casa sin padres siempre ha sido el sitio de quedar, y ahora además tiene lo único que no se ha agotado.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - familias
+    - salud
+    - consumo
+    id: adolescente/h5/2
+  - texto: En el grupo de clase empieza a circular que a un compañero se le ven marcas en los brazos o en el cuello, con capturas del chat y teorías de que le pegan en casa o de que se hace daño. Nadie sabe si son moratones antiguos, manchas de nacimiento o de jugar al fútbol, pero el rumor llega a la tutora antes que el chaval sepa que se habla de él.
+    mecanismo: Lo de ver moratones antiguos ya lo comentan los profes y sale en las noticias, y nosotros vemos mejor que ellos esos colores. En un grupo de clase lo que más corre es lo que tiene que ver con alguien concreto, y ser quien lo ha visto te da protagonismo. Como nadie tiene ni idea de qué es una mancha normal en este canal nuevo, cualquiera con marcas puede acabar señalado, y la tutora, que tiene que avisar si sospecha algo, recibe el rumor ya inflado.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - educacion
+    - menores
+    - redes
+    - proteccion_infancia
+    id: adolescente/h5/3
+  - texto: 'Algunas chicas de mi grupo que tienen pecas o manchas de verano en la cara vuelven a ponerse crema en la cara, pero no para protegerse: una capa uniforme de crema se ve oscura igual en toda la cara y tapa el dibujo de manchas, y prefieren ir todas iguales a que se les vean las pecas por dentro.'
+    mecanismo: 'Si en la cara del abuelo las manchas se ven como suciedad, en la tuya también se ven, aunque sean menos. Entre ir manchada a trozos o ir oscura entera, ir entera es menos raro, sobre todo si tus amigas hacen lo mismo y se convierte en lo normal del grupo. No es que hayamos hecho caso a los dermatólogos: la crema pasa de ser lo que te mancha a ser lo que te tapa, y eso parte en dos al grupo de las que se la quitaban en el portal.'
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - salud
+    - imagen
+    - consumo
+    - redes
+    id: adolescente/h5/4
+  - texto: Por la tarde quedamos en parques y azoteas mirando el índice UV en el móvil para saber cuándo se ven mejor los colores, y al ver que baja según avanza la tarde se extiende entre los de mi edad la idea de que el fenómeno se está apagando y mañana ya no estará, así que hay que aprovechar ahora sin gafas.
+    mecanismo: El índice UV es el único dato que tenemos y lo usamos como el tiempo de los colores. Nadie nos ha explicado que baja cada tarde porque el sol está más bajo, igual que a los americanos les pareció flojo al amanecer, así que cuando vemos que el número cae y los colores se ven más flojos, lo leemos como que se acaba. Si crees que es la última tarde, protegerte te parece perder lo único especial del día, y quien se quita las gafas tiene una excusa más.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - redes
+    - informacion
+    - ocio
+    id: adolescente/h5/5
+  reacciona_a:
+  - oftalmologa/h3/1
+  - disruptor/h3/2
+  - disruptor/h3/3

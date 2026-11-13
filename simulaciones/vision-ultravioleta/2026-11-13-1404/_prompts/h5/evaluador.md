@@ -1,0 +1,252 @@
+Eres el evaluador de una simulación de escenarios de Aftermath Studio. No pronosticas ni consolidas: mides el estado del mundo con unas escalas definidas.
+
+## El mundo
+Suceso: Todos los seres humanos desarrollan a la vez la capacidad de ver el espectro ultravioleta.
+Momento cero: Martes, 10:00 hora de Madrid, simultáneo en todo el planeta. Alcance: global.
+Supuestos (son hechos del mundo; no los discutas ni los expliques):
+- El cambio es instantáneo y afecta a todas las personas, incluidos recién nacidos
+- Se percibe el ultravioleta cercano (UV-A) como colores nuevos, sin perder la visión normal
+- Los primeros días hay deslumbramiento y fatiga visual en exteriores con mucho sol; remite en unas dos semanas y no deja daño ocular permanente
+- Nadie conoce la causa y nadie sabe si es permanente
+Fuera de alcance: Explicar la causa del fenómeno; Efectos en animales
+
+## Tramo que evalúas
+Hora 5 (PT5H desde el suceso)
+Estado del mundo al cierre de este tramo:
+estado_del_mundo:
+  tramo: h5
+  resumen: 'En la quinta hora llegan a urgencias los primeros casos de fotoqueratitis por los juegos con lámparas de mediodía: hospitales, medios serios y el Gobierno, que emite una alerta de producto y pide retirar anuncios, los atribuyen a las lámparas, pero el agitador, la prensa de clics y los propios adolescentes que callan lo de la lámpara los suman a los heridos del fenómeno. Los informativos de sobremesa llevan los moratones antiguos y el daño solar a la audiencia más grande del día, el señalamiento salta a redes y el agitador lo convierte en miedo a perder a los hijos; los ministerios responden que una marca vista solo en ultravioleta no basta para notificar y encargan criterios a los forenses, y la sociedad oftalmológica añade que lo que se ve depende de la edad del observador y de la luz. El efecto cruzado más fuerte es la altura del sol: la misma física que debilitó el amanecer en Nueva York hace que en México se repita el rumor de que les llega más flojo y que en el norte de
+    Europa y en la tarde española se extienda la idea de que el fenómeno se apaga, lo que lleva a jóvenes a quitarse las gafas para aprovechar la que creen última tarde. En lo político la oposición pierde la votación para alterar el orden del día pero obliga a Moncloa a preparar una declaración del presidente antes de la sesión de control; en lo laboral, el convenio de la construcción para el calor se ofrece como fórmula de compromiso; la preferencia por tarjeta se repliega salvo en hostelería joven y el agitador la engancha al euro digital.'
+  hechos_establecidos:
+  - id: h5-01
+    texto: 'Entre la cuarta y la quinta hora llegan a urgencias los primeros ojos rojos, dolorosos y con sensación de arena de quienes se alumbraron con lámparas a mediodía, por la latencia de la fotoqueratitis (síntomas entre 30 minutos y 12 horas después; el epitelio corneal suele curar en 24 a 72 horas, según la Academia Americana de Oftalmología). La sociedad oftalmológica distribuye a urgencias y medios una regla de triaje de dos preguntas: dolor bilateral con lagrimeo y arena es córnea (lámpara o solario) y cura en días; mancha fija central sin dolor es retina (mirar al sol o a una fuente intensa) y necesita valoración preferente. Los medios serios atribuyen los casos a las lámparas y usan la palabra fotoqueratitis, pero la confusión se traslada a agregadores, prensa de clics y al directo largo del agitador, que arranca justo entonces en sus canales propios, no menciona las lámparas, presenta los casos como prueba de daño retardado del fenómeno y usa el aviso anticipado de la sociedad
+      como indicio de que ya sabían que habría heridos. Muchos adolescentes llevados a urgencias por sus padres callan o cuentan a medias lo de la lámpara por miedo al castigo, y en sus grupos el caso se cuenta como daño del sol, de modo que parte de los casos de lámpara entra en el recuento como afectados del fenómeno.'
+    origen:
+    - oftalmologa/h5/1
+    - medios/h5/5
+    - agitador/h5/1
+    - adolescente/h5/1
+  - id: h5-02
+    texto: Con los casos de lámpara en urgencias y en los titulares, el Ministerio de Consumo, con las comunidades autónomas que tienen la inspección de consumo, emite una alerta de seguridad de producto sobre lámparas UV-C germicidas, de bronceado y mal etiquetadas, y requiere a las plataformas de venta en línea que retiren los anuncios sin advertencias, con base en el Reglamento (UE) 2023/988 de seguridad general de los productos. El Gobierno lo presenta como la primera medida obligatoria desde el martes y atribuye públicamente esas lesiones a las lámparas y no al fenómeno. A la vez, las grandes plataformas empiezan a retirar los vídeos de alumbrarse ojos o cara con lámparas, amparadas en el aviso médico y en sus normas contra retos peligrosos. La cobertura del reto de la lámpara alerta a los padres pero lo da a conocer a adolescentes que no lo habían visto, y tanto la oferta de lámparas como los vídeos se desplazan a reventa, mensajería y etiquetas alternativas.
+    origen:
+    - politico/h5/3
+    - medios/h5/4
+  - id: h5-03
+    texto: 'A las 15:00 los informativos de sobremesa, la franja informativa de más audiencia de la televisión española, abren con lo que la piel escondía: daño solar en la cara de los mayores y moratones antiguos, estos con forenses, pediatras y el 016 en pantalla, presentando el ultravioleta como algo que destapa el maltrato. Las sospechas llegan así a millones de personas sin criterio para distinguir golpe de pigmentación, y suben a la vez las detecciones reales, las notificaciones y los falsos positivos; quien maltrata se entera al mismo tiempo que la víctima de que el maquillaje con filtro ya no tapa. En redes la historia deriva en señalamiento, con fotos y vídeos de desconocidos, compañeras, vecinos y compañeros de clase y acusaciones públicas contra parejas y padres concretos, que las plataformas retiran tarde y caso a caso por acoso y privacidad; los medios serios publican las primeras piezas sobre personas señaladas por un lunar o una mancha de nacimiento. El agitador abre con esos
+      falsos positivos un tercer frente, el de que los ojos nuevos se usan para vigilar a las familias, que amplía su público hacia padres de niños pequeños y empuja a algunos de ellos a evitar al pediatra o al colegio, lo que perjudica a la vez a los señalados sin motivo y a la detección de casos reales.'
+    origen:
+    - medios/h5/1
+    - medios/h5/2
+    - agitador/h5/3
+  - id: h5-04
+    texto: 'Los ministerios de Juventud e Infancia y de Igualdad, con Justicia, publican una nota para docentes, sanitarios y servicios sociales: la obligación de comunicar sospechas de violencia contra menores y de violencia de género sigue vigente, pero una marca vista solo en el canal ultravioleta no es por sí sola indicio suficiente y debe valorarse con el resto de señales; encargan a los institutos de medicina legal y al Consejo Médico Forense criterios para distinguir lesiones antiguas de pigmentación normal. La sociedad oftalmológica, con la de dermatología, advierte a colegios profesionales y servicios de protección de menores de que lo que se percibe en la piel depende de la edad del observador y de la luz del lugar, así que la percepción no es un instrumento calibrado: en la práctica las notificaciones se concentran en observadores jóvenes y en patios y exteriores, y apenas salen de consultas y aulas con luz LED. Asociaciones de víctimas critican que la nota frena notificaciones
+      reales y asociaciones de familias que llega tarde para los señalados.'
+    origen:
+    - politico/h5/4
+    - oftalmologa/h5/5
+  - id: h5-05
+    texto: Al abrirse a las 15:00 el Pleno ordinario del martes, dos grupos de la oposición piden formalmente alterar el orden del día para incluir una comparecencia del presidente; el Reglamento lo permite pero lo decide el Pleno, y la mayoría del Gobierno y sus socios lo rechaza en votación. La oposición se queda con la imagen de la votación y anuncia que llevará el fenómeno a la sesión de control del miércoles a las 9:00, donde la pregunta de enunciado genérico ya registrada por su líder le permite interpelar al presidente. Moncloa pasa a preparar una declaración institucional del presidente antes de esa sesión para no estrenar su posición respondiendo a la oposición en directo.
+    origen:
+    - politico/h5/2
+  - id: h5-06
+    texto: 'A las 8:00 de Ciudad de México, con el sol recién salido y poco ultravioleta, los primeros testimonios mexicanos y centroamericanos repiten el velo débil de Nueva York y circula la versión latinoamericana del rumor de que a ellos les llega más flojo o más tarde. La presidenta de México abre su conferencia matutina con la Secretaría de Salud y es la primera jefa de Estado del continente que habla en primera persona: repite el mensaje sanitario de mínimos y desmiente sin nombrarlo el marco del despliegue escalonado como desinformación llegada de fuera; los matinales en español, en México y en Estados Unidos, conectan con Madrid y São Paulo para desmentir la diferencia. Pero gran parte de la audiencia joven y de los hispanos de Estados Unidos, que se informan por redes y TikTok mucho más que otros grupos (25 % frente a 9 % de los adultos blancos, según Pew Research), ya ha recibido el relato por vídeos cortos, y Centroamérica sigue sin voz oficial equivalente. El agitador, a medida
+      que sube el sol en la costa este y la experiencia se iguala, deja morir sin rectificar la versión geográfica, traslada a esa audiencia a sus temas que no dependen de la geografía, la crema y la lente de cataratas, y rellena el silencio de la Casa Blanca, que sigue sin declaración propia, con la pregunta de por qué Washington calla.'
+    origen:
+    - politico/h5/1
+    - medios/h5/3
+    - agitador/h5/2
+  - id: h5-07
+    texto: 'Con el sol bajando, la misma física que debilitó el amanecer de Nueva York se lee al revés: en Escandinavia y el norte de Europa, donde el sol se pone antes de las cuatro (en Oslo hacia las 15:53 a mediados de noviembre), y después en la tarde española, los colores nuevos se apagan y corren testimonios de que el fenómeno se está yendo, como noticia esperanzadora o alarmante, en el mismo ciclo informativo en que los matinales estadounidenses retransmiten su llegada. La sociedad oftalmológica explica que con el sol bajo llega menos ultravioleta, que el cambio diario es de la luz y no del ojo y que mañana a mediodía volverá a verse igual, sin pronunciarse sobre la duración. Entre los adolescentes, que siguen el índice UV en el móvil como pronóstico de los colores y ven caer el número, se extiende la idea de que es la última tarde y hay que aprovecharla sin gafas.'
+    origen:
+    - disruptor/h5/1
+    - oftalmologa/h5/2
+    - adolescente/h5/5
+  - id: h5-08
+    texto: 'La preferencia por tarjeta tras la nota del Banco de España no se generaliza en el pequeño comercio: queda en hostelería de público joven y zonas turísticas, mientras tiendas de barrio, mercados y comercio con clientela mayor siguen cobrando en efectivo y algunos retiran el cartel por la tarde, porque el efectivo sigue siendo el medio principal en la mayoría de compras en tienda (57 % de las compras en establecimientos físicos en 2025, según el Banco de España) y porque cajeros y clientes mayores apenas ven las fibras y tintas de los billetes. El agitador engancha esa preferencia al discurso contra el euro digital y el fin del efectivo, presenta la rapidez de la nota como indicio de que había algo que tapar y difunde vídeos de seguidores que discuten en caja con comercios que piden tarjeta, lo que mantiene el tema vivo en su audiencia y hace que algunos de esos locales mantengan la tarjeta para evitar el conflicto.'
+    origen:
+    - economista/h5/2
+    - agitador/h5/4
+  - id: h5-09
+    texto: 'En la mesa de diálogo social convocada por Trabajo, la patronal de la construcción propone extender el modelo que su convenio ya aplica al calor extremo: el VII Convenio General del Sector de la Construcción abona en su mes las horas no trabajadas en días con aviso naranja o rojo de la AEMET por temperaturas y obliga a recuperar el 70 por 100 en los seis meses siguientes con cinco días de preaviso. Como ese mecanismo está atado a avisos que no existen para el ultravioleta, no se activa solo, pero es una plantilla firmada por los propios sindicatos del sector y una salida sin norma nueva para el Gobierno. Los sindicatos lo rechazan como norma general porque convierte un permiso retribuido en horas debidas y discuten porcentaje y ámbito más que el modelo, que empieza a circular como fórmula de compromiso para otros sectores al aire libre.'
+    origen:
+    - economista/h5/1
+  - id: h5-10
+    texto: 'Entre los operados de cataratas aparecen casos que sí ven los colores nuevos con bastante intensidad, sobre todo con lentes antiguas o de filtro desigual, porque las lentes que absorben ultravioleta se generalizaron en los años ochenta y su protección sigue siendo heterogénea. Esos abuelos que lo ven todo llegan a los informativos de tarde, la comparación entre operados alimenta la idea de una lente buena y una mala, y las llamadas a clínicas pasan de pedir quitar la lente a pedir la lente que deja ver; la sociedad oftalmológica vuelve a desaconsejarlo explicando que el filtro protege la retina y que cambiar una lente sana es cirugía con riesgos sin indicación. Los analistas del sector señalan que no hay en el catálogo ninguna lente que deje pasar el ultravioleta (las alternativas comerciales, como las de Alcon, filtran luz azul o solo ultravioleta, y ambas lo absorben), así que los fabricantes no suben: la demanda no tiene producto que comprar, la valoración solo da ingresos
+      menores a la clínica privada y el riesgo real son reclamaciones e intervención de los colegios por publicidad engañosa.'
+    origen:
+    - oftalmologa/h5/3
+    - economista/h5/4
+  tensiones_abiertas:
+  - Si la regla de triaje de la sociedad oftalmológica llega a separar en cifras públicas los casos de lámpara de los del fenómeno, o si en los rótulos y en el directo del agitador siguen contándose juntos durante la noche, cuando los síntomas de los juegos de mediodía sigan llegando.
+  - Cuándo publican los institutos de medicina legal y el Consejo Médico Forense criterios para distinguir lesiones antiguas de pigmentación, si las notificaciones y los falsos positivos saturan antes protección de menores y las líneas de violencia de género, y cuántas familias de la órbita del agitador dejan de llevar a sus hijos al pediatra o al colegio.
+  - Qué dice el presidente en su declaración institucional antes de la sesión de control del miércoles a las 9:00 y si llega a tiempo de desactivar la interpelación de la oposición.
+  - Cuándo habla la Casa Blanca con voz propia y si el retraso refuerza el relato de ocultación del agitador; si al subir el sol en México el rumor latinoamericano muere y qué voz oficial llena el hueco en Centroamérica.
+  - 'Qué pasa al anochecer y mañana a mediodía con la idea de que el fenómeno se apaga: si la vuelta de los colores la desmiente o si alimenta nuevos relatos sobre su permanencia, y si los jóvenes que se quitan las gafas la última tarde dan casos de lesión.'
+  - Si la mesa de diálogo social adopta el modelo de recuperación de horas de la construcción, con qué porcentaje y ámbito, o si se pide reformar el sistema de avisos para incluir el ultravioleta.
+  - Si los colegios de médicos actúan sobre clínicas privadas que anuncian valoraciones o recambio de lente para ganar visión ultravioleta.
+  - Si las comparativas caseras de protectores, que tratan lo oscuro como prueba de filtro UV-A, reordenan marcas y si prosperan los protectores invisibles al ojo nuevo que no filtran; si el abandono del protector pesa en la campaña de verano austral y en los valores de cosmética del hemisferio sur.
+  - Si las personas con vitíligo y otras despigmentaciones, que ahora se ven más marcadas, entran en la misma ola de escrutinio y consultas que el daño solar y los moratones.
+  - Si algún gobierno atribuye el fenómeno a una acción hostil y obliga a otras cancillerías a responder.
+  contradicciones_resueltas:
+  - entre:
+    - oftalmologa/h5/1
+    - medios/h5/5
+    - agitador/h5/1
+    - adolescente/h5/1
+    - politico/h5/3
+    decision: 'La atribución de la fotoqueratitis se parte por canales: en hospitales, medios serios y Gobierno se atribuye a las lámparas; en agregadores, prensa de clics y el directo del agitador se presenta como daño retardado del fenómeno, y el silencio de los adolescentes sobre la lámpara alimenta este segundo recuento.'
+    motivo: Las cinco afirmaciones son compatibles y describen actores con incentivos distintos que actúan a la vez; el mecanismo del triaje es sólido y con dato, pero medios y agitador explican de forma convincente por qué no alcanza a quien no sigue a los médicos, y el adolescente aporta un mecanismo de ocultación que contamina el propio dato de origen.
+  - entre:
+    - economista/h5/2
+    - agitador/h5/4
+    decision: Prevalece que la preferencia por tarjeta no se generaliza y se repliega fuera de la hostelería joven y las zonas turísticas; el marco del euro digital del agitador entra como relato y solo sostiene la tarjeta en los locales que quieren evitar discusiones en caja.
+    motivo: El mecanismo del economista se apoya en un dato del Banco de España sobre el peso del efectivo y en la disparidad por edad ya establecida; la afirmación del agitador tiene dato sobre el calendario del euro digital, pero no sobre el efecto en comercios, así que su alcance se limita.
+  - entre:
+    - politico/h5/1
+    - medios/h5/3
+    - agitador/h5/2
+    decision: 'Se mantienen juntas: en México el rumor de que llega más flojo se repite con el amanecer, la presidenta lo combate con voz oficial propia y el agitador abandona la versión geográfica y desplaza a esa audiencia hacia la crema y la lente.'
+    motivo: 'No se excluyen: el rumor nace de la experiencia de la audiencia, no del agitador, que ya no lo necesita; la conferencia matutina disputa la audiencia mexicana pero no borra lo recibido por redes la noche anterior.'
+  - entre:
+    - politico/h5/5
+    - agitador/h5/2
+    decision: La Casa Blanca sigue sin declaración propia en este tramo y el agitador explota ese silencio.
+    motivo: La afirmación del político tiene confianza baja, es especulación y no aporta dato; la del agitador tiene mecanismo y es coherente con el canon de h3, donde la Casa Blanca dejaba hablar a las agencias. La cuestión queda como tensión abierta.
+  - entre:
+    - oftalmologa/h5/3
+    - economista/h5/4
+    decision: 'Se combinan: la demanda de una lente que deje ver crece por los operados que sí perciben el canal, pero no se convierte en mercado porque no hay producto que la satisfaga.'
+    motivo: La oftalmóloga explica de dónde sale la demanda con dato sobre la historia de las lentes y el economista por qué no genera ventas con dato sobre el catálogo comercial; ambas son compatibles.
+  descartadas:
+  - id: economista/h5/3
+    motivo: Efecto bursátil acotado a unos pocos valores, sin contagio al índice y basado en inferencia de analistas; supera el límite de hechos y su contenido sobre el hemisferio sur queda como tensión abierta.
+  - id: politico/h5/5
+    motivo: Confianza baja, especulación y sin dato; la voz de la Casa Blanca queda como tensión abierta.
+  - id: oftalmologa/h5/4
+    motivo: Especulación sin dato sobre la circulación de la guía española en Latinoamérica; efecto de detalle que no cambia el marco ya instalado y supera el límite de hechos.
+  - id: adolescente/h5/2
+    motivo: Efecto local de familias y lugares de reunión que concreta h3-07 y h5-02 sin consecuencia nueva suficiente.
+  - id: adolescente/h5/3
+    motivo: Concreta en un grupo de clase el señalamiento ya recogido en h5-03 y h3-04 sin consecuencia nueva.
+  - id: adolescente/h5/4
+    motivo: Confianza baja, especulación y sin dato.
+  - id: agitador/h5/5
+    motivo: Repite el patrón de corte en la plataforma grande y migración a canales propios ya visto en tramos anteriores sin consecuencia nueva; supera el límite de hechos.
+  - id: disruptor/h5/2
+    motivo: Mecanismo sólido y con dato, pero supera el límite de hechos frente a afirmaciones que cambian más el rumbo del mundo; queda como tensión abierta.
+  - id: disruptor/h5/3
+    motivo: Mecanismo sólido y con dato, pero supera el límite de hechos; las comparativas caseras de protectores y los protectores invisibles quedan como tensión abierta.
+  - id: disruptor/h5/4
+    motivo: Efecto de detalle en turismo y consumo, sin dato y con más ruido que evidencia según la propia afirmación; supera el límite de hechos.
+  - id: disruptor/h5/5
+    motivo: Confianza baja, especulación y sin dato; efecto local de comercio de fruta.
+
+Tu evaluación del tramo anterior, como referencia:
+evaluacion:
+  tramo: h3
+  metricas:
+    - id: alarma_social
+      valor: 3
+      justificacion: "Los cambios de conducta visibles se amplían a nuevos frentes: gente asustada por manchas antiguas acude a farmacias y consultas, llegan sospechas de moratones a protección de menores y líneas de violencia de género, hijos llaman a clínicas por el recambio de lente, juegos de riesgo con lámparas caseras y comercios que piden tarjeta. No llega a 4 porque no hay servicios colapsados, acaparamiento de bienes esenciales ni protestas en varios países; en Estados Unidos, recién amanecido, la reacción es aún de cobertura en directo y rumor más que de miedo."
+      apoyos: [h3-03, h3-04, h3-06, h3-07, h3-09]
+    - id: confianza_institucional
+      valor: 3
+      justificacion: "La versión oficial gana cuerpo en España con la nota conjunta de Sanidad y dos sociedades científicas, la nota del Banco de España con el BCE y el recordatorio de Trabajo, y los medios repiten consejos con fuente. Pero sigue conviviendo con una sospecha amplia: comunidades de la oposición atacan al Ministerio, adolescentes esquivan la pauta en la cara, la audiencia del agitador pide recambios de lente que los oftalmólogos desaconsejan, la nota del banco no frena la preferencia por tarjeta y en Estados Unidos no hay voz federal; para llegar a 4 haría falta evidencia de que la mayoría sigue las indicaciones."
+      apoyos: [h3-01, h3-02, h3-03, h3-06, h3-09, h3-10]
+    - id: relatos_en_competencia
+      valor: 3
+      justificacion: "El relato oficial y técnico convive con el del agitador, que tiene canales propios, abre un segundo tema (lentes de cataratas) y llega antes que los medios locales a México y Centroamérica. Se acerca a 4 porque los titulares ya mezclan los heridos por exposición con el fenómeno y los matinales estadounidenses refuerzan sin querer la lectura de una ola escalonada, pero los generalistas no presentan las dos versiones como equivalentes ni hay cifras incompatibles enfrentadas en ellos; el choque sigue sobre todo en redes y en la audiencia del agitador."
+      apoyos: [h3-01, h3-08, h3-09]
+    - id: respuesta_gobiernos
+      valor: comunicacion
+      justificacion: "Todas las actuaciones son mensajes y recordatorios: nota conjunta de Sanidad, nota del Banco de España, recordatorio de Trabajo de la normativa existente sin dictar parada, convocatoria del diálogo social y mensajes mínimos o contradictorios en Estados Unidos. Para pasar a medidas sectoriales faltaría una decisión obligatoria, como una instrucción de Trabajo sobre el trabajo al aire libre o un aviso que active el permiso retribuido, que la AEMET no puede emitir."
+      apoyos: [h3-01, h3-02, h3-05, h3-06, h3-10]
+    - id: impacto_economico
+      valor: 3
+      justificacion: "Se mantiene la disrupción en varios sectores: conflicto abierto sobre quién paga las horas no trabajadas al aire libre, fricción con el efectivo que lleva a parte del pequeño comercio y la hostelería a pedir tarjeta, y lámparas agotadas en tiendas. No es 4 porque la nota del Banco de España y el BCE es comunicativa, no una intervención, y no hay crisis de mercado ni caída de índices en los hechos del tramo."
+      apoyos: [h3-05, h3-06, h3-07]
+    - id: adaptacion
+      valor: 3
+      justificacion: "Las pautas son más claras y completas (gafas con marcado CE, protector aunque se vea oscuro, aviso sobre lámparas UV, guía para distinguir billetes) y parte de la población las aplica, mientras las farmacias y consultas reciben a quien reacciona al daño solar visible. No llega a 4 porque grupos amplios las esquivan o las contradicen (adolescentes sin crema en la cara, juegos con lámparas, audiencia del agitador) y en Norteamérica la población apenas empieza a vivir el fenómeno con la primera luz."
+      apoyos: [h3-01, h3-02, h3-03, h3-06, h3-07]
+
+## Métricas y niveles
+
+### alarma_social: Nivel de alarma social (escala)
+- 1: Curiosidad; la vida sigue igual
+- 2: Inquietud; conversación y búsquedas, sin cambios de conducta
+- 3: Preocupación; cambios de conducta visibles en parte de la población (compras, quedarse en casa)
+- 4: Miedo extendido; acaparamiento, servicios colapsados o protestas en varios países
+- 5: Pánico; desórdenes, violencia o huidas masivas
+
+### confianza_institucional: Confianza en la explicación y las indicaciones oficiales (escala)
+- 1: La mayoría desconfía abiertamente; las versiones alternativas dominan
+- 2: La versión oficial es minoritaria fuera de los medios tradicionales
+- 3: Dividida: la versión oficial convive con una sospecha amplia
+- 4: La mayoría sigue las indicaciones oficiales, con reservas
+- 5: Confianza alta; las instituciones marcan el relato
+
+### relatos_en_competencia: Grado de enfrentamiento entre relatos sobre lo que está pasando (escala)
+- 1: Un relato dominante, compartido por instituciones, medios y público
+- 2: Relato dominante; versiones alternativas marginales, sin canales ni audiencia propios
+- 3: El relato oficial y uno alternativo conviven; el alternativo tiene audiencia y canales propios
+- 4: Relatos enfrentados con cifras o pruebas incompatibles; los medios generalistas recogen los dos
+- 5: Fractura: grupos amplios viven en relatos incompatibles y desconfían de cualquier fuente del otro
+
+### respuesta_gobiernos: Respuesta dominante de los gobiernos (categorica)
+- ninguna: Silencio oficial
+- comunicacion: Mensajes y recomendaciones, sin medidas
+- medidas_sectoriales: Medidas concretas en sectores (transporte, colegios, trabajo) sin estado excepcional
+- emergencia: Declaración formal de emergencia o alerta nacional
+- medidas_excepcionales: Restricción de derechos: confinamientos, toques de queda o censura
+
+### impacto_economico: Impacto económico agregado (escala)
+- 1: Sin efecto apreciable
+- 2: Movimientos sectoriales; índices estables
+- 3: Caídas generales de índices o disrupción en varios sectores
+- 4: Crisis de mercado; intervención de bancos centrales o gobiernos
+- 5: Parálisis económica
+
+### adaptacion: Grado de normalización del cambio (escala)
+- 1: Nadie sabe qué hacer
+- 2: Primeras pautas, poco seguidas
+- 3: Pautas claras y adoptadas por parte de la población
+- 4: La mayoría ha ajustado su rutina
+- 5: Normalizado
+
+## Tu tarea
+1. Para cada métrica, elige el nivel cuya descripción se ajusta mejor a los hechos establecidos, no a las tensiones ni a lo que podría pasar.
+2. Si el mundo está entre dos niveles, elige el más cercano según los hechos, no el inferior ni el superior por prudencia, y di en la justificación qué falta para alcanzar el siguiente.
+3. Justifica cada valor en una o dos frases: por qué este nivel y no el contiguo. Cita en apoyos los ids de los hechos que lo sostienen.
+4. Mide el mundo en su conjunto. Si hay diferencias claras entre regiones, dilo en la justificación.
+
+## Formato de respuesta
+Solo este YAML (comillas dobles en los textos):
+
+evaluacion:
+  tramo: h5
+  metricas:
+    - id: alarma_social
+      valor: ...
+      justificacion: "..."
+      apoyos: [ids de hechos]
+    - id: confianza_institucional
+      valor: ...
+      justificacion: "..."
+      apoyos: [ids de hechos]
+    - id: relatos_en_competencia
+      valor: ...
+      justificacion: "..."
+      apoyos: [ids de hechos]
+    - id: respuesta_gobiernos
+      valor: ...
+      justificacion: "..."
+      apoyos: [ids de hechos]
+    - id: impacto_economico
+      valor: ...
+      justificacion: "..."
+      apoyos: [ids de hechos]
+    - id: adaptacion
+      valor: ...
+      justificacion: "..."
+      apoyos: [ids de hechos]

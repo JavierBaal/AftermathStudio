@@ -1,0 +1,67 @@
+intervencion:
+  agente: oftalmologa
+  tramo: h5
+  afirmaciones:
+  - texto: 'Entre la cuarta y la quinta hora empiezan a llegar a urgencias los primeros ojos rojos y dolorosos de quien se alumbró con lámparas a mediodía, y la sociedad oftalmológica distribuye a los servicios de urgencias y a los medios una regla de triaje de dos preguntas: si duelen los dos ojos, lagrimean y hay sensación de arena, es la córnea (fotoqueratitis por lámpara o solario) y cura en días; si no duele pero hay una mancha fija en el centro de la visión, es la retina (mirar al sol o a una fuente intensa) y necesita valoración preferente. La regla funciona en los hospitales, pero en los rótulos y en el directo del agitador ambos grupos se siguen contando juntos como afectados del fenómeno.'
+    mecanismo: 'La fotoqueratitis es una quemadura del epitelio corneal con latencia: los síntomas aparecen entre 30 minutos y 12 horas después y el epitelio se regenera en 24 a 72 horas, así que los juegos con lámparas de mediodía producen pacientes justo a media tarde. El dolor intenso bilateral la distingue de la lesión retiniana por mirar al sol, que no duele porque la retina no tiene receptores de dolor. A la sociedad le interesa dar un criterio que los triadores apliquen sin explorar, porque separa en cifras el daño evitable por lámpara del deslumbramiento y le permite decir que ninguno de esos casos es efecto del fenómeno. El triaje es interno; el titular y el agitador cuentan pacientes, no diagnósticos, y la buena evolución en dos o tres días no llega a tiempo de corregir el relato de la tarde.'
+    dato: Los síntomas de fotoqueratitis aparecen entre 30 minutos y 12 horas tras la exposición; dolor ocular intenso bilateral, lagrimeo, sensación de cuerpo extraño; el epitelio corneal suele curar en 24-72 horas.
+    fuente: https://eyewiki.aao.org/Photokeratitis
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - sanidad
+    - medios
+    - informacion
+    id: oftalmologa/h5/1
+  - texto: 'Con el sol ya bajando en la tarde española, los colores nuevos se apagan y el deslumbramiento cede en exteriores, y una parte del público interpreta que el fenómeno está desapareciendo. La sociedad oftalmológica lo explica con la misma física que el velo del amanecer en Nueva York: con el sol bajo llega mucho menos ultravioleta, de modo que el cambio diario es luz y no ojo, y que mañana a mediodía volverá a verse igual, sin pronunciarse sobre cuánto durará el fenómeno.'
+    mecanismo: La radiación UV en superficie depende de la altura del sol, porque con el sol bajo la luz atraviesa más atmósfera y se dispersa y absorbe más; es la misma razón por la que el amanecer estadounidense dio el efecto más débil del día. En noviembre la tarde española pierde ultravioleta pronto, así que la experiencia empeora en pocas horas y la gente lo confunde con un final. A la sociedad le conviene adelantarse porque una sola explicación cubre los dos rumores, el geográfico y el de que se acaba, y refuerza que su guía describe un patrón predecible; a la vez debe evitar prometer que vuelve, porque nadie sabe si es permanente, y por eso habla de luz y no de duración.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - sanidad
+    - informacion
+    - vida_cotidiana
+    id: oftalmologa/h5/2
+  - texto: Entre los operados de cataratas aparecen casos que sí ven los colores nuevos con bastante intensidad, sobre todo con lentes antiguas o con implantes de filtro desigual, y esos abuelos que lo ven todo se convierten en personajes de los informativos de tarde. La comparación entre operados alimenta la idea de que existe una lente buena y una mala, y las llamadas a clínicas pasan de pedir quitar la lente a pedir la lente que deja ver, algo que la sociedad vuelve a desaconsejar recordando por qué se añadió el filtro.
+    mecanismo: Las lentes intraoculares que solo absorbían ultravioleta se introdujeron a principios de los años ochenta, después de reconocerse en 1978 el riesgo de las lentes transparentes, y la mayoría ya llevaba cromóforo absorbente de UV en 1986; además, la protección UV de las lentes contemporáneas sigue siendo heterogénea. Eso basta para que, entre millones de operados, haya diferencias reales en lo que perciben, igual que los afáquicos del precedente clínico. Para el agitador y para las clínicas privadas es un argumento más concreto que el agravio genérico, porque ahora hay un operado que sí ve. La sociedad pierde autoridad si solo dice no a la cirugía, así que pasa a explicar que el filtro se añadió para proteger la retina y que cambiar una lente sana es una cirugía con riesgos sin indicación médica.
+    dato: Las lentes intraoculares con absorción solo de UV se introdujeron a principios de los ochenta tras reconocerse en 1978 el riesgo de las lentes transparentes; la mayoría tenía cromóforos absorbentes de UV en 1986 y la protección UV de las lentes actuales sigue siendo inconsistente.
+    fuente: https://pmc.ncbi.nlm.nih.gov/articles/PMC1920564
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - sanidad
+    - sanidad_privada
+    - medios
+    id: oftalmologa/h5/3
+  - texto: Cuando amanece en México y Centroamérica, la guía de la sociedad oftalmológica española, escrita en español y ya avalada por Sanidad, se comparte en grupos de mensajería y la reproducen algunas sociedades y colegios oftalmológicos latinoamericanos como texto provisional, a menudo con su logotipo encima. Llega después del marco del agitador, pero es el primer texto sanitario en español con criterios concretos que encuentran allí al despertar.
+    mecanismo: 'Las sociedades latinoamericanas despiertan sin experiencia propia ni texto preparado, y redactar una guía clínica lleva horas; reutilizar una guía en el mismo idioma, con base física conocida y respaldo de un ministerio, es lo más rápido y lo menos arriesgado. A la sociedad española le interesa que circule sin exigir crédito, porque convertirse en referencia del fenómeno en el mundo hispanohablante es justo lo que le da autoridad. El límite es el orden de llegada: el agitador ya ha instalado su interpretación por la noche, y la guía corrige conductas concretas (no mirar al sol ni a lámparas) más que desmontar su relato de un despliegue escalonado.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - sanidad
+    - informacion
+    - internacional
+    id: oftalmologa/h5/4
+  - texto: La sociedad oftalmológica, junto a la de dermatología, advierte a colegios profesionales y servicios de protección de menores de que lo que alguien percibe en la piel con el canal nuevo depende de su edad y de la luz del lugar, así que no puede servir como criterio único para notificar una sospecha. En la práctica las notificaciones se concentran en observadores jóvenes y en patios y espacios exteriores, y apenas en consultas y aulas con luz LED.
+    mecanismo: Ya está establecido que niños y jóvenes perciben el UV-A con más intensidad que los mayores, que los operados de cataratas apenas lo ven y que en interiores con LED casi no se nota. El mismo moratón antiguo lo verá una maestra de 25 años en el recreo y no un pediatra de 60 en su consulta, de modo que la detección depende del observador y no de la piel. La sociedad no puede dar criterios para distinguir un golpe antiguo de una mancha de pigmento, porque eso es dermatología forense, pero sí puede decir con base física que la percepción no es un instrumento calibrado. Le interesa entrar porque su autoridad sobre cómo funciona el ojo es lo que nadie más tiene, y lo hace sin decir que no se notifique, que la expondría a críticas por desproteger a víctimas.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - proteccion_menores
+    - violencia_genero
+    - sanidad
+    - educacion
+    id: oftalmologa/h5/5
+  reacciona_a:
+  - agitador/h3/4
+  - disruptor/h3/5
+  - disruptor/h3/4
+  - agitador/h3/2
+  - medios/h3/5
+  - disruptor/h3/2

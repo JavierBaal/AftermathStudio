@@ -2,39 +2,66 @@ intervencion:
   agente: agitador
   tramo: h5
   afirmaciones:
-    - texto: "El agitador arranca su directo largo de la tarde en sus canales propios justo cuando llegan a urgencias los primeros casos de ojo rojo, dolor y sensación de arena de quienes se iluminaron con lámparas a mediodía. No menciona las lámparas: presenta esos casos como la prueba de que el fenómeno hace daño con retraso y los pone en pantalla junto a los testimonios de deslumbramiento de la mañana, de modo que su recuento de afectados crece sola durante la emisión. El aviso anticipado de la sociedad oftalmológica llega a sus seguidores solo como recorte que él enseña para decir que ya sabían que habría heridos."
-      mecanismo: "La fotoqueratitis tiene latencia, así que quien jugó con la lámpara de uñas o la linterna de luz negra entre las doce y la una empieza a notar síntomas a media tarde, cuando ya no relaciona el dolor con lo que hizo. Esa coincidencia de horario con el directo, anunciado desde la hora 1, le regala un flujo de casos nuevos sin tener que buscarlos. Aceptar la explicación de la lámpara le haría perder el único daño visible que le queda, porque convertiría el problema en una conducta evitable y normalizaría el fenómeno; por eso usa el propio aviso previo de la sociedad como indicio de que sabían algo, la misma inversión que le funcionó con la crema y la lente. Discrepo de que anticiparse baste para fijar la atribución (oftalmologa/h3/1): el aviso llega a quien sigue a los médicos, no a quien está viendo el directo."
-      dato: "Los síntomas de fotoqueratitis suelen aparecer entre 30 minutos y 12 horas después de la exposición, según la Academia Americana de Oftalmología (ya en el canon h3-07)."
-      fuente: "https://www.aao.org/eye-health/diseases/photokeratitis"
-      confianza: alta
-      evidencia: inferencia
-      areas_afectadas: [salud, medios, redes]
-    - texto: "Cuando el sol sube en Norteamérica y la experiencia se iguala, el agitador deja morir sin rectificar la versión de que a ellos les llega distinto y traslada a la audiencia mexicana y centroamericana, ya captada antes del amanecer, a sus dos temas que no dependen de la geografía: la crema y la lente de cataratas. El hueco que deja una Casa Blanca sin voz propia lo rellena con la pregunta de por qué Washington calla, lo que mantiene la sospecha sin necesitar que la luz le dé la razón."
-      mecanismo: "Su apuesta de la hora 2 estaba hecha para que cualquier resultado le sirviera, y cuando el dato lo desmiente lo rentable no es defenderlo sino cambiar de tema antes de que alguien lo señale. Sus seguidores americanos ven ya los mismos colores que los europeos, así que lo que les retiene es un agravio que puedan comprobar en casa, como un abuelo operado que no ve o una cara manchada de protector. El silencio federal es real y le permite seguir hablando de ocultación sin afirmar nada falsable. A la hora 5 ya ha amanecido en Ciudad de México, de modo que es el primer momento en que esa audiencia tiene experiencia propia y él necesita que la interprete con su marco."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [redes, politica_internacional, salud]
-    - texto: "El agitador abre un tercer frente con los falsos positivos de moratones antiguos: recoge y emite testimonios de familias que dicen haber sido señaladas por un docente o un pediatra por una mancha de nacimiento y lo convierte en la idea de que los ojos nuevos se usan para vigilar a las familias. No niega que existan casos reales de maltrato, pero su audiencia oye sobre todo el riesgo de que les quiten a sus hijos, y algunos padres de su órbita dejan de llevar a los niños al pediatra o al colegio en los días siguientes. Eso perjudica a la vez a las familias señaladas sin motivo y a la detección de casos reales."
-      mecanismo: "Los falsos positivos existen y no hay criterio publicado para distinguir pigmentación de moratón antiguo, así que tiene testimonios verdaderos con los que trabajar sin inventar nada. El miedo a protección de menores es un agravio familiar muy movilizador y encaja con su desconfianza hacia instituciones, y amplía su público hacia padres de niños pequeños que no le seguían por la crema. Al plantearlo como defensa de familias inocentes y no como ataque a víctimas reduce el riesgo de retirada en plataformas. El efecto colateral es que evitar a docentes y pediatras es precisamente la conducta que oculta los casos reales que el canal nuevo empezaba a detectar."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: especulacion
-      areas_afectadas: [proteccion_menores, violencia_genero, salud, redes]
-    - texto: "El agitador recoge la preferencia por tarjeta de parte del pequeño comercio y la hostelería y la engancha al viejo discurso contra el euro digital y el fin del efectivo: plantea que la nota del Banco de España y el BCE llega demasiado rápido y que el miedo a los billetes empuja al pago rastreable. Parte de sus seguidores insiste en pagar en efectivo y graba discusiones en caja con comercios que piden tarjeta, que él difunde como prueba de que ya está pasando."
-      mecanismo: "El BCE lleva tiempo preparando el euro digital con calendario público, y en redes ya circulaba la sospecha de que sirve para acabar con el efectivo, de modo que el agitador no tiene que construir el marco, solo conectarlo con un hecho del día que su audiencia ve en las tiendas. La nota del banco central dice lo contrario, que el billete sigue siendo válido, pero su rapidez le sirve como indicio de que había algo que tapar, igual que el aviso previo de los oftalmólogos. Los vídeos de discusión en caja son contenido barato, emocional y con un antagonista visible, y empujan a algunos comercios a mantener la preferencia por tarjeta para evitar el conflicto, lo que alimenta el círculo."
-      dato: "El BCE pasó en octubre de 2025 a la siguiente fase del proyecto de euro digital y prevé una posible primera emisión en 2029 si la legislación europea se aprueba en 2026."
-      fuente: "https://ecb.europa.eu/press/pr/date/2025/html/ecb.pr251030~8c5b5beef0.es.html"
-      confianza: media
-      evidencia: dato
-      areas_afectadas: [economia, pagos, comercio, redes]
-    - texto: "Al ver que los medios serios le nombran al cubrir la saturación de urgencias y las piezas sobre mayores sin colores, el agitador usa esos rótulos en su directo como sello de importancia y como prueba de que va por delante, mientras la plataforma grande corta o limita el directo cuando enseña pacientes y recortes sanitarios. El corte le da otro pico de altas en sus canales propios y de donaciones, aunque buena parte de la audiencia general nueva que le trajeron los medios no le sigue fuera de la plataforma grande."
-      mecanismo: "Cada pieza crítica que le menciona le da alcance fuera de su burbuja, porque las redacciones compiten por la misma búsqueda. Mostrar pacientes con diagnóstico ocular junto a una interpretación contraria a la pauta sanitaria es el tipo de contenido sobre el que la plataforma ya tiene referencia para moderar desde la hora 2, así que el corte es previsible y él lo convierte en relato de censura. La migración funciona con el núcleo fiel pero pierde a los curiosos, que no instalan otra aplicación por un directo, de modo que crece en dinero e intensidad más que en audiencia total."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [medios, redes, plataformas]
-  reacciona_a: [oftalmologa/h3/1, medios/h3/4, politico/h3/5, economista/h3/2, disruptor/h3/2]
+  - texto: 'El agitador arranca su directo largo de la tarde en sus canales propios justo cuando llegan a urgencias los primeros casos de ojo rojo, dolor y sensación de arena de quienes se iluminaron con lámparas a mediodía. No menciona las lámparas: presenta esos casos como la prueba de que el fenómeno hace daño con retraso y los pone en pantalla junto a los testimonios de deslumbramiento de la mañana, de modo que su recuento de afectados crece sola durante la emisión. El aviso anticipado de la sociedad oftalmológica llega a sus seguidores solo como recorte que él enseña para decir que ya sabían que habría heridos.'
+    mecanismo: 'La fotoqueratitis tiene latencia, así que quien jugó con la lámpara de uñas o la linterna de luz negra entre las doce y la una empieza a notar síntomas a media tarde, cuando ya no relaciona el dolor con lo que hizo. Esa coincidencia de horario con el directo, anunciado desde la hora 1, le regala un flujo de casos nuevos sin tener que buscarlos. Aceptar la explicación de la lámpara le haría perder el único daño visible que le queda, porque convertiría el problema en una conducta evitable y normalizaría el fenómeno; por eso usa el propio aviso previo de la sociedad como indicio de que sabían algo, la misma inversión que le funcionó con la crema y la lente. Discrepo de que anticiparse baste para fijar la atribución (oftalmologa/h3/1): el aviso llega a quien sigue a los médicos, no a quien está viendo el directo.'
+    dato: Los síntomas de fotoqueratitis suelen aparecer entre 30 minutos y 12 horas después de la exposición, según la Academia Americana de Oftalmología (ya en el canon h3-07).
+    fuente: https://www.aao.org/eye-health/diseases/photokeratitis
+    confianza: alta
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - medios
+    - redes
+    id: agitador/h5/1
+  - texto: 'Cuando el sol sube en Norteamérica y la experiencia se iguala, el agitador deja morir sin rectificar la versión de que a ellos les llega distinto y traslada a la audiencia mexicana y centroamericana, ya captada antes del amanecer, a sus dos temas que no dependen de la geografía: la crema y la lente de cataratas. El hueco que deja una Casa Blanca sin voz propia lo rellena con la pregunta de por qué Washington calla, lo que mantiene la sospecha sin necesitar que la luz le dé la razón.'
+    mecanismo: Su apuesta de la hora 2 estaba hecha para que cualquier resultado le sirviera, y cuando el dato lo desmiente lo rentable no es defenderlo sino cambiar de tema antes de que alguien lo señale. Sus seguidores americanos ven ya los mismos colores que los europeos, así que lo que les retiene es un agravio que puedan comprobar en casa, como un abuelo operado que no ve o una cara manchada de protector. El silencio federal es real y le permite seguir hablando de ocultación sin afirmar nada falsable. A la hora 5 ya ha amanecido en Ciudad de México, de modo que es el primer momento en que esa audiencia tiene experiencia propia y él necesita que la interprete con su marco.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - redes
+    - politica_internacional
+    - salud
+    id: agitador/h5/2
+  - texto: 'El agitador abre un tercer frente con los falsos positivos de moratones antiguos: recoge y emite testimonios de familias que dicen haber sido señaladas por un docente o un pediatra por una mancha de nacimiento y lo convierte en la idea de que los ojos nuevos se usan para vigilar a las familias. No niega que existan casos reales de maltrato, pero su audiencia oye sobre todo el riesgo de que les quiten a sus hijos, y algunos padres de su órbita dejan de llevar a los niños al pediatra o al colegio en los días siguientes. Eso perjudica a la vez a las familias señaladas sin motivo y a la detección de casos reales.'
+    mecanismo: Los falsos positivos existen y no hay criterio publicado para distinguir pigmentación de moratón antiguo, así que tiene testimonios verdaderos con los que trabajar sin inventar nada. El miedo a protección de menores es un agravio familiar muy movilizador y encaja con su desconfianza hacia instituciones, y amplía su público hacia padres de niños pequeños que no le seguían por la crema. Al plantearlo como defensa de familias inocentes y no como ataque a víctimas reduce el riesgo de retirada en plataformas. El efecto colateral es que evitar a docentes y pediatras es precisamente la conducta que oculta los casos reales que el canal nuevo empezaba a detectar.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - proteccion_menores
+    - violencia_genero
+    - salud
+    - redes
+    id: agitador/h5/3
+  - texto: 'El agitador recoge la preferencia por tarjeta de parte del pequeño comercio y la hostelería y la engancha al viejo discurso contra el euro digital y el fin del efectivo: plantea que la nota del Banco de España y el BCE llega demasiado rápido y que el miedo a los billetes empuja al pago rastreable. Parte de sus seguidores insiste en pagar en efectivo y graba discusiones en caja con comercios que piden tarjeta, que él difunde como prueba de que ya está pasando.'
+    mecanismo: El BCE lleva tiempo preparando el euro digital con calendario público, y en redes ya circulaba la sospecha de que sirve para acabar con el efectivo, de modo que el agitador no tiene que construir el marco, solo conectarlo con un hecho del día que su audiencia ve en las tiendas. La nota del banco central dice lo contrario, que el billete sigue siendo válido, pero su rapidez le sirve como indicio de que había algo que tapar, igual que el aviso previo de los oftalmólogos. Los vídeos de discusión en caja son contenido barato, emocional y con un antagonista visible, y empujan a algunos comercios a mantener la preferencia por tarjeta para evitar el conflicto, lo que alimenta el círculo.
+    dato: El BCE pasó en octubre de 2025 a la siguiente fase del proyecto de euro digital y prevé una posible primera emisión en 2029 si la legislación europea se aprueba en 2026.
+    fuente: https://ecb.europa.eu/press/pr/date/2025/html/ecb.pr251030~8c5b5beef0.es.html
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - economia
+    - pagos
+    - comercio
+    - redes
+    id: agitador/h5/4
+  - texto: Al ver que los medios serios le nombran al cubrir la saturación de urgencias y las piezas sobre mayores sin colores, el agitador usa esos rótulos en su directo como sello de importancia y como prueba de que va por delante, mientras la plataforma grande corta o limita el directo cuando enseña pacientes y recortes sanitarios. El corte le da otro pico de altas en sus canales propios y de donaciones, aunque buena parte de la audiencia general nueva que le trajeron los medios no le sigue fuera de la plataforma grande.
+    mecanismo: Cada pieza crítica que le menciona le da alcance fuera de su burbuja, porque las redacciones compiten por la misma búsqueda. Mostrar pacientes con diagnóstico ocular junto a una interpretación contraria a la pauta sanitaria es el tipo de contenido sobre el que la plataforma ya tiene referencia para moderar desde la hora 2, así que el corte es previsible y él lo convierte en relato de censura. La migración funciona con el núcleo fiel pero pierde a los curiosos, que no instalan otra aplicación por un directo, de modo que crece en dinero e intensidad más que en audiencia total.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - medios
+    - redes
+    - plataformas
+    id: agitador/h5/5
+  reacciona_a:
+  - oftalmologa/h3/1
+  - medios/h3/4
+  - politico/h3/5
+  - economista/h3/2
+  - disruptor/h3/2

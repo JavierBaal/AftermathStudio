@@ -87,8 +87,10 @@ Detalle en [`simulaciones/vision-ultravioleta/comparativa-tres-ejecuciones.md`](
 ## 5. Pendientes
 
 - ~~Evaluador: sustituir la regla "ante la duda, el inferior" por "el nivel más cercano, justificado", y añadir métricas de dinámica.~~ Aplicado el 13/11/2026 (ver sección 6).
-- Cuarta ejecución con el escenario v6 para comprobar si las métricas captan ya la tensión.
-- Si se mantiene la calma: probar la variable `explicacion_publica: conspirativa` o mezclar modelos.
+- ~~Cuarta ejecución con el escenario v6 para comprobar si las métricas captan ya la tensión.~~ Hecha el 13/11/2026 (ver sección 7).
+- Volver a evaluar el canon de la tercera ejecución con la regla nueva (4 llamadas) para separar el efecto de la regla del de la historia.
+- Tramos más largos (día 1, día 3, semana 1) para ver si la alarma escala; requiere el modo intensivo.
+- Probar la variable `explicacion_publica: conspirativa` o mezclar modelos.
 - Modos de seguimiento (entrevista, zoom y rama).
 - Motor MCP y modo intensivo.
 
@@ -96,3 +98,13 @@ Detalle en [`simulaciones/vision-ultravioleta/comparativa-tres-ejecuciones.md`](
 
 - **Regla del evaluador.** Antes: "si el mundo está entre dos niveles, elige el inferior". Ahora: "elige el más cercano según los hechos, no el inferior ni el superior por prudencia, y di qué falta para alcanzar el siguiente". Motivo: la regla anterior empujaba de forma sistemática hacia la calma; en la tercera ejecución la alarma quedó en 3 estando, según el propio evaluador, "entre 3 y 4". Aplicado en `herramientas/orquestador.py` y en la skill.
 - **Métrica `relatos_en_competencia`** (escala de 1 a 5, con niveles descritos). Mide el grado de enfrentamiento entre relatos sobre lo que está pasando: de un relato compartido (1) a una fractura en la que grupos amplios viven en relatos incompatibles (5). Motivo: en la tercera ejecución lo que de verdad cambió fue la competencia entre el recuento oficial y el del agitador, y ninguna métrica lo registraba. Se añade al escenario ultravioleta, que pasa a la versión 6, y se recomienda para cualquier escenario de crisis.
+
+## 7. Cuarta ejecución con el escenario v6 (13/11/2026)
+
+Detalle en [`simulaciones/vision-ultravioleta/comparativa-cuatro-ejecuciones.md`](../simulaciones/vision-ultravioleta/comparativa-cuatro-ejecuciones.md) y en el informe de `2026-11-13-1404`.
+
+- **Las métricas de tensión se mueven por primera vez.** Relatos en competencia sube de 3 a 4 en la hora 5 (cifras incompatibles de heridos: hospitales y Gobierno atribuyen las quemaduras de córnea a las lámparas; el agitador y la prensa de clics, al fenómeno). La confianza institucional pasa de 2 a 3 y el impacto económico está en 3 desde la primera hora. La respuesta de los gobiernos vuelve a llegar a medidas sectoriales (alerta de Consumo sobre lámparas UV).
+- **La alarma social sigue en 3**, con una justificación coherente con sus niveles: cambios de conducta visibles, sin acaparamiento, colapso ni protestas. Probablemente es el nivel correcto en cinco horas.
+- **Cuarta rama social distinta:** lo que la piel escondía. Los moratones antiguos se ven y llegan consultas a protección de menores y a las líneas de violencia de género; tres ministerios aclaran que una marca vista solo en UV no es prueba. También aparece la inversión de autoridad por edad. El núcleo físico se mantiene.
+- **Más interacción:** 82 referencias entre agentes (39, 50 y 64 en las anteriores). El agitador coloca 15 de 20 afirmaciones.
+- **Cautela:** entre C y D cambian a la vez la regla y la historia; para aislar el efecto de la regla falta volver a evaluar el canon de C.

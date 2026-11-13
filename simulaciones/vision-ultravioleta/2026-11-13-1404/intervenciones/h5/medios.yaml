@@ -2,39 +2,70 @@ intervencion:
   agente: medios
   tramo: h5
   afirmaciones:
-    - texto: "A las 15:00 los informativos de sobremesa en España abren con lo que la piel escondía, no con el fenómeno en sí: daño solar en la cara de los mayores y moratones antiguos que ahora se ven. Las piezas de moratones se montan con forenses, pediatras y el teléfono 016 en pantalla, y presentan el ultravioleta como algo que destapa el maltrato. Con eso las sospechas de la hora 3 llegan a la audiencia más grande del día, y suben a la vez las detecciones reales y los falsos positivos."
-      mecanismo: "Es la franja informativa de más audiencia en la televisión española y se prepara durante la hora 4, cuando el daño solar y los moratones ya están en el canon. Una cara manchada o un moratón que vuelve a verse son lo que estas redacciones no tenían desde el martes por la mañana: algo que el espectador puede comprobar en su propia casa, con fuentes que quieren hablar (dermatólogos, medicina forense) y sin tener que explicar la causa. El formato de servicio, con 016 y consejos, cumple el código de cobertura de la violencia de género. El problema es que enseña a millones de personas a buscar marcas en otros sin darles ningún criterio para distinguir golpe de pigmentación, así que llegan más notificaciones a los servicios justo antes de que exista una guía. Y quien maltrata se entera a la vez que la víctima de que el maquillaje con filtro ya no tapa."
-      dato: "En octubre de 2026 Antena 3 Noticias 1 tuvo de media 2.196.000 espectadores (23,9% de cuota) y el Telediario 1, 1.488.000 (16,2%) entre semana."
-      fuente: "https://www.formulatv.com/noticias/audiencias-informativos-octubre-2026-138652/"
-      confianza: media
-      evidencia: dato
-      areas_afectadas: [medios, sanidad, proteccion_menores, violencia_de_genero, opinion_publica]
-    - texto: "En redes, la historia de los moratones se convierte en señalamiento: se publican vídeos y fotos de desconocidos, compañeras o vecinos con supuestas marcas en la cara, y aparecen acusaciones públicas contra parejas y padres concretos. Las plataformas los retiran o limitan tarde y caso a caso, con sus normas de acoso y privacidad, no con las de desinformación, y los medios serios publican las primeras piezas sobre personas señaladas por un lunar o una mancha de nacimiento."
-      mecanismo: "Los informativos han legitimado mirar la piel ajena como algo de interés público. Una acusación con imagen se comparte mucho más que su rectificación, porque mezcla indignación con la sensación de estar protegiendo a alguien. Como nadie puede grabar el canal nuevo, la prueba es la palabra de quien dice verlo, imposible de comprobar desde fuera. Las plataformas no tienen ninguna autoridad sanitaria que les diga qué es un moratón antiguo, así que solo pueden actuar cuando se identifica a una persona concreta, y para entonces ya se ha difundido. Para los medios, una víctima de un falso señalamiento también tiene fuente y personaje, así que la segunda ola de cobertura es la del error."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [redes_sociales, plataformas, violencia_de_genero, proteccion_menores, privacidad]
-    - texto: "En México y Centroamérica, que despiertan con el marco del agitador ya instalado, los primeros testimonios de la mañana repiten el velo débil de Nueva York, y circula la versión latinoamericana del rumor: que a ellos les llega más flojo o más tarde. Los matinales mexicanos y los programas en español de Estados Unidos, en emisión a esa hora, lo combaten con conexiones a Madrid y a São Paulo, pero gran parte de la audiencia joven ya ha recibido el relato a través de vídeos cortos antes de encender la tele."
-      mecanismo: "A las 15:00 de Madrid son las 8:00 en Ciudad de México y las 9:00 en Nueva York: en México hace solo una hora que ha salido el sol y llega poco ultravioleta, la misma trampa que en la costa este. Los programas matinales en español tienen la noticia en su franja y la única forma de desmentir la diferencia es enseñar a otros que ya están a mediodía, algo que llega peor que la experiencia propia. Los latinos de Estados Unidos se informan por redes, y en concreto por TikTok, mucho más que otros grupos, así que el agitador, que emite en español desde la hora 3, llega antes. El rumor solo morirá cuando suba el sol en México, varias horas después."
-      dato: "El 25% de los adultos hispanos de Estados Unidos se informa con regularidad por TikTok, frente al 9% de los adultos blancos; el 21% prefiere las redes sociales como fuente de noticias, frente al 10% de los blancos."
-      fuente: "https://www.pewresearch.org/journalism/2024/03/19/hispanic-americans-news-habits-and-sources/"
-      confianza: media
-      evidencia: dato
-      areas_afectadas: [medios, desinformacion, america_latina, estados_unidos, plataformas]
-    - texto: "Las grandes plataformas empiezan a retirar los vídeos de alumbrarse los ojos o la cara con lámparas UV, porque ahora pueden ampararse en un aviso médico explícito. Los medios cubren el reto de la lámpara para alertar a los padres, y la cobertura da a conocer el juego a adolescentes que no lo habían visto, mientras los vídeos vuelven a subirse con otras palabras y en mensajería."
-      mecanismo: "Las normas de las plataformas contra los retos peligrosos ya existían, pero en las primeras horas solo podían usarse contra mirar al sol. El aviso de la sociedad oftalmológica de la hora 3 sobre fotoqueratitis les da una fuente concreta para clasificar el juego de la lámpara como actividad peligrosa, y una retirada respaldada por médicos tiene poco riesgo de verse como censura. Para un medio, un reto infantil peligroso con un aviso de oftalmólogos es una pieza de servicio con fuente que nadie le discute. El efecto conocido de este tipo de cobertura es que el padre se entera a la vez que el hijo que aún no lo conocía, y la retirada empuja el contenido a etiquetas alternativas y a grupos cerrados."
-      dato: "TikTok prohíbe en sus normas de comunidad el contenido que muestra o promueve retos y actividades peligrosas que puedan causar daño físico, y reforzó esa política en febrero de 2022."
-      fuente: "https://newsroom.tiktok.com/strengthening-our-policies-to-promote-safety-security-and-wellbeing-on-tiktok?lang=en"
-      confianza: media
-      evidencia: dato
-      areas_afectadas: [plataformas, adolescentes, salud_ocular, medios]
-    - texto: "Con los primeros casos de fotoqueratitis en urgencias a media tarde, los medios serios sí los atribuyen a las lámparas y usan la palabra fotoqueratitis, porque el aviso anticipado de la sociedad oftalmológica ya les dio un marco con fuente. La confusión no se corta: se traslada a los agregadores, a la prensa de clics y a los cortes del directo del agitador, que hablan de nuevos heridos del fenómeno o de daño que aparece horas después."
-      mecanismo: "Discrepo en parte de que el aviso anticipado baste para fijar la atribución (oftalmologa/h3/1): funciona en las redacciones con regla de la fuente, que tienen una explicación médica escrita antes de los casos y la citan, pero no en quien vive de titulares cortos. Un síntoma que aparece horas después de la exposición es justo lo que el agitador necesita para su relato de daño oculto (agitador/h3/4), y en un titular la frase lesión que aparece horas después no dice si la causa fue la lámpara o el sol. Como las exposiciones a lámparas se concentraron entre las 12:00 y las 13:00, los síntomas empiezan a llegar ahora y siguen hasta la noche, coincidiendo con el directo de la tarde."
-      dato: "Los síntomas de la fotoqueratitis suelen aparecer entre 30 minutos y 12 horas después de la exposición (dato ya en el canon, h3-07, según la Academia Americana de Oftalmología)."
-      fuente: "https://www.aao.org/eye-health/diseases/photokeratitis"
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [medios, sanidad, salud_ocular, desinformacion]
-  reacciona_a: [oftalmologa/h3/1, agitador/h3/4, disruptor/h3/2]
+  - texto: 'A las 15:00 los informativos de sobremesa en España abren con lo que la piel escondía, no con el fenómeno en sí: daño solar en la cara de los mayores y moratones antiguos que ahora se ven. Las piezas de moratones se montan con forenses, pediatras y el teléfono 016 en pantalla, y presentan el ultravioleta como algo que destapa el maltrato. Con eso las sospechas de la hora 3 llegan a la audiencia más grande del día, y suben a la vez las detecciones reales y los falsos positivos.'
+    mecanismo: 'Es la franja informativa de más audiencia en la televisión española y se prepara durante la hora 4, cuando el daño solar y los moratones ya están en el canon. Una cara manchada o un moratón que vuelve a verse son lo que estas redacciones no tenían desde el martes por la mañana: algo que el espectador puede comprobar en su propia casa, con fuentes que quieren hablar (dermatólogos, medicina forense) y sin tener que explicar la causa. El formato de servicio, con 016 y consejos, cumple el código de cobertura de la violencia de género. El problema es que enseña a millones de personas a buscar marcas en otros sin darles ningún criterio para distinguir golpe de pigmentación, así que llegan más notificaciones a los servicios justo antes de que exista una guía. Y quien maltrata se entera a la vez que la víctima de que el maquillaje con filtro ya no tapa.'
+    dato: En octubre de 2026 Antena 3 Noticias 1 tuvo de media 2.196.000 espectadores (23,9% de cuota) y el Telediario 1, 1.488.000 (16,2%) entre semana.
+    fuente: https://www.formulatv.com/noticias/audiencias-informativos-octubre-2026-138652/
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - medios
+    - sanidad
+    - proteccion_menores
+    - violencia_de_genero
+    - opinion_publica
+    id: medios/h5/1
+  - texto: 'En redes, la historia de los moratones se convierte en señalamiento: se publican vídeos y fotos de desconocidos, compañeras o vecinos con supuestas marcas en la cara, y aparecen acusaciones públicas contra parejas y padres concretos. Las plataformas los retiran o limitan tarde y caso a caso, con sus normas de acoso y privacidad, no con las de desinformación, y los medios serios publican las primeras piezas sobre personas señaladas por un lunar o una mancha de nacimiento.'
+    mecanismo: Los informativos han legitimado mirar la piel ajena como algo de interés público. Una acusación con imagen se comparte mucho más que su rectificación, porque mezcla indignación con la sensación de estar protegiendo a alguien. Como nadie puede grabar el canal nuevo, la prueba es la palabra de quien dice verlo, imposible de comprobar desde fuera. Las plataformas no tienen ninguna autoridad sanitaria que les diga qué es un moratón antiguo, así que solo pueden actuar cuando se identifica a una persona concreta, y para entonces ya se ha difundido. Para los medios, una víctima de un falso señalamiento también tiene fuente y personaje, así que la segunda ola de cobertura es la del error.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - redes_sociales
+    - plataformas
+    - violencia_de_genero
+    - proteccion_menores
+    - privacidad
+    id: medios/h5/2
+  - texto: 'En México y Centroamérica, que despiertan con el marco del agitador ya instalado, los primeros testimonios de la mañana repiten el velo débil de Nueva York, y circula la versión latinoamericana del rumor: que a ellos les llega más flojo o más tarde. Los matinales mexicanos y los programas en español de Estados Unidos, en emisión a esa hora, lo combaten con conexiones a Madrid y a São Paulo, pero gran parte de la audiencia joven ya ha recibido el relato a través de vídeos cortos antes de encender la tele.'
+    mecanismo: 'A las 15:00 de Madrid son las 8:00 en Ciudad de México y las 9:00 en Nueva York: en México hace solo una hora que ha salido el sol y llega poco ultravioleta, la misma trampa que en la costa este. Los programas matinales en español tienen la noticia en su franja y la única forma de desmentir la diferencia es enseñar a otros que ya están a mediodía, algo que llega peor que la experiencia propia. Los latinos de Estados Unidos se informan por redes, y en concreto por TikTok, mucho más que otros grupos, así que el agitador, que emite en español desde la hora 3, llega antes. El rumor solo morirá cuando suba el sol en México, varias horas después.'
+    dato: El 25% de los adultos hispanos de Estados Unidos se informa con regularidad por TikTok, frente al 9% de los adultos blancos; el 21% prefiere las redes sociales como fuente de noticias, frente al 10% de los blancos.
+    fuente: https://www.pewresearch.org/journalism/2024/03/19/hispanic-americans-news-habits-and-sources/
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - medios
+    - desinformacion
+    - america_latina
+    - estados_unidos
+    - plataformas
+    id: medios/h5/3
+  - texto: Las grandes plataformas empiezan a retirar los vídeos de alumbrarse los ojos o la cara con lámparas UV, porque ahora pueden ampararse en un aviso médico explícito. Los medios cubren el reto de la lámpara para alertar a los padres, y la cobertura da a conocer el juego a adolescentes que no lo habían visto, mientras los vídeos vuelven a subirse con otras palabras y en mensajería.
+    mecanismo: Las normas de las plataformas contra los retos peligrosos ya existían, pero en las primeras horas solo podían usarse contra mirar al sol. El aviso de la sociedad oftalmológica de la hora 3 sobre fotoqueratitis les da una fuente concreta para clasificar el juego de la lámpara como actividad peligrosa, y una retirada respaldada por médicos tiene poco riesgo de verse como censura. Para un medio, un reto infantil peligroso con un aviso de oftalmólogos es una pieza de servicio con fuente que nadie le discute. El efecto conocido de este tipo de cobertura es que el padre se entera a la vez que el hijo que aún no lo conocía, y la retirada empuja el contenido a etiquetas alternativas y a grupos cerrados.
+    dato: TikTok prohíbe en sus normas de comunidad el contenido que muestra o promueve retos y actividades peligrosas que puedan causar daño físico, y reforzó esa política en febrero de 2022.
+    fuente: https://newsroom.tiktok.com/strengthening-our-policies-to-promote-safety-security-and-wellbeing-on-tiktok?lang=en
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - plataformas
+    - adolescentes
+    - salud_ocular
+    - medios
+    id: medios/h5/4
+  - texto: 'Con los primeros casos de fotoqueratitis en urgencias a media tarde, los medios serios sí los atribuyen a las lámparas y usan la palabra fotoqueratitis, porque el aviso anticipado de la sociedad oftalmológica ya les dio un marco con fuente. La confusión no se corta: se traslada a los agregadores, a la prensa de clics y a los cortes del directo del agitador, que hablan de nuevos heridos del fenómeno o de daño que aparece horas después.'
+    mecanismo: 'Discrepo en parte de que el aviso anticipado baste para fijar la atribución (oftalmologa/h3/1): funciona en las redacciones con regla de la fuente, que tienen una explicación médica escrita antes de los casos y la citan, pero no en quien vive de titulares cortos. Un síntoma que aparece horas después de la exposición es justo lo que el agitador necesita para su relato de daño oculto (agitador/h3/4), y en un titular la frase lesión que aparece horas después no dice si la causa fue la lámpara o el sol. Como las exposiciones a lámparas se concentraron entre las 12:00 y las 13:00, los síntomas empiezan a llegar ahora y siguen hasta la noche, coincidiendo con el directo de la tarde.'
+    dato: Los síntomas de la fotoqueratitis suelen aparecer entre 30 minutos y 12 horas después de la exposición (dato ya en el canon, h3-07, según la Academia Americana de Oftalmología).
+    fuente: https://www.aao.org/eye-health/diseases/photokeratitis
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - medios
+    - sanidad
+    - salud_ocular
+    - desinformacion
+    id: medios/h5/5
+  reacciona_a:
+  - oftalmologa/h3/1
+  - agitador/h3/4
+  - disruptor/h3/2

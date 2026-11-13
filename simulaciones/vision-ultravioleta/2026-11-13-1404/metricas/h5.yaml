@@ -1,0 +1,27 @@
+evaluacion:
+  tramo: h5
+  metricas:
+    - id: alarma_social
+      valor: 3
+      justificacion: "Los cambios de conducta visibles se extienden: padres llevan a adolescentes a urgencias por fotoqueratitis, el señalamiento en redes contra parejas, padres y vecinos se dispara tras los informativos de sobremesa, algunas familias de la órbita del agitador evitan el pediatra o el colegio, jóvenes se quitan las gafas por la que creen última tarde y llamadas a clínicas piden la lente que deja ver. No llega a 4 porque no hay servicios colapsados, acaparamiento ni protestas en varios países; las urgencias reciben casos y protección de menores recibe notificaciones, pero la saturación sigue siendo una tensión abierta."
+      apoyos: [h5-01, h5-03, h5-04, h5-07, h5-10]
+    - id: confianza_institucional
+      valor: 3
+      justificacion: "Las instituciones ganan presencia (alerta de producto del Ministerio de Consumo, regla de triaje oftalmológica, nota ministerial sobre notificaciones, conferencia de la presidenta de México), pero la versión oficial convive con una sospecha amplia: el agitador presenta el aviso médico como prueba de ocultación, los adolescentes ocultan lo de la lámpara y se quitan las gafas, la audiencia hispana en Estados Unidos ya recibió el rumor por redes, la Casa Blanca calla y asociaciones de víctimas y de familias critican la nota. Para llegar a 4 haría falta evidencia de que la mayoría sigue las indicaciones."
+      apoyos: [h5-01, h5-02, h5-04, h5-06, h5-07, h5-08]
+    - id: relatos_en_competencia
+      valor: 4
+      justificacion: "Sube a 4 porque ya hay cifras incompatibles: hospitales, Gobierno y medios serios atribuyen la fotoqueratitis a las lámparas, mientras agregadores, prensa de clics y el directo del agitador la suman a los heridos del fenómeno, y el silencio de los adolescentes contamina el propio recuento; además el relato de que el fenómeno se apaga circula en el mismo ciclo informativo en que los matinales estadounidenses narran su llegada. No es 5 porque los medios serios y la televisión de máxima audiencia mantienen el marco técnico y no hay aún grupos amplios que rechacen toda fuente del otro lado, aunque el agitador amplía su público hacia padres de niños pequeños."
+      apoyos: [h5-01, h5-03, h5-06, h5-07, h5-08]
+    - id: respuesta_gobiernos
+      valor: medidas_sectoriales
+      justificacion: "Aparece la primera medida obligatoria: la alerta de seguridad de producto de Consumo y las comunidades sobre lámparas UV, con requerimiento a las plataformas de venta para retirar anuncios bajo el Reglamento (UE) 2023/988, que es una medida concreta en un sector sin estado excepcional. El resto sigue siendo comunicación (nota ministerial sobre notificaciones, conferencia mexicana, declaración institucional en preparación, diálogo social sin acuerdo) y no hay declaración de emergencia."
+      apoyos: [h5-02, h5-04, h5-05, h5-06, h5-09]
+    - id: impacto_economico
+      valor: 3
+      justificacion: "Se mantiene la disrupción en varios sectores: conflicto sobre quién paga las horas al aire libre con el modelo de la construcción como fórmula de compromiso, fricción entre efectivo y tarjeta replegada a hostelería joven y zonas turísticas, retirada forzosa de anuncios de lámparas y desplazamiento a reventa, y demanda de lentes sin producto. No es 4 porque no hay crisis de mercado, caída de índices ni intervención de bancos centrales o gobiernos en los mercados; la preferencia por tarjeta incluso se repliega."
+      apoyos: [h5-02, h5-08, h5-09, h5-10]
+    - id: adaptacion
+      valor: 3
+      justificacion: "Las pautas se afinan y parte de la población las sigue: regla de triaje de dos preguntas en urgencias, explicación de que el cambio diario es de la luz y no del ojo, criterios en preparación para valorar marcas, y el pequeño comercio vuelve al efectivo. No llega a 4 porque grupos amplios las contradicen o malinterpretan: adolescentes que ocultan la lámpara y se quitan las gafas creyendo que es la última tarde, notificaciones concentradas en observadores jóvenes sin criterio y en América la población apenas empieza a vivir el fenómeno."
+      apoyos: [h5-01, h5-04, h5-06, h5-07, h5-08]

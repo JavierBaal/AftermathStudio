@@ -2,39 +2,62 @@ intervencion:
   agente: disruptor
   tramo: h5
   afirmaciones:
-    - texto: "Hacia la quinta hora, mientras América descubre el fenómeno, en Escandinavia y el norte de Europa el sol ya está muy bajo y a punto de ponerse, y los colores nuevos se apagan con la luz. De allí salen los primeros testimonios de que el fenómeno se está yendo, que corren como noticia esperanzadora o alarmante según quién los cuente, justo a la vez que los matinales estadounidenses retransmiten su llegada. El mismo sesgo que en el amanecer de Nueva York, ahora al revés: un efecto que depende de la altura del sol se lee como un cambio del propio fenómeno, y alimenta en paralelo una pregunta que nadie puede contestar, la de si es permanente."
-      mecanismo: "El UV-A que llega al suelo depende de cuánta atmósfera atraviesa la luz, así que con el sol cerca del horizonte la señal nueva se debilita mucho antes de que oscurezca. A mediados de noviembre Oslo, que comparte hora con Madrid, ve ponerse el sol antes de las cuatro de la tarde, de modo que a las tres el norte de Europa vive la experiencia más pobre del día. Como nadie conoce la causa ni sabe si el cambio es permanente, cualquier debilitamiento se interpreta como respuesta a esa pregunta. Es la misma confusión que en el amanecer de la costa este, pero esta vez con el sentido contrario: allí sugería que les llegaba distinto, aquí sugiere que se acaba. Los dos relatos coinciden en el mismo ciclo informativo y se contradicen, lo que da más material a quien vive de exhibir contradicciones."
-      dato: "En Oslo el sol se pone hacia las 15:53 el 13 de noviembre."
-      fuente: "https://www.worlddata.info/europe/norway/sunset.php"
-      confianza: media
-      evidencia: dato
-      areas_afectadas: [medios, opinion_publica, sanidad]
-    - texto: "Las personas con vitíligo y otras despigmentaciones descubren que sus manchas se ven ahora mucho más marcadas y extensas de lo que nadie, ni ellas mismas, había visto con luz normal, y aparecen además manchas que no se conocían. Llegan consultas a dermatología por manchas blancas nuevas que en realidad llevaban tiempo ahí, y las asociaciones de pacientes con vitíligo salen a pedir que no se mire ni se señale, en un día en que la piel de todos se escudriña buscando daño solar y moratones."
-      mecanismo: "La lámpara de Wood, que emite ultravioleta cercano, se usa en dermatología precisamente porque realza la piel sin melanina: la zona despigmentada refleja el UV-A en vez de absorberlo y contrasta con fuerza frente a la piel normal, incluso donde a simple vista apenas se distingue. Es la cara opuesta del daño solar acumulado que ya está en el canon: allí el exceso de melanina se ve oscuro, aquí su ausencia se ve brillante. La atención social del día está puesta en leer la piel ajena, primero por la crema y después por manchas y golpes, así que una condición visible y sin criterio de interpretación entra en la misma ola de sospecha y consultas, y quienes la padecen pasan a ser vistos de otra manera sin haber cambiado nada."
-      dato: "En la exploración con lámpara de Wood la piel despigmentada del vitíligo se ve de un blanco azulado brillante y bien delimitado."
-      fuente: "https://www.dermnetnz.org/topics/wood-lamp-skin-examination"
-      confianza: media
-      evidencia: dato
-      areas_afectadas: [sanidad, sociedad, dermatologia]
-    - texto: "Con la explicación oficial de que la crema se ve oscura porque protege, el público convierte la cara y el brazo en un banco de pruebas: se aplican varias marcas una al lado de otra y comparan cuál se ve más oscura. Circulan vídeos de comparativas caseras que señalan productos que apenas se oscurecen, y en paralelo aparecen vendedores en mercados en línea y redes que ofrecen protectores invisibles al ojo nuevo para los adolescentes que se quitan la crema de la cara, aunque, por la misma física que ha explicado Sanidad, un producto que no se ve oscuro no está filtrando el UV-A."
-      mecanismo: "La nota conjunta de Sanidad y las sociedades médicas dio al público una regla simple y verificable a ojo: oscuro es igual a protección frente al UV-A. Esa regla, pensada para frenar el rechazo, sirve también para auditar productos, y la protección UV-A es justo la que menos se ve en la etiqueta, porque el número grande es el SPF, que mide sobre todo el UV-B. En la Unión Europea se recomienda que la protección UV-A sea al menos un tercio del SPF, pero el consumidor nunca había podido comprobarlo. A la vez, la demanda adolescente de no verse manchada crea un mercado para lo contrario, y el oportunista que vende un protector invisible explota la vergüenza que la explicación no corrige. Discrepo de economista/h3/3: el golpe para las marcas en Europa no depende del volumen estacional de ventas sino de la reputación, porque la comparativa casera reordena marcas ahora y deja la imagen fijada para la próxima campaña."
-      dato: "La Recomendación 2006/647/CE de la Comisión establece que la protección UVA de un protector solar debe ser al menos un tercio del factor de protección solar indicado."
-      fuente: "https://eur-lex.europa.eu/eli/reco/2006/647/oj/eng"
-      confianza: media
-      evidencia: dato
-      areas_afectadas: [consumo, cosmetica, sanidad, redes_sociales]
-    - texto: "Con las lámparas de uñas y las linternas de luz negra ya en todas las casas, el juego de la hora del mediodía se desplaza de la cara a los objetos: sábanas, sofás, colchones, alfombras y, sobre todo, camas de hoteles y pisos turísticos. Aparecen vídeos de manchas de fluidos corporales que se ven bajo la lámpara, quejas públicas a hoteles y plataformas de alquiler y peticiones de reembolso, con más ruido que evidencia porque muchas manchas son restos de detergente o de productos de limpieza."
-      mecanismo: "Que la orina, el semen y otros restos orgánicos fluorescen bajo luz ultravioleta es conocimiento extendido por la investigación forense y por un género de vídeos virales sobre habitaciones de hotel que ya existía. Lo nuevo es la escala: la segunda ola de compra y las lámparas que ya había en casa han puesto una fuente UV en manos de millones de personas aburridas en interiores, y los viajeros que pasan el día en hoteles por trabajo o turismo la llevan consigo. Los detergentes con blanqueantes ópticos también brillan bajo esa luz, de modo que la limpieza deja su propia huella y cualquiera puede presentarla como suciedad. Para un hotel, una reseña con vídeo es un daño reputacional inmediato frente al que no tiene una respuesta técnica rápida."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [turismo, consumo, redes_sociales]
-    - texto: "En mercados y fruterías de España, en plena campaña de cítricos, los clientes empiezan a rechazar mandarinas, naranjas y otras frutas que con luz natural muestran manchas en el canal nuevo, aunque por fuera parecen sanas. Los fruteros apartan género que antes vendían, se quejan a los mayoristas y en redes circulan fotos de fruta que se ve podrida a ojos jóvenes, lo que suma otro pequeño frente de desconfianza sobre lo que antes se daba por bueno."
-      mecanismo: "Los almacenes de cítricos usan desde hace tiempo cámaras o lámparas de luz ultravioleta para detectar a ojo las podredumbres incipientes y los golpes en la piel, que se notan en ultravioleta antes que en luz visible. Esa inspección, que era un paso industrial oculto, se traslada al mostrador: el cliente joven ve los defectos que la clasificación dejaba pasar porque no eran visibles. Noviembre es temporada de cítricos en España y la compra en mercado es diaria, así que el efecto aparece pronto. El frutero asume la pérdida o la traslada al mayorista, y el consumidor descubre de golpe que comía fruta con defectos invisibles, sin criterio para saber si son inocuos."
-      dato: ""
-      fuente: ""
-      confianza: baja
-      evidencia: especulacion
-      areas_afectadas: [alimentacion, comercio, agricultura]
-  reacciona_a: [economista/h3/3, adolescente/h3/3]
+  - texto: 'Hacia la quinta hora, mientras América descubre el fenómeno, en Escandinavia y el norte de Europa el sol ya está muy bajo y a punto de ponerse, y los colores nuevos se apagan con la luz. De allí salen los primeros testimonios de que el fenómeno se está yendo, que corren como noticia esperanzadora o alarmante según quién los cuente, justo a la vez que los matinales estadounidenses retransmiten su llegada. El mismo sesgo que en el amanecer de Nueva York, ahora al revés: un efecto que depende de la altura del sol se lee como un cambio del propio fenómeno, y alimenta en paralelo una pregunta que nadie puede contestar, la de si es permanente.'
+    mecanismo: 'El UV-A que llega al suelo depende de cuánta atmósfera atraviesa la luz, así que con el sol cerca del horizonte la señal nueva se debilita mucho antes de que oscurezca. A mediados de noviembre Oslo, que comparte hora con Madrid, ve ponerse el sol antes de las cuatro de la tarde, de modo que a las tres el norte de Europa vive la experiencia más pobre del día. Como nadie conoce la causa ni sabe si el cambio es permanente, cualquier debilitamiento se interpreta como respuesta a esa pregunta. Es la misma confusión que en el amanecer de la costa este, pero esta vez con el sentido contrario: allí sugería que les llegaba distinto, aquí sugiere que se acaba. Los dos relatos coinciden en el mismo ciclo informativo y se contradicen, lo que da más material a quien vive de exhibir contradicciones.'
+    dato: En Oslo el sol se pone hacia las 15:53 el 13 de noviembre.
+    fuente: https://www.worlddata.info/europe/norway/sunset.php
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - medios
+    - opinion_publica
+    - sanidad
+    id: disruptor/h5/1
+  - texto: Las personas con vitíligo y otras despigmentaciones descubren que sus manchas se ven ahora mucho más marcadas y extensas de lo que nadie, ni ellas mismas, había visto con luz normal, y aparecen además manchas que no se conocían. Llegan consultas a dermatología por manchas blancas nuevas que en realidad llevaban tiempo ahí, y las asociaciones de pacientes con vitíligo salen a pedir que no se mire ni se señale, en un día en que la piel de todos se escudriña buscando daño solar y moratones.
+    mecanismo: 'La lámpara de Wood, que emite ultravioleta cercano, se usa en dermatología precisamente porque realza la piel sin melanina: la zona despigmentada refleja el UV-A en vez de absorberlo y contrasta con fuerza frente a la piel normal, incluso donde a simple vista apenas se distingue. Es la cara opuesta del daño solar acumulado que ya está en el canon: allí el exceso de melanina se ve oscuro, aquí su ausencia se ve brillante. La atención social del día está puesta en leer la piel ajena, primero por la crema y después por manchas y golpes, así que una condición visible y sin criterio de interpretación entra en la misma ola de sospecha y consultas, y quienes la padecen pasan a ser vistos de otra manera sin haber cambiado nada.'
+    dato: En la exploración con lámpara de Wood la piel despigmentada del vitíligo se ve de un blanco azulado brillante y bien delimitado.
+    fuente: https://www.dermnetnz.org/topics/wood-lamp-skin-examination
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - sanidad
+    - sociedad
+    - dermatologia
+    id: disruptor/h5/2
+  - texto: 'Con la explicación oficial de que la crema se ve oscura porque protege, el público convierte la cara y el brazo en un banco de pruebas: se aplican varias marcas una al lado de otra y comparan cuál se ve más oscura. Circulan vídeos de comparativas caseras que señalan productos que apenas se oscurecen, y en paralelo aparecen vendedores en mercados en línea y redes que ofrecen protectores invisibles al ojo nuevo para los adolescentes que se quitan la crema de la cara, aunque, por la misma física que ha explicado Sanidad, un producto que no se ve oscuro no está filtrando el UV-A.'
+    mecanismo: 'La nota conjunta de Sanidad y las sociedades médicas dio al público una regla simple y verificable a ojo: oscuro es igual a protección frente al UV-A. Esa regla, pensada para frenar el rechazo, sirve también para auditar productos, y la protección UV-A es justo la que menos se ve en la etiqueta, porque el número grande es el SPF, que mide sobre todo el UV-B. En la Unión Europea se recomienda que la protección UV-A sea al menos un tercio del SPF, pero el consumidor nunca había podido comprobarlo. A la vez, la demanda adolescente de no verse manchada crea un mercado para lo contrario, y el oportunista que vende un protector invisible explota la vergüenza que la explicación no corrige. Discrepo de economista/h3/3: el golpe para las marcas en Europa no depende del volumen estacional de ventas sino de la reputación, porque la comparativa casera reordena marcas ahora y deja la imagen fijada para la próxima campaña.'
+    dato: La Recomendación 2006/647/CE de la Comisión establece que la protección UVA de un protector solar debe ser al menos un tercio del factor de protección solar indicado.
+    fuente: https://eur-lex.europa.eu/eli/reco/2006/647/oj/eng
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - consumo
+    - cosmetica
+    - sanidad
+    - redes_sociales
+    id: disruptor/h5/3
+  - texto: 'Con las lámparas de uñas y las linternas de luz negra ya en todas las casas, el juego de la hora del mediodía se desplaza de la cara a los objetos: sábanas, sofás, colchones, alfombras y, sobre todo, camas de hoteles y pisos turísticos. Aparecen vídeos de manchas de fluidos corporales que se ven bajo la lámpara, quejas públicas a hoteles y plataformas de alquiler y peticiones de reembolso, con más ruido que evidencia porque muchas manchas son restos de detergente o de productos de limpieza.'
+    mecanismo: 'Que la orina, el semen y otros restos orgánicos fluorescen bajo luz ultravioleta es conocimiento extendido por la investigación forense y por un género de vídeos virales sobre habitaciones de hotel que ya existía. Lo nuevo es la escala: la segunda ola de compra y las lámparas que ya había en casa han puesto una fuente UV en manos de millones de personas aburridas en interiores, y los viajeros que pasan el día en hoteles por trabajo o turismo la llevan consigo. Los detergentes con blanqueantes ópticos también brillan bajo esa luz, de modo que la limpieza deja su propia huella y cualquiera puede presentarla como suciedad. Para un hotel, una reseña con vídeo es un daño reputacional inmediato frente al que no tiene una respuesta técnica rápida.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - turismo
+    - consumo
+    - redes_sociales
+    id: disruptor/h5/4
+  - texto: En mercados y fruterías de España, en plena campaña de cítricos, los clientes empiezan a rechazar mandarinas, naranjas y otras frutas que con luz natural muestran manchas en el canal nuevo, aunque por fuera parecen sanas. Los fruteros apartan género que antes vendían, se quejan a los mayoristas y en redes circulan fotos de fruta que se ve podrida a ojos jóvenes, lo que suma otro pequeño frente de desconfianza sobre lo que antes se daba por bueno.
+    mecanismo: 'Los almacenes de cítricos usan desde hace tiempo cámaras o lámparas de luz ultravioleta para detectar a ojo las podredumbres incipientes y los golpes en la piel, que se notan en ultravioleta antes que en luz visible. Esa inspección, que era un paso industrial oculto, se traslada al mostrador: el cliente joven ve los defectos que la clasificación dejaba pasar porque no eran visibles. Noviembre es temporada de cítricos en España y la compra en mercado es diaria, así que el efecto aparece pronto. El frutero asume la pérdida o la traslada al mayorista, y el consumidor descubre de golpe que comía fruta con defectos invisibles, sin criterio para saber si son inocuos.'
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - alimentacion
+    - comercio
+    - agricultura
+    id: disruptor/h5/5
+  reacciona_a:
+  - economista/h3/3
+  - adolescente/h3/3

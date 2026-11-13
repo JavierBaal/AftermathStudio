@@ -2,39 +2,66 @@ intervencion:
   agente: politico
   tramo: h5
   afirmaciones:
-    - texto: "La presidenta de México abre su conferencia matutina hablando del fenómeno con el sol ya saliendo en Ciudad de México y se convierte en el primer jefe de Estado del continente que habla en primera persona. Comparece con la Secretaría de Salud, repite el mensaje sanitario de mínimos (es global, no mirar al sol, el deslumbramiento remite y no se asocia a lesión) y dedica parte de la conferencia a desmentir sin nombrarlo el marco del despliegue escalonado, presentándolo como desinformación llegada de fuera."
-      mecanismo: "La conferencia matutina es un formato diario en directo que la presidencia controla, empieza a primera hora y coincide con el amanecer del centro del país, así que puede hablar justo cuando la población confirma el fenómeno con sus ojos. A un gobierno que basa su legitimidad en esa comunicación directa le cuesta más dejar el hueco a un emisor extranjero en español que comprometerse con un mensaje que la Secretaría de Salud sí respalda. Como no puede afirmar la causa ni la duración, el terreno seguro es el mismo que en Europa más la denuncia de la desinformación, que le da protagonismo sin riesgo de rectificar. Eso no borra el marco ya instalado durante la noche, pero le disputa la audiencia mexicana con una voz oficial propia, algo que Centroamérica tarda más en tener."
-      dato: "La retransmisión en directo de Excélsior de la conferencia del 7 de octubre de 2026 registra su primera entrada a las 7:37, con la conferencia ya en curso."
-      fuente: "https://www.excelsior.com.mx/nacional/mananera-sheinbaum-hoy-temas-conferencia-7-octubre-2026"
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [politica, comunicacion, desinformacion, mexico]
-    - texto: "Al abrirse a las 15:00 el Pleno ordinario del martes en el Congreso, dos grupos de la oposición piden formalmente alterar el orden del día para incluir una comparecencia del presidente. La mayoría del Gobierno y sus socios lo rechaza en votación, pero la oposición se queda con la imagen de la votación y anuncia que llevará el fenómeno a la sesión de control del miércoles a las 9:00, donde la pregunta genérica ya registrada por su líder le permite interpelar al presidente sobre esto. Moncloa pasa a preparar una declaración institucional del presidente antes de esa sesión para no llegar a ella sin haber hablado."
-      mecanismo: "El Reglamento del Congreso permite pedir la alteración del orden del día del Pleno a dos grupos parlamentarios, pero la decide el propio Pleno, de modo que la oposición no puede imponerla aunque sí forzar una votación nominal que exhiba a quien la bloquea. La fórmula de la ministra en comisión le hizo ganar días en la Junta de Portavoces, pero no protege al presidente de la sesión de control: las preguntas de los líderes suelen registrarse con un enunciado amplio que se puede orientar al tema del día. Al presidente le conviene más hablar antes por su cuenta, con la información técnica disponible y en un formato que controla, que estrenar su posición respondiendo a la oposición en directo."
-      dato: "El orden del día del Congreso fija el Pleno del martes a las 15:00 y la sesión de control con preguntas al Gobierno el miércoles a las 9:00 (ejemplo: semana del 11 de noviembre de 2025)."
-      fuente: "https://www.congreso.es/backoffice_doc/atp/orden_dia/pleno_144_11112025.pdf"
-      confianza: media
-      evidencia: dato
-      areas_afectadas: [politica, parlamento, comunicacion]
-    - texto: "Con los primeros casos de fotoqueratitis y lesiones por lámparas llegando a urgencias, el Ministerio de Consumo, con las comunidades autónomas que tienen la inspección de consumo, emite una alerta de seguridad de producto sobre lámparas UV-C germicidas, de bronceado y mal etiquetadas, y requiere a las plataformas de venta en línea que retiren los anuncios sin advertencias. El Gobierno lo presenta como la primera medida de protección con efecto obligatorio desde el martes y, de paso, atribuye públicamente esas lesiones a las lámparas y no al fenómeno."
-      mecanismo: "Es la única medida restrictiva que el Gobierno puede tomar hoy con base legal clara y sin que sus técnicos tengan que pronunciarse sobre el fenómeno: la normativa europea de seguridad general de los productos ya permite a las autoridades de vigilancia del mercado ordenar retiradas y obliga a los mercados en línea a atender esas órdenes. Le da un gesto de control justo cuando los titulares hablan de heridos, se alinea con el aviso anticipado de la sociedad oftalmológica y le permite separar el daño evitable del fenómeno sin afirmar nada sobre su causa o duración. El efecto colateral es el mismo que con gafas y linternas: la oferta retirada de las grandes plataformas se desplaza a reventa y mensajería, donde la alerta no llega."
-      dato: "El Reglamento (UE) 2023/988 de seguridad general de los productos regula las órdenes de las autoridades de vigilancia del mercado y las obligaciones de los mercados en línea de atenderlas."
-      fuente: "https://eur-lex.europa.eu/eli/reg/2023/988/oj"
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [salud, consumo, comercio_electronico, politica]
-    - texto: "Los ministerios de Juventud e Infancia y de Igualdad, con Justicia, publican una nota para docentes, sanitarios y servicios sociales: la obligación de comunicar sospechas de violencia contra menores y de violencia de género sigue vigente, pero una marca vista solo en el canal ultravioleta no es por sí sola un indicio suficiente y debe valorarse con el resto de señales. Encargan a los institutos de medicina legal y al Consejo Médico Forense criterios para distinguir lesiones antiguas de pigmentación normal. Asociaciones de víctimas critican que la nota frena notificaciones reales y asociaciones de familias que llega tarde para los señalados."
-      mecanismo: "El Gobierno no puede rebajar por nota una obligación legal de comunicar, ni dar criterios clínicos que sus técnicos aún no tienen, pero sí puede recordar que la notificación se basa en indicios valorados en conjunto, lo que no requiere ninguna base legal nueva. Los forenses son los únicos que ya usan la fotografía ultravioleta para documentar lesiones, así que encargarles el criterio es delegar en quien tiene autoridad técnica y ganar tiempo. Cualquier mensaje en este terreno pierde por los dos lados: si insiste en notificar satura los servicios con falsos positivos, si matiza parece proteger a agresores, y la oposición puede usar cualquiera de las dos lecturas."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [proteccion_infancia, violencia_de_genero, servicios_sociales, politica]
-    - texto: "Cuando el sol ya está alto en la costa este de Estados Unidos y los testimonios del velo débil se igualan con los europeos, la Casa Blanca da por fin una declaración propia, breve, en la que el presidente habla del fenómeno como global y bajo control de las agencias federales, sin anunciar medidas. Llega después de que la experiencia haya desmentido el rumor geográfico, y el agitador la usa como prueba de que Washington solo habla cuando ya no puede ocultar nada."
-      mecanismo: "El riesgo de hablar pronto era tener que corregirse si el rumor de que a ellos les llegaba distinto se sostenía; con el sol alto ese riesgo desaparece porque lo desmiente la propia luz, y quedarse callado más tiempo empieza a costar más que hablar, sobre todo con gobernadores ocupando el espacio con mensajes contradictorios. Una declaración sin medidas no exige base legal ni respaldo técnico más allá del que ya dieron las agencias sanitarias. Pero el retraso es un hecho que el agitador puede exhibir: su marco interpreta cualquier tiempo de respuesta como ocultación, y la declaración tardía le confirma el relato ante una audiencia que ya lo había recibido primero."
-      dato: ""
-      fuente: ""
-      confianza: baja
-      evidencia: especulacion
-      areas_afectadas: [politica, estados_unidos, comunicacion, desinformacion]
-  reacciona_a: [disruptor/h3/2, oftalmologa/h3/1, agitador/h3/1]
+  - texto: La presidenta de México abre su conferencia matutina hablando del fenómeno con el sol ya saliendo en Ciudad de México y se convierte en el primer jefe de Estado del continente que habla en primera persona. Comparece con la Secretaría de Salud, repite el mensaje sanitario de mínimos (es global, no mirar al sol, el deslumbramiento remite y no se asocia a lesión) y dedica parte de la conferencia a desmentir sin nombrarlo el marco del despliegue escalonado, presentándolo como desinformación llegada de fuera.
+    mecanismo: La conferencia matutina es un formato diario en directo que la presidencia controla, empieza a primera hora y coincide con el amanecer del centro del país, así que puede hablar justo cuando la población confirma el fenómeno con sus ojos. A un gobierno que basa su legitimidad en esa comunicación directa le cuesta más dejar el hueco a un emisor extranjero en español que comprometerse con un mensaje que la Secretaría de Salud sí respalda. Como no puede afirmar la causa ni la duración, el terreno seguro es el mismo que en Europa más la denuncia de la desinformación, que le da protagonismo sin riesgo de rectificar. Eso no borra el marco ya instalado durante la noche, pero le disputa la audiencia mexicana con una voz oficial propia, algo que Centroamérica tarda más en tener.
+    dato: La retransmisión en directo de Excélsior de la conferencia del 7 de octubre de 2026 registra su primera entrada a las 7:37, con la conferencia ya en curso.
+    fuente: https://www.excelsior.com.mx/nacional/mananera-sheinbaum-hoy-temas-conferencia-7-octubre-2026
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - politica
+    - comunicacion
+    - desinformacion
+    - mexico
+    id: politico/h5/1
+  - texto: Al abrirse a las 15:00 el Pleno ordinario del martes en el Congreso, dos grupos de la oposición piden formalmente alterar el orden del día para incluir una comparecencia del presidente. La mayoría del Gobierno y sus socios lo rechaza en votación, pero la oposición se queda con la imagen de la votación y anuncia que llevará el fenómeno a la sesión de control del miércoles a las 9:00, donde la pregunta genérica ya registrada por su líder le permite interpelar al presidente sobre esto. Moncloa pasa a preparar una declaración institucional del presidente antes de esa sesión para no llegar a ella sin haber hablado.
+    mecanismo: 'El Reglamento del Congreso permite pedir la alteración del orden del día del Pleno a dos grupos parlamentarios, pero la decide el propio Pleno, de modo que la oposición no puede imponerla aunque sí forzar una votación nominal que exhiba a quien la bloquea. La fórmula de la ministra en comisión le hizo ganar días en la Junta de Portavoces, pero no protege al presidente de la sesión de control: las preguntas de los líderes suelen registrarse con un enunciado amplio que se puede orientar al tema del día. Al presidente le conviene más hablar antes por su cuenta, con la información técnica disponible y en un formato que controla, que estrenar su posición respondiendo a la oposición en directo.'
+    dato: 'El orden del día del Congreso fija el Pleno del martes a las 15:00 y la sesión de control con preguntas al Gobierno el miércoles a las 9:00 (ejemplo: semana del 11 de noviembre de 2025).'
+    fuente: https://www.congreso.es/backoffice_doc/atp/orden_dia/pleno_144_11112025.pdf
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - politica
+    - parlamento
+    - comunicacion
+    id: politico/h5/2
+  - texto: Con los primeros casos de fotoqueratitis y lesiones por lámparas llegando a urgencias, el Ministerio de Consumo, con las comunidades autónomas que tienen la inspección de consumo, emite una alerta de seguridad de producto sobre lámparas UV-C germicidas, de bronceado y mal etiquetadas, y requiere a las plataformas de venta en línea que retiren los anuncios sin advertencias. El Gobierno lo presenta como la primera medida de protección con efecto obligatorio desde el martes y, de paso, atribuye públicamente esas lesiones a las lámparas y no al fenómeno.
+    mecanismo: 'Es la única medida restrictiva que el Gobierno puede tomar hoy con base legal clara y sin que sus técnicos tengan que pronunciarse sobre el fenómeno: la normativa europea de seguridad general de los productos ya permite a las autoridades de vigilancia del mercado ordenar retiradas y obliga a los mercados en línea a atender esas órdenes. Le da un gesto de control justo cuando los titulares hablan de heridos, se alinea con el aviso anticipado de la sociedad oftalmológica y le permite separar el daño evitable del fenómeno sin afirmar nada sobre su causa o duración. El efecto colateral es el mismo que con gafas y linternas: la oferta retirada de las grandes plataformas se desplaza a reventa y mensajería, donde la alerta no llega.'
+    dato: El Reglamento (UE) 2023/988 de seguridad general de los productos regula las órdenes de las autoridades de vigilancia del mercado y las obligaciones de los mercados en línea de atenderlas.
+    fuente: https://eur-lex.europa.eu/eli/reg/2023/988/oj
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - consumo
+    - comercio_electronico
+    - politica
+    id: politico/h5/3
+  - texto: 'Los ministerios de Juventud e Infancia y de Igualdad, con Justicia, publican una nota para docentes, sanitarios y servicios sociales: la obligación de comunicar sospechas de violencia contra menores y de violencia de género sigue vigente, pero una marca vista solo en el canal ultravioleta no es por sí sola un indicio suficiente y debe valorarse con el resto de señales. Encargan a los institutos de medicina legal y al Consejo Médico Forense criterios para distinguir lesiones antiguas de pigmentación normal. Asociaciones de víctimas critican que la nota frena notificaciones reales y asociaciones de familias que llega tarde para los señalados.'
+    mecanismo: 'El Gobierno no puede rebajar por nota una obligación legal de comunicar, ni dar criterios clínicos que sus técnicos aún no tienen, pero sí puede recordar que la notificación se basa en indicios valorados en conjunto, lo que no requiere ninguna base legal nueva. Los forenses son los únicos que ya usan la fotografía ultravioleta para documentar lesiones, así que encargarles el criterio es delegar en quien tiene autoridad técnica y ganar tiempo. Cualquier mensaje en este terreno pierde por los dos lados: si insiste en notificar satura los servicios con falsos positivos, si matiza parece proteger a agresores, y la oposición puede usar cualquiera de las dos lecturas.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - proteccion_infancia
+    - violencia_de_genero
+    - servicios_sociales
+    - politica
+    id: politico/h5/4
+  - texto: Cuando el sol ya está alto en la costa este de Estados Unidos y los testimonios del velo débil se igualan con los europeos, la Casa Blanca da por fin una declaración propia, breve, en la que el presidente habla del fenómeno como global y bajo control de las agencias federales, sin anunciar medidas. Llega después de que la experiencia haya desmentido el rumor geográfico, y el agitador la usa como prueba de que Washington solo habla cuando ya no puede ocultar nada.
+    mecanismo: 'El riesgo de hablar pronto era tener que corregirse si el rumor de que a ellos les llegaba distinto se sostenía; con el sol alto ese riesgo desaparece porque lo desmiente la propia luz, y quedarse callado más tiempo empieza a costar más que hablar, sobre todo con gobernadores ocupando el espacio con mensajes contradictorios. Una declaración sin medidas no exige base legal ni respaldo técnico más allá del que ya dieron las agencias sanitarias. Pero el retraso es un hecho que el agitador puede exhibir: su marco interpreta cualquier tiempo de respuesta como ocultación, y la declaración tardía le confirma el relato ante una audiencia que ya lo había recibido primero.'
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - politica
+    - estados_unidos
+    - comunicacion
+    - desinformacion
+    id: politico/h5/5
+  reacciona_a:
+  - disruptor/h3/2
+  - oftalmologa/h3/1
+  - agitador/h3/1
