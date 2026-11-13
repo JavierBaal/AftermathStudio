@@ -2,39 +2,68 @@ intervencion:
   agente: agitador
   tramo: h3
   afirmaciones:
-    - texto: "Cuando amanece en Colombia, Venezuela, Perú y la costa este de Estados Unidos y la gente confirma con sus ojos el fenómeno, el agitador no rectifica nada: activa la mitad del marco que dejó preparado en la hora 2 y presenta la llegada franja a franja como prueba de que fue algo escalonado y planificado. Retransmite en directo amaneceres enviados por seguidores americanos, ciudad a ciudad, y convierte el amanecer en un formato de seguimiento que retiene a la audiencia hispanohablante recién captada mientras los medios locales aún arrancan sus matinales."
-      mecanismo: "El agitador formuló en la hora 2 una apuesta en la que cualquier resultado le da la razón, así que el desmentido geográfico que trae el sol no le cuesta credibilidad ante su audiencia. El mapa de franja solar, que ya circula como formato que confirma la ola, le da una narrativa visual sin necesidad de imágenes del fenómeno: lo que avanza es la luz, pero él lo cuenta como un despliegue. Llegar antes que las redacciones locales le permite que el público que despierta reciba primero su interpretación y no la del comunicado federal mínimo."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [comunicacion, redes_sociales, america, confianza_institucional]
-    - texto: "El agitador adopta la disparidad por edad y por lente intraocular como segundo tema estrella después del protector solar: plantea en forma de preguntas por qué a millones de operados de cataratas les pusieron una lente que bloquea el ultravioleta y quién decidió que los mayores no vieran. Parte de su audiencia mayor, y sobre todo hijos de mayores, llama a clínicas preguntando por el recambio de lente, lo que crea demanda visible para que alguna clínica privada se anuncie, justo cuando la sociedad oftalmológica la desaconseja."
-      mecanismo: "Repite el patrón que le funcionó con la crema: un hecho físico real y comprobable (las lentes intraoculares bloquean el UV desde hace décadas por diseño protector) al que solo le cambia la interpretación, de protección a privación. La exclusión de los mayores es un agravio emocional que no requiere imagen y amplía su audiencia más allá de los jóvenes. Que la sociedad oftalmológica desaconseje la cirugía le sirve para presentarla otra vez como parte interesada que quita algo, y el villano vuelve a ser industrial y difuso, sin nombres propios, lo que limita su riesgo de sanción."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [salud, mayores, sanidad_privada, redes_sociales]
-    - texto: "Ante la aparición de una voz dermatológica que advierte contra quitarse el protector, el agitador no la discute de frente: la enfrenta con la de los oftalmólogos y muestra en directo recortes de ambas como prueba de que ni los expertos se ponen de acuerdo. Usa también el mensaje de mínimos de Sanidad, que calla sobre gafas, y la comunidad autónoma que se desmarcó para sostener que no hay una versión oficial en la que confiar."
-      mecanismo: "Cada nueva voz sanitaria que entra sin coordinarse con las demás añade una contradicción aparente aunque las recomendaciones sean compatibles (proteger la piel y proteger los ojos no se excluyen). Para quien vive de la desconfianza, exhibir la falta de una pauta única es más rentable que rebatir una pauta concreta, porque no le obliga a afirmar nada falsable. El hueco existe de verdad: Sanidad no ha asumido la guía oftalmológica ni ha dicho nada del protector, y una comunidad ya ha roto el consenso."
-      dato: ""
-      fuente: ""
-      confianza: alta
-      evidencia: inferencia
-      areas_afectadas: [salud, comunicacion, confianza_institucional, cosmetica]
-    - texto: "Cuando llegan a urgencias los primeros casos de mancha central por mirar al sol o a lámparas UV, el agitador se cubre: dice en directo que no hay que mirar al sol, pero presenta a esos pacientes como víctimas del fenómeno y no de la exposición directa, y los suma a su lista de seguidores que dicen haber perdido vista. Así borra la frontera que la sociedad oftalmológica intenta trazar entre molestia transitoria y daño evitable."
-      mecanismo: "Los casos de retinopatía solar son el único daño real del tramo y amenazan con convertirse en una advertencia concreta que normalice el resto. Al agitador le conviene a la vez no aparecer como responsable de los retos, porque eso sí le expondría a retiradas y a pérdida de credibilidad, y no dejar que el daño se atribuya a una conducta evitable, porque entonces el fenómeno queda explicado. Mezclar los casos reales con los testimonios de deslumbramiento le da una cifra de afectados que crece sin tener que inventarla."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [salud, urgencias, redes_sociales]
-    - texto: "El agitador separa definitivamente audiencia y cobro: en la plataforma grande deja solo piezas de asombro que no chocan con la pauta sanitaria y sirven de escaparate, y traslada a sus canales propios de mensajería el contenido de sospecha, la convocatoria del directo de la tarde y la petición de donaciones. Sus canales propios crecen con cada etiqueta, pero con un público más pequeño y más fiel que el de la plataforma grande."
-      mecanismo: "Las etiquetas y la limitación de alcance de la hora 2 le muestran que la plataforma grande ya tiene una referencia contra la que moderar, y la desmonetización le golpearía justo cuando más donaciones recibe. La investigación sobre figuras expulsadas que migran a Telegram describe este movimiento hacia canales alternativos, donde el creador conserva la relación directa con su núcleo aunque pierda alcance general. Mantener el escaparate moderado le asegura seguir captando nuevos seguidores, que después deriva a donde controla la conversación y el pago."
-      dato: "Rogers (2020) estudia la migración a Telegram y redes alternativas de celebridades de internet expulsadas de las plataformas grandes."
-      fuente: "https://voxpol.eu/?p=18226"
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [redes_sociales, plataformas, moderacion, economia_creadores]
-  reacciona_a: [oftalmologa/h2/3, oftalmologa/h2/5, disruptor/h2/3, medios/h2/1, politico/h2/5]
+  - texto: 'Cuando amanece en Colombia, Venezuela, Perú y la costa este de Estados Unidos y la gente confirma con sus ojos el fenómeno, el agitador no rectifica nada: activa la mitad del marco que dejó preparado en la hora 2 y presenta la llegada franja a franja como prueba de que fue algo escalonado y planificado. Retransmite en directo amaneceres enviados por seguidores americanos, ciudad a ciudad, y convierte el amanecer en un formato de seguimiento que retiene a la audiencia hispanohablante recién captada mientras los medios locales aún arrancan sus matinales.'
+    mecanismo: 'El agitador formuló en la hora 2 una apuesta en la que cualquier resultado le da la razón, así que el desmentido geográfico que trae el sol no le cuesta credibilidad ante su audiencia. El mapa de franja solar, que ya circula como formato que confirma la ola, le da una narrativa visual sin necesidad de imágenes del fenómeno: lo que avanza es la luz, pero él lo cuenta como un despliegue. Llegar antes que las redacciones locales le permite que el público que despierta reciba primero su interpretación y no la del comunicado federal mínimo.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - comunicacion
+    - redes_sociales
+    - america
+    - confianza_institucional
+    id: agitador/h3/1
+  - texto: 'El agitador adopta la disparidad por edad y por lente intraocular como segundo tema estrella después del protector solar: plantea en forma de preguntas por qué a millones de operados de cataratas les pusieron una lente que bloquea el ultravioleta y quién decidió que los mayores no vieran. Parte de su audiencia mayor, y sobre todo hijos de mayores, llama a clínicas preguntando por el recambio de lente, lo que crea demanda visible para que alguna clínica privada se anuncie, justo cuando la sociedad oftalmológica la desaconseja.'
+    mecanismo: 'Repite el patrón que le funcionó con la crema: un hecho físico real y comprobable (las lentes intraoculares bloquean el UV desde hace décadas por diseño protector) al que solo le cambia la interpretación, de protección a privación. La exclusión de los mayores es un agravio emocional que no requiere imagen y amplía su audiencia más allá de los jóvenes. Que la sociedad oftalmológica desaconseje la cirugía le sirve para presentarla otra vez como parte interesada que quita algo, y el villano vuelve a ser industrial y difuso, sin nombres propios, lo que limita su riesgo de sanción.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - mayores
+    - sanidad_privada
+    - redes_sociales
+    id: agitador/h3/2
+  - texto: 'Ante la aparición de una voz dermatológica que advierte contra quitarse el protector, el agitador no la discute de frente: la enfrenta con la de los oftalmólogos y muestra en directo recortes de ambas como prueba de que ni los expertos se ponen de acuerdo. Usa también el mensaje de mínimos de Sanidad, que calla sobre gafas, y la comunidad autónoma que se desmarcó para sostener que no hay una versión oficial en la que confiar.'
+    mecanismo: 'Cada nueva voz sanitaria que entra sin coordinarse con las demás añade una contradicción aparente aunque las recomendaciones sean compatibles (proteger la piel y proteger los ojos no se excluyen). Para quien vive de la desconfianza, exhibir la falta de una pauta única es más rentable que rebatir una pauta concreta, porque no le obliga a afirmar nada falsable. El hueco existe de verdad: Sanidad no ha asumido la guía oftalmológica ni ha dicho nada del protector, y una comunidad ya ha roto el consenso.'
+    dato: ''
+    fuente: ''
+    confianza: alta
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - comunicacion
+    - confianza_institucional
+    - cosmetica
+    id: agitador/h3/3
+  - texto: 'Cuando llegan a urgencias los primeros casos de mancha central por mirar al sol o a lámparas UV, el agitador se cubre: dice en directo que no hay que mirar al sol, pero presenta a esos pacientes como víctimas del fenómeno y no de la exposición directa, y los suma a su lista de seguidores que dicen haber perdido vista. Así borra la frontera que la sociedad oftalmológica intenta trazar entre molestia transitoria y daño evitable.'
+    mecanismo: Los casos de retinopatía solar son el único daño real del tramo y amenazan con convertirse en una advertencia concreta que normalice el resto. Al agitador le conviene a la vez no aparecer como responsable de los retos, porque eso sí le expondría a retiradas y a pérdida de credibilidad, y no dejar que el daño se atribuya a una conducta evitable, porque entonces el fenómeno queda explicado. Mezclar los casos reales con los testimonios de deslumbramiento le da una cifra de afectados que crece sin tener que inventarla.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - urgencias
+    - redes_sociales
+    id: agitador/h3/4
+  - texto: 'El agitador separa definitivamente audiencia y cobro: en la plataforma grande deja solo piezas de asombro que no chocan con la pauta sanitaria y sirven de escaparate, y traslada a sus canales propios de mensajería el contenido de sospecha, la convocatoria del directo de la tarde y la petición de donaciones. Sus canales propios crecen con cada etiqueta, pero con un público más pequeño y más fiel que el de la plataforma grande.'
+    mecanismo: Las etiquetas y la limitación de alcance de la hora 2 le muestran que la plataforma grande ya tiene una referencia contra la que moderar, y la desmonetización le golpearía justo cuando más donaciones recibe. La investigación sobre figuras expulsadas que migran a Telegram describe este movimiento hacia canales alternativos, donde el creador conserva la relación directa con su núcleo aunque pierda alcance general. Mantener el escaparate moderado le asegura seguir captando nuevos seguidores, que después deriva a donde controla la conversación y el pago.
+    dato: Rogers (2020) estudia la migración a Telegram y redes alternativas de celebridades de internet expulsadas de las plataformas grandes.
+    fuente: https://voxpol.eu/?p=18226
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - redes_sociales
+    - plataformas
+    - moderacion
+    - economia_creadores
+    id: agitador/h3/5
+  reacciona_a:
+  - oftalmologa/h2/3
+  - oftalmologa/h2/5
+  - disruptor/h2/3
+  - medios/h2/1
+  - politico/h2/5

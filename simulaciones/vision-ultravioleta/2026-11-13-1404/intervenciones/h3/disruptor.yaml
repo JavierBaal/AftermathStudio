@@ -1,0 +1,73 @@
+intervencion:
+  agente: disruptor
+  tramo: h3
+  afirmaciones:
+  - texto: 'En la tercera hora, con el sol cerca del mediodía en Europa, la gente empieza a ver en la cara de los demás el daño solar acumulado que antes era invisible: pecas bajo la piel, léntigos y manchas de sol que aparecen intensas en mayores, en trabajadores del campo y la obra y en quien ha tomado mucho el sol. Como los jóvenes son los que mejor perciben los colores nuevos, son hijos y nietos quienes ven a padres y abuelos llenos de manchas. Los dermatólogos convierten esa imagen en su mejor argumento contra el abandono del protector: lo que se ve en la cara del abuelo es lo que deja el sol sin crema. Aparece una corriente contraria al rechazo del protector, mientras farmacias y consultas reciben a gente asustada por manchas que llevan años ahí.'
+    mecanismo: 'La melanina absorbe con fuerza el UV-A, así que las acumulaciones de pigmento que deja la exposición solar, aunque estén por debajo de la superficie y no se vean con luz visible, contrastan mucho en el canal ultravioleta. Es exactamente lo que mostraba el vídeo viral de 2014 que ya circula en redes, pero ahora se ve sin cámara y en la cara de personas conocidas. La disparidad por edad del canon hace que lo vean sobre todo los jóvenes mirando a los mayores, que apenas pueden comprobarlo en sí mismos. El relato del agitador sobre el protector se apoya en que la crema se ve oscura; la piel dañada también se ve oscura, a manchas y sin crema, y eso da a los dermatólogos una prueba visible que hasta ahora no tenían. El efecto no anula el rechazo estético, pero lo parte: quien ve la cara de sus mayores tiene un motivo concreto para seguir usando protector.'
+    dato: La fotografía ultravioleta muestra daño solar bajo la superficie que no se ve a simple vista, como pecas subsuperficiales, léntigos solares y manchas de la edad; el vídeo How the sun sees you de 2014 lo popularizó.
+    fuente: https://www.smithsonianmag.com/smart-news/ultraviolet-camera-reveals-secret-price-sunbathing-180952363/
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - salud
+    - dermatologia
+    - cosmetica
+    - familias
+    - comunicacion_sanitaria
+    id: disruptor/h3/1
+  - texto: 'Profesores, pediatras, sanitarios de urgencias y compañeros de trabajo empiezan a ver en la piel de otras personas moratones antiguos que ya se habían curado a simple vista. En la tercera hora llegan las primeras consultas a servicios de protección de menores y a líneas de violencia de género, junto a falsos positivos: manchas de nacimiento, lunares o pigmentación normal tomadas por golpes, y familias señaladas sin motivo. Quien tapaba un golpe con maquillaje queda más expuesto, porque la base con filtro se ve oscura justo encima de la zona que quería ocultar.'
+    mecanismo: 'La fotografía ultravioleta reflejada se usa en medicina forense precisamente porque revela moratones y mordeduras cuando ya no se ven: los cambios de pigmento que deja la lesión en la epidermis absorben UV-A durante meses. Ahora cualquiera que mire con luz natural percibe esas marcas. Los profesionales con obligación de comunicar sospechas de maltrato, como docentes y sanitarios, ven algo nuevo sin ningún criterio para interpretarlo, y en la duda los protocolos empujan a notificar. Como no existe una guía sobre qué es un moratón antiguo y qué es pigmentación, se mezclan detecciones reales con alarmas falsas, y el maquillaje con filtro, que ya se ve a manchas, señala la zona tapada en lugar de esconderla.'
+    dato: La fotografía ultravioleta reflejada muestra moratones o mordeduras que ya no son visibles; la literatura recoge resultados al menos 5 meses después de la lesión.
+    fuente: https://www.crime-scene-investigator.net/uvchildphoto.html
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - proteccion_menores
+    - violencia_de_genero
+    - educacion
+    - sanidad
+    - justicia
+    id: disruptor/h3/2
+  - texto: 'La discusión sobre quién paga las horas no trabajadas al aire libre choca con un obstáculo técnico: los sindicatos piden a la AEMET un aviso que active los protocolos de adaptación de jornada, y la AEMET responde que la radiación ultravioleta no está entre los fenómenos de su sistema de avisos, así que no puede emitir uno. A la vez, su índice UV, que solo es informativo, se empieza a usar al revés: en redes y en grupos se consulta como un pronóstico de dónde y cuándo se verán mejor los colores nuevos, y un índice alto pasa a significar salir a mirar en lugar de protegerse.'
+    mecanismo: La norma que obliga a adaptar o reducir la jornada al aire libre se dispara cuando la AEMET o el órgano autonómico emite un aviso naranja o rojo, pero el plan de avisos solo cubre lluvia, nieve, viento, tormentas, temperaturas, fenómenos costeros, polvo, niebla, galernas, deshielos y aludes. El índice UV se publica como predicción aparte, sin niveles de aviso. Sin ese fenómeno en la lista, el único gatillo legal existente no puede activarse, la decisión sigue en cada empresa y la presión se traslada a pedir una reforma o una instrucción del Ministerio de Trabajo. Mientras, el índice UV es el único dato oficial que habla de ultravioleta y la gente lo reinterpreta según su nuevo interés.
+    dato: Meteoalerta emite avisos para lluvia, nieve, viento, tormentas, temperaturas máximas y mínimas, fenómenos costeros, polvo en suspensión, galernas, rissagues, niebla, deshielos y aludes; la radiación ultravioleta figura como predicción aparte. La adaptación obligatoria de condiciones se activa cuando se emite aviso de fenómenos de nivel naranja o rojo.
+    fuente: https://www.aemet.es/en/eltiempo/prediccion/avisos/ayuda ; https://www.garrigues.com/es_ES/noticia/altas-temperaturas-obligaran-empresas-adoptar-medidas-preventivas-proteger-trabajadores
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - trabajo
+    - relaciones_laborales
+    - meteorologia
+    - comunicacion_publica
+    id: disruptor/h3/3
+  - texto: 'Al final de la tercera hora amanece en la costa este de Estados Unidos y los primeros testimonios en persona dicen que se ve poco: un velo débil, no los colores intensos que cuentan desde Europa. En lugar de cerrar el rumor geográfico, ese primer amanecer lo alimenta en la versión que el agitador ya había preparado, la de que a ellos les han hecho otra cosa o les llega más flojo, hasta que el sol sube y el efecto se iguala horas después.'
+    mecanismo: 'Con el sol en el horizonte la luz atraviesa mucha más atmósfera y llega muy poco ultravioleta, así que el primer rato de luz en Nueva York o Washington da la experiencia más débil del fenómeno. La gente que madruga para comprobarlo compara con relatos europeos escritos cerca del mediodía y concluye que hay una diferencia. Coincide además con la hora en que el agitador ya tiene audiencia americana despierta y con un marco en el que cualquier diferencia le da la razón, mientras el comunicado federal mínimo solo dice que el fenómeno es global. Discrepo de que el amanecer desmienta por sí solo el rumor: el primer amanecer lo desmiente mal, porque llega con la luz más pobre en ultravioleta del día.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - desinformacion
+    - medios
+    - politica_estados_unidos
+    - opinion_publica
+    id: disruptor/h3/4
+  - texto: 'Los solarios y centros de uñas con lámparas UV se convierten en salas para ver el fenómeno en interiores: reciben reservas y gente que entra sin intención de broncearse, y algunos clientes se quitan las gafas protectoras dentro de la cabina para ver los colores. Llegan a urgencias los primeros casos de ojos irritados y dolorosos horas después de una sesión, que se confunden con el deslumbramiento transitorio.'
+    mecanismo: La segunda ola de compra de lámparas ha agotado el producto doméstico, y el solario es el único lugar abierto al público con una fuente de UV-A potente y sin depender del sol, útil también en edificios y casas donde el LED no deja ver nada. Para el negocio es una demanda inesperada en noviembre, temporada baja, y tiene incentivo para aceptarla. Las gafas protectoras que se exigen en la cabina quitan justo lo que el cliente ha venido a ver. Una exposición ocular cercana y sin protección a una lámpara de bronceado puede inflamar la córnea con síntomas que aparecen horas después, y como llegan mezclados con la ola de deslumbramiento, el triaje tarda en separarlos.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - salud
+    - comercio
+    - urgencias
+    - regulacion_sanitaria
+    id: disruptor/h3/5
+  reacciona_a:
+  - economista/h2/4
+  - agitador/h2/1
+  - economista/h2/5
+  - medios/h2/1
+  - agitador/h2/3
+  - politico/h2/5

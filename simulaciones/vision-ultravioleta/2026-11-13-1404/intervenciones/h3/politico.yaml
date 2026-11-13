@@ -2,39 +2,65 @@ intervencion:
   agente: politico
   tramo: h3
   afirmaciones:
-    - texto: "En la tercera hora Sanidad amplía su mensaje sin convocar otro Interterritorial: publica en su web una nota conjunta con la sociedad oftalmológica y la de dermatología que remite a la guía oftalmológica, recomienda gafas de sol con marcado CE e indica que el protector solar sigue recomendado aunque se vea oscuro. No dice cuánto dura el fenómeno. La comunidad de la oposición que se desmarcó acusa al Ministerio de llegar tarde y copiar lo que ella ya decía, y otras comunidades de su mismo color se suman a esa crítica en lugar de a su recomendación propia."
-      mecanismo: "El Ministerio no puede afirmar lo que sus técnicos no respaldan, pero ahora ya hay dos sociedades científicas que lo respaldan por escrito, y una nota conjunta le permite avanzar sin que parezca que rectifica el mensaje de mínimos: lo completa con autoridad prestada. Recomendar gafas con marcado CE no exige ninguna base legal nueva, porque es la regla de conformidad que ya se aplica a las gafas de sol, y le sirve para frenar la compra en reventa sin garantía. Mantener el protector solar es lo que piden los dermatólogos ante el abandono por imagen, y es el punto donde el silencio oficial le cuesta más en titulares. A la oposición le rinde más criticar el retraso que defender una recomendación propia que el Ministerio acaba de absorber."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [sanidad, politica, comunicacion, consumo]
-    - texto: "El Ministerio de Trabajo no dicta ninguna orden de parada para el trabajo al aire libre, pero emite un recordatorio de la Inspección de Trabajo: las empresas deben evaluar el riesgo de deslumbramiento en su plan de prevención y, si hay un riesgo grave e inminente, el trabajador puede interrumpir la actividad. Convoca a sindicatos y patronales para hablar de las horas no trabajadas. Los sindicatos lo leen como una puerta para parar obras y reparto; las patronales, como una forma de pasarles el coste sin norma."
-      mecanismo: "El Gobierno necesita dar respuesta a la discusión sobre quién paga sin aprobar nada que luego tenga que rectificar, y la Ley de Prevención de Riesgos Laborales ya contiene el derecho a interrumpir la actividad ante riesgo grave e inminente. Recordarlo no requiere decreto ni aviso meteorológico, que es lo que activaría el protocolo de calor y que ningún organismo puede emitir por deslumbramiento. El efecto real es trasladar la decisión a cada centro de trabajo con más respaldo para el trabajador, lo que contenta a los sindicatos, y dejar abierto el coste, que se discute en una mesa de diálogo social que da imagen de gestión."
-      dato: "El artículo 21 de la Ley 31/1995 de Prevención de Riesgos Laborales obliga al empresario a informar y adoptar medidas ante un riesgo grave e inminente y reconoce al trabajador el derecho a interrumpir su actividad y abandonar el lugar de trabajo si es necesario."
-      fuente: "https://iberley.es/legislacion/articulo-21-ley-prevencion-riesgos-laborales"
-      confianza: media
-      evidencia: dato
-      areas_afectadas: [trabajo, economia, politica]
-    - texto: "El Banco de España, coordinado con el BCE, emite una nota breve: todos los billetes en euros siguen siendo de curso legal, los dibujos que ahora se ven con luz natural son elementos de seguridad que ya existían y el comercio debe comprobar los billetes con el método habitual. El Gobierno la reenvía como otro mensaje de normalidad, pero no evita que algunos comercios empiecen a pedir pago con tarjeta."
-      mecanismo: "Un banco central pierde más con una duda sobre la validez del dinero que con cualquier otro rumor, y aquí puede hablar sin que nadie le contradiga: los rasgos visibles bajo ultravioleta están descritos en su material público para cajeros. No necesita saber la causa del fenómeno para afirmar que el billete no ha cambiado. Para el Gobierno es un aval técnico gratuito. En la tienda, sin embargo, una nota no enseña a nadie a distinguir el billete auténtico raro del falso, y para el comerciante es más sencillo evitar el efectivo."
-      dato: "El BCE describe en su material para profesionales del efectivo que, bajo luz ultravioleta, el papel del billete auténtico no brilla y aparecen fibras e imágenes con tintas fluorescentes."
-      fuente: "https://www.ecb.europa.eu/euro/pdf/material/quick_guide_specimen_es.pdf"
-      confianza: media
-      evidencia: dato
-      areas_afectadas: [economia, finanzas, comercio, comunicacion]
-    - texto: "La oposición en España traslada el choque al Congreso: registra una solicitud de comparecencia urgente del presidente en el Pleno y pide que se altere el orden del día de esta misma semana. El Gobierno responde ofreciendo la comparecencia de la ministra de Sanidad en comisión y la del presidente más adelante, cuando haya información técnica, y sus socios parlamentarios aceptan esa fórmula."
-      mecanismo: "Para la oposición cada hora sin comparecencia es un error que puede exhibir, y el Parlamento es el único escenario donde puede obligar al presidente a responder en directo. Al presidente le conviene no salir hasta poder decir algo que no tenga que corregir, y una ministra en comisión hace de cortafuegos: concentra el desgaste en un área técnica y no en el jefe del Gobierno. La alteración del orden del día depende de la Junta de Portavoces y de la mayoría, así que el Gobierno puede ganar días si sus socios no tienen interés en un pleno de desgaste."
-      dato: "La Junta de Portavoces del Congreso, presidida por la Presidencia de la Cámara, participa en la fijación del orden del día del Pleno."
-      fuente: "https://www.congreso.es/es/junta-de-portavoces"
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [politica, instituciones]
-    - texto: "Con el amanecer ya llegando a la costa este de Estados Unidos y el rumor geográfico cayendo desde Brasil, la Casa Blanca no hace declaración propia y deja que hablen el Departamento de Salud y los CDC con un mensaje sanitario de mínimos parecido al europeo. Varios gobernadores salen antes que Washington con mensajes contradictorios, y la falta de una voz federal en la primera hora de luz deja que buena parte de la audiencia hispanohablante reciba primero el marco del agitador."
-      mecanismo: "El Gobierno federal ya no tiene que desmentir el rumor: lo desmiente la luz y lo han desmentido los testimonios del sur, así que la opción que menos riesgo tiene es no comprometer al presidente y delegar en las agencias sanitarias, igual que hicieron los gobiernos europeos con la OMS y el Comité de Seguridad Sanitaria. La salud pública está muy descentralizada en Estados Unidos y los gobernadores compiten por visibilidad sin la misma restricción técnica que una agencia federal. Ese reparto deja un hueco de minutos u horas que el agitador, que ya emite en español para quien despierta, ocupa antes que cualquier comunicado en inglés."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [politica, internacional, sanidad, comunicacion]
-  reacciona_a: ["agitador/h2/3", "economista/h2/5", "disruptor/h2/2", "disruptor/h2/3"]
+  - texto: 'En la tercera hora Sanidad amplía su mensaje sin convocar otro Interterritorial: publica en su web una nota conjunta con la sociedad oftalmológica y la de dermatología que remite a la guía oftalmológica, recomienda gafas de sol con marcado CE e indica que el protector solar sigue recomendado aunque se vea oscuro. No dice cuánto dura el fenómeno. La comunidad de la oposición que se desmarcó acusa al Ministerio de llegar tarde y copiar lo que ella ya decía, y otras comunidades de su mismo color se suman a esa crítica en lugar de a su recomendación propia.'
+    mecanismo: 'El Ministerio no puede afirmar lo que sus técnicos no respaldan, pero ahora ya hay dos sociedades científicas que lo respaldan por escrito, y una nota conjunta le permite avanzar sin que parezca que rectifica el mensaje de mínimos: lo completa con autoridad prestada. Recomendar gafas con marcado CE no exige ninguna base legal nueva, porque es la regla de conformidad que ya se aplica a las gafas de sol, y le sirve para frenar la compra en reventa sin garantía. Mantener el protector solar es lo que piden los dermatólogos ante el abandono por imagen, y es el punto donde el silencio oficial le cuesta más en titulares. A la oposición le rinde más criticar el retraso que defender una recomendación propia que el Ministerio acaba de absorber.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - sanidad
+    - politica
+    - comunicacion
+    - consumo
+    id: politico/h3/1
+  - texto: 'El Ministerio de Trabajo no dicta ninguna orden de parada para el trabajo al aire libre, pero emite un recordatorio de la Inspección de Trabajo: las empresas deben evaluar el riesgo de deslumbramiento en su plan de prevención y, si hay un riesgo grave e inminente, el trabajador puede interrumpir la actividad. Convoca a sindicatos y patronales para hablar de las horas no trabajadas. Los sindicatos lo leen como una puerta para parar obras y reparto; las patronales, como una forma de pasarles el coste sin norma.'
+    mecanismo: El Gobierno necesita dar respuesta a la discusión sobre quién paga sin aprobar nada que luego tenga que rectificar, y la Ley de Prevención de Riesgos Laborales ya contiene el derecho a interrumpir la actividad ante riesgo grave e inminente. Recordarlo no requiere decreto ni aviso meteorológico, que es lo que activaría el protocolo de calor y que ningún organismo puede emitir por deslumbramiento. El efecto real es trasladar la decisión a cada centro de trabajo con más respaldo para el trabajador, lo que contenta a los sindicatos, y dejar abierto el coste, que se discute en una mesa de diálogo social que da imagen de gestión.
+    dato: El artículo 21 de la Ley 31/1995 de Prevención de Riesgos Laborales obliga al empresario a informar y adoptar medidas ante un riesgo grave e inminente y reconoce al trabajador el derecho a interrumpir su actividad y abandonar el lugar de trabajo si es necesario.
+    fuente: https://iberley.es/legislacion/articulo-21-ley-prevencion-riesgos-laborales
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - trabajo
+    - economia
+    - politica
+    id: politico/h3/2
+  - texto: 'El Banco de España, coordinado con el BCE, emite una nota breve: todos los billetes en euros siguen siendo de curso legal, los dibujos que ahora se ven con luz natural son elementos de seguridad que ya existían y el comercio debe comprobar los billetes con el método habitual. El Gobierno la reenvía como otro mensaje de normalidad, pero no evita que algunos comercios empiecen a pedir pago con tarjeta.'
+    mecanismo: 'Un banco central pierde más con una duda sobre la validez del dinero que con cualquier otro rumor, y aquí puede hablar sin que nadie le contradiga: los rasgos visibles bajo ultravioleta están descritos en su material público para cajeros. No necesita saber la causa del fenómeno para afirmar que el billete no ha cambiado. Para el Gobierno es un aval técnico gratuito. En la tienda, sin embargo, una nota no enseña a nadie a distinguir el billete auténtico raro del falso, y para el comerciante es más sencillo evitar el efectivo.'
+    dato: El BCE describe en su material para profesionales del efectivo que, bajo luz ultravioleta, el papel del billete auténtico no brilla y aparecen fibras e imágenes con tintas fluorescentes.
+    fuente: https://www.ecb.europa.eu/euro/pdf/material/quick_guide_specimen_es.pdf
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - economia
+    - finanzas
+    - comercio
+    - comunicacion
+    id: politico/h3/3
+  - texto: 'La oposición en España traslada el choque al Congreso: registra una solicitud de comparecencia urgente del presidente en el Pleno y pide que se altere el orden del día de esta misma semana. El Gobierno responde ofreciendo la comparecencia de la ministra de Sanidad en comisión y la del presidente más adelante, cuando haya información técnica, y sus socios parlamentarios aceptan esa fórmula.'
+    mecanismo: 'Para la oposición cada hora sin comparecencia es un error que puede exhibir, y el Parlamento es el único escenario donde puede obligar al presidente a responder en directo. Al presidente le conviene no salir hasta poder decir algo que no tenga que corregir, y una ministra en comisión hace de cortafuegos: concentra el desgaste en un área técnica y no en el jefe del Gobierno. La alteración del orden del día depende de la Junta de Portavoces y de la mayoría, así que el Gobierno puede ganar días si sus socios no tienen interés en un pleno de desgaste.'
+    dato: La Junta de Portavoces del Congreso, presidida por la Presidencia de la Cámara, participa en la fijación del orden del día del Pleno.
+    fuente: https://www.congreso.es/es/junta-de-portavoces
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - politica
+    - instituciones
+    id: politico/h3/4
+  - texto: Con el amanecer ya llegando a la costa este de Estados Unidos y el rumor geográfico cayendo desde Brasil, la Casa Blanca no hace declaración propia y deja que hablen el Departamento de Salud y los CDC con un mensaje sanitario de mínimos parecido al europeo. Varios gobernadores salen antes que Washington con mensajes contradictorios, y la falta de una voz federal en la primera hora de luz deja que buena parte de la audiencia hispanohablante reciba primero el marco del agitador.
+    mecanismo: 'El Gobierno federal ya no tiene que desmentir el rumor: lo desmiente la luz y lo han desmentido los testimonios del sur, así que la opción que menos riesgo tiene es no comprometer al presidente y delegar en las agencias sanitarias, igual que hicieron los gobiernos europeos con la OMS y el Comité de Seguridad Sanitaria. La salud pública está muy descentralizada en Estados Unidos y los gobernadores compiten por visibilidad sin la misma restricción técnica que una agencia federal. Ese reparto deja un hueco de minutos u horas que el agitador, que ya emite en español para quien despierta, ocupa antes que cualquier comunicado en inglés.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - politica
+    - internacional
+    - sanidad
+    - comunicacion
+    id: politico/h3/5
+  reacciona_a:
+  - agitador/h2/3
+  - economista/h2/5
+  - disruptor/h2/2
+  - disruptor/h2/3

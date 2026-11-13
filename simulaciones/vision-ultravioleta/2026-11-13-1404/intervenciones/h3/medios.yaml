@@ -2,39 +2,68 @@ intervencion:
   agente: medios
   tramo: h3
   afirmaciones:
-    - texto: "En la tercera hora amanece en la costa este de Estados Unidos y los magacines matinales de las grandes cadenas, que arrancan a las 7:00, abren con corresponsales en exteriores contando en directo lo que ven con la primera luz. Esa emisión fija el relato estadounidense y lo hace con el formato del amanecer en directo, que confirma visualmente la idea de la ola que llega franja a franja aunque solo avance la luz. En México y Centroamérica aún es de noche, así que la audiencia hispanohablante del continente sigue sin experiencia propia y recibiendo el marco del agitador."
-      mecanismo: "A las 13:00 de Madrid (12:00 UTC) son las 7:00 en Nueva York, y a mediados de noviembre allí sale el sol hacia las 6:40, de modo que los programas matinales coinciden con los primeros minutos de luz. Para una cadena, que el fenómeno llegue en directo durante su franja de máxima audiencia matinal es la noticia que llevaba tres horas contando de segunda mano: lo emite como un acontecimiento en vivo, con plano del sol saliendo y testimonio del presentador. El formato, sin pretenderlo, refuerza la lectura geográfica de la ola, porque une en la misma imagen amanecer y aparición. En Ciudad de México son las 6:00 y amanece más tarde, así que allí el hueco sigue ocupado por emisiones en español desde fuera."
-      dato: "Salida del sol en Nueva York el 15 de noviembre de 2026: 6:42 hora local (EST)."
-      fuente: "https://sunrise-sunset.org/us/10012"
-      confianza: alta
-      evidencia: dato
-      areas_afectadas: [medios, opinion_publica, politica_internacional, desinformacion]
-    - texto: "Los pocos casos de lesión real por mirar al sol o por lámparas UV pasan a abrir titulares como los primeros heridos del fenómeno, por encima de la ola mucho mayor de deslumbramiento sin lesión. La cobertura mezcla ambas cosas en el mismo rótulo y hace que el público perciba más daño del que hay, aunque a la vez da a los medios por fin un consejo concreto y con fuente que repetir: no mirar al sol ni a lámparas UV."
-      mecanismo: "Un caso clínico con hospital, diagnóstico y paciente es justo lo que la regla de la fuente permite publicar, y una lesión ocular tiene más valor de noticia que una molestia transitoria. Las redacciones llevan tres horas sin poder enseñar el fenómeno ni explicar su causa, y un herido es contenido verificable y emocional a la vez. La sociedad oftalmológica usa esos casos para separar molestia de daño evitable, pero el titular corto se queda con la palabra lesión y pierde la distinción, que el agitador recoge como confirmación de su relato de daño ocular."
-      dato: ""
-      fuente: ""
-      confianza: media
-      evidencia: inferencia
-      areas_afectadas: [medios, sanidad, desinformacion, opinion_publica]
-    - texto: "Antes de que el BCE o los bancos centrales nacionales digan nada, los medios publican piezas de servicio sobre cómo distinguir un billete auténtico con los ojos nuevos, basadas en la guía pública de seguridad de los billetes en euros. Son de lo más compartido de la hora porque es la primera utilidad práctica del fenómeno, y reducen rechazos de billetes buenos donde llegan, pero también convierten a cualquier cajero en verificador sin formación y generan discusiones en comercios por billetes gastados o lavados que no coinciden con la foto."
-      mecanismo: "El BCE ya describe en material público cómo se ve un billete bajo luz UV: el papel no brilla y las fibras aparecen en rojo, azul y verde, con otros elementos en verde y amarillo. Eso es una fuente institucional citable sin necesidad de declaración nueva, y los medios la usan para llenar el hueco que dejan los bancos centrales mientras deciden qué decir. Pero esa guía describe lo que se ve con lámpara UV, no con la percepción humana del UV-A solar, que además varía con la edad y la luz del local, así que la comparación en caja no es tan clara como sugiere la pieza."
-      dato: "Según la guía rápida del BCE, bajo luz UV el papel del billete no brilla y las fibras incrustadas aparecen en rojo, azul y verde."
-      fuente: "https://www.ecb.europa.eu/euro/pdf/material/Quick_Guide_EN_Specimen.pdf"
-      confianza: media
-      evidencia: dato
-      areas_afectadas: [medios, economia, comercio, banca]
-    - texto: "Los vídeos de seguidores del agitador grabando en urgencias se convierten en noticia para los medios serios, que los cubren como historia de saturación sanitaria con fuentes hospitalarias y colegios profesionales. Al hacerlo citan al agitador y su directo de la tarde, lo que le da una difusión que no tenía fuera de sus canales; algunas redacciones optan por no nombrarle, pero la mayoría lo nombra porque la competencia ya lo ha hecho."
-      mecanismo: "La grabación en un centro sanitario genera un conflicto concreto con fuentes oficiales dispuestas a hablar (gerencias, colegios de médicos, sindicatos sanitarios), así que cumple la regla de la fuente y permite contar la historia desde el lado de los sanitarios. Pero explicar por qué graban obliga a explicar quién se lo pide. Es el patrón descrito como amplificación: cubrir a un manipulador para criticarlo blanquea su mensaje y le lleva audiencia. La decisión de silenciarlo no se sostiene cuando la primera cabecera lo nombra, porque las demás compiten por la misma búsqueda."
-      dato: "El informe The Oxygen of Amplification describe cómo la cobertura periodística de manipuladores, incluso crítica, amplifica y da credibilidad a sus mensajes."
-      fuente: "https://datasociety.net/output/oxygen-of-amplification"
-      confianza: media
-      evidencia: dato
-      areas_afectadas: [medios, sanidad, desinformacion, opinion_publica]
-    - texto: "Las piezas de interés humano sobre mayores y operados de cataratas que no ven los colores nuevos se multiplican en la preparación de los informativos de mediodía, y en ellas aparecen portavoces de clínicas oftalmológicas privadas como expertos. No ofrecen todavía recambio de lente, pero la cobertura instala la pregunta de si se puede operar y da a esas clínicas visibilidad gratuita antes de que exista una oferta."
-      mecanismo: "Un abuelo que no ve lo que ve su nieto es un personaje con el que se identifica toda la audiencia y que no exige explicar la causa, ideal para los informativos de las 14:00 y 15:00 que se montan en esta hora. La sociedad oftalmológica ya ha dicho que desaconseja la cirugía, pero las redacciones buscan más voces y los departamentos de comunicación de las clínicas privadas ofrecen cirujanos disponibles al momento. El cirujano dice que hay que esperar, pero el rótulo plantea la operación como posibilidad, y eso alimenta las llamadas a consultas."
-      dato: ""
-      fuente: ""
-      confianza: baja
-      evidencia: especulacion
-      areas_afectadas: [medios, sanidad, opinion_publica]
-  reacciona_a: [politico/h2/5, oftalmologa/h2/5, disruptor/h2/2, agitador/h2/5, oftalmologa/h2/3]
+  - texto: En la tercera hora amanece en la costa este de Estados Unidos y los magacines matinales de las grandes cadenas, que arrancan a las 7:00, abren con corresponsales en exteriores contando en directo lo que ven con la primera luz. Esa emisión fija el relato estadounidense y lo hace con el formato del amanecer en directo, que confirma visualmente la idea de la ola que llega franja a franja aunque solo avance la luz. En México y Centroamérica aún es de noche, así que la audiencia hispanohablante del continente sigue sin experiencia propia y recibiendo el marco del agitador.
+    mecanismo: 'A las 13:00 de Madrid (12:00 UTC) son las 7:00 en Nueva York, y a mediados de noviembre allí sale el sol hacia las 6:40, de modo que los programas matinales coinciden con los primeros minutos de luz. Para una cadena, que el fenómeno llegue en directo durante su franja de máxima audiencia matinal es la noticia que llevaba tres horas contando de segunda mano: lo emite como un acontecimiento en vivo, con plano del sol saliendo y testimonio del presentador. El formato, sin pretenderlo, refuerza la lectura geográfica de la ola, porque une en la misma imagen amanecer y aparición. En Ciudad de México son las 6:00 y amanece más tarde, así que allí el hueco sigue ocupado por emisiones en español desde fuera.'
+    dato: 'Salida del sol en Nueva York el 15 de noviembre de 2026: 6:42 hora local (EST).'
+    fuente: https://sunrise-sunset.org/us/10012
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - medios
+    - opinion_publica
+    - politica_internacional
+    - desinformacion
+    id: medios/h3/1
+  - texto: 'Los pocos casos de lesión real por mirar al sol o por lámparas UV pasan a abrir titulares como los primeros heridos del fenómeno, por encima de la ola mucho mayor de deslumbramiento sin lesión. La cobertura mezcla ambas cosas en el mismo rótulo y hace que el público perciba más daño del que hay, aunque a la vez da a los medios por fin un consejo concreto y con fuente que repetir: no mirar al sol ni a lámparas UV.'
+    mecanismo: Un caso clínico con hospital, diagnóstico y paciente es justo lo que la regla de la fuente permite publicar, y una lesión ocular tiene más valor de noticia que una molestia transitoria. Las redacciones llevan tres horas sin poder enseñar el fenómeno ni explicar su causa, y un herido es contenido verificable y emocional a la vez. La sociedad oftalmológica usa esos casos para separar molestia de daño evitable, pero el titular corto se queda con la palabra lesión y pierde la distinción, que el agitador recoge como confirmación de su relato de daño ocular.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - medios
+    - sanidad
+    - desinformacion
+    - opinion_publica
+    id: medios/h3/2
+  - texto: Antes de que el BCE o los bancos centrales nacionales digan nada, los medios publican piezas de servicio sobre cómo distinguir un billete auténtico con los ojos nuevos, basadas en la guía pública de seguridad de los billetes en euros. Son de lo más compartido de la hora porque es la primera utilidad práctica del fenómeno, y reducen rechazos de billetes buenos donde llegan, pero también convierten a cualquier cajero en verificador sin formación y generan discusiones en comercios por billetes gastados o lavados que no coinciden con la foto.
+    mecanismo: 'El BCE ya describe en material público cómo se ve un billete bajo luz UV: el papel no brilla y las fibras aparecen en rojo, azul y verde, con otros elementos en verde y amarillo. Eso es una fuente institucional citable sin necesidad de declaración nueva, y los medios la usan para llenar el hueco que dejan los bancos centrales mientras deciden qué decir. Pero esa guía describe lo que se ve con lámpara UV, no con la percepción humana del UV-A solar, que además varía con la edad y la luz del local, así que la comparación en caja no es tan clara como sugiere la pieza.'
+    dato: Según la guía rápida del BCE, bajo luz UV el papel del billete no brilla y las fibras incrustadas aparecen en rojo, azul y verde.
+    fuente: https://www.ecb.europa.eu/euro/pdf/material/Quick_Guide_EN_Specimen.pdf
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - medios
+    - economia
+    - comercio
+    - banca
+    id: medios/h3/3
+  - texto: Los vídeos de seguidores del agitador grabando en urgencias se convierten en noticia para los medios serios, que los cubren como historia de saturación sanitaria con fuentes hospitalarias y colegios profesionales. Al hacerlo citan al agitador y su directo de la tarde, lo que le da una difusión que no tenía fuera de sus canales; algunas redacciones optan por no nombrarle, pero la mayoría lo nombra porque la competencia ya lo ha hecho.
+    mecanismo: 'La grabación en un centro sanitario genera un conflicto concreto con fuentes oficiales dispuestas a hablar (gerencias, colegios de médicos, sindicatos sanitarios), así que cumple la regla de la fuente y permite contar la historia desde el lado de los sanitarios. Pero explicar por qué graban obliga a explicar quién se lo pide. Es el patrón descrito como amplificación: cubrir a un manipulador para criticarlo blanquea su mensaje y le lleva audiencia. La decisión de silenciarlo no se sostiene cuando la primera cabecera lo nombra, porque las demás compiten por la misma búsqueda.'
+    dato: El informe The Oxygen of Amplification describe cómo la cobertura periodística de manipuladores, incluso crítica, amplifica y da credibilidad a sus mensajes.
+    fuente: https://datasociety.net/output/oxygen-of-amplification
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - medios
+    - sanidad
+    - desinformacion
+    - opinion_publica
+    id: medios/h3/4
+  - texto: Las piezas de interés humano sobre mayores y operados de cataratas que no ven los colores nuevos se multiplican en la preparación de los informativos de mediodía, y en ellas aparecen portavoces de clínicas oftalmológicas privadas como expertos. No ofrecen todavía recambio de lente, pero la cobertura instala la pregunta de si se puede operar y da a esas clínicas visibilidad gratuita antes de que exista una oferta.
+    mecanismo: Un abuelo que no ve lo que ve su nieto es un personaje con el que se identifica toda la audiencia y que no exige explicar la causa, ideal para los informativos de las 14:00 y 15:00 que se montan en esta hora. La sociedad oftalmológica ya ha dicho que desaconseja la cirugía, pero las redacciones buscan más voces y los departamentos de comunicación de las clínicas privadas ofrecen cirujanos disponibles al momento. El cirujano dice que hay que esperar, pero el rótulo plantea la operación como posibilidad, y eso alimenta las llamadas a consultas.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - medios
+    - sanidad
+    - opinion_publica
+    id: medios/h3/5
+  reacciona_a:
+  - politico/h2/5
+  - oftalmologa/h2/5
+  - disruptor/h2/2
+  - agitador/h2/5
+  - oftalmologa/h2/3

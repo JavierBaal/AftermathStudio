@@ -1,0 +1,27 @@
+evaluacion:
+  tramo: h3
+  metricas:
+    - id: alarma_social
+      valor: 3
+      justificacion: "Los cambios de conducta visibles se amplían a nuevos frentes: gente asustada por manchas antiguas acude a farmacias y consultas, llegan sospechas de moratones a protección de menores y líneas de violencia de género, hijos llaman a clínicas por el recambio de lente, juegos de riesgo con lámparas caseras y comercios que piden tarjeta. No llega a 4 porque no hay servicios colapsados, acaparamiento de bienes esenciales ni protestas en varios países; en Estados Unidos, recién amanecido, la reacción es aún de cobertura en directo y rumor más que de miedo."
+      apoyos: [h3-03, h3-04, h3-06, h3-07, h3-09]
+    - id: confianza_institucional
+      valor: 3
+      justificacion: "La versión oficial gana cuerpo en España con la nota conjunta de Sanidad y dos sociedades científicas, la nota del Banco de España con el BCE y el recordatorio de Trabajo, y los medios repiten consejos con fuente. Pero sigue conviviendo con una sospecha amplia: comunidades de la oposición atacan al Ministerio, adolescentes esquivan la pauta en la cara, la audiencia del agitador pide recambios de lente que los oftalmólogos desaconsejan, la nota del banco no frena la preferencia por tarjeta y en Estados Unidos no hay voz federal; para llegar a 4 haría falta evidencia de que la mayoría sigue las indicaciones."
+      apoyos: [h3-01, h3-02, h3-03, h3-06, h3-09, h3-10]
+    - id: relatos_en_competencia
+      valor: 3
+      justificacion: "El relato oficial y técnico convive con el del agitador, que tiene canales propios, abre un segundo tema (lentes de cataratas) y llega antes que los medios locales a México y Centroamérica. Se acerca a 4 porque los titulares ya mezclan los heridos por exposición con el fenómeno y los matinales estadounidenses refuerzan sin querer la lectura de una ola escalonada, pero los generalistas no presentan las dos versiones como equivalentes ni hay cifras incompatibles enfrentadas en ellos; el choque sigue sobre todo en redes y en la audiencia del agitador."
+      apoyos: [h3-01, h3-08, h3-09]
+    - id: respuesta_gobiernos
+      valor: comunicacion
+      justificacion: "Todas las actuaciones son mensajes y recordatorios: nota conjunta de Sanidad, nota del Banco de España, recordatorio de Trabajo de la normativa existente sin dictar parada, convocatoria del diálogo social y mensajes mínimos o contradictorios en Estados Unidos. Para pasar a medidas sectoriales faltaría una decisión obligatoria, como una instrucción de Trabajo sobre el trabajo al aire libre o un aviso que active el permiso retribuido, que la AEMET no puede emitir."
+      apoyos: [h3-01, h3-02, h3-05, h3-06, h3-10]
+    - id: impacto_economico
+      valor: 3
+      justificacion: "Se mantiene la disrupción en varios sectores: conflicto abierto sobre quién paga las horas no trabajadas al aire libre, fricción con el efectivo que lleva a parte del pequeño comercio y la hostelería a pedir tarjeta, y lámparas agotadas en tiendas. No es 4 porque la nota del Banco de España y el BCE es comunicativa, no una intervención, y no hay crisis de mercado ni caída de índices en los hechos del tramo."
+      apoyos: [h3-05, h3-06, h3-07]
+    - id: adaptacion
+      valor: 3
+      justificacion: "Las pautas son más claras y completas (gafas con marcado CE, protector aunque se vea oscuro, aviso sobre lámparas UV, guía para distinguir billetes) y parte de la población las aplica, mientras las farmacias y consultas reciben a quien reacciona al daño solar visible. No llega a 4 porque grupos amplios las esquivan o las contradicen (adolescentes sin crema en la cara, juegos con lámparas, audiencia del agitador) y en Norteamérica la población apenas empieza a vivir el fenómeno con la primera luz."
+      apoyos: [h3-01, h3-02, h3-03, h3-06, h3-07]
