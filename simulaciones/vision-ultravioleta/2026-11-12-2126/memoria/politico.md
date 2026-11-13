@@ -1,0 +1,7 @@
+
+### Hora 1
+- [politico/h1/1] En la primera hora el Gobierno de España no declara el estado de alarma: convoca un comité de crisis en Moncloa y emite una declaración de contención que reconoce el fenómeno, pide calma y no afirma que sea inocuo ni permanente. (entró en el canon)
+- [politico/h1/2] Las primeras medidas reales no son excepcionales: llegan por los cauces ordinarios de tráfico, protección civil y sanidad, con avisos para extremar la precaución al volante y en exteriores soleados, y emitidas por administraciones distintas que no se coordinan entre sí. (entró en el canon)
+- [politico/h1/3] La OMS se limita a un comunicado de seguimiento y a pedir información a los Estados. No convoca todavía el Comité de Emergencias, porque el suceso no encaja con claridad en el concepto de riesgo para la salud pública que define el Reglamento Sanitario Internacional. (entró en el canon)
+- [politico/h1/4] Al menos algunos líderes de otros países rompen la prudencia en la primera hora: atribuyen el fenómeno a un ataque extranjero, a una señal religiosa o a una ventaja nacional, o aseguran sin respaldo técnico que es seguro. (entró en el canon)
+- [politico/h1/5] En España la oposición exige una comparecencia urgente del presidente en el Congreso y acusa al Gobierno de silencio o improvisación antes de que termine la primera hora. La UE activa el intercambio de información entre Estados miembros sin adoptar todavía ninguna medida común. (entró en el canon)

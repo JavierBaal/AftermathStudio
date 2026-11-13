@@ -1,0 +1,62 @@
+intervencion:
+  agente: medios
+  tramo: h1
+  afirmaciones:
+  - texto: 'En la primera hora la conversación pública la ocupan las redes sociales y no los medios: millones de vídeos y fotos caseros intentan enseñar los colores nuevos y fracasan, porque las cámaras y pantallas no reproducen el UV-A como lo ve el ojo. Esa imposibilidad de enseñarlo se convierte en el propio tema viral (vídeos de reacción, gente llorando ante flores o el cielo, retos para describir el color).'
+    mecanismo: Los medios serios necesitan al menos una fuente y tardan en confirmar; las redes no tienen ese freno y además son ya la vía principal de acceso a noticias para gran parte del público. El contenido emocional y de sorpresa es el que mejor se propaga, y un fenómeno que no se puede fotografiar empuja a contenidos de reacción y testimonio, no de documentación.
+    dato: En EE. UU., el acceso a noticias por redes sociales y plataformas de vídeo (54 %) superó por primera vez a la televisión (50 %) en 2025.
+    fuente: https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/overview-and-key-findings-2025-digital-news-report
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - redes_sociales
+    - medios
+    - opinion_publica
+    id: medios/h1/1
+  - texto: 'Antes de que acabe la primera hora circulan atribuciones falsas de causa con apariencia de autoridad: experimento secreto, ataque químico o radiológico, 5G, satélites, señal extraterrestre o castigo divino, a menudo con capturas falsificadas de supuestos comunicados oficiales o de científicos.'
+    mecanismo: Nadie conoce la causa, y ese vacío informativo se llena con la versión más sorprendente o amenazante, que es la que más se comparte. La falsedad se mueve más rápido que la verificación, y los verificadores llegan con horas de retraso.
+    dato: Las noticias falsas se difundían significativamente más lejos, más rápido y más ampliamente que las verdaderas en Twitter; tenían un 70 % más de probabilidad de ser retuiteadas y estaban asociadas a sorpresa, miedo y asco.
+    fuente: https://www.media.mit.edu/publications/the-spread-of-true-and-false-news-online/
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - desinformacion
+    - redes_sociales
+    - salud_publica
+    - politica
+    id: medios/h1/2
+  - texto: Los medios generalistas abren directos y especiales informativos centrados en testimonios y en la pregunta '¿es peligroso?', con portavoces médicos improvisados (oftalmólogos locales, divulgadores) antes de cualquier declaración oficial coordinada. Los titulares priorizan el deslumbramiento y la fatiga visual, porque es lo único medible y con fuentes ya disponibles.
+    mecanismo: 'Los medios compiten por ser los primeros y necesitan al menos una fuente: el testimonio de un médico de urgencias o un oftalmólogo cumple el requisito antes que un ministerio. Las molestias visuales en exteriores con sol son reales y verificables, así que son el ángulo publicable de miedo; eso amplifica la percepción de riesgo aunque el daño no sea permanente.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - medios
+    - salud_publica
+    - opinion_publica
+    id: medios/h1/3
+  - texto: 'Aparecen los primeros oportunistas en la primera hora: cuentas que venden gafas o ''filtros UV'' como protección imprescindible, supuestos remedios (colirios, suplementos) y estafas que suplantan a autoridades sanitarias con enlaces a ''pruebas de visión'' o registros. Las plataformas empiezan a limitar el contenido que da consejos de salud falsos, pero el ritmo de publicación supera su capacidad de moderar.'
+    mecanismo: El miedo y la incertidumbre sobre la salud crean demanda inmediata de soluciones; los estafadores reutilizan el guion que ya conocen de otras crisis. Las normas de las plataformas contra desinformación sanitaria se aplican, pero la moderación es reactiva y un evento global simultáneo satura los equipos y los sistemas automáticos, que además no tienen aún criterios para un fenómeno sin precedentes.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - desinformacion
+    - consumo
+    - fraude
+    - plataformas
+    id: medios/h1/4
+  - texto: 'Surge una corriente minoritaria pero muy ruidosa de negacionismo y de acusaciones de histeria colectiva: gente que afirma no ver nada distinto o que todo es sugestión, y medios o influencers que lo amplifican por la polémica. También hay quien exagera lo contrario y atribuye al cambio poderes añadidos (ver auras, detectar enfermedades, ver lo invisible).'
+    mecanismo: Percibir un color nuevo es subjetivo y no se puede demostrar con una foto, así que cada persona interpreta su experiencia con sus propios marcos; la ambigüedad favorece tanto la negación como la exageración. Ambos extremos generan indignación y debate, que es lo que más engagement da y lo que más premian los algoritmos, así que se sobrerrepresentan frente a la mayoría que simplemente describe lo que ve.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - redes_sociales
+    - opinion_publica
+    - desinformacion
+    id: medios/h1/5
+  reacciona_a: []

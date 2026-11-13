@@ -1,0 +1,59 @@
+intervencion:
+  agente: politico
+  tramo: h1
+  afirmaciones:
+  - texto: 'En la primera hora el Gobierno de España no declara el estado de alarma: convoca un comité de crisis en Moncloa y emite una declaración de contención que reconoce el fenómeno, pide calma y no afirma que sea inocuo ni permanente.'
+    mecanismo: La Ley Orgánica 4/1981 solo ampara el estado de alarma ante supuestos tasados, como crisis sanitarias o catástrofes, y exige un real decreto del Consejo de Ministros con medidas proporcionadas. A las 11:00 no hay ni daño acreditado ni un informe técnico que permita encajar el suceso en esos supuestos. Además, ningún portavoz puede decir que es seguro sin que los oftalmólogos lo respalden. Sale más barato en legitimidad decir que se tiene el control del proceso, con reuniones y expertos convocados, que comprometerse con un diagnóstico que luego habría que rectificar.
+    dato: El artículo 4.b de la LO 4/1981 cita las crisis sanitarias como supuesto del estado de alarma; el artículo 6 fija una duración máxima inicial de quince días por decreto del Consejo de Ministros, con dación de cuentas al Congreso.
+    fuente: https://www.boe.es/eli/es/lo/1981/06/01/4
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - gobierno
+    - legitimidad
+    - marco_legal
+    id: politico/h1/1
+  - texto: 'Las primeras medidas reales no son excepcionales: llegan por los cauces ordinarios de tráfico, protección civil y sanidad, con avisos para extremar la precaución al volante y en exteriores soleados, y emitidas por administraciones distintas que no se coordinan entre sí.'
+    mecanismo: Para recomendar prudencia no hace falta ninguna base legal nueva, y el deslumbramiento en exteriores es el único efecto que los técnicos pueden respaldar desde el primer minuto. Las competencias están repartidas entre el Estado, las comunidades autónomas y los ayuntamientos, y cada administración quiere aparecer actuando antes que las demás. El resultado es un mosaico de avisos con matices distintos en la primera hora, que la oposición y los medios señalarán como descoordinación.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - trafico
+    - proteccion_civil
+    - coordinacion_territorial
+    id: politico/h1/2
+  - texto: La OMS se limita a un comunicado de seguimiento y a pedir información a los Estados. No convoca todavía el Comité de Emergencias, porque el suceso no encaja con claridad en el concepto de riesgo para la salud pública que define el Reglamento Sanitario Internacional.
+    mecanismo: El RSI está pensado para la propagación internacional de enfermedades. Un cambio simultáneo y global, sin agente identificado ni daño acreditado, no encaja en el procedimiento de evaluación. Los centros nacionales de enlace disponen de un plazo para notificar y evaluar, y la Dirección General necesita sus informes antes de convocar el comité. Mientras tanto, la OMS evita adelantarse y equivocarse, como le reprocharon en crisis anteriores.
+    dato: El artículo 6 del RSI (2005) obliga a los Estados a notificar a la OMS en un plazo de 24 horas desde la evaluación cualquier evento que pueda constituir una emergencia de salud pública de importancia internacional; el artículo 12 reserva al Director General la determinación de esa emergencia, previa consulta al Comité de Emergencias.
+    fuente: https://www.afro.who.int/sites/default/files/2017-06/9789243580418_spa.pdf
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - organismos_internacionales
+    - salud_publica
+    id: politico/h1/3
+  - texto: 'Al menos algunos líderes de otros países rompen la prudencia en la primera hora: atribuyen el fenómeno a un ataque extranjero, a una señal religiosa o a una ventaja nacional, o aseguran sin respaldo técnico que es seguro.'
+    mecanismo: Que el fenómeno sea simultáneo en todo el planeta convierte la primera hora en una carrera por fijar el relato. Para un dirigente que vive de la polarización, el coste de equivocarse es menor que la ganancia de hablar primero. Esas declaraciones sin base presionan a los gobiernos prudentes, que quedan como lentos o callados, y dan munición a sus oposiciones para comparar.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - politica_internacional
+    - desinformacion
+    - legitimidad
+    id: politico/h1/4
+  - texto: En España la oposición exige una comparecencia urgente del presidente en el Congreso y acusa al Gobierno de silencio o improvisación antes de que termine la primera hora. La UE activa el intercambio de información entre Estados miembros sin adoptar todavía ninguna medida común.
+    mecanismo: A la oposición le rinde cualquier hueco entre el suceso y una respuesta concreta, y una declaración de contención, sin medidas, ofrece justo ese hueco. Pedir una comparecencia es barato y obliga al Gobierno a fijar posición antes de tener informes técnicos. En Bruselas, el mecanismo de respuesta política a las crisis empieza por compartir información, porque ninguna medida común tiene aún base técnica ni competencial clara.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - politica_nacional
+    - union_europea
+    - parlamento
+    id: politico/h1/5
+  reacciona_a: []

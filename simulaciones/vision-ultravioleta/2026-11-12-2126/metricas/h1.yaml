@@ -1,0 +1,23 @@
+evaluacion:
+  tramo: h1
+  metricas:
+    - id: alarma_social
+      valor: 3
+      justificacion: "Hay cambios de conducta visibles en parte de la población: estalla la compra de gafas de sol donde es de día y hace sol, aluvión de consultas a oftalmología, familias que quieren recoger a sus hijos y gente que cree que los demás han enfermado. No llega a 4 porque no hay acaparamiento general, servicios colapsados ni protestas; el efecto es mucho menor en la Europa de noviembre y casi nulo en América, donde es de noche."
+      apoyos: [h1-02, h1-07, h1-08, h1-10]
+    - id: confianza_institucional
+      valor: 3
+      justificacion: "La versión oficial existe pero es débil (contención sin afirmar inocuidad, OMS solo pide información) y convive con bulos de causa, negacionismo y agitadores que piden no fiarse de médicos ni autoridades, mientras la conversación la ocupan las redes. No baja a 2 porque el negacionismo es minoritario, las sociedades de oftalmología se posicionan como primera fuente y no hay dato de que las versiones alternativas dominen; está en el límite inferior del nivel 3."
+      apoyos: [h1-03, h1-04, h1-05, h1-06, h1-07]
+    - id: respuesta_gobiernos
+      valor: comunicacion
+      justificacion: "La respuesta dominante son declaraciones de calma, comités de crisis, avisos de precaución al volante y en exteriores e intercambio de información en la UE y la OMS, sin medidas concretas en transporte, colegios o trabajo: los centros educativos no reciben ninguna instrucción. No llega a medidas_sectoriales porque los avisos son recomendaciones, y algunos dirigentes de otros países solo se pronuncian sobre la causa o la seguridad sin respaldo técnico."
+      apoyos: [h1-03, h1-04, h1-06, h1-10]
+    - id: impacto_economico
+      valor: 2
+      justificacion: "Los movimientos se concentran en valores de óptica, gafas de sol y oftalmología y en la demanda de gafas de sol; las bolsas europeas siguen cotizando sin parón en bloque. No llega a 3 porque no hay caídas generales de índices ni disrupción en varios sectores, y EE. UU. y Asia aplazan su reacción a la siguiente sesión."
+      apoyos: [h1-01, h1-02]
+    - id: adaptacion
+      valor: 1
+      justificacion: "El mundo está entre 1 y 2 y se elige el inferior: hay primeras pautas sueltas (avisos de tráfico sin coordinar, advertencia de oftalmología de no mirar al sol ni a lámparas UV), pero sin indicio de que se sigan, y colegios y familias improvisan sin instrucciones mientras mucha gente malinterpreta lo que ve en la piel ajena."
+      apoyos: [h1-03, h1-07, h1-08, h1-10]

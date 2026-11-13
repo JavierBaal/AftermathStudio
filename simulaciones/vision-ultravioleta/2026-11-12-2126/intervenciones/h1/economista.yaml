@@ -1,0 +1,60 @@
+intervencion:
+  agente: economista
+  tramo: h1
+  afirmaciones:
+  - texto: 'Las bolsas europeas, abiertas desde las 9:00, no se paran en bloque: siguen cotizando con volumen alto y horquillas más anchas, y solo saltan interrupciones de volatilidad en valores sueltos ligados al relato del suceso (óptica, gafas de sol, oftalmología).'
+    mecanismo: Euronext no tiene un cortacircuitos para todo el mercado; sus frenos actúan valor a valor cuando el precio supera una banda respecto a la última cotización o a la apertura. Las mesas trabajan en interiores con luz artificial, donde casi no hay deslumbramiento, así que los operadores siguen activos. Ante un suceso sin precedentes y sin efecto económico medible, los creadores de mercado amplían horquillas para cubrirse en vez de retirarse. La volatilidad se concentra donde hay una historia fácil de contar, no en el índice entero.
+    dato: Euronext aplica bandas dinámicas de ±3% para valores de índices principales (CAC 40, AEX, etc.) y ±5% para el resto, y bandas estáticas de ±8% y ±10%, con reservas mínimas de 3 minutos; no describe un cortacircuitos de mercado completo.
+    fuente: https://www.euronext.com/en/for-investors/market-quality/trading-safeguards
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - mercados financieros
+    - bolsa europea
+    id: economista/h1/1
+  - texto: EssilorLuxottica y otros valores de gafas de sol suben con fuerza en la primera hora por compras de narrativa, y el economista dice en público que la subida está sobredimensionada.
+    mecanismo: 'El supuesto de deslumbramiento durante unas dos semanas crea una historia simple: todo el mundo necesitará gafas de sol. Pero un pico de demanda de dos semanas es pequeño frente a la facturación anual de un grupo de ese tamaño, y la capacidad de producción y el inventario en tienda no se multiplican en días. Si el efecto remite, el valor presente del flujo extra es reducido. Defender esto en público protege su prestigio: no se suma a una euforia que probablemente se corrija.'
+    dato: EssilorLuxottica facturó 28.490 millones de euros en 2025.
+    fuente: https://stockanalysis.com/quote/epa/EL/revenue/
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - mercados financieros
+    - sector óptico
+    - consumo
+    id: economista/h1/2
+  - texto: 'El impacto en consumo durante la primera hora es muy desigual por husos horarios y estaciones: hay colas y agotamiento de gafas de sol en tiendas de zonas con sol fuerte de día (África, Oriente Medio, sur de Asia), mientras en la Europa de noviembre el efecto comercial es menor y en América casi nulo porque es de noche.'
+    mecanismo: A las 10:00 de Madrid (09:00 UTC) es de día en Europa, África, Oriente Medio y gran parte de Asia, y de madrugada en América. El deslumbramiento depende de la radiación ultravioleta, que en noviembre es baja en el hemisferio norte y alta en el sur y en latitudes tropicales. La demanda inmediata aparece donde coinciden luz diurna, sol intenso y comercio abierto; en América el choque de consumo llega horas más tarde.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - consumo
+    - comercio minorista
+    - distribución
+    id: economista/h1/3
+  - texto: 'Aparecen los primeros aprovechados: subidas de precio oportunistas de gafas de sol en comercios y plataformas online, y anuncios de productos de filtro UV sin certificación.'
+    mecanismo: Ante una demanda súbita y un producto cuyo valor el comprador no puede comprobar en el momento, el vendedor con stock tiene poder de precio inmediato. Las plataformas online permiten cambiar precios y lanzar anuncios en minutos, mucho antes de que reaccionen las autoridades de consumo. La incertidumbre sobre si el fenómeno es permanente se explota para vender protección.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - consumo
+    - comercio electrónico
+    - protección del consumidor
+    id: economista/h1/4
+  - texto: Los futuros sobre índices estadounidenses negocian con volumen inusual para la madrugada, pero el grueso de la reacción de Wall Street queda aplazado a la apertura de la tarde europea, y los mercados asiáticos de contado ya habían cerrado.
+    mecanismo: 'A las 10:00 de Madrid son las 4:00 en Nueva York: la mayoría de inversores estadounidenses están dormidos y se despiertan ya con el fenómeno en marcha, así que la primera reacción en EE. UU. pasa por futuros y operadores algorítmicos que reaccionan a titulares. Tokio y otras plazas asiáticas cerraron su sesión de contado antes del suceso, de modo que su reacción llegará en la sesión siguiente con más información y, previsiblemente, menos ruido.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - mercados financieros
+    - futuros
+    - bolsa estadounidense
+    - bolsa asiática
+    id: economista/h1/5
+  reacciona_a: []

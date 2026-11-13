@@ -1,0 +1,61 @@
+intervencion:
+  agente: agitador
+  tramo: h1
+  afirmaciones:
+  - texto: En los primeros veinte o treinta minutos, el agitador abre un directo en su canal de mensajería y en una red de vídeo sin guion ni comprobación. Encuadra el suceso como algo que alguien está ocultando, no como un fenómeno natural, y pide a su audiencia que mande vídeos de lo que ve.
+    mecanismo: Su negocio vive de llegar el primero cuando aún no hay explicación oficial. En la primera hora ningún organismo puede dar la causa, porque nadie la conoce. Ese vacío lo rellena quien publica antes, y las versiones de culpables corren más que las aclaraciones. Pedir vídeos a la audiencia le da material gratis y hace que sus seguidores se sientan partícipes, lo que dispara los reenvíos.
+    dato: En Twitter, las noticias falsas tenían un 70 % más de probabilidad de ser retuiteadas que las verdaderas, y las verdaderas tardaban unas seis veces más en llegar a 1.500 personas.
+    fuente: https://news.mit.edu/2018/study-twitter-false-news-travels-faster-true-stories-0308
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - informacion
+    - redes_sociales
+    - confianza_institucional
+    id: agitador/h1/1
+  - texto: 'El agitador junta los vídeos que le mandan: superficies, billetes, señales y ropa que de pronto muestran marcas o patrones nuevos en UV. Los presenta como pruebas de que había cosas marcadas a propósito para que no las viéramos. Con eso aparece una narrativa de ''marcas ocultas'' que señala vagamente a gobiernos y grandes empresas.'
+    mecanismo: 'Con visión UV-A, la gente ve de golpe elementos fluorescentes o con tintes UV que siempre estuvieron ahí: medidas de seguridad en billetes y documentos, abrillantadores ópticos en la ropa y el papel, manchas y residuos. Su audiencia no sabe por qué están, y el agitador convierte esa falta de contexto en intención oculta. A él le basta con que las imágenes sean reales para que el relato resulte creíble.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - informacion
+    - confianza_institucional
+    - sistema_financiero_percepcion
+    - comercio
+    id: agitador/h1/2
+  - texto: Antes de que acabe la hora, el agitador lleva el tráfico principal a su canal propio de mensajería y deja solo fragmentos suavizados en las plataformas grandes. Así la versión más dura se mueve en un espacio donde no hay moderación de contenido.
+    mecanismo: Sabe que las plataformas grandes pueden retirar o desmonetizar contenido sobre una emergencia sanitaria o de salud pública. En la primera hora las plataformas todavía no han fijado criterios de moderación, pero él se adelanta para que no le corten el alcance cuando lleguen. Su canal propio no se puede desmonetizar desde fuera y conserva la audiencia aunque le borren vídeos.
+    dato: ''
+    fuente: ''
+    confianza: alta
+    evidencia: inferencia
+    areas_afectadas:
+    - redes_sociales
+    - moderacion_contenidos
+    - ecosistema_informativo
+    id: agitador/h1/3
+  - texto: El agitador conecta el deslumbramiento y la fatiga visual en exteriores con la idea de que 'algo nos han hecho'. Pide a su audiencia que no se fíe de lo que digan médicos y autoridades en las próximas horas. Con eso blinda su relato contra la explicación oficial antes de que esa explicación exista.
+    mecanismo: El malestar físico es real y lo nota todo el mundo a la vez, así que la gente ya cree en el síntoma antes de oír relato alguno. Desacreditar de antemano a las fuentes institucionales protege su negocio, porque pierde audiencia si el fenómeno se explica y se normaliza. Cualquier aviso oficial que llegue luego, como no mirar al sol, lo podrá presentar como confirmación de que había algo que esconder.
+    dato: En TikTok y otras redes de vídeo, los usuarios prestan más atención a personalidades e influencers que a periodistas y medios a la hora de informarse.
+    fuente: https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2024/dnr-executive-summary
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - salud_publica
+    - confianza_institucional
+    - comunicacion_de_crisis
+    id: agitador/h1/4
+  - texto: En esta primera hora, el agitador gana muchos seguidores y activa donaciones y suscripciones de pago durante el directo. Varios creadores más pequeños copian su encuadre para aprovechar el tirón, y la tesis de las 'marcas ocultas' se convierte en una de las narrativas dominantes del suceso en redes en su idioma.
+    mecanismo: En un suceso global sin explicación, la demanda de contenido se dispara y la oferta verificada todavía no existe. Las plataformas premian la interacción y los creadores pequeños imitan lo que ya funciona. Él se beneficia directamente del miedo, porque las donaciones en directo responden a la sensación de urgencia y de pertenencia a un grupo que 've la verdad'.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - redes_sociales
+    - economia_creadores
+    - ecosistema_informativo
+    id: agitador/h1/5
+  reacciona_a: []

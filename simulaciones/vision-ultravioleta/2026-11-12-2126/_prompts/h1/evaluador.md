@@ -1,0 +1,182 @@
+Eres el evaluador de una simulación de escenarios de Aftermath Studio. No pronosticas ni consolidas: mides el estado del mundo con unas escalas definidas.
+
+## El mundo
+Suceso: Todos los seres humanos desarrollan a la vez la capacidad de ver el espectro ultravioleta.
+Momento cero: Martes, 10:00 hora de Madrid, simultáneo en todo el planeta. Alcance: global.
+Supuestos (son hechos del mundo; no los discutas ni los expliques):
+- El cambio es instantáneo y afecta a todas las personas, incluidos recién nacidos
+- Se percibe el ultravioleta cercano (UV-A) como colores nuevos, sin perder la visión normal
+- Los primeros días hay deslumbramiento y fatiga visual en exteriores con mucho sol; remite en unas dos semanas y no deja daño ocular permanente
+- Nadie conoce la causa y nadie sabe si es permanente
+Fuera de alcance: Explicar la causa del fenómeno; Efectos en animales
+
+## Tramo que evalúas
+Hora 1 (PT1H desde el suceso)
+Estado del mundo al cierre de este tramo:
+estado_del_mundo:
+  tramo: h1
+  resumen: 'En la primera hora el mundo descubre que ve colores nuevos sobre todo al aire libre y bajo ciertas luces, y que no puede enseñarlos: cámaras y pantallas no los reproducen. Ese vacío de pruebas y de causa lo llenan las redes, con reacciones virales, negacionismo y bulos sobre la causa que algunos agitadores blindan de antemano contra la explicación oficial. Los gobiernos se mueven por cauces ordinarios (España no declara el estado de alarma y la OMS solo pide información), los mercados europeos siguen abiertos con volatilidad concentrada en valores de óptica, y la demanda de gafas de sol choca con el hecho de que bloquean justo lo que la gente quiere ver. La primera fricción social inesperada es la piel: manchas solares y protector solar se vuelven visibles y mucha gente cree que los demás han enfermado, mientras institutos y familias improvisan sin instrucciones.'
+  hechos_establecidos:
+  - id: h1-01
+    texto: 'Las bolsas europeas no se detienen en bloque: siguen cotizando con volumen alto y horquillas más anchas, con interrupciones de volatilidad solo en valores sueltos ligados al relato del suceso (óptica, gafas de sol, oftalmología), porque los frenos de Euronext actúan valor a valor. En EE. UU., donde es de madrugada, la reacción se canaliza por los futuros y la algorítmica, y el grueso queda aplazado a la apertura de Wall Street; las plazas asiáticas de contado ya habían cerrado y reaccionarán en su siguiente sesión.'
+    origen:
+    - economista/h1/1
+    - economista/h1/5
+  - id: h1-02
+    texto: Estalla la demanda de gafas de sol donde coinciden luz diurna, sol intenso y comercio abierto (África, Oriente Medio, sur de Asia), con efecto menor en la Europa de noviembre y casi nulo en América, donde es de noche. EssilorLuxottica y otros valores de gafas de sol suben con fuerza por compras de narrativa, y el economista sostiene en público que la subida está sobredimensionada porque el deslumbramiento es transitorio. Aparecen subidas de precio oportunistas, productos de filtro UV sin certificación, gafas que dicen potenciar o bloquear la visión UV sin base, remedios falsos y estafas que suplantan a autoridades sanitarias; las plataformas intentan moderar, pero el ritmo de publicación las desborda.
+    origen:
+    - economista/h1/2
+    - economista/h1/3
+    - economista/h1/4
+    - medios/h1/4
+    - oftalmologa/h1/3
+  - id: h1-03
+    texto: 'El Gobierno de España no declara el estado de alarma: convoca un comité de crisis en Moncloa y emite una declaración de contención que reconoce el fenómeno y pide calma sin afirmar que sea inocuo ni permanente. Las primeras medidas reales llegan por cauces ordinarios (tráfico, protección civil, sanidad) con avisos de precaución al volante y en exteriores soleados, emitidos por administraciones distintas sin coordinación. La oposición exige la comparecencia urgente del presidente en el Congreso y acusa al Gobierno de silencio o improvisación; la UE activa el intercambio de información entre Estados miembros sin medidas comunes.'
+    origen:
+    - politico/h1/1
+    - politico/h1/2
+    - politico/h1/5
+  - id: h1-04
+    texto: La OMS se limita a un comunicado de seguimiento y a pedir información a los Estados; no convoca todavía el Comité de Emergencias, porque un cambio simultáneo y global sin agente identificado ni daño acreditado no encaja con claridad en el procedimiento del Reglamento Sanitario Internacional.
+    origen:
+    - politico/h1/3
+  - id: h1-05
+    texto: La conversación pública de la primera hora la ocupan las redes sociales, no los medios. Las fotos y vídeos no muestran los colores nuevos porque sensores y pantallas trabajan solo en el espectro visible, así que lo que se vuelve viral son las reacciones, los testimonios y los intentos de describir colores sin nombre. La falta de una prueba compartible alimenta una corriente minoritaria pero ruidosa que lo tacha de alucinación colectiva o montaje, y en el extremo opuesto quien atribuye al cambio poderes añadidos.
+    origen:
+    - medios/h1/1
+    - adolescente/h1/2
+    - disruptor/h1/4
+    - medios/h1/5
+  - id: h1-06
+    texto: Antes de que acabe la hora circulan atribuciones falsas de causa con apariencia de autoridad (experimento secreto, ataque químico o radiológico, 5G, satélites, señal extraterrestre, castigo divino), con capturas falsificadas de comunicados oficiales. Agitadores en directo encuadran el suceso como algo que alguien oculta, presentan como 'marcas ocultas' los elementos fluorescentes que siempre estuvieron ahí (marcas de seguridad de billetes y documentos, abrillantadores ópticos, residuos), vinculan el deslumbramiento con la idea de que 'algo nos han hecho' y piden de antemano no fiarse de médicos ni autoridades. Algunos dirigentes de otros países rompen la prudencia y atribuyen el fenómeno a un ataque extranjero, a una señal religiosa o a una ventaja nacional, o lo declaran seguro sin respaldo técnico.
+    origen:
+    - medios/h1/2
+    - agitador/h1/1
+    - agitador/h1/2
+    - agitador/h1/4
+    - politico/h1/4
+  - id: h1-07
+    texto: Los medios generalistas abren especiales centrados en la pregunta de si es peligroso, con portavoces médicos improvisados y titulares sobre deslumbramiento y fatiga visual, lo único medible. Las sociedades de oftalmología reciben un aluvión de consultas y se posicionan como primera fuente explicativa con el precedente clínico de las personas sin cristalino, que ya percibían algo de UV-A como un tono azul blanquecino o violáceo. Advierten de que mirar al sol o a lámparas UV para buscar los colores nuevos sigue causando las lesiones de siempre. Los operados de cataratas con lentes intraoculares que filtran el UV y los usuarios de gafas o lentillas con filtro perciben los colores nuevos con menos intensidad, a veces de forma distinta entre sus dos ojos, y consultan creyendo que tienen un problema.
+    origen:
+    - medios/h1/3
+    - oftalmologa/h1/1
+    - oftalmologa/h1/2
+    - oftalmologa/h1/5
+  - id: h1-08
+    texto: 'La novedad visible depende de que haya UV-A en la escena: es intensa al aire libre, junto a ventanas abiertas, bajo fluorescentes y luz negra y en tejidos o papel con blanqueantes ópticos, y casi nula con iluminación LED doméstica. En las zonas donde es de día, la piel de adolescentes y adultos muestra manchas y moteados de daño solar antes invisibles, mientras los bebés se ven uniformes, y mucha gente cree que quienes la rodean han enfermado o se han quemado por el fenómeno. Quien lleva protector solar o maquillaje con SPF aparece con una máscara oscura (filtro químico) o clara (filtro mineral), lo que genera desconcierto en oficinas, colegios y transporte y abre una fricción social y estética imprevista.'
+    origen:
+    - oftalmologa/h1/4
+    - disruptor/h1/1
+    - disruptor/h1/2
+  - id: h1-09
+    texto: 'El riesgo vial se reparte de forma desigual: el parabrisas laminado bloquea casi todo el UV-A, así que los conductores de turismos que miran al frente sufren poco deslumbramiento, pero las ventanillas laterales dejan pasar bastante más y provocan confusión en cambios de carril e incorporaciones, mientras motoristas, ciclistas y peatones reciben el deslumbramiento completo en exteriores soleados.'
+    origen:
+    - disruptor/h1/3
+  - id: h1-10
+    texto: 'En los centros educativos, donde el móvil no se usa en horario lectivo, las clases se paran porque alumnos y profesores ven a la vez colores nuevos en ropa, rotuladores y papel. Las familias llaman a secretaría preguntando si pueden recoger a sus hijos, y los centros no saben qué contestar porque no ha llegado ninguna instrucción oficial: cada profesor improvisa sobre si dejar usar el móvil.'
+    origen:
+    - adolescente/h1/1
+    - adolescente/h1/4
+  tensiones_abiertas:
+  - 'Las gafas de sol con filtro UV alivian el deslumbramiento pero eliminan la percepción nueva: no está decidido si la gente las adopta en masa (y se sostiene el tirón de demanda y bursátil) o las rechaza para seguir viendo los colores.'
+  - 'Qué narrativa sobre la causa se impone en redes: la de ''marcas ocultas'' de los agitadores, las otras atribuciones falsas o la explicación de las sociedades científicas.'
+  - 'Cómo interpreta la sociedad la visibilidad de manchas solares y protector solar: alarma sanitaria pasajera o fricción estética, de clase o racial duradera.'
+  - Si la falta de coordinación entre administraciones y la presión de la oposición obligan al Gobierno de España a pasar de la contención a medidas concretas, y si la OMS acaba convocando el Comité de Emergencias.
+  - Cómo reaccionan Wall Street en su apertura y las bolsas asiáticas en su siguiente sesión, ya con más información.
+  contradicciones_resueltas:
+  - entre:
+    - disruptor/h1/5
+    - economista/h1/1
+    decision: Se mantiene que el primer efecto económico medible del suceso está en los mercados financieros y en la demanda de gafas de sol, no en el ocio nocturno americano.
+    motivo: La afirmación del economista tiene mecanismo y dato con fuente; la del disruptor es de confianza baja, especulativa y sin dato.
+  - entre:
+    - agitador/h1/5
+    - medios/h1/2
+    decision: No se fija qué narrativa domina; se recoge la proliferación de atribuciones falsas y la tesis de las 'marcas ocultas' como una de ellas, y la dominancia queda como tensión abierta.
+    motivo: Ninguna de las dos aporta dato sobre la cuota de cada narrativa; ante empate se mantiene la tensión para el siguiente tramo.
+  - entre:
+    - oftalmologa/h1/3
+    - economista/h1/2
+    decision: Entran a la vez la subida de demanda y de cotización de las gafas de sol y el dilema de que bloquean la percepción nueva; la resolución del dilema se deja abierta.
+    motivo: Ambas tienen mecanismo plausible y no se excluyen; el efecto cruzado sobre la demanda no se puede decidir en la primera hora.
+  descartadas:
+  - id: adolescente/h1/3
+    motivo: Efecto local y de detalle (quejas y exageraciones en el recreo); el deslumbramiento en exteriores ya es un supuesto del mundo.
+  - id: adolescente/h1/5
+    motivo: Efecto local de detalle (competencia por la prenda más llamativa) que solo concreta la visibilidad de tintes y blanqueantes ya recogida en h1-08; especulativa y sin dato.
+  - id: agitador/h1/3
+    motivo: Detalle táctico del agitador (llevar el tráfico a su canal propio) que no cambia el rumbo del mundo en este tramo.
+  - id: agitador/h1/5
+    motivo: 'Especulativa y sin dato: su ganancia de audiencia es un efecto local y la dominancia de su narrativa queda como tensión abierta.'
+  - id: disruptor/h1/5
+    motivo: Confianza baja, especulativa y sin dato; además su conclusión sobre el primer efecto económico choca con un hecho con fuente (h1-01).
+
+## Métricas y niveles
+
+### alarma_social: Nivel de alarma social (escala)
+- 1: Curiosidad; la vida sigue igual
+- 2: Inquietud; conversación y búsquedas, sin cambios de conducta
+- 3: Preocupación; cambios de conducta visibles en parte de la población (compras, quedarse en casa)
+- 4: Miedo extendido; acaparamiento, servicios colapsados o protestas en varios países
+- 5: Pánico; desórdenes, violencia o huidas masivas
+
+### confianza_institucional: Confianza en la explicación y las indicaciones oficiales (escala)
+- 1: La mayoría desconfía abiertamente; las versiones alternativas dominan
+- 2: La versión oficial es minoritaria fuera de los medios tradicionales
+- 3: Dividida: la versión oficial convive con una sospecha amplia
+- 4: La mayoría sigue las indicaciones oficiales, con reservas
+- 5: Confianza alta; las instituciones marcan el relato
+
+### respuesta_gobiernos: Respuesta dominante de los gobiernos (categorica)
+- ninguna: Silencio oficial
+- comunicacion: Mensajes y recomendaciones, sin medidas
+- medidas_sectoriales: Medidas concretas en sectores (transporte, colegios, trabajo) sin estado excepcional
+- emergencia: Declaración formal de emergencia o alerta nacional
+- medidas_excepcionales: Restricción de derechos: confinamientos, toques de queda o censura
+
+### impacto_economico: Impacto económico agregado (escala)
+- 1: Sin efecto apreciable
+- 2: Movimientos sectoriales; índices estables
+- 3: Caídas generales de índices o disrupción en varios sectores
+- 4: Crisis de mercado; intervención de bancos centrales o gobiernos
+- 5: Parálisis económica
+
+### adaptacion: Grado de normalización del cambio (escala)
+- 1: Nadie sabe qué hacer
+- 2: Primeras pautas, poco seguidas
+- 3: Pautas claras y adoptadas por parte de la población
+- 4: La mayoría ha ajustado su rutina
+- 5: Normalizado
+
+## Tu tarea
+1. Para cada métrica, elige el nivel cuya descripción se ajusta mejor a los hechos establecidos, no a las tensiones ni a lo que podría pasar.
+2. Si el mundo está entre dos niveles, elige el inferior y dilo en la justificación.
+3. Justifica cada valor en una o dos frases: por qué este nivel y no el contiguo. Cita en apoyos los ids de los hechos que lo sostienen.
+4. Mide el mundo en su conjunto. Si hay diferencias claras entre regiones, dilo en la justificación.
+
+## Formato de respuesta
+Solo este YAML (comillas dobles en los textos):
+
+evaluacion:
+  tramo: h1
+  metricas:
+    - id: alarma_social
+      valor: ...
+      justificacion: "..."
+      apoyos: [ids de hechos]
+    - id: confianza_institucional
+      valor: ...
+      justificacion: "..."
+      apoyos: [ids de hechos]
+    - id: respuesta_gobiernos
+      valor: ...
+      justificacion: "..."
+      apoyos: [ids de hechos]
+    - id: impacto_economico
+      valor: ...
+      justificacion: "..."
+      apoyos: [ids de hechos]
+    - id: adaptacion
+      valor: ...
+      justificacion: "..."
+      apoyos: [ids de hechos]

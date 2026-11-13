@@ -1,0 +1,7 @@
+
+### Hora 1
+- [adolescente/h1/1] A las diez estoy en clase y el móvil está guardado en la mochila o en la caja del aula, así que la primera hora la vivo sin poder mirar redes; la clase se para porque la gente se pone a señalar paredes, ropa y pupitres que de repente tienen colores raros, y el profe no consigue seguir con el temario. (entró en el canon)
+- [adolescente/h1/2] En cuanto alguien saca el móvil a escondidas o en el cambio de clase, mi grupo descubre que los grupos de clase y las redes ya están llenos de vídeos y fotos, y nos frustra muchísimo que en las fotos los colores nuevos no salen: el móvil no los capta y la pantalla tampoco los puede mostrar. (entró en el canon)
+- [adolescente/h1/3] En el recreo, quien sale al patio a pleno sol vuelve quejándose de que le molestan los ojos, y algunos se ponen gafas de sol o se quedan dentro; a la vez, hay quien exagera y dice que se está quedando ciega para llamar la atención o para irse a casa. (no entró en el canon)
+- [adolescente/h1/4] Mis padres y los de mis amigas empiezan a mandar mensajes y a llamar a secretaría preguntando si estamos bien y si nos pueden sacar del instituto, y el centro no sabe qué contestar porque no hay ninguna instrucción oficial todavía. (entró en el canon)
+- [adolescente/h1/5] Mi grupo y yo ya estamos buscando qué cosas de nuestra ropa, maquillaje o mochilas brillan con los colores nuevos, y empezamos a competir por quién tiene la prenda que más llama la atención, con la idea de subirlo en cuanto salgamos. (no entró en el canon)

@@ -1,0 +1,59 @@
+intervencion:
+  agente: oftalmologa
+  tramo: h1
+  afirmaciones:
+  - texto: 'En la primera hora, las sociedades de oftalmología reciben un aluvión de consultas, y la oftalmóloga sale en los medios con una referencia clínica que nadie más tiene: las personas sin cristalino (afáquicas tras cirugía antigua de cataratas) ya percibían algo de UV-A antes del suceso. Con eso, su sociedad científica se presenta como la primera fuente que explica qué se está viendo.'
+    mecanismo: En el ojo humano, el cristalino filtra casi todo el UV-A antes de que llegue a la retina, y los conos S (azules) conservan cierta sensibilidad en ese rango. Hay casos documentados de afáquicos que describen la luz UV como un tono azul blanquecino o violáceo. Ese precedente clínico es la única base empírica disponible en la hora 1, y quien la tenga a mano gana autoridad mientras los demás especulan.
+    dato: Las personas a las que se ha extirpado el cristalino perciben luz ultravioleta, que describen como azul blanquecina o violeta; se cita el caso de Monet tras su cirugía de cataratas.
+    fuente: https://petapixel.com/2012/04/17/the-human-eye-can-see-in-ultraviolet-when-the-lens-is-removed
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - salud
+    - medios
+    - comunidad_cientifica
+    id: oftalmologa/h1/1
+  - texto: Los pacientes operados de cataratas con lentes intraoculares que filtran el UV, y los usuarios de lentes de contacto o gafas con filtro UV, son los primeros en notar que perciben los colores nuevos de otra manera, o con menos intensidad, que quienes tienen a su lado. En la primera hora, las urgencias oftalmológicas reciben consultas por esa asimetría, a veces entre los dos ojos de la misma persona.
+    mecanismo: 'Lo que un ojo percibe en UV-A depende de cuánta radiación llega a la retina. Las lentes intraoculares, los cristales y las lentillas con bloqueo UV la reducen, y quien lleva una lente así en un solo ojo ve una diferencia de color entre ambos ojos. Como el supuesto del mundo no especifica cómo interactúa el fenómeno con esos filtros, la observación inmediata es comparativa: unos ven más que otros, y el que ve menos piensa que tiene un problema.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - optica
+    - consumo
+    id: oftalmologa/h1/2
+  - texto: En la primera hora, las ópticas y los fabricantes de gafas de sol sufren su primera confusión comercial. Hay quien se quita las gafas con filtro UV para ver los colores nuevos y quien se las pone para aliviar el deslumbramiento, y algún comercio aprovecha para anunciar gafas que «potencian» o «bloquean» la visión UV sin ninguna base.
+    mecanismo: Las gafas de sol homologadas están diseñadas precisamente para bloquear el UV, de modo que ponérselas elimina la percepción nueva y además alivia la fatiga del deslumbramiento en exteriores. Esa contradicción entre ver o no ver, y entre comodidad y novedad, se resuelve en la calle antes que en ninguna guía, y abre un hueco para el oportunismo comercial.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - consumo
+    - optica
+    - regulacion_sanitaria
+    id: oftalmologa/h1/3
+  - texto: 'En interiores, la novedad visible en la primera hora es menor de lo que la gente espera: con iluminación LED doméstica apenas se ve nada nuevo, mientras que los fluorescentes, las lámparas de luz negra, los blanqueantes ópticos de la ropa y del papel y la luz que entra por las ventanas abiertas muestran colores nuevos. Por eso las primeras fotos y vídeos virales salen de exteriores y de comercios, no de las casas.'
+    mecanismo: Que se perciba el UV-A depende de que haya UV-A en la escena. El sol emite mucho; los LED blancos habituales emiten muy poco; el vidrio de las ventanas atenúa parte del UV; los blanqueantes ópticos absorben UV y fluorescen, y las superficies con filtros solares o pigmentos que reflejan o absorben UV se diferencian de golpe. La experiencia cotidiana cambia sobre todo al aire libre y bajo determinadas fuentes de luz.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - vida_cotidiana
+    - medios
+    - comercio
+    id: oftalmologa/h1/4
+  - texto: La oftalmóloga advierte en público que el alivio del deslumbramiento no se mida por la comodidad. Aunque el fenómeno no deje daño permanente, quien mire directamente al sol o a lámparas UV para buscar los colores nuevos se expone a las lesiones de siempre (fotoqueratitis, retinopatía solar), y eso va a producir los primeros casos clínicos reales en horas.
+    mecanismo: La curiosidad empuja a mirar las fuentes más intensas. El supuesto del mundo garantiza que la percepción nueva no deja daño, pero no anula la fototoxicidad conocida de mirar al sol o a fuentes UV intensas. Separar las molestias del fenómeno, que son benignas, de las lesiones por conducta, que son reales, es la línea clínica que da credibilidad a su sociedad.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - salud
+    - comunicacion_publica
+    id: oftalmologa/h1/5
+  reacciona_a: []
