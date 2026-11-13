@@ -1,0 +1,62 @@
+intervencion:
+  agente: politico
+  tramo: h2
+  afirmaciones:
+  - texto: Al terminar la reunión de seguimiento, Moncloa activa el Sistema de Seguridad Nacional y convoca el Comité de Situación, en lugar de recurrir al estado de alarma. Así puede decir que coordina sin restringir ningún derecho y gana tiempo para que Sanidad tenga algo respaldado por los técnicos.
+    mecanismo: El Gobierno necesita parecer que tiene el control sin decretar nada que luego deba rectificar. La Ley de Seguridad Nacional prevé un órgano de apoyo para gestionar crisis que afectan a varios ministerios y administraciones, y este suceso toca a Sanidad, Interior (tráfico), Educación, Economía y Exteriores a la vez. Convocarlo no exige votación en el Congreso ni limita derechos, y da una imagen de gabinete de crisis que ocupa los titulares que la oposición estaba llenando con el silencio.
+    dato: La Ley 36/2015 de Seguridad Nacional regula la gestión de crisis mediante un Comité de Situación de apoyo al Consejo de Seguridad Nacional.
+    fuente: https://www.boe.es/buscar/pdf/2015/BOE-A-2015-10389-consolidado.pdf
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - politica
+    - gobernanza
+    - comunicacion
+    id: politico/h2/1
+  - texto: 'Sanidad convoca de urgencia un Consejo Interterritorial telemático con las comunidades autónomas para cortar las recomendaciones contradictorias de la primera hora. Pacta un mensaje único que se queda en lo que nadie discute: no mirar al sol, el deslumbramiento por ahora no se asocia a lesión y solo hay que ir a urgencias ante síntomas concretos. Al menos una comunidad gobernada por la oposición rompe ese consenso y mantiene su propia recomendación.'
+    mecanismo: 'La salud pública está repartida entre el Estado y las comunidades, y la primera hora dejó a presidentes autonómicos y alcaldes recomendando cosas incompatibles, lo que desgasta a todos. El Interterritorial es el foro ordinario para acordar actuaciones coordinadas y se puede reunir por videoconferencia en minutos. Como ningún gobierno puede afirmar lo que sus técnicos no respaldan, el mensaje común se queda en lo mínimo: no se dice que el deslumbramiento remite ni nada sobre si hay que llevar gafas con filtro. La comunidad de la oposición gana visibilidad si se desmarca y se presenta como más protectora.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - sanidad
+    - politica
+    - comunicacion
+    id: politico/h2/2
+  - texto: 'La primera medida concreta y operativa no la dicta Sanidad sino la DGT: los paneles de mensaje variable y las redes oficiales recomiendan reducir velocidad, no detenerse en el arcén salvo emergencia y tener cuidado con el deslumbramiento lateral. Es una recomendación, no una restricción, y el Gobierno la presenta en su comparecencia como prueba de que actúa.'
+    mecanismo: El tráfico es el único riesgo de la primera hora que se puede medir ya (alcances, paradas en arcén) y la DGT puede emitir recomendaciones de seguridad vial y activar sus paneles sin una base legal excepcional, igual que hace con niebla o temporales. Al Gobierno le conviene enseñar una medida tangible que no dependa de saber la causa ni de que los oftalmólogos se pronuncien sobre el ojo, y que no se pueda rectificar porque solo pide prudencia al volante.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - trafico
+    - politica
+    - economia
+    id: politico/h2/3
+  - texto: En Bruselas la Comisión convoca de urgencia el Comité de Seguridad Sanitaria con los Estados miembros para compartir información, sin declarar emergencia de salud pública a escala de la Unión. Varios gobiernos europeos usan esa convocatoria para justificar que esperan una posición común antes de recomendar nada sobre gafas o protección ocular.
+    mecanismo: El reglamento europeo sobre amenazas transfronterizas graves para la salud da a la Comisión y al Comité de Seguridad Sanitaria un cauce para coordinar respuestas sin crear restricciones. Convocarlo es barato y rápido. Una declaración formal de emergencia, en cambio, obligaría a justificar un riesgo que ningún técnico ha caracterizado. Igual que pasó con la OMS en la primera hora, a los gobiernos les sirve tener una autoridad superior que está evaluando para no comprometerse solos con un mensaje que luego tendrían que corregir.
+    dato: El Reglamento (UE) 2022/2371 sobre amenazas transfronterizas graves para la salud establece el Comité de Seguridad Sanitaria como órgano de coordinación entre la Comisión y los Estados miembros.
+    fuente: https://boe.es/doue/2022/314/L00026-00063.pdf
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - politica
+    - sanidad
+    - relaciones_internacionales
+    id: politico/h2/4
+  - texto: 'En la segunda hora la Casa Blanca y el Departamento de Salud estadounidense no salen a desmentir el rumor de que el fenómeno no afecta a América. Cuando sus técnicos lo confirman con fuentes de luz ultravioleta artificial, sacan un comunicado mínimo antes del amanecer: el fenómeno es global y habrá información al despertar. Algunos gobernadores y cargos estatales se adelantan con mensajes propios en redes, unos para pedir calma y otros dando por bueno el rumor.'
+    mecanismo: A esas horas en la costa este de Estados Unidos es de madrugada, y sin sol no hay nada que comprobar a simple vista. Ningún portavoz federal puede negar el rumor sin respaldo técnico, pero tampoco puede dejar que el amanecer lo desmienta por él, porque eso lo pagaría en legitimidad. La salida es apoyarse en una comprobación técnica rápida con lámparas UV y prometer información. Los cargos estatales compiten por visibilidad, igual que los autonómicos españoles en la primera hora, y no tienen la misma restricción técnica.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - politica
+    - comunicacion
+    - relaciones_internacionales
+    id: politico/h2/5
+  reacciona_a:
+  - disruptor/h1/3
+  - oftalmologa/h1/5

@@ -1,0 +1,27 @@
+evaluacion:
+  tramo: h2
+  metricas:
+    - id: alarma_social
+      valor: 3
+      justificacion: "Los cambios de conducta visibles se multiplican y diversifican en parte de la población: compra masiva de linternas y lámparas UV, abandono del protector solar y de las gafas con filtro entre jóvenes, escasez y reventa de gafas, rechazo de billetes y llamadas a bancos centrales y primeros casos de lesión real en urgencias. No llega a 4 porque no hay servicios colapsados, acaparamiento de bienes esenciales ni protestas en varios países, y el rumor geográfico se reformula sin generar miedo."
+      apoyos: [h2-06, h2-07, h2-09, h2-10]
+    - id: confianza_institucional
+      valor: 3
+      justificacion: "Ya existe una versión oficial concreta (mensaje mínimo de Sanidad, Comité de Situación, recomendaciones de la DGT, guía práctica de la sociedad oftalmológica) que las plataformas y verificadores usan como referencia, así que deja de ser un vacío. Pero convive con una sospecha amplia: una comunidad se desmarca, el agitador capitaliza la moderación como censura, los jóvenes rechazan la protección y los desmentidos llegan a mucha menos gente que los bulos. No es 4 porque no hay evidencia de que la mayoría siga las indicaciones oficiales, que además callan sobre gafas."
+      apoyos: [h2-02, h2-03, h2-04, h2-05, h2-06]
+    - id: relatos_en_competencia
+      valor: 3
+      justificacion: "El relato técnico y oficial convive con el del agitador, que tiene canales propios, audiencia que migra y se amplía a la América hispanohablante, y un marco inmune a los hechos; además circulan imágenes reales de archivo y fotos UV en falso color que alimentan versiones incompatibles. No es 4 porque los medios generalistas no recogen ambos relatos como equivalentes: rotulan el archivo, citan los testimonios del sur contra el rumor geográfico y se apoyan en los oftalmólogos; el choque de pruebas se da sobre todo en redes."
+      apoyos: [h2-01, h2-04, h2-05, h2-06]
+    - id: respuesta_gobiernos
+      valor: comunicacion
+      justificacion: "Los gobiernos pasan a coordinar (Sistema de Seguridad Nacional, Interterritorial, Comité de Seguridad Sanitaria europeo) pero solo emiten mensajes y recomendaciones, incluida la de la DGT; no hay orden sobre trabajo al aire libre ni estado de alarma o emergencia. Para llegar a medidas sectoriales faltaría una decisión obligatoria, por ejemplo activar el protocolo de trabajo al aire libre o restricciones de tráfico."
+      apoyos: [h2-02]
+    - id: impacto_economico
+      valor: 3
+      justificacion: "Hay disrupción en varios sectores a la vez: trabajo al aire libre parado según cada empresa con conflicto sobre las horas, mercado de gafas desordenado con escasez en línea y reventa sin garantía, compras masivas de lámparas UV y fricción en el pago con efectivo en la zona euro. Sigue en el límite inferior porque los índices, incluidos los futuros estadounidenses, están estables; no es 4 porque no hay crisis de mercado ni intervención de bancos centrales o gobiernos."
+      apoyos: [h2-01, h2-02, h2-07, h2-09, h2-10]
+    - id: adaptacion
+      valor: 3
+      justificacion: "Ya hay pautas claras con respaldo técnico (guía oftalmológica, mensaje de Sanidad, recomendaciones de la DGT) y parte de la población las aplica y las refina, pasando a gafas con filtro certificado, monturas envolventes y gorras. Está en el límite inferior porque otra parte, sobre todo jóvenes y seguidores del agitador, rechaza la protección y algunos se exponen con lámparas o mirando al sol; para llegar a 4 haría falta que la mayoría hubiera ajustado su rutina, lo que no ocurre en América, que aún no ha amanecido en su mayor parte."
+      apoyos: [h2-02, h2-03, h2-06, h2-07, h2-10]

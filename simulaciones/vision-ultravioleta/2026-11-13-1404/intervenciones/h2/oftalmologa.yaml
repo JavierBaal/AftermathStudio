@@ -1,0 +1,69 @@
+intervencion:
+  agente: oftalmologa
+  tramo: h2
+  afirmaciones:
+  - texto: 'En la segunda hora la sociedad oftalmológica publica una guía práctica breve, pensada para urgencias, farmacias y público: el deslumbramiento y la fatiga visual no son lesión; se va a urgencias solo con signos de alarma clásicos (dolor ocular intenso, ojo rojo, pérdida brusca de visión, visión de una mancha fija); las gafas con filtro UV400 alivian y quitárselas no hace perder la capacidad nueva; ningún colirio filtra el ultravioleta; y no hay que mirar al sol. La guía desmonta de paso los anuncios de gotas y el consejo de encerrarse a oscuras.'
+    mecanismo: 'La sociedad ya tiene la posición de referencia por su comunicado de la primera hora, pero la pierde si el hueco lo siguen llenando políticos, comercios y bulos. Para no afirmar nada sin base, se limita a lo que la clínica y la física ya sostienen: los criterios de triaje de urgencias oftalmológicas existen antes del martes, un filtro UV400 absorbe el UV-A por diseño y una gota en la superficie del ojo no puede actuar como filtro óptico estable. No dice cuánto dura el fenómeno ni su causa, porque eso no lo sabe nadie. Una guía de triaje es además lo que piden los servicios de urgencias desbordados por la primera ola de consultas sin lesión.'
+    dato: ''
+    fuente: ''
+    confianza: alta
+    evidencia: inferencia
+    areas_afectadas:
+    - sanidad
+    - comunicacion
+    - consumo
+    - medios
+    id: oftalmologa/h2/1
+  - texto: 'La disparidad de percepción entre personas empieza a tener un patrón visible: niños y jóvenes describen los colores nuevos más intensos y saturados, y muchos mayores apenas notan un velo azulado. En familias y aulas, los adultos dudan de lo que cuentan los niños y algunos mayores consultan creyendo que su vista falla.'
+    mecanismo: 'El cristalino cambia con la edad: en el niño es más transparente en la zona corta del espectro y la pupila es mayor, y con los años amarillea y absorbe cada vez más luz de onda corta. Aunque todos tengan la capacidad nueva, el estímulo UV-A que llega a la retina queda más atenuado en un ojo de 70 años que en uno de 8. La sociedad usa ese dato para explicar parte de la disparidad de la primera hora y quitarle el aire de fallo individual.'
+    dato: El pico de absorción del cristalino se sitúa cerca de 365 nm a los 8 años y cerca de 450 nm a los 65; los niños conservan una ventana de transmisión cerca de 320 nm hasta los 10 años aproximadamente, y la exposición infantil es mayor por cristalino más claro y pupila más amplia.
+    fuente: https://www.dovepress.com/ultraviolet-damage-to-the-eye-revisited-eye-sun-protection-factor-e-sp-peer-reviewed-fulltext-article-OPTH
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - sanidad
+    - educacion
+    - familias
+    - redes_sociales
+    id: oftalmologa/h2/2
+  - texto: 'Los operados de cataratas con lente intraocular que bloquea el UV ven los colores nuevos muy débiles o no los ven en el ojo operado, y quienes solo tienen un ojo operado notan una diferencia clara entre ambos. El precedente clínico se invierte: los afáquicos fueron los pioneros, y ahora una parte de los mayores se siente excluida y llama a consultas preguntando si se puede cambiar la lente. La sociedad desaconseja cualquier cirugía para ganar visión UV.'
+    mecanismo: Igual que el parabrisas o una lente UV400 bloquean el UV-A por fuera del ojo, una lente intraocular con cromóforo absorbente lo bloquea por dentro, antes de la retina. Las lentes intraoculares se fabrican para bloquear el UV desde principios de los años ochenta, así que la mayoría de operados de cataratas llevan una. Recambiar una lente intraocular es una cirugía con riesgos reales y sin indicación médica, y además nadie sabe si el fenómeno es permanente, de modo que la sociedad no puede respaldarla sin perder credibilidad; las clínicas privadas que vean negocio en ello son el riesgo siguiente.
+    dato: Desde principios de los años ochenta las lentes intraoculares se fabrican para bloquear la luz UV; las personas afáquicas sin lente intraocular perciben UV-A, descrito como azul o violeta blanquecino.
+    fuente: https://www.healio.com/news/optometry/20230518/blog-the-link-between-uv-light-iols-and-claude-monets-water-lilies
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - sanidad
+    - mayores
+    - clinicas_privadas
+    - consumo
+    id: oftalmologa/h2/3
+  - texto: Mucha gente que ya tiene gafas de sol con filtro UV sigue viendo colores nuevos y sigue deslumbrándose por los lados y por reflejo en la cara interna de la lente, y lo interpreta como que sus gafas no funcionan. Eso alimenta quejas injustas contra gafas que sí filtran y empuja la demanda hacia monturas envolventes y gorras con visera.
+    mecanismo: 'La luz UV no entra solo de frente: llega por los laterales, por arriba y rebotada desde detrás en la cara interior de la lente, sobre todo si lleva antirreflejante. Con visión UV, esa fuga periférica se ve directamente como color y brillo en el borde del campo visual. La guía práctica recomienda monturas envolventes y visera porque reducen esa entrada lateral, pero el consumidor que comprobó su lente en la primera hora ahora duda de la prueba.'
+    dato: En un estudio con maniquí, el 6,6 por ciento del UV incidente llegó al dosímetro del ojo detrás de gafas graduadas incluso con las lentes tapadas con cinta opaca; separar las gafas 6 mm de la frente multiplicó la exposición ocular entre 5 y 10 veces; la luz que llega desde unos 135 a 150 grados por detrás se refleja en la cara posterior de la lente.
+    fuente: https://www.dovepress.com/ultraviolet-damage-to-the-eye-revisited-eye-sun-protection-factor-e-sp-peer-reviewed-fulltext-article-OPTH
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - consumo
+    - optica
+    - sanidad
+    - redes_sociales
+    id: oftalmologa/h2/4
+  - texto: Aparecen los primeros casos de personas que han mirado al sol o a lámparas UV para ver mejor los colores nuevos y llegan a urgencias con visión borrosa o una mancha central. Son pocos frente a la ola de deslumbramiento, pero son los únicos con riesgo de lesión real, y la sociedad los usa para separar en su comunicación molestia transitoria de daño evitable.
+    mecanismo: 'La curiosidad por ver más empuja a mirar a la fuente: retos en redes, niños en el patio y adultos que prueban con lámparas de uñas o trampas de insectos. Mirar al sol de forma directa produce retinopatía solar con independencia del fenómeno, como se ve tras cada eclipse. Para la sociedad es útil: le permite dar una advertencia concreta y con base, y desmontar el relato del agitador sin negar que existan riesgos.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - sanidad
+    - redes_sociales
+    - educacion
+    id: oftalmologa/h2/5
+  reacciona_a:
+  - medios/h1/3
+  - medios/h1/5
+  - agitador/h1/4
+  - disruptor/h1/4
+  - adolescente/h1/5

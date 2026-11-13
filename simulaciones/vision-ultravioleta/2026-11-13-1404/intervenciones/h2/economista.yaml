@@ -1,0 +1,62 @@
+intervencion:
+  agente: economista
+  tramo: h2
+  afirmaciones:
+  - texto: 'Los futuros sobre índices estadounidenses, que cotizan casi de forma continua mientras el contado de Wall Street sigue cerrado, se mueven poco durante la segunda hora. Eso contradice en la práctica el rumor de que América está a salvo: el mercado no pone precio a una diferencia geográfica, sino a un suceso global sin daño físico, y el foco sigue en valores sueltos, no en índices.'
+    mecanismo: 'El contado de Nueva York no abre hasta las 15:30 de Madrid, pero los futuros sobre el S&P 500 negocian casi las 24 horas en la plataforma electrónica de CME. Son el primer lugar donde el dinero estadounidense puede expresar una opinión. Si los operadores creyeran que América queda fuera del fenómeno, se vería una divergencia con Europa; si temieran un golpe a los beneficios, una caída general. Ninguna de las dos cosas tiene base: no hay fábricas ni puertos dañados y los propios operadores europeos, que sí lo ven con sus ojos, no venden índices enteros. El rumor geográfico vive en redes, no en los precios, y quien mire los precios en lugar de los titulares tiene ya una señal de que el relato de la ola hacia el oeste no se sostiene.'
+    dato: Los futuros E-mini S&P 500 negocian en la plataforma electrónica de CME prácticamente 23 horas al día, cinco días a la semana.
+    fuente: https://www.cmegroup.com/openmarkets/equity-index/2025/Why-Around-the-Clock-Liquidity-Matters.html
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - mercados
+    - medios
+    id: economista/h2/1
+  - texto: 'Las grandes plataformas de venta en línea activan sus políticas contra precios abusivos en gafas de sol: retiran ofertas y avisan a vendedores. El efecto secundario es que muchos vendedores legítimos retiran también su stock por miedo a sanciones, la escasez en línea empeora y la reventa se desplaza a aplicaciones de segunda mano, grupos de mensajería y redes sociales, donde no hay ese control.'
+    mecanismo: 'Las plataformas ya tienen el procedimiento montado desde la pandemia y un incentivo reputacional claro para mostrarse duras ante los titulares de reventa. Pero sus avisos son genéricos y no dicen qué precio es aceptable, así que el vendedor que no ha subido precios también calcula que le sale más barato dejar de vender que arriesgar la cuenta. La demanda no desaparece: se va a canales sin moderación de precios, donde el revendedor cobra lo que quiere y el comprador no tiene garantía de que la lente filtre el ultravioleta, justo el atributo que ahora puede comprobar a simple vista.'
+    dato: En marzo de 2020 Amazon retiró más de medio millón de ofertas y suspendió más de 3.900 cuentas de vendedores en EE. UU. por precios abusivos; vendedores y consultores contaron después que los avisos genéricos llevaron a retirar productos que no habían subido de precio, lo que agravó la escasez.
+    fuente: https://www.aboutamazon.com/news/company-news/price-gouging-has-no-place-in-our-stores ; https://www.supplychainbrain.com/articles/31475-amazon-price-gouging-crackdown-worsened-shortage-of-sanitizer-wipes
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - consumo
+    - comercio_en_linea
+    - plataformas
+    id: economista/h2/2
+  - texto: 'El mercado empieza a separar dentro del sector de gafas: las marcas con filtro UV certificado y cadena de distribución propia se leen como ganadoras, mientras que el producto barato sin filtro, que ya ha quedado en evidencia ante el consumidor, pasa a verse como existencias difíciles de vender. La volatilidad de la primera hora da paso a una dispersión entre empresas, no a un movimiento del sector en bloque.'
+    mecanismo: 'Por primera vez el comprador verifica sin instrumentos una promesa de etiqueta, así que el filtro UV deja de ser un sello invisible y pasa a ser la característica que se compra. Eso traslada poder de precio a quien puede demostrar el filtro y reponer rápido: los grupos integrados que controlan marcas, fabricación y tiendas propias. Los importadores de gama baja quedan con mercancía que el cliente rechaza a la vista y con riesgo de devoluciones y reclamaciones. Para un analista es más fácil defender en público esta lectura por calidad que apostar por un pico de toda la categoría, que podría deshacerse si el deslumbramiento remite.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - mercados
+    - consumo
+    - industria_optica
+    id: economista/h2/3
+  - texto: 'Una parte de los consumidores deja de usar protector solar y cosméticos con filtro, o los retira de la cara a media mañana, porque bajo visión ultravioleta se ven manchas oscuras. Los fabricantes de cosmética solar y dermocosmética pasan a moverse en bolsa por un riesgo nuevo: no de demanda inmediata, sino de rechazo estético del producto.'
+    mecanismo: 'El coste de llevar crema se ha vuelto visible y social: la cara oscura a manchas se comenta en el trabajo, en el instituto y en redes, y para mucha gente la imagen pesa más que un beneficio sanitario que no se ve. Al mismo tiempo, los bulos ya asocian esas manchas a enfermedad. El resultado es una caída de uso precisamente cuando hay más gente al sol mirando los colores nuevos. Para el mercado, el dilema de las marcas es caro: reformular para que el filtro no se note es lento, y defender el producto exige una pauta sanitaria que todavía no ha llegado.'
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - consumo
+    - salud
+    - mercados
+    id: economista/h2/4
+  - texto: 'En España las empresas de construcción, agricultura y reparto no reciben ninguna orden pública para parar, así que cada una decide por su cuenta: unas reorganizan turnos para evitar las horas centrales, otras siguen trabajando. La pérdida de horas es desigual y empieza a abrir una discusión sobre quién paga el tiempo parado, no sobre despidos.'
+    mecanismo: 'España ya tiene un precedente normativo que obliga a adaptar o suspender el trabajo al aire libre cuando hay avisos meteorológicos por calor, de modo que muchas empresas y servicios de prevención tienen protocolos de cambio de horario. Pero esos protocolos se disparan con una alerta oficial, y aquí ningún organismo ha emitido aviso por deslumbramiento. Sin norma, la decisión recae en cada empresa y en su servicio de prevención, con incentivos distintos: la que teme un accidente para y asume el coste; la que tiene plazos y penalizaciones sigue. Eso lleva a sindicatos y patronales a hablar de quién asume las horas no trabajadas, una discusión mucho más probable en esta fase que cualquier dato de empleo.'
+    dato: El Real Decreto-ley 4/2023 obliga a adaptar las condiciones del trabajo al aire libre, incluida la reducción o modificación de horas, cuando la AEMET o el órgano autonómico emiten aviso naranja o rojo por fenómenos meteorológicos adversos.
+    fuente: https://elderecho.com/impacto-prohibicion-trabajar-al-aire-libre-con-condiciones-meteorologicas-extremas
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - empleo
+    - empresas
+    - relaciones_laborales
+    id: economista/h2/5
+  reacciona_a:
+  - disruptor/h1/3
+  - disruptor/h1/4
+  - disruptor/h1/2

@@ -1,0 +1,63 @@
+intervencion:
+  agente: medios
+  tramo: h2
+  afirmaciones:
+  - texto: 'El rumor de que el cambio no afecta a América empieza a caer en la segunda hora desde el sur, no desde Estados Unidos: en Brasil y en el Cono Sur ya es de día y medios, presentadores matinales y usuarios brasileños y argentinos publican los primeros testimonios americanos en primera persona. Las redacciones de Estados Unidos, aún en turno de noche, pasan a citar a Brasil como prueba de que el fenómeno ha llegado al continente, y el relato de la ola que avanza hacia el oeste se reformula en lugar de desaparecer: ahora se dice que llega con el amanecer y se sigue franja a franja.'
+    mecanismo: 'A las 11:00 de Madrid (10:00 UTC) son las 7:00 en São Paulo, y allí amanece hacia las 5:15 en noviembre, así que hay luz solar con UV-A desde hace casi dos horas. Los programas matinales de televisión brasileños están en emisión y tienen equipos en la calle. Una explicación geográfica falsa no muere con un desmentido sino que se adapta: la coincidencia entre amanecer y percepción encaja con la idea de la ola, y los mapas de franja solar se convierten en el formato que la confirma a ojos del público, aunque lo único que avanza es la luz.'
+    dato: En São Paulo amanece a las 05:14 el 15 de noviembre de 2026; São Paulo está en UTC-3, por lo que las 10:00 UTC son las 07:00 locales.
+    fuente: https://www.weather2travel.com/brazil/sao-paulo/november/?Units=1
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - medios
+    - sociedad
+    - politica
+    id: medios/h2/1
+  - texto: 'El hueco visual que dejaron las cámaras lo empieza a llenar en la segunda hora contenido real de archivo sacado de contexto: vídeos antiguos grabados con cámaras ultravioleta, como el de caras con protector solar que se ven oscuras o las fotografías de flores con patrones UV, se recirculan como así nos vemos ahora. Los medios serios los usan como ilustración con rótulo de archivo, pero en redes el rótulo se pierde y se comparten como capturas del martes.'
+    mecanismo: Existe un archivo amplio y ya viral de fotografía UV, porque se usó durante años en campañas de protección solar y divulgación sobre la visión de insectos. Es material auténtico, con autor y fecha, lo que permite a un medio publicarlo cumpliendo la regla de la fuente. Pero una cámara UV traduce el ultravioleta a grises o falsos colores, no a lo que ahora percibe el ojo, y al recortarse y reenviarse pierde la explicación. Como coincide con lo que la gente nota en la piel con crema, parece una confirmación y circula más que cualquier montaje inventado.
+    dato: En 2014 el vídeo de Thomas Leveritt How the sun sees you, grabado con cámara ultravioleta y que muestra el protector solar como manchas oscuras en la cara, se hizo viral y lo recogieron medios generalistas.
+    fuente: https://petapixel.com/2014/08/14/this-incredible-short-film-shows-what-your-aging-skin-looks-like-to-a-uv-camera
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - medios
+    - salud
+    - sociedad
+    id: medios/h2/2
+  - texto: 'Los medios generalistas convierten el comunicado de la sociedad oftalmológica en su fuente única y lo estiran: en la segunda hora titulan como si fuera una guía práctica (los oftalmólogos explican qué ves y qué hacer) y lo mezclan en el mismo directo con consejos de farmacéuticos, ópticos y políticos locales. El resultado es que la recomendación de la sociedad, que solo describe, se cita como aval de recomendaciones que no ha dado, incluidas las contradictorias sobre ponerse o quitarse gafas con filtro UV.'
+    mecanismo: Es la única fuente técnica con nombre institucional disponible y la redacción necesita cumplir la regla de la fuente para pasar de contar lo que ve a decir qué hacer, que es lo que más audiencia retiene. Sin rueda de prensa del Gobierno ni posición de la OMS, el periodista atribuye a la fuente más fiable lo que oye de fuentes menos fiables en el mismo directo, y el titular de servicio se escribe antes de que exista el contenido que promete. Eso obliga a la sociedad a precisar públicamente qué no ha dicho.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - medios
+    - salud
+    - politica
+    id: medios/h2/3
+  - texto: Las unidades de verificación publican en la segunda hora sus primeros desmentidos, pero solo pueden atacar con eficacia los bulos sanitarios de ceguera y 5G apoyándose en el comunicado oftalmológico; los montajes de colores nuevos no los pueden desmentir con prueba visual, porque nadie puede enseñar cómo se ve de verdad. Su desmentido tipo es una pieza que dice que ninguna cámara puede captarlo, lo que deja sin refutar el contenido concreto y llega a mucha menos gente que el bulo.
+    mecanismo: La verificación funciona contrastando una afirmación con una referencia comprobable. Para el daño ocular ya hay una voz técnica que citar; para la apariencia de los colores nuevos no existe referencia, solo testimonios que no coinciden entre personas. Además lo falso y novedoso se difunde más rápido y más lejos que lo verdadero, y el desmentido parte en desventaja aunque sea correcto.
+    dato: Un análisis de unas 126.000 cascadas de noticias en Twitter entre 2006 y 2017 halló que la información falsa se difundía más lejos, más rápido y más ampliamente que la verdadera, sobre todo por su novedad.
+    fuente: https://www.media.mit.edu/publications/the-spread-of-true-and-false-news-online/
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - medios
+    - salud
+    - sociedad
+    id: medios/h2/4
+  - texto: Las grandes plataformas no retiran todavía los bulos de ceguera en la segunda hora, pero sí empiezan a colocar paneles informativos genéricos en las búsquedas y etiquetas que remiten a organismos sanitarios que no han dicho nada sustantivo. Ese gesto se convierte en munición para el agitador, que lo presenta en su canal propio como la prueba de que ya empieza la censura, antes de que se haya retirado nada.
+    mecanismo: Las plataformas necesitan mostrar a anunciantes y reguladores que actúan, y el panel informativo es la herramienta que pueden activar sin una pauta oficial contra la que juzgar el contenido. Pero el panel apunta a fuentes que solo dicen que están recabando información, así que no informa y sí señala. Para quien vive de la historia de culpables, una etiqueta visible es más útil que una retirada real, porque la puede enseñar sin que su contenido desaparezca.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - medios
+    - tecnologia
+    - politica
+    id: medios/h2/5
+  reacciona_a:
+  - disruptor/h1/3
+  - oftalmologa/h1/5
+  - agitador/h1/3

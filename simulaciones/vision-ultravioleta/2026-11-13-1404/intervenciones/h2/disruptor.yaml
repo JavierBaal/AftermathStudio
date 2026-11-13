@@ -1,0 +1,64 @@
+intervencion:
+  agente: disruptor
+  tramo: h2
+  afirmaciones:
+  - texto: 'En la segunda hora aparecen las primeras fotos que de verdad captan el ultravioleta, hechas por aficionados a la fotografía UV, laboratorios forenses y astrofotógrafos con cámaras modificadas de espectro completo. En vez de cerrar el debate lo empeoran: como se muestran en falso color, no coinciden con lo que la gente ve, y una parte del público las toma por montajes iguales a los filtros falsos de la primera hora.'
+    mecanismo: Los sensores de silicio captan algo de UV-A, pero las cámaras de serie llevan un filtro que lo bloquea. Las cámaras modificadas, con un filtro que solo deja pasar el UV, sí lo registran. El problema es que una pantalla solo puede mostrar colores visibles, así que la imagen UV se traduce a una paleta elegida por quien la procesa. Cada fotógrafo la representa con colores distintos y ninguno coincide con la sensación nueva del espectador. Después de una hora de montajes, el público ya desconfía de cualquier imagen de colores raros y no distingue una foto UV auténtica de un filtro.
+    dato: En fotografía ultravioleta no hay un balance de blancos correcto para representar el UV como imagen visible, y las imágenes UV se muestran en falso color.
+    fuente: https://savazzi.net/photography/uv-white-balance.html
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - medios
+    - tecnologia
+    - desinformacion
+    id: disruptor/h2/1
+  - texto: 'En comercios con luz natural de la zona euro, cajeros y clientes notan que los billetes se ven distintos en el canal nuevo: las fibras y tintas de seguridad forman dibujos que antes no se veían, y los billetes impresos en papel corriente no se parecen a los auténticos. Hay rechazos de billetes buenos que parecen raros, algún billete falso detectado sin máquina y llamadas a los bancos centrales para preguntar si el dinero sigue siendo válido.'
+    mecanismo: 'Los billetes en euros llevan fibras y tintas que reaccionan al ultravioleta, y su papel no brilla bajo UV, a diferencia del papel de oficina con blanqueantes ópticos que suelen usar los falsificadores caseros. Hasta ahora esa diferencia solo la veía quien tenía una lámpara UV. Con luz solar en el escaparate o junto a la puerta, cualquiera percibe dibujos y tonos que no esperaba. Sin una guía, se mezclan dos reacciones contrarias: desconfiar del billete auténtico porque se ve extraño y descubrir de golpe el falso que antes pasaba.'
+    dato: Según la guía del BCE, bajo luz ultravioleta el papel de los billetes en euros no brilla.
+    fuente: https://www.ecb.europa.eu/euro/pdf/material/Quick_Guide_EN_Specimen.pdf
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - economia
+    - comercio
+    - seguridad
+    id: disruptor/h2/2
+  - texto: Mientras las autoridades sanitarias siguen sin pauta, mucha gente, sobre todo adolescentes y jóvenes, se lava la cara o deja de ponerse protector solar y maquillaje con filtro porque la hace verse oscurecida a manchas. Los dermatólogos empiezan a advertir en medios y redes que quitarse el protector para verse bien es un riesgo para la piel, y ese mensaje compite con la voz de los oftalmólogos.
+    mecanismo: La vergüenza social actúa antes que el riesgo sanitario, que es invisible y aplazado. Si el protector deja manchas oscuras a ojos de los demás, quitárselo resuelve al instante un problema de imagen, mientras que el daño solar se paga años después. Entre adolescentes, que ya comparan su físico en el canal nuevo, el incentivo es todavía más fuerte. Los dermatólogos ven en esto un riesgo concreto y, como nadie ha dicho nada oficial, salen por su cuenta, lo que añade otra recomendación sanitaria en un espacio ya saturado.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - sociedad
+    - cosmetica
+    - educacion
+    id: disruptor/h2/3
+  - texto: 'Arranca una segunda ola de compra que nadie esperaba: no de gafas para bloquear el ultravioleta, sino de linternas UV, lámparas de luz negra y lámparas de uñas para verlo en interiores. Se agotan en tiendas en línea y en bazares, y aparecen los primeros avisos de gente que se ilumina los ojos o la cara de otros con ellas para probar.'
+    mecanismo: Lo nuevo solo se ve fuera o junto a ventanas, y en casas y oficinas con LED desaparece. Quien quiere seguir viéndolo, enseñárselo a otros o comprobar qué brilla en su casa necesita una fuente de UV-A propia. Esos aparatos son baratos y estaban ya en el mercado para uñas, detección de billetes o fiestas. En América, todavía de noche, son la única forma de comprobar el fenómeno antes del amanecer. Mirar de cerca una fuente UV concentrada es justo el uso que sus fabricantes desaconsejan, y la curiosidad empuja a hacerlo.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - comercio
+    - salud
+    - consumo
+    id: disruptor/h2/4
+  - texto: 'La experiencia se divide por el tipo de cristal del edificio: en oficinas modernas con vidrio laminado o de baja emisividad junto a la ventana no se ve casi nada nuevo, y en casas, colegios y comercios con cristal sencillo antiguo sí. Esto genera en la segunda hora una lectura falsa de que el fenómeno se está apagando o afecta a unos sí y a otros no, y empuja a trabajadores de oficina a salir a la calle en plena hora de más deslumbramiento.'
+    mecanismo: Los vidrios laminados y muchos recubrimientos de control solar filtran mucho más UV-A que el cristal sencillo, igual que ocurre en el coche entre parabrisas y ventanillas. Quien trabaja en un edificio moderno se asoma a la ventana, no ve lo que cuentan en redes, y lo interpreta como fallo propio o como que el efecto ya pasa. Para comprobarlo sale fuera, justo cuando el sol se acerca al mediodía, y suma consultas por deslumbramiento. La misma diferencia alimenta el relato de que el fenómeno es desigual o selectivo.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: inferencia
+    areas_afectadas:
+    - trabajo
+    - salud
+    - desinformacion
+    id: disruptor/h2/5
+  reacciona_a:
+  - medios/h1/2
+  - oftalmologa/h1/3
+  - adolescente/h1/5

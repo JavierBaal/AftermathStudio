@@ -1,0 +1,68 @@
+intervencion:
+  agente: agitador
+  tramo: h2
+  afirmaciones:
+  - texto: 'En la hora 2 el agitador convierte las manchas oscuras del protector solar en su tema estrella: presenta en directo, en forma de preguntas, que si la crema se ve así es porque llevamos años poniéndonos algo que no conocíamos, y mezcla los testimonios de piel manchada con el viejo discurso contra los filtros solares que ya circulaba en redes. Parte de su audiencia joven anuncia que deja de usar protector, justo en las zonas y horas de más sol.'
+    mecanismo: 'Es el único elemento del fenómeno que todo el mundo puede comprobar en la cara de otro sin cámara, y que encaja con una desconfianza previa hacia los filtros solares que ya existía entre los jóvenes. El agitador no necesita inventar nada visual: el hecho físico (el filtro absorbe UV-A y se ve oscuro) es real y él solo cambia la interpretación. Además, culpar a un producto cotidiano de grandes marcas le da un villano concreto sin nombrar a personas, lo que reduce su riesgo de sanción. Como la sociedad oftalmológica solo ha dado un marco descriptivo y no hay guía dermatológica, nadie le corrige en la hora.'
+    dato: 'Encuesta de la Academia Americana de Dermatología de 2024: el 28 % de los adultos de la generación Z dice que broncearse le importa más que prevenir el cáncer de piel y el 37 % solo usa protector cuando alguien insiste.'
+    fuente: https://www.aad.org/news/gen-z-adults-at-risk-skin-cancer
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - salud
+    - redes
+    - consumo
+    - jovenes
+    id: agitador/h2/1
+  - texto: 'El agitador se monta sobre el destape de las gafas sin filtro y da la vuelta a la recomendación técnica: sugiere que las gafas con filtro UV son lo que interesa que lleve la gente para que no vea lo que hay que ver, y anima a su audiencia a quitárselas en exteriores. Esto choca de frente con oftalmólogos y ópticas y prolonga el deslumbramiento en sus seguidores, que siguen llegando a urgencias.'
+    mecanismo: 'En la hora 1 se ha visto a simple vista que muchas etiquetas mentían (gafas baratas sin filtro), lo que hace creíble a ojos de su audiencia la idea de que la industria óptica no es de fiar. Las gafas con filtro reducen a la vez el deslumbramiento y la percepción de los colores nuevos, así que el agitador puede presentar la protección como una forma de quitarte algo. Ese marco le favorece: mantiene la experiencia del fenómeno intensa y emocional, que es lo que le da audiencia, y le enfrenta a un enemigo con intereses comerciales visibles (las cotizaciones de óptica que se disparan).'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - consumo
+    - redes
+    - mercados
+    id: agitador/h2/2
+  - texto: 'Con América aún de noche (en Ciudad de México y Nueva York es de madrugada en la hora 2), el agitador cambia su emisión para captar a la audiencia hispanohablante de América que se despierta: no afirma que el fenómeno no llegue al continente, sino que plantea una apuesta sin riesgo para él. Si al amanecer lo ven, era algo planificado y escalonado; si lo ven distinto, es que a ellos les han hecho otra cosa. Sus canales propios suman suscriptores americanos antes de que allí haya ninguna cobertura local propia.'
+    mecanismo: El rumor geográfico ya está en el canon y solo el amanecer lo desmiente. Un agitador que vive de la credibilidad ante su audiencia no se ata a una predicción que puede caer en horas; formula el marco para que cualquier resultado lo confirme. Las redacciones americanas están en turno de noche con plantilla mínima, de modo que quien emite en directo en su idioma llega antes que cualquier medio local, y el público que despierta recibe el relato ya interpretado.
+    dato: Las afirmaciones falsas tienen un 70 % más de probabilidad de ser compartidas que las verdaderas (estudio de Vosoughi, Roy y Aral en Science, 2018, sobre Twitter).
+    fuente: https://mitsloan.mit.edu/press/false-news-spreads-widely-and-easily
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - redes
+    - medios
+    - america
+    - politica
+    id: agitador/h2/3
+  - texto: 'Cuando algunos ministerios de Sanidad empiezan a publicar mensajes de que el deslumbramiento es transitorio, la plataforma grande etiqueta o limita uno de los clips del agitador sobre daño ocular. El agitador no lo esconde: lo exhibe en sus canales propios como prueba de que le censuran por contar lo que pasa, y pide a su audiencia que le siga allí y que done para el directo de la tarde.'
+    mecanismo: 'Las plataformas moderan contra la pauta sanitaria oficial; en cuanto aparece un primer mensaje de Sanidad, aunque sea solo de calma, tienen algo contra lo que comparar y actúan sobre el contenido más claramente dañino, que es el que confunde molestia con lesión. Para el agitador la sanción es un activo: confirma ante su audiencia la tesis del silencio deliberado y empuja la migración a canales sin moderación, donde controla la relación y el cobro. Por eso modera su versión en la plataforma grande pero no la retira del todo: necesita la visibilidad para captar y el castigo para fidelizar.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - redes
+    - salud
+    - medios
+    id: agitador/h2/4
+  - texto: 'Para el directo de la tarde el agitador busca autoridad prestada: anuncia como invitados a un médico o científico de fuera del consenso y a varios seguidores que dicen haber perdido vista, y pide a su audiencia que lleve a urgencias el móvil grabando para documentar cómo les atienden. Algunos centros de salud y urgencias oftalmológicas registran pacientes que graban la consulta y exigen pruebas, lo que alarga las esperas.'
+    mecanismo: 'Sin imágenes del fenómeno (las cámaras no lo captan), la credibilidad depende del testimonio y del título: un invitado con bata compensa la falta de pruebas y le permite decir más sin decirlo él. Convertir a los seguidores en reporteros dentro de los centros sanitarios le da contenido gratis y continuo, y cualquier respuesta seca o espera larga de un sanitario saturado se lee como prueba de que el sistema oculta algo. Cada vídeo de ese tipo alimenta el directo de la tarde y mantiene la incertidumbre que le da audiencia frente a cualquier explicación que la normalice.'
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - salud
+    - redes
+    - medios
+    id: agitador/h2/5
+  reacciona_a:
+  - oftalmologa/h1/5
+  - disruptor/h1/2
+  - disruptor/h1/4
+  - medios/h1/5
+  - disruptor/h1/3

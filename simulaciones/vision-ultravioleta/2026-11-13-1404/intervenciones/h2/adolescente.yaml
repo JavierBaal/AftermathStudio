@@ -1,0 +1,65 @@
+intervencion:
+  agente: adolescente
+  tramo: h2
+  afirmaciones:
+  - texto: 'Entre las once y las doce el instituto manda un mensaje a las familias diciendo que las clases siguen dentro y que no hace falta recoger a nadie, pero llega tarde: la mitad de mi clase ya se ha ido. Muchos de los que se van no se quedan en casa, sino que quedan con amigos en la calle o en una terraza para mirar, justo al sol.'
+    mecanismo: El instituto no puede decir nada hasta que alguien de arriba le diga qué hacer, y Sanidad no ha dicho nada concreto. Mientras, mis padres se asustan con lo que leen en el grupo de familias y vienen a por mí. Pero en casa, con la luz del LED, no se ve casi nada nuevo, y mis padres vuelven al trabajo o se ponen a ver la tele. Lo interesante está fuera, y si tus amigos están quedando y tú no vas, te lo pierdes. Así que sacarnos del instituto por seguridad acaba poniéndonos más al sol que si nos hubieran dejado en clase.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - educacion
+    - familias
+    - salud
+    id: adolescente/h2/1
+  - texto: 'Empieza entre los de mi edad la moda de escribir o dibujar con crema solar en la piel o en una cartulina mensajes que solo se ven con los ojos nuevos: nombres, corazones, insultos. Se hace junto a la ventana o en la calle y se cuenta en redes como algo que tienes que ver en persona.'
+    mecanismo: Ya sabemos que la crema solar se ve oscura con los colores nuevos, así que cualquiera puede probarlo con lo que tiene en la mochila o en el baño. Como la cámara no lo coge, el mensaje es secreto para el móvil pero visible para quien está delante, y eso lo hace perfecto para declaraciones, bromas y también para meterse con alguien sin que quede grabado ni lo puedan denunciar con captura.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - redes_sociales
+    - educacion
+    - convivencia
+    id: adolescente/h2/2
+  - texto: Muchas chicas se quitan el maquillaje y la crema hidratante en el baño del instituto o al llegar a casa porque los demás les dicen que tienen la cara manchada, y algunas se niegan a salir a la calle o a hacerse fotos con el grupo hasta saber cómo se ven.
+    mecanismo: La base de maquillaje y muchas cremas llevan filtro, y a ojos de los demás se ven oscuras a parches. A mi edad lo peor que te puede pasar es que comenten tu cara, y basta con que una persona popular diga que alguien parece sucia para que todas corran al espejo. Como no hay nadie que explique que es solo la crema, la reacción más rápida es quitársela, aunque luego salgamos al sol sin protección.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - autoestima
+    - consumo
+    - redes_sociales
+    id: adolescente/h2/3
+  - texto: 'Las gafas de sol pasan a ser cosa de estatus en mi grupo: quien tiene unas buenas que bloquean el ultravioleta las presta o presume, y quien lleva unas baratas que dejan pasar los colores queda en evidencia delante de todos. Algunos dicen que prefieren las baratas para no perderse los colores, y se crea un bando de los que se protegen y otro de los que no.'
+    mecanismo: Ahora cualquiera puede comprobar mirando si unas gafas filtran o no, así que la marca deja de ser solo un logo y se nota en el momento. Como en las tiendas ya no quedan, tener unas buenas es tener algo que los demás quieren. Y como nadie oficial ha dicho si hay que llevarlas o quitárselas, cada uno elige lo que le hace quedar mejor, y quitárselas para ver más parece de valientes.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - consumo
+    - salud
+    - redes_sociales
+    id: adolescente/h2/4
+  - texto: Alguien conocido de mi instituto sube un vídeo con un filtro de colores diciendo que así se ve de verdad, consigue muchísimas visitas en poco rato y luego en los comentarios la gente de clase le acusa de mentir porque lo que ellos ven no se parece. Aun así el vídeo sigue circulando fuera del instituto como si fuera real, y la cita del directo de la tarde del agitador se comparte en los grupos como plan para ver juntos.
+    mecanismo: Subir lo primero algo que parezca mostrar los colores da muchas visitas, y eso a mi edad es estatus. Los que lo conocen pueden comparar con lo que ven delante y pillar el montaje, pero quien lo ve lejos no tiene con qué comparar y se lo cree. El directo largo del agitador se convierte en un plan porque nadie oficial ha quedado a ninguna hora para explicar nada, y verlo juntos es otra forma de estar en el grupo, aunque muchos digamos que es para reírnos de él.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - redes_sociales
+    - desinformacion
+    - medios
+    id: adolescente/h2/5
+  reacciona_a:
+  - disruptor/h1/2
+  - disruptor/h1/4
+  - medios/h1/2
+  - agitador/h1/5
