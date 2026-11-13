@@ -1,0 +1,59 @@
+intervencion:
+  agente: politico
+  tramo: h1
+  afirmaciones:
+  - texto: En España el suceso pilla al Gobierno con el Consejo de Ministros ordinario convocado esa misma mañana de martes; antes de las 11:00 Moncloa suspende el orden del día previsto y lo convierte en reunión de seguimiento, y la rueda de prensa posterior se retrasa sin hora fija.
+    mecanismo: El Consejo de Ministros se reúne de forma ordinaria los martes por la mañana, así que los ministros ya están juntos o de camino. Cancelar la reunión daría imagen de descontrol, y mantener la rueda de prensa habitual sin nada que decir sería peor. La salida que protege la legitimidad es reconvertir la sesión y aplazar la comparecencia hasta tener algo respaldado por los técnicos.
+    dato: El Consejo de Ministros celebra habitualmente sus reuniones ordinarias los martes.
+    fuente: https://www.lamoncloa.gob.es/consejodeministros/Paginas/funciones/index.aspx
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - gobierno
+    - comunicacion_institucional
+    id: politico/h1/1
+  - texto: En la primera hora ningún gobierno con instituciones sanitarias funcionales declara un estado de excepción o alarma; lo que sale son comunicados de 'calma, estamos evaluando' firmados por ministerios de Sanidad, sin medidas obligatorias.
+    mecanismo: Las medidas excepcionales exigen base legal y respaldo técnico. En España la Ley Orgánica 4/1981 permite el estado de alarma por crisis sanitarias como epidemias, pero aquí no hay contagio, ni enfermos graves, ni nada que restringir con fundamento; ningún técnico puede firmar todavía que haya un riesgo que justifique limitar derechos. Declarar algo ahora y tener que rectificar después es la peor jugada en legitimidad, así que el incentivo es comunicar sin decretar.
+    dato: El artículo 4 de la Ley Orgánica 4/1981 prevé el estado de alarma ante crisis sanitarias, tales como epidemias y situaciones de contaminación graves.
+    fuente: https://www.boe.es/eli/es/lo/1981/06/01/4
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - gobierno
+    - derecho
+    - sanidad
+    id: politico/h1/2
+  - texto: La OMS no convoca todavía su Comité de Emergencias del Reglamento Sanitario Internacional en la primera hora; se limita a una nota de que está recabando información de los Estados miembros, y varios gobiernos se escudan en esa espera para no pronunciarse.
+    mecanismo: 'El mecanismo del RSI se activa a partir de notificaciones de los Estados y de una evaluación de riesgo, y el Director General convoca el comité tras esa evaluación, no en minutos. Un fenómeno simultáneo en todo el planeta no tiene país de origen que notifique primero. A los gobiernos les conviene que haya una autoridad internacional ''evaluando'': les da una razón respetable para no comprometerse con nada que luego tengan que rectificar.'
+    dato: Conforme al Reglamento Sanitario Internacional, el Director General de la OMS convoca un Comité de Emergencias para asesorar sobre si un evento constituye una emergencia de salud pública de importancia internacional.
+    fuente: https://paho.org/sites/default/files/2021-03/labs-reg-sanitario2005.pdf
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - organismos_internacionales
+    - sanidad
+    - diplomacia
+    id: politico/h1/3
+  - texto: 'La oposición en España rompe el silencio institucional antes que el Gobierno: en la primera hora algún portavoz exige en redes una comparecencia inmediata del presidente y critica que ''el Gobierno no dice nada'', y algún político autonómico o local se adelanta con una recomendación propia (no salir al sol, gafas de sol) sin base técnica.'
+    mecanismo: La oposición gana con cada silencio del Gobierno y no tiene la restricción de decir solo lo que respaldan los técnicos, así que puede moverse antes. Los presidentes autonómicos y alcaldes compiten por visibilidad y tienen competencias en protección civil y salud pública; recomendar gafas de sol al ver gente deslumbrada en la calle es barato y parece responsable, aunque luego choque con lo que diga Sanidad.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - politica
+    - comunicacion_institucional
+    - administracion_autonomica
+    id: politico/h1/4
+  - texto: Algún gobierno, previsiblemente uno con poco control institucional sobre sus técnicos, aprovecha la primera hora para atribuir el fenómeno a una acción hostil o lo presenta como señal favorable a su régimen, y eso obliga a otras cancillerías a decidir si responden o lo ignoran.
+    mecanismo: Sin causa conocida, el vacío explicativo es una oportunidad para quien no rinde cuentas ante un cuerpo técnico independiente. Culpar a un enemigo exterior cohesiona a la población y adelanta el relato antes que los demás. Las democracias no pueden contestarlo con una explicación alternativa porque nadie la tiene, así que la respuesta probable es una desmentida genérica y tardía, lo que deja el primer relato internacional en manos del que exageró.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - diplomacia
+    - desinformacion
+    - politica_internacional
+    id: politico/h1/5
+  reacciona_a: []

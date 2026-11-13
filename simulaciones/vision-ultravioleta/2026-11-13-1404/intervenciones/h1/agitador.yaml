@@ -1,0 +1,60 @@
+intervencion:
+  agente: agitador
+  tramo: h1
+  afirmaciones:
+  - texto: En los primeros 20 minutos, el agitador abre un directo en sus canales propios de mensajería y en una plataforma grande, sin guion, grabando el cielo y objetos cotidianos con colores nuevos y pidiendo a sus seguidores que envíen vídeos. Se convierte en uno de los primeros nodos de agregación de testimonios en su idioma antes de que haya ninguna comparecencia oficial.
+    mecanismo: En un vacío informativo gana quien llega antes, y el agitador no necesita verificar ni coordinar con nadie, mientras gobiernos y organismos sanitarios tardan en convocar comités y redactar comunicados. Recoger vídeos de su audiencia le da contenido gratis y hace que sus seguidores sientan que participan.
+    dato: Las noticias falsas en Twitter llegaban a 1.500 personas unas seis veces más rápido que las verdaderas, sobre todo por la novedad y porque generaban sorpresa.
+    fuente: https://www.science.org/doi/10.1126/science.aap9559
+    confianza: alta
+    evidencia: inferencia
+    areas_afectadas:
+    - informacion
+    - redes_sociales
+    - confianza_institucional
+    id: agitador/h1/1
+  - texto: 'Hacia la media hora, el agitador pasa del asombro a la sospecha: plantea en directo, como preguntas abiertas, que alguien tenía que saberlo y que el silencio oficial es deliberado, y señala de forma difusa a gobiernos, laboratorios y grandes tecnológicas sin acusar a nadie con nombre propio.'
+    mecanismo: Su modelo de negocio premia la historia de culpables, pero hablar con preguntas y sin nombres concretos le permite sostener la credibilidad ante su audiencia y reducir el riesgo de que la plataforma lo sancione por desinformación o difamación. Como nadie conoce la causa, ninguna autoridad puede desmentirle en la primera hora.
+    dato: ''
+    fuente: ''
+    confianza: alta
+    evidencia: inferencia
+    areas_afectadas:
+    - confianza_institucional
+    - informacion
+    - politica
+    id: agitador/h1/2
+  - texto: El agitador traslada el grueso de su conversación a sus canales propios de mensajería y deja en la plataforma grande una versión más contenida, porque prevé moderación. Sus canales propios ganan suscriptores de forma visible durante la hora y reciben un pico de donaciones.
+    mecanismo: Las grandes plataformas tienen políticas contra la desinformación médica dañina; un fenómeno que afecta a la visión de todo el mundo entra en ese terreno y la moderación puede activarse rápido. Los canales propios no tienen ese freno, y los seguidores que temen perder el acceso al directo se mudan allí. El miedo y la sensación de exclusiva empujan la donación.
+    dato: YouTube prohíbe el contenido que contradice la orientación de las autoridades sanitarias locales o de la OMS sobre afecciones y sustancias concretas cuando supone riesgo de daño grave.
+    fuente: https://support.google.com/youtube/answer/13813322
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - plataformas
+    - redes_sociales
+    - economia_creadores
+    id: agitador/h1/3
+  - texto: Entre los vídeos que reenvía el agitador se cuelan testimonios de deslumbramiento y molestias en exteriores con mucho sol que él presenta como daño, sin distinguir fatiga visual de lesión. Una parte de su audiencia se encierra, se tapa los ojos o llama a urgencias oftalmológicas y centros de salud por síntomas que remitirían solos.
+    mecanismo: El deslumbramiento es real y cualquiera lo puede comprobar al salir a la calle a media mañana, lo que da verosimilitud inmediata al relato del agitador. Como en la primera hora no hay ninguna fuente oficial que diga que remite y no deja daño, el testimonio en primera persona pesa más que cualquier matiz y convierte una molestia transitoria en alarma sanitaria.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - sanidad
+    - informacion
+    - comportamiento_publico
+    id: agitador/h1/4
+  - texto: Al final de la hora, el agitador anuncia un directo largo para la tarde y promete exponer lo que no cuentan, con lo que fija una cita que obliga a otros creadores y a medios a reaccionar a su marco. Algunos medios recogen sus clips como muestra de la reacción en redes y le dan alcance fuera de su burbuja.
+    mecanismo: Programar un evento retiene a la audiencia mientras dura la incertidumbre y le asegura la siguiente ola de atención. Los medios generalistas, desbordados y sin explicación que dar, recurren a contenido viral para llenar la cobertura en directo, y al citarlo, aunque sea para criticarlo, amplifican su relato.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - medios
+    - informacion
+    - politica
+    id: agitador/h1/5
+  reacciona_a: []

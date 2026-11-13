@@ -1,0 +1,27 @@
+evaluacion:
+  tramo: h1
+  metricas:
+    - id: alarma_social
+      valor: 3
+      justificacion: "Hay cambios de conducta visibles en parte de la población de las zonas de día: compras que agotan las gafas de sol, una ola de consultas y urgencias, alumnos metidos dentro y padres que recogen a sus hijos. No llega a 4 porque no hay servicios colapsados ni protestas en varios países, y en América, que es de madrugada, apenas se nota."
+      apoyos: [h1-01, h1-03, h1-06, h1-10]
+    - id: confianza_institucional
+      valor: 2
+      justificacion: "La versión oficial casi no existe (comunicados de calma sin medidas, la OMS solo recaba información, sin guía práctica), y el relato lo marcan bulos, comercios, políticos con recomendaciones contradictorias y creadores, sobre todo entre los jóvenes. No es 1 porque aún no hay desconfianza mayoritaria declarada: es más vacío que rechazo. Para llegar a 3 haría falta una versión oficial concreta que conviva con la sospecha."
+      apoyos: [h1-05, h1-06, h1-07, h1-08, h1-09]
+    - id: relatos_en_competencia
+      valor: 3
+      justificacion: "Junto al marco descriptivo de la sociedad oftalmológica y los comunicados de calma conviven relatos alternativos con canales y audiencia propios (el directo del agitador, los bulos de ceguera y 5G, el rumor de que no ha llegado a América), y algunos medios amplifican al agitador. No es 4 porque no hay un relato oficial con cifras o pruebas que choque frontalmente con otro alternativo."
+      apoyos: [h1-01, h1-06, h1-07, h1-08, h1-09]
+    - id: respuesta_gobiernos
+      valor: comunicacion
+      justificacion: "Los ministerios de Sanidad emiten comunicados de calma sin medidas obligatorias y ningún gobierno declara alarma ni excepción. El cierre de patios lo deciden los propios centros, no los gobiernos, así que no llega a medidas sectoriales."
+      apoyos: [h1-05, h1-10]
+    - id: impacto_economico
+      valor: 3
+      justificacion: "Varios sectores se ven alterados a la vez: construcción, agricultura, reparto y transporte por carretera frenan; se agotan las gafas de sol y los valores de óptica sufren paradas técnicas. Está en el límite inferior del nivel porque los índices no caen en general y se pierden horas, no empleo. No es 4 porque no hay crisis de mercado ni intervención."
+      apoyos: [h1-02, h1-03, h1-04]
+    - id: adaptacion
+      valor: 2
+      justificacion: "Hay primeras pautas improvisadas y en parte seguidas (ponerse gafas de sol, refugiarse en interiores, parar en el arcén), pero son contradictorias y no hay guía práctica oficial, así que mucha gente acaba en consulta por síntomas que no son lesión. Para llegar a 3 faltan pautas claras con respaldo técnico."
+      apoyos: [h1-03, h1-04, h1-05, h1-06, h1-08, h1-10]

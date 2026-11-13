@@ -1,0 +1,49 @@
+intervencion:
+  agente: disruptor
+  tramo: h1
+  afirmaciones:
+  - texto: En la primera hora, quien conduce de día en Europa, África y Oriente Medio ve el parabrisas como un filtro oscuro y teñido mientras las ventanillas laterales dejan pasar la luz nueva. Ese contraste, sumado al deslumbramiento lateral, provoca maniobras bruscas y paradas en arcén, y en ciudad aparece una oleada de alcances leves.
+    mecanismo: El vidrio laminado del parabrisas absorbe casi todo el UV-A y el vidrio templado de las laterales mucho menos. Con visión UV, el conductor percibe de golpe dos ventanas de color y brillo distintos en el mismo campo visual. El sol de media mañana entra por los laterales y deslumbra justo en la zona de visión periférica que se usa para cambiar de carril. Muchos frenan para entender qué les pasa en los ojos.
+    dato: Los parabrisas bloquearon de media el 96 % del UV-A y las ventanillas laterales el 71 % (Boxer Wachler, JAMA Ophthalmology, 2016).
+    fuente: https://safetyandhealthmagazine.com/articles/14075-vehicle-side-windows-offer-little-protection-from-suns-rays-study
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - trafico
+    - seguridad_vial
+    - seguros
+    id: disruptor/h1/1
+  - texto: 'Quien lleva protector solar o maquillaje con filtro aparece a ojos de los demás con la cara oscurecida a manchas. Durante la primera hora esto se toma como síntoma: hay gente que acude a farmacias y urgencias por manchas en la piel que en realidad son crema mal extendida.'
+    mecanismo: Los filtros solares están hechos para absorber UV-A, así que en UV la zona tratada refleja poco y se ve oscura, y las zonas con poca crema se ven claras. Nadie tiene todavía un marco para interpretar lo que ve en la cara de otro, y un suceso corporal inexplicable lleva a asociar cualquier cambio visible con enfermedad. Muchas cremas hidratantes y bases de maquillaje llevan filtro, así que afecta a mucha gente que no cree llevar protector.
+    dato: Con fotografía UV, la piel con protector solar aparece oscura o negra porque el producto absorbe el ultravioleta.
+    fuente: https://gizmodo.com/the-best-way-to-apply-sunscreen-on-your-face-revealed-1828666401
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - sanidad
+    - cosmetica
+    - percepcion_social
+    id: disruptor/h1/2
+  - texto: En América es de madrugada en la primera hora, y casi nadie allí puede comprobar el fenómeno con sus propios ojos. Se conoce por noticias de Europa, África y Asia, y circula el rumor de que el cambio no afecta al continente americano o que llega en una ola que avanza hacia el oeste. Las pocas confirmaciones locales salen de discotecas con luz negra, mataderos de insectos y lámparas de uñas.
+    mecanismo: Sin sol no hay UV-A ambiental, así que la nueva capacidad no tiene nada que percibir y la gente que despierta y mira a su alrededor no nota diferencia. Las únicas fuentes de UV-A a esa hora son artificiales y minoritarias. La ausencia de experiencia propia, sumada a noticias de otros continentes, alimenta una explicación geográfica falsa que solo se desmiente al amanecer. A las 10:00 de Madrid son las 4:00 en Nueva York.
+    dato: ''
+    fuente: ''
+    confianza: alta
+    evidencia: inferencia
+    areas_afectadas:
+    - informacion
+    - desinformacion
+    - geopolitica
+    id: disruptor/h1/3
+  - texto: 'Durante la primera hora, la gente con gafas de sol descubre a simple vista si sus lentes filtran de verdad el ultravioleta. Las gafas baratas sin filtro UV quedan en evidencia y empiezan las primeras quejas públicas contra marcas y vendedores. Los usuarios de gafas graduadas de policarbonato ven el mundo dividido: sin colores nuevos a través de la lente y con ellos por los bordes.'
+    mecanismo: Una lente con filtro UV400 absorbe el UV-A y se percibe como opaca o teñida en el canal nuevo, y una lente sin filtro deja pasar los colores nuevos. Quien se pone gafas para aliviar el deslumbramiento comprueba al instante si funcionan. Es la primera vez que el consumidor puede verificar sin instrumentos una promesa de etiqueta. El policarbonato absorbe el UV por la naturaleza del material, lo que crea una frontera visible entre la lente y la visión periférica.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - consumo
+    - optica
+    - regulacion
+    id: disruptor/h1/4
+  reacciona_a: []

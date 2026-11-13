@@ -1,0 +1,61 @@
+estado_del_mundo:
+  tramo: h1
+  resumen: "En la primera hora el fenómeno se vive sobre todo en exteriores soleados de Europa, África y Oriente Medio, mientras América duerme y recibe un relato ya formado por otros, con el rumor de que allí no ha llegado. Gobiernos, Sanidad y la OMS comunican sin decretar nada, y ese vacío lo ocupan recomendaciones contradictorias, bulos sanitarios y creadores como el agitador, lo que empuja a la gente a consultas y urgencias por deslumbramiento, diferencias de percepción y manchas de protector solar. El deslumbramiento cruza áreas: frena el tráfico y el trabajo al aire libre, vacía las existencias de gafas de sol, mueve en bolsa a los valores de óptica y hace que los institutos metan a los alumnos dentro y algunos padres los recojan. Como las cámaras no captan los colores nuevos, lo que se comparte son relatos y montajes, lo que alimenta a la vez la desinformación y la frustración."
+  hechos_establecidos:
+    - id: h1-01
+      texto: "El fenómeno se nota sobre todo donde es de día con sol (Europa, África y Oriente Medio), que fijan el relato global de la primera hora. En América es de madrugada, casi nadie puede comprobarlo con sus propios ojos y circula el rumor de que el cambio no afecta al continente o que avanza en ola hacia el oeste; solo se desmentirá con el amanecer."
+      origen: [medios/h1/1, disruptor/h1/3]
+    - id: h1-02
+      texto: "No hay desplome generalizado de la renta variable europea, pero sí paradas técnicas por los mecanismos de protección de Euronext en valores de óptica, gafas, pantallas y cámaras, que se mueven bruscamente en ambas direcciones. Los fabricantes de gafas de sol se convierten en el termómetro del suceso, entre la apuesta por un pico de demanda y la duda de que sea transitorio."
+      origen: [economista/h1/1, economista/h1/2]
+    - id: h1-03
+      texto: "En las zonas de día se agotan las gafas de sol en farmacias, ópticas y gasolineras y aparecen reventas a precios inflados en línea, con la demanda americana aún por llegar. Al ponérselas, la gente comprueba a simple vista si filtran el ultravioleta: las baratas sin filtro quedan en evidencia y empiezan las quejas públicas contra marcas y vendedores."
+      origen: [economista/h1/3, disruptor/h1/4]
+    - id: h1-04
+      texto: "El cambio se concentra en exteriores y junto a ventanas; en interiores con LED todo se ve casi igual. En carretera, el contraste entre parabrisas, que filtra casi todo el UV-A, y ventanillas laterales, que dejan pasar más, sumado al deslumbramiento, provoca maniobras bruscas, paradas en arcén y alcances leves en ciudad. Construcción, agricultura, reparto y transporte por carretera frenan por seguridad: es pérdida de horas, no de empleo."
+      origen: [disruptor/h1/1, economista/h1/4, oftalmologa/h1/3]
+    - id: h1-05
+      texto: "Ningún gobierno declara estado de excepción o alarma: salen comunicados de calma de los ministerios de Sanidad sin medidas obligatorias, y la OMS solo dice que recaba información, sin convocar aún su Comité de Emergencias. En España el Consejo de Ministros del martes se reconvierte en reunión de seguimiento y la rueda de prensa se aplaza sin hora. El vacío lo ocupan la oposición, que exige comparecencia, y políticos autonómicos o locales, profesionales y comercios que lanzan recomendaciones contradictorias sin base técnica, incluida la de usar o quitarse gafas con filtro UV."
+      origen: [politico/h1/1, politico/h1/2, politico/h1/3, politico/h1/4, oftalmologa/h1/5]
+    - id: h1-06
+      texto: "Consultas oftalmológicas, farmacias y urgencias reciben una primera ola de personas alarmadas por síntomas que no son lesión: deslumbramiento presentado como daño por bulos de WhatsApp, TikTok y reenvíos del agitador (ceguera, encerrarse a oscuras, 5G), diferencias muy grandes de percepción entre personas que se leen como fallo propio, y la piel con protector solar o maquillaje con filtro, que a ojos ajenos se ve oscura a manchas."
+      origen: [medios/h1/3, adolescente/h1/3, agitador/h1/4, oftalmologa/h1/2, disruptor/h1/2, oftalmologa/h1/4]
+    - id: h1-07
+      texto: "Las cámaras y pantallas no muestran los colores nuevos, así que el primer formato viral es la frustración de que la cámara no ve lo que yo veo, junto con reacciones y descripciones exageradas. El hueco visual lo llenan filtros y montajes presentados como reales. Entre los jóvenes el relato lo construyen creadores, las plataformas apenas moderan porque no hay pauta oficial contra la que comparar, y aparecen anuncios oportunistas de gafas y gotas contra el ultravioleta."
+      origen: [medios/h1/2, adolescente/h1/2, medios/h1/5]
+    - id: h1-08
+      texto: "La sociedad oftalmológica es la primera voz técnica: difunde un comunicado que ancla el fenómeno en el precedente de las personas sin cristalino o con lentes intraoculares que dejan pasar el UV, que ya lo percibían como un azul o violeta blanquecino. Da un marco descriptivo, pero no una guía práctica."
+      origen: [oftalmologa/h1/1]
+    - id: h1-09
+      texto: "El agitador abre en minutos un directo que agrega vídeos de sus seguidores antes de cualquier comparecencia oficial, pasa hacia la media hora a sugerir con preguntas, sin nombres, que el silencio oficial es deliberado, y anuncia un directo largo por la tarde. Algunos medios recogen sus clips y lo amplifican fuera de su burbuja."
+      origen: [agitador/h1/1, agitador/h1/2, agitador/h1/5]
+    - id: h1-10
+      texto: "En los centros educativos las clases se paran porque alumnos y profesores lo viven a la vez; tras las quejas de deslumbramiento en patio y Educación Física se mete a todo el mundo dentro y algunos padres empiezan a recoger a sus hijos, de forma desigual."
+      origen: [adolescente/h1/1, adolescente/h1/4]
+  tensiones_abiertas:
+    - "Si la sociedad oftalmológica publica pronto una guía práctica o si el espacio lo siguen ocupando bulos, comercios y políticos con recomendaciones contradictorias."
+    - "Si las plataformas endurecen la moderación cuando haya una pauta sanitaria oficial, y si eso empuja a creadores como el agitador hacia canales propios."
+    - "Cómo reacciona América al amanecer: si su experiencia directa desmiente el rumor geográfico o llega ya filtrada por el relato europeo y el del agitador."
+    - "Si el mercado lee la demanda de gafas de sol como pico transitorio o como cambio duradero de la categoría."
+    - "Si algún gobierno atribuye el fenómeno a una acción hostil y obliga a otras cancillerías a responder."
+  contradicciones_resueltas:
+    - entre: [medios/h1/3, oftalmologa/h1/1]
+      decision: "Ambas se mantienen: la sociedad oftalmológica comunica un marco descriptivo, pero ningún organismo sanitario publica todavía una guía práctica que desmienta los bulos."
+      motivo: "Una sociedad científica no es la autoridad sanitaria; el comunicado describe lo que se ve, no dice qué hacer, así que el hueco práctico sigue abierto."
+    - entre: [medios/h1/5, politico/h1/2]
+      decision: "Hay comunicados de calma de Sanidad, pero las plataformas siguen sin un consenso oficial concreto contra el que moderar."
+      motivo: "Un mensaje genérico sin medidas ni orientación específica no sirve como referencia para las políticas de moderación, que se apoyan en orientaciones concretas de las autoridades sanitarias."
+    - entre: [agitador/h1/3, medios/h1/5]
+      decision: "Prevalece que las plataformas apenas moderan en la primera hora; no entra la migración masiva del agitador a sus canales propios por miedo a la moderación."
+      motivo: "El mecanismo de medios es más sólido: la propia norma citada por el agitador exige contradecir una orientación sanitaria oficial, que aún no existe, así que la moderación no puede activarse con rapidez."
+  descartadas:
+    - id: economista/h1/5
+      motivo: "Confianza baja, especulación y sin dato."
+    - id: politico/h1/5
+      motivo: "Confianza baja, especulación y sin dato; queda como tensión abierta."
+    - id: medios/h1/4
+      motivo: "Detalle de cobertura que amplía hechos ya establecidos (vacío explicativo, falta de expertos) sin añadir una consecuencia nueva."
+    - id: adolescente/h1/5
+      motivo: "Efecto local de convivencia, especulativo y sin dato; no cambia el rumbo del mundo en esta hora."
+    - id: agitador/h1/3
+      motivo: "Choca con la ausencia de moderación efectiva en la primera hora (ver contradicciones resueltas); el pico de suscriptores y donaciones es un detalle sin dato."

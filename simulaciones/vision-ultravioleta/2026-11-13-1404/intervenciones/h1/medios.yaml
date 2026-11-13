@@ -1,0 +1,64 @@
+intervencion:
+  agente: medios
+  tramo: h1
+  afirmaciones:
+  - texto: En la primera hora el relato global lo fijan Europa, África y Oriente Medio, que están a plena luz de la mañana o del mediodía; Asia oriental lo vive al atardecer y con menos efecto, y América está casi entera dormida, con las redacciones estadounidenses en turno de noche y plantilla mínima. América despertará dentro de unas horas ante un relato ya formado por otros, con titulares y bulos traducidos en lugar de experiencia propia.
+    mecanismo: Las 10:00 de Madrid son de madrugada en América y de tarde-noche en Asia oriental. El fenómeno se nota sobre todo con luz solar, que lleva ultravioleta, así que solo quien está de día al sol tiene algo llamativo que contar y grabar. Quien lo cuenta primero fija el encuadre, y quien despierta después lo recibe ya interpretado.
+    dato: ''
+    fuente: ''
+    confianza: alta
+    evidencia: inferencia
+    areas_afectadas:
+    - medios
+    - redes_sociales
+    - opinion_publica
+    - geopolitica_informativa
+    id: medios/h1/1
+  - texto: 'El primer formato viral no son imágenes de los colores nuevos sino quejas de que la cámara no los capta: millones de personas intentan grabar lo que ven y el móvil muestra lo de siempre. Esa frustración se vuelve meme (la cámara no ve lo que yo veo) y, a la vez, abre un vacío que se llena con montajes y filtros falsos que presumen de enseñar cómo se ve el ultravioleta y que se comparten como si fueran reales.'
+    mecanismo: 'Las cámaras de los móviles se diseñan para reproducir el espectro visible humano anterior, así que no hay forma rápida de documentar lo nuevo. Cuando la experiencia no se puede probar con imagen, la demanda de contenido visual la cubre quien inventa: creadores que buscan audiencia aplican filtros de color y los presentan como capturas auténticas.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - redes_sociales
+    - desinformacion
+    - tecnologia_consumo
+    id: medios/h1/2
+  - texto: 'Los bulos sanitarios corren más que cualquier mensaje oficial: cadenas de WhatsApp y vídeos cortos que dicen que la gente se está quedando ciega, que hay que encerrarse a oscuras o que ciertos remedios caseros protegen los ojos. El deslumbramiento real en exteriores sirve de prueba aparente, y el desmentido llega tarde porque ningún organismo sanitario tiene todavía nada que decir.'
+    mecanismo: Lo falso y novedoso se comparte más y más rápido que lo verdadero, y aquí todo es novedoso. El deslumbramiento y la fatiga visual existen y cada persona los nota en sí misma, lo que da credibilidad a la versión exagerada. Las autoridades sanitarias no publican sin conocimiento y en la primera hora no lo tienen, así que el hueco lo ocupan los mensajes alarmistas.
+    dato: En Twitter, las noticias falsas tenían un 70% más de probabilidad de ser retuiteadas que las verdaderas, y las verdaderas tardaban unas seis veces más en llegar a 1.500 personas; las respuestas a lo falso mostraban más sorpresa y asco.
+    fuente: https://news.mit.edu/2018/study-twitter-false-news-travels-faster-true-stories-0308
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - salud_publica
+    - desinformacion
+    - redes_sociales
+    - servicios_de_urgencias
+    id: medios/h1/3
+  - texto: Los medios serios abren directos en minutos, porque cada periodista es testigo y fuente de primera mano, pero no tienen expertos que expliquen nada. Llenan el directo con oftalmólogos que hablan de la fatiga visual, físicos que explican qué es el ultravioleta y llamadas a agencias espaciales y meteorológicas. La pregunta de si ha pasado algo con el Sol se convierte en el titular de la hora porque es la hipótesis que el público entiende, aunque nadie la confirme.
+    mecanismo: La regla de al menos una fuente se cumple sin esfuerzo cuando la propia redacción ve el fenómeno, y la presión por ser el primero empuja a publicar ya. Sin causa conocida, el medio busca al experto disponible más cercano al tema y formula preguntas en vez de afirmaciones. La asociación popular entre ultravioleta y Sol hace que esa pregunta enganche más que cualquier otra.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - medios
+    - ciencia
+    - opinion_publica
+    id: medios/h1/4
+  - texto: 'Entre los jóvenes el relato lo construyen creadores e influencers, no los medios, y las plataformas apenas moderan en esta primera hora: sus normas contra la desinformación sanitaria se apoyan en lo que dicen las autoridades, que aún callan. Solo retiran lo más claramente dañino, como retos de mirar al sol para entrenar la vista nueva, mientras ya aparecen anuncios oportunistas de gafas y gotas que prometen proteger del ultravioleta.'
+    mecanismo: Una parte grande de los jóvenes se informa sobre todo en redes y vídeo, donde el creador que reacciona en directo gana audiencia a cualquier redacción. Las políticas de moderación necesitan un consenso oficial contra el que comparar, y sin él solo actúan sobre daños evidentes. El miedo al deslumbramiento crea demanda inmediata que vendedores y estafadores aprovechan antes de que nadie la regule.
+    dato: Un 44% de los jóvenes de 18 a 24 años en el mundo dice que las redes sociales o de vídeo son su principal fuente de noticias, frente al 20% de los mayores de 55; el 58% teme no distinguir lo real de lo falso en internet.
+    fuente: https://www.journalism.co.uk/ten-talking-points-from-the-reuters-institute-digital-news-report-2025/
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - plataformas
+    - juventud
+    - desinformacion
+    - consumo
+    - fraude
+    id: medios/h1/5
+  reacciona_a: []

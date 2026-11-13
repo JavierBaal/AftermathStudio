@@ -1,0 +1,59 @@
+intervencion:
+  agente: economista
+  tramo: h1
+  afirmaciones:
+  - texto: Durante la primera hora no hay un desplome generalizado de la renta variable europea, pero sí paradas técnicas en valores concretos (óptica, gafas, pantallas, cámaras) por movimientos bruscos en ambas direcciones.
+    mecanismo: 'Las bolsas europeas llevan una hora abiertas cuando ocurre el suceso y son el único gran mercado de contado operando: Asia ya ha cerrado y Wall Street está en preapertura. No hay daño físico a fábricas, puertos ni balances, así que no existe un shock de flujos de caja que justifique vender índices enteros. La incertidumbre se concentra en sectores cuya demanda depende de la vista y la luz. Los mecanismos de protección de Euronext congelan durante unos minutos los valores que se mueven demasiado rápido. Eso frena las cascadas de órdenes automáticas, aunque genera titulares de que se suspende la cotización que algunos medios presentan como pánico.'
+    dato: En Euronext, los valores del CAC 40 y otros índices de referencia entran en periodo de reserva de al menos 3 minutos si el precio se mueve un 3 % frente a la última operación, y un 8 % frente al precio de apertura.
+    fuente: https://www.euronext.com/en/for-investors/market-quality/trading-safeguards
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - mercados financieros
+    - bolsa
+    id: economista/h1/1
+  - texto: 'Las acciones de los fabricantes de gafas de sol se convierten en el primer termómetro del suceso: el mercado anticipa un pico de demanda a corto plazo y, a la vez, duda sobre si la categoría cambia para siempre.'
+    mecanismo: 'El deslumbramiento en exteriores soleados crea una necesidad inmediata de protección, y la oferta de gafas de sol está muy concentrada en pocos grupos. Para un operador, el razonamiento rápido es comprar porque las ventas se dispararán. El razonamiento lento es más incierto: si las lentes actuales no filtran bien lo que ahora se percibe, o si el deslumbramiento remite en dos semanas, el pico se queda en transitorio y puede seguirle un periodo de existencias sobrantes. Esa pugna entre ambos razonamientos genera volatilidad en lugar de una tendencia clara.'
+    dato: EssilorLuxottica facturó 26.500 millones de euros en 2024, y las gafas de sol supusieron el 23 % de sus ingresos.
+    fuente: https://moodiedavittreport.com/essilorluxottica-records-solid-revenue-and-profits-growth-in-2024-despite-industry-headwinds/
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - mercados financieros
+    - consumo
+    - comercio minorista
+    id: economista/h1/2
+  - texto: En la franja del planeta donde es de día (Europa, África y Oriente Medio) se agotan en horas las existencias de gafas de sol en farmacias, ópticas y gasolineras, y en los mercados en línea aparecen reventas a precios inflados.
+    mecanismo: La demanda se multiplica de golpe y de forma simultánea, mientras que la reposición depende de cadenas de suministro con fabricación concentrada en Asia y plazos de semanas. Las tiendas físicas no suben precios en una hora, así que se vacían por cola. Los revendedores y los vendedores oportunistas de plataformas en línea, en cambio, sí ajustan el precio al instante. En América todavía es de noche y la demanda allí llegará con el amanecer, lo que da a los revendedores varias horas para acaparar.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - consumo
+    - comercio minorista
+    - cadenas de suministro
+    id: economista/h1/3
+  - texto: La productividad de los trabajos al aire libre cae en las zonas soleadas durante esta primera hora (construcción, agricultura, reparto, transporte por carretera), pero sería un error leerlo ya como un dato de empleo o de recesión.
+    mecanismo: 'El deslumbramiento y la fatiga visual obligan a parar o a ir más despacio por pura seguridad, sobre todo en la conducción y en el trabajo en altura. Las empresas de logística y las aseguradoras tienen incentivos para frenar actividad antes de que haya accidentes. Es una pérdida de horas, no de puestos de trabajo: el efecto es temporal y no está en ninguna estadística oficial. Quien hable en esta hora de destrucción de empleo está extrapolando sin datos.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - empleo
+    - logística
+    - transporte
+    - productividad
+    id: economista/h1/4
+  - texto: Algunos operadores minoristas y algoritmos que leen titulares compran valores por asociación de nombre o de palabra clave (empresas con UV o visión en el nombre, fabricantes de protección solar), con subidas que no tienen nada que ver con su negocio real.
+    mecanismo: Los sistemas que operan leyendo noticias y los inversores particulares reaccionan a palabras clave antes de analizar el negocio. Ya ha ocurrido en otros episodios que se compraran títulos equivocados por un nombre parecido. Con un suceso sin precedentes y sin datos de impacto, el ruido de palabras clave domina la primera hora. Estas subidas deberían deshacerse cuando lleguen análisis más serios, y dejarán pérdidas a quien entró tarde.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - mercados financieros
+    - inversores minoristas
+    id: economista/h1/5
+  reacciona_a: []

@@ -1,0 +1,60 @@
+intervencion:
+  agente: oftalmologa
+  tramo: h1
+  afirmaciones:
+  - texto: 'En la primera hora la sociedad oftalmológica difunde un comunicado que ancla el fenómeno en un precedente clínico: las personas sin cristalino (afáquicas) o con lentes intraoculares que dejan pasar el ultravioleta ya veían UV cercano antes del martes, y lo describían como un azul o violeta blanquecino. Esto da a los clínicos un marco descriptivo inmediato y a la sociedad la posición de referencia.'
+    mecanismo: En el ojo normal el cristalino filtra casi todo el ultravioleta antes de que llegue a la retina; cuando falta, los fotorreceptores reciben UV y responden. Los conos azules son los más sensibles al UV, de ahí el tono azul-violeta, y cuando los tres tipos de cono lo absorben a la vez la sensación tiende al blanco. Una sociedad científica que quiere ser la voz del fenómeno usa el único dato clínico previo que existe para hablar primero y con base.
+    dato: Afáquicos y portadores de lentes intraoculares transmisoras de UV pueden percibir UV hasta unos 315 nm; el UV se percibe como azul blanquecino o violeta blanquecino según la longitud de onda; los conos azules son los más sensibles al UV.
+    fuente: https://2020mag.com/article/uv-vision-seeing-invisible-ultraviolet
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - salud
+    - ciencia
+    - comunicacion
+    id: oftalmologa/h1/1
+  - texto: 'Los relatos de lo que se ve no coinciden entre personas: unas describen colores intensos y otras apenas un velo azulado. Esa disparidad alimenta en la primera hora autodiagnósticos erróneos (gente que cree que ve mal o que su visión se está dañando) y llamadas a consultas y urgencias oftalmológicas.'
+    mecanismo: La sensibilidad al UV varía mucho de un individuo a otro, de modo que el mismo estímulo produce percepciones de intensidad muy distinta. Sin un patrón de referencia, quien percibe menos o más que su entorno interpreta la diferencia como un problema propio.
+    dato: En un estudio con 42 participantes, todos detectaron un pico UV aislado hacia 315 nm, pero la variación individual de sensibilidad superó un factor de 30 y los hombres resultaron más sensibles que las mujeres.
+    fuente: https://2020mag.com/article/uv-vision-seeing-invisible-ultraviolet
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - salud
+    - sanidad_publica
+    - vida_cotidiana
+    id: oftalmologa/h1/2
+  - texto: El cambio se nota sobre todo en exteriores y junto a ventanas; en interiores con iluminación LED las oficinas, casas y comercios se ven casi igual que antes. Durante la primera hora, la gente sale a la calle o se asoma a las ventanas para comprobar lo que ocurre, y ahí es donde se concentran el deslumbramiento y las primeras consultas.
+    mecanismo: Para ver un color UV tiene que haber luz UV-A que ilumine la escena. La luz solar contiene UV-A y el vidrio común de ventana bloquea sobre todo el UV-B pero deja pasar parte del UV-A, mientras que las lámparas LED blancas de uso general emiten muy poco ultravioleta. Por eso el fenómeno se percibe de forma desigual según el sitio en que se esté.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - vida_cotidiana
+    - trabajo
+    - salud
+    id: oftalmologa/h1/3
+  - texto: 'Aparecen diferencias visuales llamativas en objetos corrientes: la piel con protector solar se ve oscura o con manchas, la ropa lavada con detergentes con blanqueante óptico destaca con un brillo nuevo y muchas flores muestran patrones que antes no se veían. Estos ejemplos se difunden en redes como pruebas caseras del fenómeno.'
+    mecanismo: Los filtros solares funcionan absorbiendo UV, de modo que bajo visión UV reflejan poco y se ven oscuros. Los blanqueantes ópticos absorben UV y reemiten luz, por lo que su aspecto cambia cuando el ojo también capta el UV que reflejan o absorben. Muchas flores tienen pigmentos que reflejan o absorben UV de forma distinta al resto del pétalo y forman patrones que hasta ahora solo se veían con cámaras UV.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - vida_cotidiana
+    - cosmetica
+    - redes_sociales
+    id: oftalmologa/h1/4
+  - texto: 'Algunos profesionales y comercios se adelantan a la evidencia: en la primera hora circulan recomendaciones contradictorias, desde quien aconseja no salir a la calle hasta quien anuncia gafas que bloquean UV como solución o, al contrario, como algo que hay que quitarse para no perder la nueva visión. La sociedad oftalmológica pierde terreno ahí si tarda en publicar una guía práctica.'
+    mecanismo: Ante un fenómeno sin causa conocida y con molestias reales en exteriores, la demanda de consejo inmediato es alta y la evidencia clínica todavía no existe. Quien responde primero ocupa el espacio aunque no tenga base, y quien vende filtros UV tiene incentivo para presentarlos como la respuesta. Las gafas con filtro UV sí reducirían la luz UV que llega al ojo y, con ella, la percepción de los colores nuevos y parte del deslumbramiento, lo que hace que el mensaje comercial sea plausible a primera vista.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - salud
+    - comercio
+    - comunicacion
+    id: oftalmologa/h1/5
+  reacciona_a: []
