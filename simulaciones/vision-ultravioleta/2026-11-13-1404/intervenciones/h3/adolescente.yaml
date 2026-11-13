@@ -1,0 +1,41 @@
+intervencion:
+  agente: adolescente
+  tramo: h3
+  afirmaciones:
+    - texto: "Entre las doce y la una, en mi casa y en las de mis amigas sacamos las lámparas de uñas de nuestras madres o hermanas y las linternas de luz negra de las fiestas para seguir viendo los colores dentro. Hacemos juegos de alumbrarnos la cara, los dientes o los ojos unos a otros, y alguno se queda viendo raro un rato y lo cuenta como si fuera un logro."
+      mecanismo: "Dentro de casa, con la luz normal, no se ve casi nada, y a mi edad no puedes estar todo el rato en la calle porque tus padres o el instituto no te dejan. La lámpara de uñas ya está en el baño, no hay que comprar nada. Como en las tiendas se han agotado, quien tiene una se convierte en el sitio donde quedar. Y como el reto de mirar al sol ya circula, alumbrarse los ojos de cerca parece más seguro aunque no lo es, y aguantar más que los demás da estatus en el grupo."
+      dato: ""
+      fuente: ""
+      confianza: media
+      evidencia: inferencia
+      areas_afectadas: [salud, jovenes, consumo, redes_sociales]
+    - texto: "Como los adultos ven los colores mucho más flojos, en mi clase y en casa los chavales pasamos a ser los que explican cómo es: hacemos vídeos de explicarle a mi madre o a mi abuelo lo que estoy viendo, y en clase algunos profes nos preguntan a nosotros. Eso nos da una autoridad que nunca habíamos tenido, y algunos la usan para exagerar o inventarse cosas porque nadie mayor puede comprobarlo."
+      mecanismo: "Ya se sabe que los mayores, y sobre todo los abuelos operados de cataratas, ven solo un velo. Si eres tú quien lo ve mejor, eres tú quien cuenta cómo es, y en un tema que no se puede grabar el que mejor lo cuenta gana. Los vídeos de hijo explicando a padre que no entiende funcionan muy bien en redes porque son graciosos y tiernos a la vez. Pero como el adulto no puede comparar, nadie te pilla si añades colores o cosas que no ves, y eso mezcla lo verdadero con lo inventado."
+      dato: ""
+      fuente: ""
+      confianza: media
+      evidencia: inferencia
+      areas_afectadas: [familias, educacion, redes_sociales, desinformacion]
+    - texto: "En casa empieza la pelea por la crema: mi madre me obliga a ponérmela antes de salir y yo me la quito en el portal o en el ascensor con toallitas. Entre nosotras se pasa el truco de llevar crema en la mochila para ponérsela solo en los brazos o la nuca, donde no se nota en la cara, y llevar gorra."
+      mecanismo: "Dependo de mis padres y ellos han oído a los dermatólogos en la tele, pero lo que me importa es lo que digan de mi cara mis amigas, que me van a ver en diez minutos. El daño del sol es para dentro de años y la mancha se ve ahora. Así que obedezco donde me ven mis padres y desobedezco donde me ven los demás. La gorra y la crema en sitios que no son la cara es la forma de no pelearme con nadie, aunque la cara se queda sin nada justo con más sol."
+      dato: ""
+      fuente: ""
+      confianza: alta
+      evidencia: inferencia
+      areas_afectadas: [salud, familias, jovenes, cosmetica]
+    - texto: "El directo de la tarde del agitador nos llega sobre todo a trozos, en vídeos de otros tiktokers que se ríen de él o le contestan, no porque le sigamos. Pero al compartirlos para reírnos, sus frases sobre que las gafas te quitan lo que hay que ver o que la crema esconde algo se quedan, y alguno de clase las repite en serio."
+      mecanismo: "A mi edad casi nadie se pone a ver un directo de horas de un señor, pero sí los cortes de treinta segundos con reacciones, que es lo que sale en la página principal. Compartirlo para burlarte te hace quedar bien en el grupo, pero el corte lleva su frase entera y sin explicación al lado. Como encima coincide con algo que tú ves, como la cara manchada de crema, la frase suena menos loca de lo que parecía, y a quien ya prefería no llevar gafas le da una excusa."
+      dato: ""
+      fuente: ""
+      confianza: media
+      evidencia: especulacion
+      areas_afectadas: [redes_sociales, desinformacion, jovenes]
+
+    - texto: "A la hora de salida algunos institutos dejan a los alumnos dentro un rato más o les piden que esperen en el vestíbulo hasta que pase lo peor del sol, pero sin orden oficial cada centro hace una cosa distinta y los padres se quejan en el grupo de familias de que en el instituto de al lado lo hacen de otra forma."
+      mecanismo: "El instituto no puede cambiar el horario por su cuenta y nadie de Educación ni de Sanidad le ha dicho nada concreto, solo que no hay que mirar al sol. Así que cada director decide con lo que tiene, igual que las empresas con los trabajadores de la calle. Las familias comparan en los grupos de WhatsApp lo que hace cada centro y cualquier diferencia se lee como que en el tuyo lo hacen mal, lo que mete más presión al instituto y a la consejería."
+      dato: ""
+      fuente: ""
+      confianza: baja
+      evidencia: especulacion
+      areas_afectadas: [educacion, familias, instituciones]
+  reacciona_a: [disruptor/h2/4, oftalmologa/h2/2, disruptor/h2/3, agitador/h2/2]

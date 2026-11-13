@@ -1,0 +1,40 @@
+intervencion:
+  agente: oftalmologa
+  tramo: h3
+  afirmaciones:
+    - texto: "En la tercera hora la sociedad oftalmológica añade a su guía un aviso anticipado sobre las lámparas compradas en la segunda hora: quien se haya iluminado los ojos con lámparas germicidas, de bronceado o mal etiquetadas puede notar horas después dolor intenso, lagrimeo, ojo rojo y sensación de arena, y eso sí es una lesión (fotoqueratitis) que debe ir a urgencias. Lo hace antes de que lleguen los casos porque sabe que aparecerán por la tarde y la noche, desconectados en el tiempo de la exposición."
+      mecanismo: "La fotoqueratitis es una quemadura de la superficie del ojo con latencia: los síntomas no salen al mirar la lámpara sino después, cuando la persona ya no relaciona el dolor con lo que hizo. En los bazares y tiendas en línea se venden mezcladas linternas UV-A, lámparas de uñas y lámparas germicidas UV-C, y el comprador no distingue entre ellas. Si la sociedad no lo explica antes, esos casos llegarán por la tarde, coincidiendo con el directo del agitador, y se leerán como daño retardado del propio fenómeno. Anticiparse le permite atribuirlos a la lámpara y no al suceso, y conservar la autoridad de su guía, que ya dijo que el deslumbramiento no es lesión."
+      dato: "Los síntomas de la fotoqueratitis suelen aparecer entre 30 minutos y 12 horas después de la exposición; entre las causas figuran las lámparas germicidas o de laboratorio, las camas y lámparas de bronceado y la soldadura."
+      fuente: "https://eyewiki.aao.org/Photokeratitis"
+      confianza: alta
+      evidencia: dato
+      areas_afectadas: [sanidad, urgencias, comercio, desinformacion]
+    - texto: "Con el sol cerca de su punto más alto en España, la sociedad precisa que las nubes finas y la sombra abierta no eliminan el ultravioleta y que la nieve lo multiplica. En zonas nubladas mucha gente cree que el fenómeno se ha apagado o se queda en terrazas a la sombra pensando que no se deslumbra, y en montaña y estaciones con nieve aparecen los deslumbramientos más fuertes del día."
+      mecanismo: "El UV-A atraviesa la nubosidad ligera y llega dispersado desde todo el cielo, así que en un día gris los colores nuevos se ven más difusos pero siguen ahí, y el brillo llega de todas partes y no solo del sol. La gente usa el cielo nublado como señal de que no hay riesgo, igual que hace con las quemaduras solares. La nieve fresca refleja buena parte del ultravioleta desde abajo, por donde ni gorra ni visera protegen, de modo que montañeros, trabajadores de alta montaña y quien esté en zonas nevadas sufren el deslumbramiento más intenso. La sociedad lo incorpora porque es física conocida, encaja con lo que ya dijo de las gafas envolventes y le permite contestar a la lectura de que el fenómeno se apaga sin entrar en su duración."
+      dato: "La OMS advierte que las nubes finas pueden reducir poco el UV e incluso aumentarlo por dispersión, que la sombra abierta no impide quemarse en días de UV alto, y que la nieve fresca puede reflejar hasta el 80 % del UV frente a menos del 10 % de hierba, suelo o agua."
+      fuente: "https://www.who.int/uv/faq/whatisuv/en/index2.html"
+      confianza: media
+      evidencia: dato
+      areas_afectadas: [sanidad, trabajo_al_aire_libre, turismo_montana, percepcion_publica]
+    - texto: "La sociedad oftalmológica tiende la mano a los dermatólogos y propone un mensaje conjunto con una explicación física de las manchas: si la crema o el maquillaje se ven oscuros es porque absorben el ultravioleta, es decir, porque están protegiendo. Busca convertir la mancha en la prueba de que el filtro funciona, igual que la lente oscura de unas gafas UV400, y quitarle al agitador su tema estrella."
+      mecanismo: "La sociedad pierde autoridad si la voz sanitaria se parte entre ojo y piel, y gana si es ella la que explica el mecanismo óptico común a gafas y crema: un filtro absorbe el UV-A y por eso, en el canal nuevo, se ve oscuro. Esa explicación es física básica, no requiere conocer la causa del fenómeno y responde directamente a la interpretación del agitador, que da la vuelta a un hecho real. El límite es que la explicación corrige el miedo pero no la vergüenza: a un adolescente le importa más cómo le ven que saber que la mancha protege, de modo que el abandono del protector se frena en adultos antes que en jóvenes. Discrepo de la idea implícita en agitador/h2/1 de que nadie puede corregirle en la hora: el hecho físico que usa es justamente el que la oftalmología puede explicar."
+      dato: ""
+      fuente: ""
+      confianza: media
+      evidencia: inferencia
+      areas_afectadas: [sanidad, dermatologia, cosmetica, desinformacion, jovenes]
+    - texto: "La sociedad emite una recomendación específica para niños: gorra con visera y gafas con filtro UV400 en el recreo y en exteriores durante los primeros días, sin miedo a que pierdan los colores nuevos. Choca con colegios e institutos que han soltado a los alumnos a la calle y con el bando juvenil que se quita las gafas, y aumentan las consultas pediátricas por deslumbramiento."
+      mecanismo: "El cristalino infantil es más transparente a la onda corta y la pupila es mayor, así que los niños son los que reciben más UV-A en la retina: por eso ven los colores más intensos (ya en el canon) y por la misma razón son los que más se deslumbran. La sociedad tiene base clínica previa para tratarlos como grupo prioritario, porque la protección ocular infantil ya se recomendaba antes del martes. A la vez, los niños son los menos capaces de dejar de mirar algo fascinante, y los centros que mandaron a casa a los alumnos los han puesto al sol en las horas centrales, como describe adolescente/h2/1."
+      dato: ""
+      fuente: ""
+      confianza: media
+      evidencia: inferencia
+      areas_afectadas: [sanidad, educacion, familias, pediatria]
+    - texto: "Aparecen los primeros mensajes de clínicas privadas, sobre todo de cirugía refractiva y de cristalino, que responden a las llamadas de mayores operados de cataratas con citas de valoración para estudiar la lente, sin anunciar todavía el recambio de forma explícita. La sociedad oftalmológica sale a desautorizarlo en público y pide a los colegios de médicos vigilancia de la publicidad sanitaria."
+      mecanismo: "La demanda ya está en el canon: mayores que se sienten excluidos y llaman preguntando si pueden cambiarse la lente. Las clínicas privadas de cristalino tienen agenda, márgenes y un mercado de cirugía electiva ya montado, y ofrecer una valoración no compromete a nada ni exige afirmar que el recambio funcione. Para la sociedad es una amenaza directa a su autoridad: si una clínica con oftalmólogos colegiados vende esperanza, el público no distingue entre la sociedad y el gremio. Su incentivo es marcar distancia pronto, recordando que el recambio de lente intraocular es una cirugía con riesgos reales, sin indicación médica, y que nadie sabe si el fenómeno durará."
+      dato: ""
+      fuente: ""
+      confianza: baja
+      evidencia: especulacion
+      areas_afectadas: [sanidad_privada, mayores, regulacion_publicidad, etica_medica]
+  reacciona_a: [agitador/h2/1, disruptor/h2/3, disruptor/h2/4, adolescente/h2/1, agitador/h2/5]

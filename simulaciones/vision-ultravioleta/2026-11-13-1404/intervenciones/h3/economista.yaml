@@ -1,0 +1,40 @@
+intervencion:
+  agente: economista
+  tramo: h3
+  afirmaciones:
+    - texto: "La discusión sobre quién paga las horas no trabajadas al aire libre se concreta en una pugna sobre si alguna autoridad debe emitir un aviso. Los sindicatos piden que Gobierno o comunidades recomienden formalmente no desplazarse o no trabajar al sol en las horas centrales, porque eso activaría el permiso retribuido por fenómeno adverso; las patronales prefieren recomendaciones genéricas y protocolos voluntarios, porque ese aviso cargaría a la empresa el salario de los primeros días sin poder acudir aún a un ERTE."
+      mecanismo: "Tras la DANA, el Estatuto de los Trabajadores incorporó un permiso retribuido para cuando una autoridad limita la movilidad o existe riesgo grave por un fenómeno adverso, garantizado al menos los cuatro primeros días, y el ERTE por fuerza mayor no puede aplicarse hasta pasados esos días. El texto deja indeterminado si una simple recomendación basta, así que cualquier aviso oficial se convierte en el interruptor de quién paga. Eso da a cada parte un incentivo claro: los sindicatos quieren el aviso y las patronales que no llegue, y el Gobierno, que hasta ahora solo ha recomendado vía DGT, tiene un motivo económico adicional para no emitirlo mientras no haya criterio técnico."
+      dato: "Permiso retribuido del art. 37.3 g) ET, garantizado al menos los 4 primeros días; ERTE por fuerza mayor no aplicable hasta pasados esos 4 días (art. 47.6 ET); obligación de negociar protocolos ante fenómenos meteorológicos adversos (art. 85.1 ET)."
+      fuente: "https://www.cuatrecasas.com/es/spain/laboral/art/medidas-laborales-empresas-cambio-climatico"
+      confianza: alta
+      evidencia: dato
+      areas_afectadas: [empleo, relaciones_laborales, politica]
+    - texto: "Los rechazos de billetes empujan a parte del pequeño comercio y la hostelería de la zona euro a pedir pago con tarjeta o a poner carteles de preferencia por tarjeta. El BCE o los bancos centrales nacionales responden antes del cierre del tramo con un mensaje breve: los billetes siguen siendo de curso legal y lo que se ve son elementos de seguridad que ya estaban documentados."
+      mecanismo: "El efectivo sigue siendo el medio más usado en número de compras en tienda, así que la duda del cajero se repite muchas veces por hora y el coste de equivocarse (aceptar un falso o perder una venta) lo asume el comercio. Pasar a tarjeta elimina la duda al instante. Para el banco central, la respuesta es barata y segura: no tiene que explicar el fenómeno, solo remitir a sus guías públicas de elementos de seguridad, que ya describen fibras y tintas visibles bajo luz ultravioleta. Su incentivo es cortar cualquier idea de que el dinero ha dejado de valer antes de que llegue a las colas de los cajeros automáticos."
+      dato: "En 2024 el efectivo se usó en el 52% de las transacciones en punto de venta de la zona euro y en el 39% de su valor."
+      fuente: "https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.pr241219~172b929461.en.html"
+      confianza: media
+      evidencia: dato
+      areas_afectadas: [sistema_financiero, comercio, consumo]
+    - texto: "El abandono del protector solar se mueve poco en las ventas europeas de cosmética solar a corto plazo, porque en noviembre es temporada baja en el hemisferio norte; donde sí pesa es en el hemisferio sur, ahora en primavera avanzada y con sol fuerte, como Brasil, Argentina o Australia. Los analistas que no se suman al pánico separan ese riesgo geográfico y estacional del ruido del día."
+      mecanismo: "El consumo de protector solar en Europa se concentra en primavera y verano, así que dejar de usarlo un martes de noviembre resta poco a la facturación del trimestre; el riesgo real para las marcas es que el rechazo estético persista hasta la próxima campaña. En cambio, donde ahora empieza el verano el abandono coincide con el pico de compra y de exposición, y ahí sí afecta a ventas y a salud. Es una lectura que un economista puede defender en público sin apostar a un desplome que luego no ocurra."
+      dato: ""
+      fuente: ""
+      confianza: media
+      evidencia: inferencia
+      areas_afectadas: [mercados_financieros, consumo, salud]
+    - texto: "La escasez de linternas y lámparas UV no se resuelve en días: el pedido masivo llega a proveedores mayoristas de Asia ya por la tarde allí, que suben precios y aplazan entregas, mientras las plataformas de venta en línea empiezan a añadir avisos de seguridad a estos productos tras los primeros casos de lesión, con el mismo efecto que en las gafas: más reventa en canales sin control."
+      mecanismo: "Son productos baratos de fabricación concentrada en Asia y distribuidos en Europa y América por importadores con inventario corto. Cuando la demanda se dispara a la vez en dos continentes, el cuello de botella no es fabricar el LED sino el transporte y los plazos, de modo que el precio sube en origen y la reposición tarda. Las plataformas, que ya actuaron con las gafas, tienen ahora un incentivo de seguridad de producto además del reputacional, y sus avisos genéricos vuelven a expulsar oferta legítima hacia la segunda mano y la mensajería."
+      dato: ""
+      fuente: ""
+      confianza: media
+      evidencia: inferencia
+      areas_afectadas: [cadenas_de_suministro, comercio_electronico, salud]
+    - texto: "Con la preapertura de Nueva York ya en marcha, los valores estadounidenses de óptica, gafas y venta de lámparas reproducen la dispersión vista en Europa por calidad de filtro y canal de venta, pero sin arrastrar a los índices: los futuros siguen sin pricear un golpe agregado."
+      mecanismo: "La negociación previa a la apertura en Estados Unidos empieza horas antes de la sesión de contado, y es donde los operadores estadounidenses, que han visto la reacción europea durante toda la mañana, pueden expresar la misma lectura en valores sueltos. Como ya disponen del patrón europeo, no repiten la volatilidad indiscriminada de la primera hora sino que separan ganadores y perdedores desde el principio. Al no haber daño físico ni interrupción de producción, no hay razón para vender índices enteros."
+      dato: ""
+      fuente: ""
+      confianza: media
+      evidencia: inferencia
+      areas_afectadas: [mercados_financieros]
+  reacciona_a: ["disruptor/h2/2", "disruptor/h2/3", "disruptor/h2/4"]
