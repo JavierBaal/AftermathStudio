@@ -25,3 +25,8 @@ Aislamiento: cada subagente lee solo su ficha en _prompts/<tramo>/<rol>.md y esc
 - 2026-11-13 09:13 · h3: ficha del evaluador preparada
 - 2026-11-13 09:13 · h3: métricas evaluadas {'alarma_social': 3, 'confianza_institucional': 3, 'respuesta_gobiernos': 'comunicacion', 'impacto_economico': 2, 'adaptacion': 2}
 - 2026-11-13 09:13 · h5: fichas preparadas para economista, politico, medios, oftalmologa, adolescente, agitador, disruptor
+- 2026-11-13 09:16 · h5: intervenciones comprobadas
+- 2026-11-13 09:16 · h5: ficha del árbitro preparada
+- 2026-11-13 09:17 · h5: estado consolidado; 10 hechos, 16 descartadas
+- 2026-11-13 09:17 · h5: ficha del evaluador preparada
+- 2026-11-13 09:18 · h5: métricas evaluadas {'alarma_social': 3, 'confianza_institucional': 3, 'respuesta_gobiernos': 'medidas_sectoriales', 'impacto_economico': 2, 'adaptacion': 2}

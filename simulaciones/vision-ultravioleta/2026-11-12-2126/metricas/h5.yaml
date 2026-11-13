@@ -1,0 +1,23 @@
+evaluacion:
+  tramo: h5
+  metricas:
+    - id: alarma_social
+      valor: 3
+      justificacion: "Los cambios de conducta visibles se extienden a nuevos frentes: búsqueda de fluorescentes que encarece el stock residual, rechazo de billetes en caja, menores que ocultan síntomas, consultas por miedo a 'síntomas tardíos' y contadores dispares en los informativos. Está entre 3 y 4 y se elige el inferior: la compra de fluorescentes no es acaparamiento de bienes básicos, no se establece colapso de servicios (la oleada nocturna aún no ha llegado) ni protestas en varios países."
+      apoyos: [h5-03, h5-04, h5-05, h5-06, h5-07, h5-08, h5-09, h5-10]
+    - id: confianza_institucional
+      valor: 3
+      justificacion: "La versión oficial gana instrumentos objetivos (tinción con fluoresceína, OCT, criterio laboral, órdenes de retirada, avisos del Cono Sur), pero convive con una sospecha amplia: el agitador fabrica un residuo de casos sin fuente declarada, se apropia de la retinopatía como 'daño permanente', su recuento circula como 'la cifra que no dan' ante la falta de dato oficial agregado y gana audiencia latinoamericana. No sube a 4 porque no consta que la mayoría siga las indicaciones ni baja a 2 porque medios y sociedades científicas siguen marcando una referencia común."
+      apoyos: [h5-03, h5-04, h5-05, h5-10]
+    - id: respuesta_gobiernos
+      valor: medidas_sectoriales
+      justificacion: "Se pasa del aviso a la orden en sectores concretos sin estado excepcional: Trabajo fija la obligación de evaluar el riesgo y entregar filtros homologados, y Consumo ordena retirar anuncios de lámparas UV-C con notificación a Safety Gate. No llega a emergencia porque no hay declaración formal; hay diferencias regionales, ya que en el Cono Sur la respuesta sigue siendo sobre todo comunicativa, con un recordatorio de obligaciones laborales en Chile."
+      apoyos: [h5-01, h5-02, h5-10]
+    - id: impacto_economico
+      valor: 2
+      justificacion: "Siguen siendo movimientos sectoriales: paros puntuales en tajos sin gafas, desplazamiento de la venta de UV-C a canales menos vigilados, encarecimiento del stock residual de fluorescentes y fricción en el comercio de efectivo. No sube a 3 porque no hay caídas generales de índices establecidas (Wall Street abre fuera de este tramo) ni disrupción sostenida en varios sectores."
+      apoyos: [h5-01, h5-02, h5-07, h5-09]
+    - id: adaptacion
+      valor: 2
+      justificacion: "Las pautas son más claras y operativas (filtros homologados por obligación, tajos que se reanudan al llegar las gafas, protocolo clínico con signo objetivo), pero poco seguidas en la población: reto adolescente escondido a los padres, abandono del protector en el Cono Sur, consumo de antiinflamatorios con fármacos fotosensibilizantes sin protección y la regla 'si brilla, es malo' aplicada al dinero. Está entre 2 y 3 y se elige el inferior porque la adopción solo consta en el ámbito laboral."
+      apoyos: [h5-01, h5-03, h5-06, h5-08, h5-09, h5-10]

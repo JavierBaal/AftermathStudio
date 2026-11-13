@@ -1,0 +1,64 @@
+intervencion:
+  agente: agitador
+  tramo: h5
+  afirmaciones:
+  - texto: 'Hacia la hora 5 el agitador vuelca en directo el recuento de su registro de ''síntomas tardíos'' y lo presenta como prueba masiva de daño: el formulario se llena sobre todo de fatiga visual, deslumbramiento y escozor en exteriores, que mezcla en una sola categoría con los casos de urgencias. El volumen de respuestas, no su contenido, se convierte en el titular de su canal, y verificadores y medios no tienen forma de contrastarlo.'
+    mecanismo: 'Los supuestos del mundo garantizan que casi todo el que sale a la calle sufre deslumbramiento y fatiga visual los primeros días, sin daño permanente. Un formulario que pregunta por molestias oculares recoge por tanto respuestas afirmativas de casi cualquiera, y el registro se confirma a sí mismo. Al agitador no le hace falta inventar nada: le basta con no separar la molestia esperada y benigna de la lesión por conducta. El dato está en un canal cerrado y es testimonial, así que nadie externo puede depurarlo, y la cifra grande le da relevancia y donaciones justo antes de la noche.'
+    dato: ''
+    fuente: ''
+    confianza: alta
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - informacion
+    - redes
+    id: agitador/h5/1
+  - texto: El agitador se apropia de la distinción que hizo la sociedad de oftalmología entre fotoqueratitis, que se cura, y retinopatía solar, que puede dejar una mancha central persistente, y la presenta como reconocimiento de que 'hay daño permanente'. Cuando aparecen los primeros casos de retinopatía con visión borrosa o mancha central, los convierte en los rostros de su relato, sin mencionar que vienen de mirar al sol.
+    mecanismo: 'La retinopatía solar da síntomas en horas tras mirar al sol y puede dejar un escotoma central que no se resuelve del todo; es la única lesión del día que encaja con ''daño irreversible'', y la propia sociedad la ha nombrado en su protocolo. España tiene además el precedente reciente del eclipse de agosto de 2026, con avisos públicos sobre esta lesión, lo que hace la palabra reconocible para su audiencia. Repite el patrón que le funcionó con el BCE y con la nota de triaje: tomar una explicación técnica correcta y cambiar su significado, omitiendo la causa conductual. Un solo caso con secuela vale más para él que cien fotoqueratitis que se curan en días.'
+    dato: La retinopatía solar se produce al mirar al sol sin protección y puede causar una mancha central o visión borrosa persistente; tras el eclipse de agosto de 2026 hubo avisos públicos sobre cómo reconocer el daño ocular.
+    fuente: https://www.health.wa.gov.au/Articles/S_T/Solar-retinopathy ; https://www.euronews.com/2026/08/12/how-to-tell-if-the-eclipse-damaged-your-eyes-key-warning-symptoms
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - salud
+    - informacion
+    - politica
+    id: agitador/h5/2
+  - texto: 'El agitador ataca el protocolo de urgencias que anota la fuente de exposición: lo presenta como un sistema para ''culpar a la víctima'' y anima a sus seguidores a no declarar en urgencias que miraron al sol o usaron lámparas. Una parte de los pacientes de su audiencia omite la exposición, crece en las historias clínicas la categoría de fuente desconocida o no declarada, y él la anuncia de antemano como la cifra que demostrará el daño del fenómeno.'
+    mecanismo: 'El protocolo de la sociedad es la herramienta con la que se piensa demostrar, con datos propios, que las lesiones vienen de la conducta; por eso es la amenaza principal a su historia y no puede ignorarlo. No necesita desmontarlo técnicamente: basta con que una minoría de pacientes no informe de la exposición para que aparezca un residuo de casos ''sin causa'' que nadie puede explicar, y ese residuo es exactamente el material que necesita. Además desplaza el foco de la conducta de sus seguidores, que él mismo empujó a buscar marcas con lámparas en la hora 2, a la supuesta mala fe del médico que pregunta.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - datos_clinicos
+    - informacion
+    id: agitador/h5/3
+  - texto: En paralelo, el agitador manda a su audiencia a rellenar también el registro abierto de testimonios de la sociedad de oftalmología con sus síntomas, convertido en campaña de participación. El registro, que se presentaba como el primer estudio sistemático del fenómeno, recibe una oleada de respuestas sugestionadas y coordinadas que la sociedad no puede filtrar a tiempo, y tiene que anunciar controles o cerrar campos abiertos.
+    mecanismo: 'Un formulario abierto sin verificación de identidad ni control de duplicados es vulnerable a la entrada masiva de una comunidad organizada, y la sociedad lo lanzó precisamente para ser la autoridad común de gobiernos y plataformas. Si sus primeros resultados descriptivos salen cargados de ''síntomas tardíos'', el agitador gana dos veces: o el registro respalda su relato, o la sociedad tiene que depurarlo y él lo presenta como manipulación de datos. Discrepa del supuesto de oftalmologa/h3/3 de que el riesgo es solo la sugestión individual: aquí la contaminación es coordinada.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - salud
+    - investigacion
+    - informacion
+    id: agitador/h5/4
+  - texto: 'El agitador abre su canal a testimonios de Chile, Argentina y Uruguay: las primeras rojeces y quemaduras de piel de quienes salieron sin protector por la mañana le llegan en su mismo idioma y las suma a su relato de daño diferido, con lo que gana audiencia latinoamericana justo cuando en Europa el directo empieza a quedarse sin novedad.'
+    mecanismo: La quemadura solar aparece varias horas después de la exposición, así que quienes dejaron el protector al amanecer austral empiezan a notarla a lo largo de la mañana y la tarde de allí, en plena franja de la hora 5 en Madrid. El abandono del protector fue preventivo y alimentado por el estigma construido en Europa, en parte en su propio canal, y el índice UV es alto en esa época. Compartir idioma le permite captar ese público sin traducción, mientras la segunda ola viral en inglés de Estados Unidos desplaza el relato europeo en las plataformas grandes; para él, Latinoamérica es la expansión natural que el mercado en inglés no le ofrece.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - redes
+    - internacional
+    id: agitador/h5/5
+  reacciona_a:
+  - oftalmologa/h3/2
+  - oftalmologa/h3/3
+  - disruptor/h3/1
+  - medios/h3/2

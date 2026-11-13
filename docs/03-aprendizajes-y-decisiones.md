@@ -74,9 +74,19 @@ En el escenario ultravioleta (versión 5):
 - Nuevo agente `agitador`, de tipo `actor`: creador de contenido que gana audiencia con el miedo y la desconfianza.
 - Métricas rediseñadas con niveles: alarma social, confianza institucional, respuesta de los gobiernos (con una opción nueva, `medidas_sectoriales`), impacto económico y adaptación.
 
-## 4. Pendientes
+## 4. Tercera ejecución con el esquema v0.2 (13/11/2026)
 
-- Tercera ejecución con el esquema v0.2 para comprobar si las métricas distinguen y si el agitador rompe el sesgo hacia la calma.
+Detalle en [`simulaciones/vision-ultravioleta/comparativa-tres-ejecuciones.md`](../simulaciones/vision-ultravioleta/comparativa-tres-ejecuciones.md) y en el informe de `2026-11-12-2126`.
+
+- **El agitador funciona.** Coloca 13 de 20 afirmaciones y marca el rumbo: la historia pasa a ser la del daño causado por la conducta (lámparas UV-C, retinopatía, abandono del protector), explotado como prueba de que "algo nos han hecho". Aparece la primera tensión institucional real: un recuento oficial frente a uno sin verificar.
+- **La respuesta de los gobiernos se mueve por primera vez**, de comunicación a medidas sectoriales.
+- **La alarma y la confianza siguen planas** (3 durante cinco horas). Causa identificada en el propio motor: la regla del evaluador "ante la duda entre dos niveles, el inferior" empuja hacia la calma.
+- **Tres ramas distintas sobre un núcleo físico estable:** la ramificación es robusta.
+- **Coste:** unos 4,1 millones de tokens de subagentes; la ejecución agotó el límite de uso de 5 horas de la cuenta y se reanudó al día siguiente. El modo ligero solo sirve para pruebas reducidas.
+
+## 5. Pendientes
+
+- Evaluador: sustituir la regla "ante la duda, el inferior" por "el nivel más cercano, justificado", y añadir métricas de dinámica (polarización, relatos en competencia).
 - Si se mantiene la calma: probar la variable `explicacion_publica: conspirativa` o mezclar modelos.
 - Modos de seguimiento (entrevista, zoom y rama).
 - Motor MCP y modo intensivo.

@@ -1,0 +1,64 @@
+intervencion:
+  agente: adolescente
+  tramo: h5
+  afirmaciones:
+  - texto: 'A media tarde, después de comer, dos o tres de mi entorno que hicieron el reto de mirar cerca del sol o la lámpara de uñas empiezan a notar escozor, lagrimeo y como arena en los ojos, y lo preguntan primero en el grupo de amigas y no a sus padres: se ponen gafas de sol dentro de casa o se encierran en la habitación diciendo que les duele la cabeza, y esperan a ver si se pasa.'
+    mecanismo: Lo hicieron hace unas horas y la quemadura de córnea aparece con retraso, así que les llega ahora, ya en casa. Contarlo a los padres es confesar que hicieron justo lo que la tele y el instituto llevan todo el día diciendo que no se haga, y eso significa bronca, castigo y quedarse sin móvil. Entre nosotras preferimos taparnos y buscar en internet o preguntar al grupo, y eso retrasa que vayan al médico hasta que el dolor es demasiado fuerte, ya por la noche.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - salud
+    - familia
+    - menores
+    id: adolescente/h5/1
+  - texto: 'Cuando uno de los que fue a urgencias sube un vídeo o una historia contándolo, con el ojo rojo y el parche o las gotas, se hace viral en clase y fuera: tiene más visualizaciones que todo lo que ha subido en su vida, y otros empiezan a contar ''mi experiencia'' aunque solo les piquen un poco los ojos.'
+    mecanismo: En todo el día los vídeos no podían enseñar los colores, y un ojo rojo es lo primero del fenómeno que sí se ve en cámara. Contar que has acabado en urgencias da atención y estatus aunque sea por haber hecho una tontería, y como nadie puede comprobar cuánto te duele, cada uno lo exagera. Esos vídeos acaban sirviendo de testimonio a quien quiere decir que esto hace daño, aunque el que lo cuenta diga que miró al sol.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - redes_sociales
+    - salud
+    - menores
+    - desinformacion
+    id: adolescente/h5/2
+  - texto: 'En el grupo de WhatsApp de madres de mi clase empiezan a circular nombres de quiénes hicieron el reto y quiénes estuvieron en casa de la amiga con la lámpara, y en mi grupo se monta un lío de chivatos: hay quien acusa a otro de haberlo animado y capturas que pasan de nuestros grupos al de los padres.'
+    mecanismo: Con las noticias de quemaduras en menores, los padres tienen miedo y buscan quién estaba con su hijo y quién llevó la lámpara o propuso el reto, y el grupo de madres es donde eso se pregunta. Nosotros, para no ser el culpable ante nuestros padres, señalamos a otro; y quien ya tenía pique con alguien lo aprovecha. Lo que pasa dentro del grupo de amigas deja de ser privado justo cuando más nos importa que no se sepa.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - familia
+    - menores
+    - educacion
+    - convivencia
+    id: adolescente/h5/3
+  - texto: Mis padres y los de mis amigas esconden o tiran la lámpara de uñas y la linterna de luz negra y nos prohíben quedar esta tarde, así que el plan se pasa a videollamadas y a salir a la calle o a la azotea a última hora, cuando el sol está bajo y ya no deslumbra tanto, que vendemos a los padres como 'solo un rato'.
+    mecanismo: El aviso de Consumo sobre lámparas de uñas y los primeros casos de quemaduras hacen que los padres vean la lámpara de casa como un peligro concreto que pueden quitar ellos mismos, y prohibir quedar es lo que tienen a mano. Nosotros dependemos de su permiso, pero seguimos queriendo ver los colores juntos, y al atardecer la luz molesta menos y parece más inofensivo, así que es lo que podemos negociar sin pelearnos del todo.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - familia
+    - menores
+    - consumo
+    id: adolescente/h5/4
+  - texto: Por la tarde mi TikTok se llena de vídeos en inglés de gente de Estados Unidos viendo su primer amanecer con los colores nuevos, y en mi grupo empezamos a usar sus palabras en inglés para los colores en vez de las que nos inventamos esta mañana, porque suenan más guay y entran en más tendencias.
+    mecanismo: El algoritmo empuja lo nuevo y lo que más se comparte, y por la tarde en España lo nuevo es la mañana de allí. Entre los de mi edad lo que viene en inglés y de creadores grandes tiene más estatus que lo de nuestra clase, y usar su palabra te mete en la tendencia mundial. Así los nombres de la mañana, que se peleaban grupo a grupo, pierden contra uno o dos términos en inglés, al menos entre adolescentes, mientras los mayores y los medios siguen con otros.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - redes_sociales
+    - lenguaje
+    - cultura
+    id: adolescente/h5/5
+  reacciona_a:
+  - medios/h3/2
+  - medios/h3/4

@@ -1,0 +1,62 @@
+intervencion:
+  agente: economista
+  tramo: h5
+  afirmaciones:
+  - texto: 'La ''reacción de Wall Street'' que tertulias y digitales llevan toda la mañana anunciando no llega en este tramo: la sesión regular de Nueva York abre a las 15:30 hora de Madrid, después del cierre de la hora 5. Las bolsas europeas pasan la sobremesa con menos volumen en los valores del relato (gafas, cosmética, autenticación) y mirando los futuros estadounidenses, y el economista dice en público que la apertura llegará con seis horas de relato ya descontado en preapertura y en Europa, así que lo relevante no será el primer minuto sino si el volumen se sostiene.'
+    mecanismo: En noviembre Europa ya ha salido del horario de verano y Estados Unidos también, así que la diferencia entre Madrid y Nueva York es de seis horas y la campana de las 9:30 de Nueva York cae a las 15:30 en Madrid. A mediodía europeo los operadores reducen posiciones a la espera de la apertura americana, que es la que fija la referencia de liquidez. Al economista le conviene marcar antes de la campana qué mirar, el volumen sostenido y no el salto inicial, porque el primer minuto de una sesión con relato previo suele exagerar en cualquier sentido y él ha construido su prestigio en no sumarse a esos picos.
+    dato: La sesión regular de NYSE va de 9:30 a 16:00 hora del Este.
+    fuente: https://www.nyse.com/markets/hours-calendars
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - mercados financieros
+    - medios
+    id: economista/h5/1
+  - texto: 'Las plataformas de reparto y las empresas de última milla en España tienen huecos de servicio en el pico de comidas: algunos repartidores asalariados invocan el riesgo grave e inminente o se niegan a salir sin gafas, y las empresas no paran el servicio sino que alargan los tiempos de entrega, concentran pedidos en menos repartidores y compran gafas homologadas por lotes. El conflicto laboral del deslumbramiento golpea primero al reparto porque es el sector al aire libre con más trabajadores jóvenes y con la demanda concentrada justo en las horas de más sol.'
+    mecanismo: 'Desde que Glovo y otras plataformas pasaron a contratar a sus repartidores como asalariados, la Ley de Prevención de Riesgos Laborales se les aplica de lleno: la empresa tiene que evaluar el riesgo nuevo y dar los equipos de protección, y el repartidor puede acogerse al artículo 21 sin el riesgo de perder un encargo como autónomo. La franja de 13:00 a 15:00 es el pico de pedidos de comida y coincide con el sol más alto. Parar el servicio le cuesta a la plataforma el día de facturación y la cuota de mercado frente a la competencia; comprar gafas y aceptar entregas más lentas le cuesta poco, así que eso es lo que hace, aunque parte de los repartidores jóvenes no se las ponga.'
+    dato: Glovo anunció en diciembre de 2024 que contrataría como asalariados a sus unos 15.000 repartidores en España.
+    fuente: https://www.bolsamania.com/noticias_print/empresas/glovo-cambia-modelo-laboral-contratara-repartidores-espana--18229208.html
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - empleo
+    - consumo
+    - relaciones laborales
+    - reparto
+    id: economista/h5/2
+  - texto: 'Consumo y otras autoridades de vigilancia del mercado europeas notifican a los grandes marketplaces los anuncios de lámparas germicidas UV-C presentadas como forma de ver los colores nuevos, y estos empiezan a retirarlos. La retirada funciona a medias: los vendedores reetiquetan el mismo producto con otro título (''lámpara de luz'', ''esterilizador'') y los vendedores fuera de la UE y las tiendas en redes sociales siguen vendiéndolas, de modo que la oferta baja en los escaparates grandes y se desplaza a canales menos vigilados.'
+    mecanismo: El reglamento europeo de seguridad general de los productos obliga a los mercados en línea a retirar o desactivar sin demora indebida las ofertas de productos peligrosos cuando lo requiere una autoridad, y a retirar el producto en un plazo máximo de dos días hábiles tras la notificación. A un marketplace grande le sale más caro arriesgarse a una sanción y a un titular sobre quemaduras de córnea que perder unas ventas, así que actúa rápido sobre lo que le notifican. Pero la notificación va anuncio por anuncio y al vendedor oportunista le basta con cambiar el título, mientras que los vendedores que operan fuera del marco europeo o por redes sociales no responden a esas órdenes. Construye sobre la desviación de demanda a UV-C ya establecida.
+    dato: Con las nuevas normas de seguridad de productos, un producto debe retirarse del mercado como máximo en dos días hábiles desde que la autoridad de vigilancia notifica al operador, y los mercados en línea deben retirar o bloquear sin demora indebida las ofertas peligrosas que les señalen.
+    fuente: https://www.pinsentmasons.com/en-gb/out-law/news/heightened-eu-product-safety-rules-introduce-obligations-for-online-marketplaces
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - consumo
+    - comercio electrónico
+    - regulación
+    - salud
+    id: economista/h5/3
+  - texto: 'Las cadenas de supermercados responden a la ola de reclamaciones por comida que fluoresce aceptando devoluciones y reembolsos sin reconocer defecto, y por detrás piden a sus proveedores de frutos secos, especias y maíz certificados de laboratorio de aflatoxinas para tener un papel que enseñar. El economista discrepa de que esto sea un problema económico relevante: el desperdicio se limita a los hogares que tienen lámpara, que son minoría tras el agotamiento, y el coste real recae en la relación entre cadenas y proveedores, no en el consumo agregado.'
+    mecanismo: 'Para un supermercado, reembolsar una bolsa de almendras cuesta muy poco y discutir en caja si brilla o no brilla cuesta un vídeo viral; la política de devolución generosa es el seguro más barato. Pero la cadena necesita blindarse ante una posible inspección o un bulo que la señale, y la forma de trasladar ese riesgo es exigir analítica al proveedor, que paga el laboratorio y el retraso. La fluorescencia verde-amarilla bajo UV es una prueba solo presuntiva de aflatoxinas, con falsos positivos, y el propio sector la usa para decidir qué muestras mandar al laboratorio, no para tirar producto: ese matiz llega a la cadena y al proveedor, no al consumidor. Discrepo en parte de disruptor/h3/2: la ola existe, pero su escala la limita el número de lámparas en los hogares, que el propio agotamiento fijó.'
+    dato: La fluorescencia verde-amarilla brillante bajo luz negra se usa como prueba presuntiva de aflatoxinas en maíz y debe confirmarse con análisis químico porque produce falsos positivos.
+    fuente: https://crops.extension.iastate.edu/files/inline-files/blacklightprocess_20120829.pdf
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - consumo
+    - distribución alimentaria
+    - industria agroalimentaria
+    id: economista/h5/4
+  - texto: 'Con la apertura de las bolsas latinoamericanas en este tramo, la volatilidad de cosmética y protector solar que Europa tuvo en la hora 2 se repite en São Paulo sobre los valores locales de cosmética, pero con la lectura invertida respecto a Europa: allí pesa más el abandono preventivo del protector en plena primavera austral que la promesa de que todos comprarán protección. El economista señala que el único dato útil no será el precio de esas acciones sino las ventas de protector en farmacias del Cono Sur de los próximos días.'
+    mecanismo: La bolsa brasileña abre a primera hora de la tarde europea y es el mercado líquido más cercano al Cono Sur, donde el abandono preventivo del protector ya es hecho establecido. Los operadores buscan un valor cotizado que represente la historia del día, y en cosmética latinoamericana hay pocos nombres grandes, así que concentran la apuesta. En Europa el relato podía leerse en los dos sentidos; en el Cono Sur la conducta observada esta mañana es dejar el protector en casa, lo que inclina la primera lectura a la baja. Al economista le interesa separar otra vez relato de dato verificable, porque las ventas de farmacia sí se publicarán y permitirán decir quién acertó.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - mercados financieros
+    - consumo
+    - Cono Sur
+    id: economista/h5/5
+  reacciona_a:
+  - disruptor/h3/2

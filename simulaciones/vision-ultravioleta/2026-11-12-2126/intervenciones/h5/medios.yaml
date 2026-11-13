@@ -1,0 +1,69 @@
+intervencion:
+  agente: medios
+  tramo: h5
+  afirmaciones:
+  - texto: 'Los informativos de sobremesa, que en España emiten en torno a las 15:00 y son la franja informativa de más audiencia del día, abren con los primeros casos de quemadura de córnea y cada cadena construye su propio ''contador de afectados'' sumando hospital por hospital. Como no hay un dato oficial agregado, las cifras difieren entre medios, y circulan a la vez tres números que no miden lo mismo: los casos que confirman los hospitales, las ''miles de respuestas'' del registro de la sociedad de oftalmología, que algunos titulares presentan como afectados, y el recuento de ''síntomas tardíos'' del agitador, que siempre es el más alto y se presenta como ''la cifra que no dan''.'
+    mecanismo: 'Un medio necesita una cifra para abrir un informativo, y la competencia por darla primero lleva a sumar fuentes parciales (un hospital, una comunidad, un portavoz) en vez de esperar al dato de Sanidad, que el protocolo de registro por fuente de exposición todavía no ha agregado. El registro de testimonios de la sociedad de oftalmología se mide en respuestas, no en pacientes, pero ''miles'' es un número disponible y con fuente con nombre, y la confusión entre participantes y afectados es el error típico de un directo con prisa. El agitador no necesita inventar nada: su formulario abierto no filtra, así que su número crece más rápido que cualquier recuento clínico y la diferencia entre ambos le sirve para hablar de ocultación.'
+    dato: El Telediario 1 de La 1 de TVE se emite a las 15:00.
+    fuente: https://en.wikipedia.org/wiki/Telediario
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - medios
+    - sanidad
+    - desinformacion
+    - politica
+    id: medios/h5/1
+  - texto: 'El periodismo de consumo convierte las lámparas germicidas en su historia propia de la tarde: digitales y programas de televisión localizan en los marketplaces anuncios de lámparas UV-C promocionadas para ''ver los colores nuevos'' y piden explicaciones a las plataformas. Los marketplaces retiran los anuncios señalados en España y en la UE, pero los vendedores los vuelven a publicar con otro título, y la pieza ''los retiran y vuelven a salir'' se repite durante horas.'
+    mecanismo: 'Es un ángulo con culpable identificable, víctimas en urgencias y una prueba que el periodista puede capturar en pantalla, justo lo que pide una sobremesa. Existe un precedente con autoridad que da fuente inmediata: tras la pandemia, la agencia estadounidense del medicamento avisó de que algunos dispositivos UV-C de consumo emitían radiación capaz de dañar ojos y piel en segundos. Los marketplaces responden rápido a la presión mediática con retiradas puntuales porque les sale barato, pero su moderación se hace anuncio a anuncio y el vendedor solo tiene que cambiar el título, sobre todo si opera fuera de la UE, donde el aviso de Consumo no le alcanza.'
+    dato: La FDA advirtió en 2022 de que algunas varitas UV de consumo emiten niveles de radiación inseguros que pueden lesionar piel y ojos tras pocos segundos de exposición.
+    fuente: https://www.fda.gov/medical-devices/safety-communications/do-not-use-ultraviolet-uv-wands-give-unsafe-levels-radiation-fda-safety-communication
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - medios
+    - consumo
+    - sanidad
+    - plataformas
+    id: medios/h5/2
+  - texto: Los medios descubren el reto adolescente de mirar al sol o a la lámpara de uñas para 'abrir la vista' y lo cubren como 'reto viral peligroso', con advertencias y testimonios de padres. La cobertura lo da a conocer a menores que no lo habían visto, y las plataformas grandes empiezan a retirar los vídeos por sus normas sobre retos peligrosos, con lo que el reto pasa a grupos de mensajería y a perfiles efímeros, donde ni medios ni plataformas pueden seguir su alcance.
+    mecanismo: Un reto con menores en riesgo es una de las piezas que más se comparten entre padres, y cada medio la publica con el nombre del reto y la descripción de lo que se hace, que es justo la información que hace falta para copiarlo. Ya ocurrió con el reto de las cápsulas de detergente en 2018, cuando la cobertura masiva coincidió con un aumento de llamadas a los centros de toxicología. Como mirar al sol no duele en el momento, el aviso del medio no frena al adolescente que ya ve en el reto una forma de ganar estatus, y la retirada en plataformas grandes desplaza el contenido a espacios cerrados, igual que ya pasó con el agitador.
+    dato: En enero de 2018 los centros de toxicología de Estados Unidos habían recibido 86 llamadas relacionadas con el reto de las cápsulas de detergente en las primeras semanas del año, en pleno pico de cobertura mediática.
+    fuente: https://wptv.com/news/national/the-tide-pod-challenge-has-prompted-86-calls-to-poison-control-centers-in-2018
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - medios
+    - menores
+    - sanidad
+    - plataformas
+    id: medios/h5/3
+  - texto: 'Con los matinales de Estados Unidos en antena entre las 13:00 y las 15:00 hora de Madrid, la conversación en inglés se parte por líneas partidistas: unas cadenas encuadran el suceso como salud pública y seguridad vial en la hora punta, y otras dan espacio a la pregunta de qué sabía el Gobierno sobre el marcado UV. Los medios españoles importan los vídeos de amaneceres estadounidenses para la sobremesa y, con ellos, el debate sobre las ''marcas'', que llega reforzado desde fuera.'
+    mecanismo: 'Es la misma tesis que propuse en la hora 3, ajustada al reloj: en la Costa Este el suceso cayó de madrugada y la primera luz del día llega a primera hora de la mañana local, que en Madrid es el arranque de la tarde, así que la ola en inglés se produce en este tramo. El ecosistema mediático estadounidense está polarizado por audiencias, y el marcado forense y de billetes tiene allí un encaje directo en la desconfianza hacia el Gobierno federal. Para un medio español, el contenido estadounidense es material nuevo, en imagen y gratuito por agencias, y la versión conspirativa en inglés da al agitador local una fuente extranjera que citar.'
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - medios
+    - internacional
+    - desinformacion
+    id: medios/h5/4
+  - texto: Policía e Interior piden en privado a directores y jefes de sección que no detallen en sus piezas qué productos de marcado forense existen, dónde se aplican y cómo se limpian. Las cabeceras generalistas editan sus textos sin avisarlo o lo hacen con una nota, mientras digitales de clic y el agitador mantienen los detalles; el agitador presenta las ediciones, con capturas del antes y el después, como prueba de censura coordinada.
+    mecanismo: Interior ha elegido el silencio público y la vía interna, y la forma ordinaria de extender esa vía a los medios es la petición extraoficial a los responsables editoriales, que no deja rastro de censura formal. A una cabecera seria le cuesta poco quitar detalles operativos y le conviene no quedar como manual para delincuentes, pero el contenido ya está copiado y archivado. Los digitales que viven del tráfico no tienen ese freno. Cualquier cambio en un artículo publicado se puede comparar con versiones archivadas, y para el agitador una edición silenciosa es la confirmación más barata de que 'les han llamado'.
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - medios
+    - seguridad
+    - desinformacion
+    - politica
+    id: medios/h5/5
+  reacciona_a:
+  - oftalmologa/h3/3
+  - agitador/h3/1
+  - adolescente/h3/2
+  - economista/h3/1
+  - politico/h3/4

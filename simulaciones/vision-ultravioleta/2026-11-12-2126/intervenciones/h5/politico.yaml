@@ -1,0 +1,70 @@
+intervencion:
+  agente: politico
+  tramo: h5
+  afirmaciones:
+  - texto: 'Antes de las 15:00 el Ministerio de Trabajo, a través de la Inspección de Trabajo y del Instituto Nacional de Seguridad y Salud en el Trabajo, publica una nota informativa provisional sobre el deslumbramiento: lo califica como riesgo nuevo que las empresas deben evaluar y prevenir con gafas homologadas, sombra y reorganización de tareas en altura, moto y maquinaria, pero no lo declara con carácter general riesgo grave e inminente y remite cada paralización del artículo 21 a la valoración caso por caso. Sindicatos lo leen como respaldo a sus reclamaciones y patronales como aval para seguir trabajando, y los paros puntuales continúan en algunos tajos.'
+    mecanismo: 'Un Gobierno que deja que cada tajo decida por su cuenta parece no tener el control, pero tampoco puede afirmar lo que sus técnicos no respaldan: el deslumbramiento remite en unas dos semanas y no deja daño ocular, así que no hay base técnica para un riesgo grave e inminente generalizado, y declararlo paralizaría la obra y el reparto en pleno mediodía. La Ley de Prevención ya obliga a evaluar riesgos nuevos y a dar los equipos de protección gratis, de modo que la nota no necesita norma nueva: recuerda obligaciones existentes. La fórmula ambigua es la que menos rectificación exige después, aunque deja el conflicto abierto en los centros donde el delegado ya ha parado.'
+    dato: El artículo 21 de la Ley 31/1995 de Prevención de Riesgos Laborales permite al trabajador interrumpir su actividad y abandonar el lugar de trabajo cuando considere que la actividad entraña un riesgo grave e inminente para su vida o su salud.
+    fuente: https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - laboral
+    - gobierno
+    - empresas
+    - prevencion
+    id: politico/h5/1
+  - texto: 'Consumo y las autoridades autonómicas de vigilancia del mercado pasan del aviso declarativo a la orden: comunican a los grandes marketplaces que retiren los anuncios de lámparas germicidas UV-C publicitadas como forma de ver los colores nuevos, y Sanidad notifica el riesgo a la red europea Safety Gate. Las plataformas grandes retiran los anuncios más visibles en horas, pero los vendedores cambian el título, y los envíos directos desde fuera de la UE siguen llegando.'
+    mecanismo: 'Con quemaduras de córnea por lámparas germicidas ya en urgencias, seguir solo con avisos sería un silencio que la oposición y el agitador capitalizarían. A diferencia de la hora 2, ahora hay base legal clara: el Reglamento europeo de seguridad general de los productos obliga a los mercados en línea a atender las órdenes de las autoridades de vigilancia en plazos breves, y el daño está acreditado por la sociedad de oftalmología. Para el Gobierno es una medida con efecto visible y sin riesgo de rectificación, porque ataca la conducta y el producto, no el fenómeno. Su límite es el de siempre: el anuncio se reescribe en minutos y la orden no alcanza al vendedor extracomunitario.'
+    dato: El Reglamento (UE) 2023/988, aplicable desde diciembre de 2024, obliga a los proveedores de mercados en línea a actuar sin demora sobre las órdenes de las autoridades de vigilancia del mercado relativas a productos peligrosos.
+    fuente: https://eur-lex.europa.eu/eli/reg/2023/988/spa
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - consumo
+    - plataformas
+    - sanidad
+    - ue
+    id: politico/h5/2
+  - texto: La Agencia Española de Seguridad Alimentaria y Nutrición, con las autoridades autonómicas, publica a primera hora de la tarde un aviso de que la fluorescencia de un alimento bajo luz UV no indica que sea peligroso ni que esté manipulado, pide no tirar comida por ese motivo y canalizar las sospechas reales por los cauces de reclamación ordinarios. El aviso frena las llamadas pero no el bulo, porque el agitador lo presenta como otra prueba de que 'lo sabían'.
+    mecanismo: 'Las reclamaciones a supermercados y las llamadas a seguridad alimentaria ya existen, y la comida es el terreno donde un vacío oficial más rápido se convierte en miedo. La agencia sí tiene respaldo técnico para decir que la fluorescencia es solo un cribado presuntivo que da falsos positivos, así que puede hablar sin riesgo de que la desmientan. Al Gobierno le sirve para mostrar control en un frente nuevo. Pero el mismo patrón de las horas anteriores se repite: cada explicación correcta que admite que el sector usaba esa luz es un fragmento de verdad que el agitador reencuadra como ocultación.'
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - alimentacion
+    - consumo
+    - desinformacion
+    - gobierno
+    id: politico/h5/3
+  - texto: 'En el Cono Sur los ministerios de salud, con Chile a la cabeza, salen a media mañana local a contradecir el abandono preventivo del protector: recuerdan que el índice UV de primavera es alto o extremo, que el fenómeno no cambia el riesgo de quemadura y que el protector debe seguir usándose aunque ''se vea'', y en Chile la autoridad laboral recuerda a las empresas su obligación de proteger a quien trabaja al sol. El mensaje llega tarde para quien ya salió de casa sin protector.'
+    mecanismo: Esos gobiernos tienen ya marcos legales y campañas permanentes contra la radiación solar, así que pueden reaccionar con una base existente y sin afirmar nada sobre el fenómeno, que sus técnicos no respaldan. Ganan legitimidad si parecen anticiparse a las quemaduras, que en su caso son previsibles y masivas, y la pierden si las urgencias se llenan de quemados sin aviso. Pero la decisión de no ponerse protector se tomó al amanecer, antes de cualquier mensaje oficial, de modo que el aviso reduce el daño de la tarde y no el de la mañana.
+    dato: La Ley 20.096 de Chile establece mecanismos de control de la radiación ultravioleta, incluida la difusión del índice UV y obligaciones de información y protección, y la normativa laboral chilena obliga al empleador a proteger a los trabajadores expuestos a radiación UV de origen solar.
+    fuente: https://www.bcn.cl/leychile/navegar?idLey=20096
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - sanidad
+    - cono_sur
+    - laboral
+    - internacional
+    id: politico/h5/4
+  - texto: 'Con el amanecer en la Costa Este, la respuesta federal de Estados Unidos sale fragmentada: la Casa Blanca convierte el fenómeno en mensaje político propio y evita advertencias sanitarias, mientras la agencia federal del medicamento y los centros de control de enfermedades reactivan sus avisos existentes sobre lámparas y varitas UV-C. La diferencia de tono entre el escaparate político y la voz técnica se convierte en material para los matinales y obliga a los gobiernos europeos a defender que su mensaje sanitario no es alarmismo.'
+    mecanismo: 'Algunos líderes ya rompieron la prudencia en la primera hora, y un ejecutivo que compite por la conversación matinal gana más con un encuadre de oportunidad o de orgullo que con un aviso de riesgo. Las agencias técnicas, en cambio, no necesitan decidir nada nuevo: la agencia del medicamento ya advirtió en la pandemia de que ciertas lámparas y varitas UV-C emiten radiación capaz de dañar ojos y piel, así que les basta con reactivar ese aviso. Esa doble voz da a la oposición y al agitador europeos un contraste fácil (''allí no alarman''), y a los gobiernos europeos un incentivo para anclarse en la orientación técnica de la OMS.'
+    dato: La FDA emitió una comunicación de seguridad advirtiendo de que algunas varitas UV para desinfección emiten niveles de radiación UV-C que pueden causar lesiones en piel y ojos tras pocos segundos de uso.
+    fuente: https://www.fda.gov/medical-devices/safety-communications/do-not-use-ultraviolet-uv-wands-give-unsafe-levels-radiation-fda-safety-communication
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - estados_unidos
+    - internacional
+    - comunicacion
+    - sanidad
+    id: politico/h5/5
+  reacciona_a:
+  - disruptor/h3/3
+  - economista/h3/1
+  - disruptor/h3/2
+  - disruptor/h3/1
+  - medios/h3/2

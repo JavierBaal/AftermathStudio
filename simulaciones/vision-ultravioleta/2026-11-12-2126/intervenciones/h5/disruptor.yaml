@@ -1,0 +1,58 @@
+intervencion:
+  agente: disruptor
+  tramo: h5
+  afirmaciones:
+  - texto: 'Asia oriental, donde el suceso llegó al caer la tarde (17:00 en Tokio, 16:00 en Pekín) y lleva ya horas de noche, se convierte sin quererlo en el laboratorio de la primera noche del fenómeno: desde Japón, China y Corea llegan a Europa, antes de su atardecer, testimonios de que con luz LED los colores nuevos casi desaparecen y con tubos y bombillas fluorescentes siguen viéndose. En Europa, que encara su primera noche hacia las 18:00, arranca una búsqueda de tubos fluorescentes y bombillas de bajo consumo antiguas, que la UE ya ha retirado del mercado, y el stock residual de almacenes, ferreterías y segunda mano se encarece.'
+    mecanismo: Los LED blancos de uso doméstico emiten muy poco por debajo de 400 nm, mientras que los fluorescentes de mercurio dejan escapar algo de UV-A a través del fósforo y del vidrio. En Japón y buena parte de Asia oriental los fluorescentes siguen muy presentes en casas y oficinas porque su prohibición de fabricación e importación no llega hasta finales de 2027, así que allí la diferencia entre lámparas se nota en millones de hogares a la vez. Europa, que ya ha hecho la transición a LED por la retirada del RoHS de 2023, recibe ese conocimiento horas antes de necesitarlo y reacciona comprando lo que ya no se fabrica para su mercado, que es por definición escaso. El relato de las horas anteriores se ha centrado en el sol y en las lámparas de luz negra; nadie ha pensado en qué pasa con la iluminación general cuando se haga de noche.
+    dato: La UE retiró los tubos lineales T5 y T8 el 25 de agosto de 2023 y las fluorescentes compactas sin balasto integrado el 25 de febrero de 2023; Japón prohíbe fabricar, exportar e importar fluorescentes de iluminación general a finales de 2027.
+    fuente: https://www.licht.de/en/service/timetable-for-lamp-exit ; https://www.city.inagi.tokyo.jp/en/kurashi/gomi/1005088/1005103/1013185.html
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - consumo
+    - iluminacion
+    - comercio
+    - asia
+    - europa
+    - cadena_de_suministro
+    id: disruptor/h5/1
+  - texto: Empiezan a aparecer en centros de salud, urgencias y farmacias reacciones fototóxicas en la piel (enrojecimiento, quemazón, ampollas en cara, escote y dorso de las manos) en personas que toman fármacos fotosensibilizantes muy comunes, sobre todo mayores con diuréticos o antihipertensivos y gente que se automedica con ibuprofeno o naproxeno para el dolor de cabeza del deslumbramiento. Son personas que salieron al sol a mirar los colores o que dejaron el protector para no llevar la máscara, y sus lesiones llegan antes que la oleada nocturna de fotoqueratitis, por una vía que el protocolo de urgencias, centrado en los ojos, no contempla.
+    mecanismo: 'La fototoxicidad por fármacos la desencadena sobre todo el UV-A y aparece en minutos u horas en la piel expuesta, no al día siguiente. Dos conductas ya establecidas en el canon la activan a la vez: el abandono del protector solar por la máscara visible y las salidas a la calle a mediodía para ver los colores. A eso se suma una tercera: la fatiga visual y el deslumbramiento provocan cefaleas que mucha gente trata con antiinflamatorios sin receta, que también son fotosensibilizantes. Quien toma hidroclorotiazida, amiodarona o doxiciclina no suele saberlo, y el mensaje oficial de las horas anteriores habla de ojos, no de piel. Para el agitador, unas quemaduras en la piel de ancianos que ''no estuvieron tanto al sol'' encajan mejor en el relato de daño del fenómeno que una córnea quemada por mirar una lámpara.'
+    dato: Las reacciones fototóxicas aparecen en minutos u horas en la piel expuesta al sol; entre los fármacos implicados figuran hidroclorotiazida, furosemida, amiodarona, doxiciclina, ciprofloxacino, ibuprofeno y naproxeno.
+    fuente: https://dermnetnz.org/topics/drug-induced-photosensitivity
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - sanidad
+    - farmacia
+    - dermatologia
+    - personas_mayores
+    - comunicacion_de_riesgo
+    id: disruptor/h5/2
+  - texto: En mercados, bares y comercios pequeños, donde se paga en efectivo y se atiende cerca de la puerta o en la calle, clientes y dependientes empiezan a mirar los billetes a la luz del día y a rechazar los que 'brillan' o los que 'no tienen fibras de colores'. Salen a la luz algunos billetes falsos que llevaban tiempo circulando, pero también se rechazan billetes auténticos que pasaron por la lavadora o se mancharon con productos de limpieza, y el Banco de España y las policías locales reciben llamadas por discusiones en caja.
+    mecanismo: 'El papel del billete en euros auténtico se ve apagado bajo ultravioleta y lleva fibras que se iluminan en verde, rojo y azul; una falsificación impresa en papel corriente suele brillar porque lleva blanqueantes ópticos. Esa comprobación la hacían antes solo las máquinas y los cajeros con lámpara; ahora la luz de la calle la pone al alcance de todos, sin formación para interpretarla. Los blanqueantes de los detergentes se adhieren al billete lavado y lo hacen brillar como uno falso, y el desgaste borra parte del contraste. Quien rechaza un billete lo hace por la regla más simple, igual que con la comida en el tramo anterior: si brilla, es malo. El conflicto se concentra en el comercio de efectivo y en zonas soleadas, no en los bancos.'
+    dato: Bajo luz UV el papel del billete auténtico no brilla ('el papel es mate') y las fibras incrustadas se ven en verde, rojo y azul.
+    fuente: https://www.bundesbank.de/content/755350
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - efectivo
+    - comercio_minorista
+    - banca_central
+    - seguridad
+    - orden_publico
+    id: disruptor/h5/3
+  - texto: 'La retirada europea de la iluminación fluorescente cambia de signo en el debate público de la tarde: aparecen las primeras peticiones, de asociaciones de consumidores, de hosteleros nocturnos y de algún cargo político, para que la UE o los Gobiernos autoricen de forma temporal la venta del stock de fluorescentes que queda en almacenes, y los fabricantes de iluminación anuncian ''LED con UV-A'' que todavía no existen para uso doméstico. Ecologistas y la propia normativa contra el mercurio se convierten en blanco inesperado del enfado.'
+    mecanismo: 'Cuando un producto deseado está prohibido, la frustración busca un culpable con nombre, y aquí lo hay: una norma europea reciente y concreta. Para un partido de la oposición o un sector como el ocio nocturno, pedir una excepción temporal es barato y visible. Los fabricantes tienen incentivo a anunciar antes de poder fabricar, porque captar la intención de compra hoy vale más que el producto dentro de meses; los LED de 365 nm existen como componente, pero no como lámpara de iluminación general segura y homologada. El efecto es político y comercial a la vez, y abre un frente que nadie ha previsto entre una medida ambiental y un deseo nuevo de la población.'
+    dato: ''
+    fuente: ''
+    confianza: baja
+    evidencia: especulacion
+    areas_afectadas:
+    - politica
+    - regulacion_ue
+    - medio_ambiente
+    - industria_iluminacion
+    - consumo
+    id: disruptor/h5/4
+  reacciona_a: []

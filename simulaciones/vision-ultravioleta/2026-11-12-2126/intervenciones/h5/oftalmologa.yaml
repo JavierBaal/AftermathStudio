@@ -1,0 +1,65 @@
+intervencion:
+  agente: oftalmologa
+  tramo: h5
+  afirmaciones:
+  - texto: 'A primera hora de la tarde las urgencias reciben, además de los primeros casos de fotoqueratitis, muchas consultas de personas con escozor, lagrimeo o cansancio ocular que temen los ''síntomas tardíos'' anunciados por el agitador. La sociedad de oftalmología añade a su protocolo una instrucción sencilla: tinción con fluoresceína y lámpara de hendidura en todos los casos, porque la fotoqueratitis deja una queratitis punteada visible y el deslumbramiento y la fatiga del fenómeno dejan la córnea limpia. Lo comunica en público como la forma de distinguir con una prueba objetiva la lesión por exposición del cansancio benigno.'
+    mecanismo: 'El registro del agitador es testimonial y los síntomas que recoge (escozor, arena, lagrimeo) son comunes a la fatiga visual, al ojo seco y a la fotoqueratitis, así que con palabras no se pueden separar. La tinción con fluoresceína es una exploración barata, rápida y disponible en cualquier urgencia, y la fotoqueratitis produce erosiones epiteliales punteadas que se ven con luz azul cobalto, mientras que el deslumbramiento del fenómeno no lesiona el epitelio. Cada historia clínica con hora, fuente de exposición y resultado de la tinción convierte la oleada en datos verificables, que es lo único que la sociedad puede oponer a una base de testimonios que los verificadores no pueden contrastar. Discrepo del encuadre de agitador/h3/1: los síntomas tardíos existen, pero tienen un signo objetivo y una causa conocida.'
+    dato: Los síntomas de la queratitis por ultravioleta aparecen típicamente entre 6 y 12 horas tras la exposición; la fluoresceína muestra erosiones epiteliales punteadas y el epitelio se regenera en unas 36 a 72 horas; los anestésicos tópicos no deben usarse como tratamiento porque retrasan la curación.
+    fuente: https://eyerounds.org/cases/306-ultraviolet-keratitis.htm
+    confianza: alta
+    evidencia: dato
+    areas_afectadas:
+    - sanidad
+    - informacion
+    - desinformacion
+    id: oftalmologa/h5/1
+  - texto: Llegan a las unidades de retina los primeros casos sospechosos de retinopatía solar, sobre todo adolescentes y jóvenes que miraron al sol por el reto de 'abrir la vista' o para buscar los colores nuevos, con mancha central o visión deformada. La sociedad pide tomografía de coherencia óptica (OCT) macular a todo el que refiera mancha central y advierte en público de que la mayoría de quienes consulten por miedo no tendrán lesión, pero que los pocos confirmados pueden conservar una pequeña mancha durante meses.
+    mecanismo: La retinopatía solar da síntomas el mismo día de la exposición, a diferencia de la fotoqueratitis, y su lesión foveal se documenta con OCT, de modo que es la única secuela de la jornada que puede acreditarse con imagen y que puede no curarse del todo. Tras los eclipses, muchas más personas consultan por miedo que las que tienen hallazgos compatibles, y esa proporción es la que la sociedad necesita fijar antes de que el agitador presente cada consulta como un daño. Dar ya la regla (muchos sustos, pocos casos, todos con exposición directa al sol) protege su credibilidad cuando aparezca el primer caso con secuela, que será real y llevará nombre y edad.
+    dato: Tras el eclipse solar de 2017, en Utah, 27 pacientes consultaron por cambios en la visión y 6 tenían una exploración compatible con retinopatía solar; uno de los casos refirió síntomas desde el mismo día del eclipse.
+    fuente: https://www.dovepress.com/the-ophthalmic-fallout-in-utah-after-the-great-american-solar-eclipse-peer-reviewed-fulltext-article-OPTH
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - sanidad
+    - menores
+    - desinformacion
+    id: oftalmologa/h5/2
+  - texto: 'La sociedad de oftalmología y la de pediatría difunden una nota conjunta para familias con bebés y niños pequeños: el deslumbramiento del fenómeno es más intenso en ellos porque su cristalino deja pasar mucho más ultravioleta que el de un adulto, y son también los más vulnerables si miran al sol. Recomiendan capota o sombrilla en carritos, gorra con visera y no sacar a los bebés al sol directo de mediodía, sin gafas de juguete sin homologar.'
+    mecanismo: 'El gradiente por edad del canon tiene una base física conocida: el cristalino amarillea con los años y filtra cada vez más ultravioleta, de modo que en un niño pequeño llega mucho más UV-A a la retina. Eso explica que los niños vean los colores con más intensidad y se quejen más del deslumbramiento, pero también que un niño que mira al sol reciba en la retina una dosis mayor que un adulto en el mismo tiempo. Los recién nacidos no pueden decir que les molesta la luz y lo expresan llorando o cerrando los ojos, lo que ya está llenando las consultas de pediatría. Una nota conjunta convierte el gradiente en una pauta concreta y deja a la sociedad como referencia también fuera de la oftalmología.'
+    dato: En menores de 10 años el cristalino transmite más del 75 % de la radiación ultravioleta, frente a alrededor del 10 % en mayores de 25 años (cifra atribuida a una revisión de Fishman de 1986).
+    fuente: https://www.zeiss.com/vision-care/us/eye-health-and-care/health-prevention/why-kids-glasses-should-offer-the-best-uv-protection.html
+    confianza: media
+    evidencia: dato
+    areas_afectadas:
+    - sanidad
+    - menores
+    - familias
+    - consumo
+    id: oftalmologa/h5/3
+  - texto: 'Ante las consultas de Inspección de Trabajo, mutuas y servicios de prevención, la sociedad de oftalmología ofrece un criterio técnico para el conflicto laboral: el deslumbramiento del fenómeno es una molestia transitoria que se controla con filtros solares de uso laboral homologados, no un riesgo grave e inminente por sí mismo, salvo en tareas donde un deslumbramiento súbito pueda causar un accidente (trabajo en altura, conducción de vehículos o grúas) mientras no se hayan entregado esos filtros. El criterio desplaza los paros a una obligación de equipo de protección y la mayoría de tajos se reanudan en cuanto llegan las gafas.'
+    mecanismo: 'Inspección y mutuas no pueden contestar sin un criterio técnico y nadie más lo tiene: la sociedad ya fijó que el deslumbramiento remite en unas dos semanas y no deja daño. La normativa de equipos de protección ya contempla filtros solares para uso laboral, así que el problema tiene una solución dentro de la norma vigente sin crear una nueva. Distinguir entre la molestia general y el riesgo de accidente en tareas concretas da a los delegados de prevención la razón donde la tienen y quita base al paro generalizado. Discrepo en parte de disruptor/h3/3: el artículo 21 encaja en algunos puestos y momentos, no en el trabajo al aire libre en general. Para la sociedad, que su criterio aparezca en la respuesta de Inspección amplía su autoridad al terreno laboral.'
+    dato: La normativa de protección ocular laboral incluye filtros de protección solar para uso laboral (EN 172), en transición a la serie EN ISO 16321.
+    fuente: https://insst.es/documents/d/portal-insst/normas-proteccion-ocular-y_o-facial-diciembre-2024-
+    confianza: media
+    evidencia: inferencia
+    areas_afectadas:
+    - trabajo
+    - prevencion
+    - sanidad
+    id: oftalmologa/h5/4
+  - texto: 'Las sociedades de oftalmología de Chile, Argentina y Uruguay adoptan casi sin cambios la nota de triaje, el aviso por tipo de lámpara y el protocolo de urgencias de la sociedad española, y lo difunden en su mañana citándola como fuente. La sociedad española pasa a ser la referencia clínica del fenómeno en español, pero queda también expuesta: los casos del Cono Sur, con más sol, se compararán con sus previsiones.'
+    mecanismo: En el Cono Sur el fenómeno llega con horas de retraso, en el mismo idioma y con los documentos ya escritos, así que adoptarlos es lo más rápido y barato para unas sociedades que no tienen tiempo de elaborar los suyos; las redes de sociedades iberoamericanas facilitan la circulación. La primavera austral, con más radiación que el noviembre europeo, hará que allí los casos de fotoqueratitis y retinopatía solar sean más frecuentes e intensos, de modo que el protocolo español se pondrá a prueba antes y con más carga en otro país. Si funciona, la autoridad de la sociedad sale reforzada; si los casos superan lo anunciado, el agitador tendrá un argumento importado.
+    dato: ''
+    fuente: ''
+    confianza: media
+    evidencia: especulacion
+    areas_afectadas:
+    - sanidad
+    - internacional
+    - informacion
+    id: oftalmologa/h5/5
+  reacciona_a:
+  - agitador/h3/1
+  - adolescente/h3/2
+  - disruptor/h3/3
+  - disruptor/h3/1
